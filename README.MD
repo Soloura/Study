@@ -6,19 +6,19 @@ Study
 ## Journal
 
 ### Nature [Homepage](https://www.nature.com/)
+#### Naturel Journal [Site](https://www.nature.com/)
 ```
-explanation UK
+UK
 ```
 
 ### Science [Homepage](https://www.sciencemag.org/)
+#### Science Journal [Site](https://science.sciencemag.org/)
 ```
-explanation USA
+USA
 ```
 
 ### Cell [Homepage](https://www.cell.com/)
-```
-explanation
-```
+#### Cell Journal [Site](https://www.cell.com/cell/home)
 
 ### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
 -----
