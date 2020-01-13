@@ -54,6 +54,27 @@ USA
 #### ICML 2018 (Stockholm, Sweden) [Site](https://icml.cc/Conferences/2018)
 -----
 ## Paper
+##### Backpropagation applied to handwritten zip code recognition
+##### ImageNet Classification with Deep Convolutional Neural Networks
+##### Going deeper with convolutions
+##### Rethinking the Inception Architecture for Computer Vision
+##### Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+##### Xception, Deep Learning with Depthwise Separable Convolutions
+##### Very Deep Convolutional Networks for Large-Scale Image Recognition
+##### Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+##### Deep Residual Learning for Image Recognition
+##### Identity Mappings in Deep Residual Networks
+##### Aggregated Residual Transformations for Deep Neural Networks
+##### Wide Residual Networks
+##### Network In Network
+##### Convolution in Convolution for Network in Network
+##### Fast R-CNN
+##### Faster R-CNN, Towards Real-Time Object Detection with Region Proposal Networks
+##### Mask R-CNN
+##### SSD, Single Shot MultiBox Detector
+##### You Only Look Once, Unified, Real-Time Object Detection
+##### YOLO9000, Better, Faster, Stronger
+##### YOLOv3, An Incremental Improvement
 -----
 ## Patent
 ----------
