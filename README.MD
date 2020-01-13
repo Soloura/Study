@@ -22,7 +22,7 @@ explanation
 #### ICCV 2017 (Venice,, Italy) [Papers](http://openaccess.thecvf.com/ICCV2017.py)
 
 ### CVPR (Conference on Computer Vision and Pattern Recognition)
-#### CVPR 2020 (Washington, Seattle) [Site](http://cvpr2020.thecvf.com/)
+#### CVPR 2020 (Seattle, Washington) [Site](http://cvpr2020.thecvf.com/)
 #### CVPR 2019 (Long Beach, California) [Site](http://cvpr2019.thecvf.com/) [Papers](http://openaccess.thecvf.com/CVPR2019.py)
 #### CVPR 2018 (Salt Lake City, Utah) [Site](http://cvpr2018.thecvf.com/) [Papers](http://openaccess.thecvf.com/CVPR2018.py)
 #### CVPR 2017 (Honolulu, Hawaii) [Site](http://cvpr2017.thecvf.com/) [Papers](http://openaccess.thecvf.com/CVPR2017.py)
