@@ -2,7 +2,7 @@
 ```
 Study
 ```
------
+----------
 ## Journal
 
 ### Nature [Homepage](https://www.nature.com/)
@@ -21,7 +21,7 @@ USA
 #### Cell Journal [Site](https://www.cell.com/cell/home)
 
 ### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
------
+----------
 ## Conference
 
 ### CVPR (Conference on Computer Vision and Pattern Recognition)
@@ -52,7 +52,7 @@ USA
 #### ICML 2020 (Vienna, Austria) [Site](https://icml.cc/Conferences/2020)
 #### ICML 2019 (Long Beach, California) [Site](https://icml.cc/Conferences/2019)
 #### ICML 2018 (Stockholm, Sweden) [Site](https://icml.cc/Conferences/2018)
------
+----------
 ## Paper
 ##### Backpropagation applied to handwritten zip code recognition
 ##### ImageNet Classification with Deep Convolutional Neural Networks
@@ -75,10 +75,50 @@ USA
 ##### You Only Look Once, Unified, Real-Time Object Detection
 ##### YOLO9000, Better, Faster, Stronger
 ##### YOLOv3, An Incremental Improvement
------
+----------
 ## Patent
 ----------
 #### CVF (The Computer Vision Foundation) [Homepage](https://www.thecvf.com/)
 #### CVF Open Access [Site](http://openaccess.thecvf.com/menu.py)
 
 #### IEEE Computer Society [Homepage](https://www.computer.org/)
+----------
+## Language
+#### C
+```
+Basic - 2012 Spring
+Data Structure and Algorithm - 2016 Fall
+```
+#### C++
+```
+Arduino - 2015 Spring/2017/2018
+```
+#### C#
+```
+Oculus Unity - 2016 Summer
+```
+#### JAVA
+```
+Android Eclipse - 2015 Fall
+```
+#### Python
+```
+Sensor Fusion, Computer Vision - 2016 Winter
+Autonomous Driving, Computer Vision - 2017 Spring
+Internet of Things, Speech Recognition - 2017 Fall
+Drone, Deep Learning, Computer Vision - 2018/2019
+```
+#### M
+```
+Robotics - 2015 Spring
+Signal Processing - 2017 Spring
+Control Engineering - 2017 Fall 
+```
+#### Verilog
+```
+FPGA, Quartus II, ModelSIm - 2015 Spring/2016 Fall
+```
+#### VHDL
+```
+FGPA, Quartus II, ModelSim - 2015 Spring
+```
