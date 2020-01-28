@@ -1,8 +1,7 @@
 # Study
 ```
-Study and review papers of journals and conferences.
-About Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning,
-Computer Vision, Natural Language Processing, Speech Recognition, Reinforcement Learning.
+This repository is about studies and review papers from journals and conferences.
+Papers' themes are about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, and Reinforcement Learning that I am interested in. 
 ```
 ----------
 ## Journal
