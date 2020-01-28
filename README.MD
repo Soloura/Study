@@ -85,39 +85,52 @@ USA
 ## Language
 #### C
 ```
-Basic - 2012 Spring
-Data Structure and Algorithm - 2016 Fall
+Lecture 컴퓨터프로그래밍 - Spring 2012
+Lecture 데이터구조및알고리즘 - Fall 2016
 ```
 #### C++
 ```
-Arduino - 2015 Spring/2017/2018
+Lecture 입문설계 (Arduino) - Spring 2015
+Project LaRing (Arduino) - Summer 2017 ~ Winter 2017
+Project EllCare (Arduino) - Summer 2017
 ```
 #### C#
 ```
-Oculus Unity - 2016 Summer
+Project Mongsil Mongsil (Oculus, Unity) - Summer 2016
 ```
 #### JAVA
 ```
-Android Eclipse - 2015 Fall
+Lecture 전자공학실험2 (Android, Eclipse) - Fall 2015
 ```
 #### Python
 ```
-Sensor Fusion, Computer Vision - 2016 Winter
-Autonomous Driving, Computer Vision - 2017 Spring
-Internet of Things, Speech Recognition - 2017 Fall
-Drone, Deep Learning, Computer Vision - 2018/2019
+Lecture 종합설계1 (Autonomous Driving, Computer Vision)- Spring 2017
+Lecture 종합설계2 (Speech Recogntion, Internet of Things, 3D Printing) - Fall 2017
+Project BlindDate (Sensor Fusion, Computer Vision) - Summer 2016 ~ Winter 2016
+Project Alibama (OpenCV, AWS) - Summer 2018
+Project BlueWay (Drone, Deep Learning, Computer Vision) - Summer 2018 ~ Winter 2019 
+Project Thesis (Drone, Deep Learning, Computer Vision) - Fall 2019
 ```
 #### M
 ```
-Robotics - 2015 Spring
-Signal Processing - 2017 Spring
-Control Engineering - 2017 Fall 
+Lecture 로봇공학 - Fall 2015
+Lecture 신호와시스템 - Spring 2017
+Lecture 제어공학 - Fall 2017 
 ```
 #### Verilog
 ```
-FPGA, Quartus II, ModelSIm - 2015 Spring/2016 Fall
+Lecture 전자공학실험1 - Spring 2015
+Lecture 디지털시스템실험 - Fall 2016
 ```
 #### VHDL
 ```
-FGPA, Quartus II, ModelSim - 2015 Spring
+Lecture 응용논리회로설계 - Spring 2015
+```
+## Circuit
+```
+Lecture 기초전자공학실험1 - Spring 2013
+Lecture 기초전자공학실험2 - Fall 2013
+Lecture 전자공학실험1 - Spring 2015
+Lecture 전기회로실험 - Spring 2016
+Project Soloura - Summer 2016
 ```
