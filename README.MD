@@ -77,8 +77,6 @@ USA
 ##### YOLO9000, Better, Faster, Stronger
 ##### YOLOv3, An Incremental Improvement
 ----------
-## Patent
-----------
 #### CVF (The Computer Vision Foundation) [Homepage](https://www.thecvf.com/)
 #### CVF Open Access [Site](http://openaccess.thecvf.com/menu.py)
 
