@@ -1,6 +1,8 @@
 # Study
 ```
-Study
+Study and review papers of journals and conferences.
+About Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning,
+Computer Vision, Natural Language Processing, Speech Recognition, Reinforcement Learning.
 ```
 ----------
 ## Journal
