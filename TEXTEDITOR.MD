@@ -3,23 +3,23 @@
 This page is about text editor.
 ```
 
-# Notepad (메모장)
+## Notepad (메모장)
 ```
 Notepad is basic text editor in Windows.
 ```
 
-# Notepad++ [Homepage](https://notepad-plus-plus.org/)
+## Notepad++ [Homepage](https://notepad-plus-plus.org/)
 ```
 Notepad++ is free source code editor and Notepad replacement that supports several languages.
 Running in the MS Windosws environment, its use is governed by GPL License.
 ```
 
-# Vi
+## Vi
 ```
 Vi is basic text editor in Unix.
 ```
 
-# Vim (Vi Improved) [Homepage](https://www.vim.org/)
+## Vim (Vi Improved) [Homepage](https://www.vim.org/)
 ```
 Vim is basic text editor in Linux.
 Vim is a highly configurable text editor for efficiently creating and changing any kind of text.
