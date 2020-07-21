@@ -24,17 +24,10 @@ Science is based in Washington, D.C., United States, with a second office in Cam
 ### Cell | [Homepage](https://www.cell.com/) | [Cell Journal](https://www.cell.com/cell/home) | [Wiki](https://en.wikipedia.org/wiki/Cell_(journal))
 Cell is a peer-reviewed scientific journal publishing research papers across a broad range of disciplines within the life sciences. Areas covered include molecular biology, cell biology, systems biology, stem cells, developmental biology, genetics and genomics, proteomics, cancer research, immunology, neuroscience, structural biology, microbiology, virology, physiology, biophysics, and computational biology. The journal was established in 1974 by Benjamin Lewin and is published twice monthly by Cell Press, an imprint of Elsevier.[Ref]
 
-### IEEE Computer Society [Homepage](https://www.computer.org/) | [Wiki](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers)
-The Institute of Electrical and Electronics Engineers (IEEE) is a professional association for electronic engineering and electrical engineering (and associated disciplines) with its corporate office in New York City and its operations center in Piscataway, New Jersey. It was formed in 1963 from the amalgamation of the American Institute of Electrical Engineers and the Institute of Radio Engineers.
-
-Due to its expansion of scope into so many related fields, it is simply referred to by the letters I-E-E-E (pronounced I-triple-E), except on legal business documents. As of 2018, it is the world's largest association of technical professionals with more than 423,000 members in over 160 countries around the world. Its objectives are the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering and allied disciplines.[Ref]
-
-#### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) | [Wiki](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
+### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) | [Wiki](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
 IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society. It covers research in computer vision and image understanding, pattern analysis and recognition, machine intelligence, machine learning, search techniques, document and handwriting analysis, medical image analysis, video and image sequence analysis, content-based retrieval of image and video, and face and gesture recognition. The editor-in-chief is Sven J. Dickinson (University of Toronto). According to the Journal Citation Reports, the journal has a 2018 impact factor of 17.730.[Ref]
 
 ## Conference
-
-### CVF (The Computer Vision Foundation) | [Homepage](https://www.thecvf.com/) | [CVF Open Access](http://openaccess.thecvf.com/menu.py)
 #### CVPR (Conference on Computer Vision and Pattern Recognition)
 - [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
 - [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
@@ -64,28 +57,38 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 #### [ICML 2019 (Long Beach, California)](https://icml.cc/Conferences/2019)
 #### [ICML 2018 (Stockholm, Sweden)](https://icml.cc/Conferences/2018)
 
-### Paper
-##### Backpropagation applied to handwritten zip code recognition
-##### ImageNet Classification with Deep Convolutional Neural Networks
-##### Going deeper with convolutions
-##### Rethinking the Inception Architecture for Computer Vision
-##### Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
-##### Xception, Deep Learning with Depthwise Separable Convolutions
-##### Very Deep Convolutional Networks for Large-Scale Image Recognition
-##### Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
-##### Deep Residual Learning for Image Recognition
-##### Identity Mappings in Deep Residual Networks
-##### Aggregated Residual Transformations for Deep Neural Networks
-##### Wide Residual Networks
-##### Network In Network
-##### Convolution in Convolution for Network in Network
-##### Fast R-CNN
-##### Faster R-CNN, Towards Real-Time Object Detection with Region Proposal Networks
-##### Mask R-CNN
-##### SSD, Single Shot MultiBox Detector
-##### You Only Look Once, Unified, Real-Time Object Detection
-##### YOLO9000, Better, Faster, Stronger
-##### YOLOv3, An Incremental Improvement
+## Organization
+
+### IEEE Computer Society [Homepage](https://www.computer.org/) | [Wiki](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers)
+The Institute of Electrical and Electronics Engineers (IEEE) is a professional association for electronic engineering and electrical engineering (and associated disciplines) with its corporate office in New York City and its operations center in Piscataway, New Jersey. It was formed in 1963 from the amalgamation of the American Institute of Electrical Engineers and the Institute of Radio Engineers.
+
+Due to its expansion of scope into so many related fields, it is simply referred to by the letters I-E-E-E (pronounced I-triple-E), except on legal business documents. As of 2018, it is the world's largest association of technical professionals with more than 423,000 members in over 160 countries around the world. Its objectives are the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering and allied disciplines.[Ref]
+
+### CVF (The Computer Vision Foundation) | [Homepage](https://www.thecvf.com/) | [CVF Open Access](http://openaccess.thecvf.com/menu.py)
+A non-profit organization that fosters and supports research in all aspects of computer vision.[Ref]
+
+## Paper
+- Backpropagation applied to handwritten zip code recognition
+- ImageNet Classification with Deep Convolutional Neural Networks
+- Going deeper with convolutions
+- Rethinking the Inception Architecture for Computer Vision
+- Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
+- Xception, Deep Learning with Depthwise Separable Convolutions
+- Very Deep Convolutional Networks for Large-Scale Image Recognition
+- Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
+- Deep Residual Learning for Image Recognition
+- Identity Mappings in Deep Residual Networks
+- Aggregated Residual Transformations for Deep Neural Networks
+- Wide Residual Networks
+- Network In Network
+- Convolution in Convolution for Network in Network
+- Fast R-CNN
+- Faster R-CNN, Towards Real-Time Object Detection with Region Proposal Networks
+- Mask R-CNN
+- SSD, Single Shot MultiBox Detector
+- You Only Look Once, Unified, Real-Time Object Detection
+- YOLO9000, Better, Faster, Stronger
+- YOLOv3, An Incremental Improvement
 
 #### Reference
 - Nature Wiki, https://en.wikipedia.org/wiki/Nature_(journal), 2020-07-21-Tue.
@@ -93,3 +96,4 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 - Cell Wiki, https://en.wikipedia.org/wiki/Cell_(journal), 2020-07-21-Tue.
 - IEEE Wiki, https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers, 2020-07-21-Tue.
 - TPAMI Wiki, https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence, 2020-07-21-Tue.
+- CVF, https://www.thecvf.com/, 2020-07-21-Tue.
