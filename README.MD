@@ -31,10 +31,10 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 
 ### CVF (The Computer Vision Foundation) | [Homepage](https://www.thecvf.com/) | [CVF Open Access](http://openaccess.thecvf.com/menu.py)
 #### CVPR (Conference on Computer Vision and Pattern Recognition)
-#### [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
-#### [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
-#### [CVPR 2018 (Salt Lake City, Utah)](http://cvpr2018.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2018.py)
-#### [CVPR 2017 (Honolulu, Hawaii)](http://cvpr2017.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2017.py)
+- [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
+- [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
+- [CVPR 2018 (Salt Lake City, Utah)](http://cvpr2018.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2018.py)
+- [CVPR 2017 (Honolulu, Hawaii)](http://cvpr2017.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2017.py)
 
 #### ICCV (International Conference on Computer Vision)
 #### [ICCV 2019 (Seoul, Korea)](http://iccv2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/ICCV2019.py)
@@ -46,13 +46,13 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 #### [ECCV 2016 (Amsterdam, The Netherlands)](http://www.eccv2016.org/) | [Papers]()
 
 #### NeurIPS (Neural Information Processing Systems) | [Homepage](https://nips.cc/)
-#### [NIPS 2019 (Vancouver, Canada)](https://nips.cc/Conferences/2019)
-#### [NIPS 2018 (Montreal, Canada)](https://nips.cc/Conferences/2018)
+- [NIPS 2019 (Vancouver, Canada)](https://nips.cc/Conferences/2019)
+- [NIPS 2018 (Montreal, Canada)](https://nips.cc/Conferences/2018)
 
 #### ICLR (International Conference on Learning Representations) | [Homepage](https://iclr.cc/)
-#### [ICLR 2020 (Addis Ababa, Ethiopia)](https://iclr.cc/Conferences/2020)
-#### [ICLR 2019 (New Orleans, Louisiana)](https://iclr.cc/Conferences/2019)
-#### [ICLR 2018 (Vancouver, Canada)](https://iclr.cc/Conferences/2018)
+- [ICLR 2020 (Addis Ababa, Ethiopia)](https://iclr.cc/Conferences/2020)
+- [ICLR 2019 (New Orleans, Louisiana)](https://iclr.cc/Conferences/2019)
+- [ICLR 2018 (Vancouver, Canada)](https://iclr.cc/Conferences/2018)
 
 #### ICML (International Conference on Machine Learning) | [Homepage](https://icml.cc/)
 #### [ICML 2020 (Vienna, Austria)](https://icml.cc/Conferences/2020)
