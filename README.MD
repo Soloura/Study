@@ -24,8 +24,13 @@ Science is based in Washington, D.C., United States, with a second office in Cam
 ### Cell | [Homepage](https://www.cell.com/) | [Cell Journal](https://www.cell.com/cell/home) | [Wiki](https://en.wikipedia.org/wiki/Cell_(journal))
 Cell is a peer-reviewed scientific journal publishing research papers across a broad range of disciplines within the life sciences. Areas covered include molecular biology, cell biology, systems biology, stem cells, developmental biology, genetics and genomics, proteomics, cancer research, immunology, neuroscience, structural biology, microbiology, virology, physiology, biophysics, and computational biology. The journal was established in 1974 by Benjamin Lewin and is published twice monthly by Cell Press, an imprint of Elsevier.[Ref]
 
-### IEEE Computer Society [Homepage](https://www.computer.org/)
-#### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+### IEEE Computer Society [Homepage](https://www.computer.org/) | [Wiki](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers)
+The Institute of Electrical and Electronics Engineers (IEEE) is a professional association for electronic engineering and electrical engineering (and associated disciplines) with its corporate office in New York City and its operations center in Piscataway, New Jersey. It was formed in 1963 from the amalgamation of the American Institute of Electrical Engineers and the Institute of Radio Engineers.
+
+Due to its expansion of scope into so many related fields, it is simply referred to by the letters I-E-E-E (pronounced I-triple-E), except on legal business documents. As of 2018, it is the world's largest association of technical professionals with more than 423,000 members in over 160 countries around the world. Its objectives are the educational and technical advancement of electrical and electronic engineering, telecommunications, computer engineering and allied disciplines.[Ref]
+
+#### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) | [Wiki](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
+IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society. It covers research in computer vision and image understanding, pattern analysis and recognition, machine intelligence, machine learning, search techniques, document and handwriting analysis, medical image analysis, video and image sequence analysis, content-based retrieval of image and video, and face and gesture recognition. The editor-in-chief is Sven J. Dickinson (University of Toronto). According to the Journal Citation Reports, the journal has a 2018 impact factor of 17.730.[Ref]
 
 ## Conference
 
@@ -86,3 +91,5 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 - Nature Wiki, https://en.wikipedia.org/wiki/Nature_(journal), 2020-07-21-Tue.
 - Science Wiki, https://en.wikipedia.org/wiki/Science_(journal), 2020-07-21-Tue.
 - Cell Wiki, https://en.wikipedia.org/wiki/Cell_(journal), 2020-07-21-Tue.
+- IEEE Wiki, https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers, 2020-07-21-Tue.
+- TPAMI Wiki, https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence, 2020-07-21-Tue.
