@@ -28,34 +28,37 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society. It covers research in computer vision and image understanding, pattern analysis and recognition, machine intelligence, machine learning, search techniques, document and handwriting analysis, medical image analysis, video and image sequence analysis, content-based retrieval of image and video, and face and gesture recognition. The editor-in-chief is Sven J. Dickinson (University of Toronto). According to the Journal Citation Reports, the journal has a 2018 impact factor of 17.730.[Ref]
 
 ## Conference
-#### CVPR (Conference on Computer Vision and Pattern Recognition)
-- [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
-- [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
-- [CVPR 2018 (Salt Lake City, Utah)](http://cvpr2018.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2018.py)
-- [CVPR 2017 (Honolulu, Hawaii)](http://cvpr2017.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2017.py)
 
-#### ICCV (International Conference on Computer Vision)
+### CVPR (Conference on Computer Vision and Pattern Recognition)
+#### [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
+#### [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
+#### [CVPR 2018 (Salt Lake City, Utah)](http://cvpr2018.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2018.py)
+#### [CVPR 2017 (Honolulu, Hawaii)](http://cvpr2017.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2017.py)
+
+### ICCV (International Conference on Computer Vision)
 #### [ICCV 2019 (Seoul, Korea)](http://iccv2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/ICCV2019.py)
 #### [ICCV 2017 (Venice,, Italy)]() | [Papers](http://openaccess.thecvf.com/ICCV2017.py)
 
-#### ECCV (European Conference on Computer Vision)
+### ECCV (European Conference on Computer Vision)
 #### [ECCV 2020 (SEC Glasgow, Scottland)](https://eccv2020.eu/) | [Papers]()
 #### [ECCV 2018 (Munich, Germany)](https://eccv2018.org/) | [Papers](http://openaccess.thecvf.com/ECCV2018.py)
 #### [ECCV 2016 (Amsterdam, The Netherlands)](http://www.eccv2016.org/) | [Papers]()
 
-#### NeurIPS (Neural Information Processing Systems) | [Homepage](https://nips.cc/)
-- [NIPS 2019 (Vancouver, Canada)](https://nips.cc/Conferences/2019)
-- [NIPS 2018 (Montreal, Canada)](https://nips.cc/Conferences/2018)
+### NeurIPS (Neural Information Processing Systems) | [Homepage](https://nips.cc/)
+#### [NIPS 2019 (Vancouver, Canada)](https://nips.cc/Conferences/2019)
+#### [NIPS 2018 (Montreal, Canada)](https://nips.cc/Conferences/2018)
 
-#### ICLR (International Conference on Learning Representations) | [Homepage](https://iclr.cc/)
-- [ICLR 2020 (Addis Ababa, Ethiopia)](https://iclr.cc/Conferences/2020)
-- [ICLR 2019 (New Orleans, Louisiana)](https://iclr.cc/Conferences/2019)
-- [ICLR 2018 (Vancouver, Canada)](https://iclr.cc/Conferences/2018)
+### ICLR (International Conference on Learning Representations) | [Homepage](https://iclr.cc/)
+#### [ICLR 2020 (Addis Ababa, Ethiopia)](https://iclr.cc/Conferences/2020)
+#### [ICLR 2019 (New Orleans, Louisiana)](https://iclr.cc/Conferences/2019)
+#### [ICLR 2018 (Vancouver, Canada)](https://iclr.cc/Conferences/2018)
 
-#### ICML (International Conference on Machine Learning) | [Homepage](https://icml.cc/)
+### ICML (International Conference on Machine Learning) | [Homepage](https://icml.cc/)
 #### [ICML 2020 (Vienna, Austria)](https://icml.cc/Conferences/2020)
 #### [ICML 2019 (Long Beach, California)](https://icml.cc/Conferences/2019)
 #### [ICML 2018 (Stockholm, Sweden)](https://icml.cc/Conferences/2018)
+
+### AAAI (the AAAI conference on Artificial Intelligence) | [Homepage](https://www.aaai.org/Conferences/AAAI/aaai.php)
 
 ## Organization
 
@@ -66,6 +69,9 @@ Due to its expansion of scope into so many related fields, it is simply referred
 
 ### CVF (The Computer Vision Foundation) | [Homepage](https://www.thecvf.com/) | [CVF Open Access](http://openaccess.thecvf.com/menu.py)
 A non-profit organization that fosters and supports research in all aspects of computer vision.[Ref]
+
+### AAAI | [Homepage](https://www.aaai.org/)
+Founded in 1979, the Association for the Advancement of Artificial Intelligence (AAAI) (formerly the American Association for Artificial Intelligence) is a nonprofit scientific society devoted to advancing the scientific understanding of the mechanisms underlying thought and intelligent behavior and their embodiment in machines. AAAI aims to promote research in, and responsible use of, artificial intelligence. AAAI also aims to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.[Ref]
 
 ## Paper
 - Backpropagation applied to handwritten zip code recognition
@@ -90,10 +96,11 @@ A non-profit organization that fosters and supports research in all aspects of c
 - YOLO9000, Better, Faster, Stronger
 - YOLOv3, An Incremental Improvement
 
-#### Reference
+## Reference
 - Nature Wiki, https://en.wikipedia.org/wiki/Nature_(journal), 2020-07-21-Tue.
 - Science Wiki, https://en.wikipedia.org/wiki/Science_(journal), 2020-07-21-Tue.
 - Cell Wiki, https://en.wikipedia.org/wiki/Cell_(journal), 2020-07-21-Tue.
 - IEEE Wiki, https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers, 2020-07-21-Tue.
 - TPAMI Wiki, https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence, 2020-07-21-Tue.
 - CVF, https://www.thecvf.com/, 2020-07-21-Tue.
+- AAAI, https://www.aaai.org/home.html, 2020-07-21-Tue.
