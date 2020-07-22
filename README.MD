@@ -30,7 +30,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 ## Conference
 
 ### CVPR (Conference on Computer Vision and Pattern Recognition)
-#### [CVPR 2020 (Seattle, Washington)](http://cvpr2020.thecvf.com/) | [Papers]()
+#### [CVPR 2020 (Virtual)](http://cvpr2020.thecvf.com/) | [Papers]()
 #### [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
 #### [CVPR 2018 (Salt Lake City, Utah)](http://cvpr2018.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2018.py)
 #### [CVPR 2017 (Honolulu, Hawaii)](http://cvpr2017.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2017.py)
