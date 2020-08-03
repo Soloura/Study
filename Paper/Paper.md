@@ -9,6 +9,9 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 ### ZFNet (Visualizing and Understanding Convolutional Networks) | [Paper](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
 
+### NIN (Network In Network) | [Paper](https://arxiv.org/pdf/1312.4400.pdf)
+네트워크 속의 네트워크로, 기존의 CNN의 linear convolution layer와 달리 filter 대신에 MLP(Multi-Layer Perceptron)을 사용해서 feature 추출을 한다.
+
 ### GoogLeNet (Going deeper with convolutions) | [Paper](https://arxiv.org/pdf/1409.4842.pdf)
 2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception 모듈의 개념을 만들었으며, 이를 통해 parameter를 AlexNet 60M에서 GoogLeNet을 4M으로 줄였다.
 
