@@ -20,4 +20,4 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
 
 #### Reference
-- 라온피플 머신러닝 아카데미, https://blog.naver.com/laonple/220463627091
+- [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
