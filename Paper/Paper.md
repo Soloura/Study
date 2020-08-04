@@ -21,5 +21,7 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 ### ResNet (Deep Residual Learning for Image Recognition) | [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
 
+## Natural Language Processing
+
 #### Reference
 - [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
