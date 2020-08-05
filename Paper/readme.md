@@ -26,6 +26,12 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 
 ## Natural Language Processing
 
+### Word2Vec
+
+### Glove
+
+### fastText
+
 #### Reference
 - [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - [Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
