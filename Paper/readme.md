@@ -21,7 +21,11 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 ### ResNet (Deep Residual Learning for Image Recognition) | [Paper](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
 
+### DenseNet (Densely Connected Convolutional Networks) | [Paper](https://ieeexplore.ieee.org/document/8099726) | [Paper](https://arxiv.org/pdf/1608.06993.pdf)
+Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
+
 ## Natural Language Processing
 
 #### Reference
 - [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
+- [Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
