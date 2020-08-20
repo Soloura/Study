@@ -29,6 +29,7 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 
 ## Natural Language Processing
 ###  Word Embedding
+
 ### Word2Vec
 
 ### Glove
