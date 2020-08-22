@@ -4,7 +4,6 @@ This repository is about studies and review papers from journals and conferences
 Papers' themes are about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, and Reinforcement Learning that I am interested in.
 
 ## Journal
-
 ### Nature | [Homepage](https://www.nature.com/) | [Nature Journal](https://www.nature.com/) | [Wiki](https://en.wikipedia.org/wiki/Nature_(journal))
 Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication Nature features peer-reviewed research from a variety of academic disciplines, mainly in science, technology, and the natural sciences. It has core editorial offices across the United States, continental Europe, and Asia under the international scientific publishing company Springer Nature. Nature was one of the world's most cited scientific journals by the Science Edition of the 2019 Journal Citation Reports (with an ascribed impact factor of 42.778), making it one of the world's most-read and most prestigious academic journals. As of 2012, it claimed an online readership of about 3 million unique readers per month.
 
@@ -28,7 +27,6 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society. It covers research in computer vision and image understanding, pattern analysis and recognition, machine intelligence, machine learning, search techniques, document and handwriting analysis, medical image analysis, video and image sequence analysis, content-based retrieval of image and video, and face and gesture recognition. The editor-in-chief is Sven J. Dickinson (University of Toronto). According to the Journal Citation Reports, the journal has a 2018 impact factor of 17.730.[Ref]
 
 ## Conference
-
 ### CVPR (Conference on Computer Vision and Pattern Recognition)
 #### [CVPR 2020 (Virtual)](http://cvpr2020.thecvf.com/) | [Papers]()
 #### [CVPR 2019 (Long Beach, California)](http://cvpr2019.thecvf.com/) | [Papers](http://openaccess.thecvf.com/CVPR2019.py)
