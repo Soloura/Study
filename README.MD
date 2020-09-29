@@ -71,6 +71,9 @@ A non-profit organization that fosters and supports research in all aspects of c
 ### AAAI | [Homepage](https://www.aaai.org/)
 Founded in 1979, the Association for the Advancement of Artificial Intelligence (AAAI) (formerly the American Association for Artificial Intelligence) is a nonprofit scientific society devoted to advancing the scientific understanding of the mechanisms underlying thought and intelligent behavior and their embodiment in machines. AAAI aims to promote research in, and responsible use of, artificial intelligence. AAAI also aims to increase public understanding of artificial intelligence, improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.[Ref]
 
+### arXiv | [Homepage](https://arxiv.org/) | [Wiki](https://en.wikipedia.org/wiki/ArXiv)
+arXiv is a free distribution service and an open-access archive for 1,769,134 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.
+
 ## Paper
 - Backpropagation applied to handwritten zip code recognition
 - ImageNet Classification with Deep Convolutional Neural Networks
@@ -102,3 +105,5 @@ Founded in 1979, the Association for the Advancement of Artificial Intelligence 
 - TPAMI Wiki, https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence, 2020-07-21-Tue.
 - CVF, https://www.thecvf.com/, 2020-07-21-Tue.
 - AAAI, https://www.aaai.org/home.html, 2020-07-21-Tue.
+- arXiv, https://arxiv.org/, 2020-09-29-Tue.
+- arXiv Wiki, https://en.wikipedia.org/wiki/ArXiv, 2020-09-29-Tue.
