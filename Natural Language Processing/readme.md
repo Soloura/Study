@@ -7,6 +7,12 @@
 ## PCA(Principal Component Analysis)
 ## LSA(Latent Sematic Analysis)
 
+## GPT-1(Improving Language Understanding with Generative Pre-Training) | [Homepage](https://openai.com/blog/language-unsupervised/) | [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | [GitHub](https://github.com/openai/finetune-transformer-lm)
+
+## GPT-2(Language Models are Unsupervised Multitask Learners) | [Homepage](https://openai.com/blog/better-language-models/) | [Follow-up Post](https://openai.com/blog/gpt-2-6-month-follow-up/) | [Final Post](https://www.openai.com/blog/gpt-2-1-5b-release/) | [Paper](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf) | [GitHub](https://github.com/openai/gpt-2)
+
+## GPT-3(Language Models are Few-Shot Learners) | [OpenAI API](https://openai.com/blog/openai-api/) | [Paper](https://arxiv.org/pdf/2005.14165.pdf) | [GitHub](https://github.com/openai/gpt-3)
+
 ## Reference
 - Word Embedding Review Blog Kor, https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/, 2018-12-03-Mon.
 - Word2Vec Review Blog Kor, https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/30/word2vec/, 2018-12-03-Mon.
