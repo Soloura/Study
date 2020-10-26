@@ -1,7 +1,7 @@
 # Paper
 ## Computer Vision
 ### LeNet | [Paper (Homepage)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
-TiTle: Gradient-Based Learning Applied to Document Recognition
+Title: Gradient-Based Learning Applied to Document Recognition
 
 Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, 숫자를 인식한다.
 
@@ -54,7 +54,7 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 ### TecoGAN | [Paper (arXiv)](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
 
 ### SinGan | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf)
-SinGan: Learning a Generative Model from a Single Natural Image
+Title: SinGan: Learning a Generative Model from a Single Natural Image
 SinGna은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
 
 #### Reference
