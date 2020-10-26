@@ -35,7 +35,8 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 
 ### TecoGAN | [Paper](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
 
-### SinGan | [Paper](https://arxiv.org/pdf/1905.01164.pdf)
+### SinGan | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf)
+SinGan: Learning a Generative Model from a Single Natural Image
 
 #### Reference
 - Blog (KR-KO): [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
