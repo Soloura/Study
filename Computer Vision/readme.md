@@ -42,10 +42,14 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 ### EfficientNets | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
 ### TecoGAN | [Paper (arXiv)](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
+#### Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation
 
-### SinGan | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf)
+### SinGAN | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf)
 #### SinGan: Learning a Generative Model from a Single Natural Image
-SinGna은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
+SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
+
+### InGAN | [Paper (ICCV)](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
+#### InGAN: Capturing and Retargeting the "DNA" of a Natural Image
 
 #### Reference
 - Blog (KR-KO): [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
