@@ -44,7 +44,7 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 ### TecoGAN | [Paper (arXiv)](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
 #### Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation
 
-### SinGAN | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf)
+### SinGAN | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf) | [GitHub](https://github.com/FriedRonaldo/SinGAN)
 #### SinGan: Learning a Generative Model from a Single Natural Image
 SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
 
