@@ -8,6 +8,10 @@
 ### PCA(Principal Component Analysis)
 ### LSA(Latent Sematic Analysis)
 
+### Bidirectional Encoder Representations from Transformers(BERT): 
+
+2018년 11월에 Google이 공개한 언어모델 BERT는 일부 성능 평가에서 인간보다 더 높은 정확도를 보이며 2018년 말, 상위 딥러닝 모델이다. 또한 BERT는 언어표현 사전학습의 새로운 방법으로 그 의미는 큰 텍스트 코퍼스(Wikipedia와 같은)를 이용하여 
+
 ### GPT-1 | [Homepage](https://openai.com/blog/language-unsupervised/) | [Paper](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf) | [GitHub](https://github.com/openai/finetune-transformer-lm)
 Improving Language Understanding with Generative Pre-Training
 
