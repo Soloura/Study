@@ -25,5 +25,7 @@ Language Models are Few-Shot Learners
 - NPLM Review Blog Kor, https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/29/NNLM/, 2020-10-08-Mon.
 - SVD, PCA and LSA Review Blog Kor, https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/04/06/pcasvdlsa/, 2020-10-08-Mon.
 - PCA Review Blog Kor, https://ratsgo.github.io/machine%20learning/2017/04/24/PCA/, 2020-10-08-Mon.
-- GPT-3 Article Kor, https://www.aitimes.kr/news/articleView.html?idxno=17370, 2020-09-29-Tue.
+- GPT-3 Article KR, https://www.aitimes.kr/news/articleView.html?idxno=17370, 2020-09-29-Tue.
 - GPT-1 Review Kor, https://www.quantumdl.com/entry/12%EC%A3%BC%EC%B0%A81-Improving-Language-Understanding-by-Generative-Pre-Training, 2020-10-08-Thu.
+- What is 'BERT'? Article KR, http://www.aitimes.kr/news/articleView.html?idxno=13117, 2020-11-30-Mon.
+- GPT-3 License Article KR, http://www.aitimes.kr/news/articleView.html?idxno=17893, 2020-11-30-Mon.
