@@ -40,3 +40,5 @@ Language Models are Few-Shot Learners
 - What is 'BERT'? Article KR, http://www.aitimes.kr/news/articleView.html?idxno=13117, 2020-11-30-Mon.
 - GPT-3 License Article KR, http://www.aitimes.kr/news/articleView.html?idxno=17893, 2020-11-30-Mon.
 - NLP Lecture KR, https://www.edwith.org/deepnlp, 2020-11-30-Mon.
+- ELMo Paper, https://www.aclweb.org/anthology/N18-1202/ 2020-12-01-Tue.
+- ELMo Blog KR, https://wikidocs.net/33930, 2020-12-01-Tue.
