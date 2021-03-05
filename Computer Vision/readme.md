@@ -1,11 +1,9 @@
 # Computer Vision
-## LeNet | [Paper (Homepage)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) | *Gradient-Based Learning Applied to Document Recognition*
+## :bulb: LeNet | [Paper (Homepage)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf) | *Gradient-Based Learning Applied to Document Recognition*
 Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, 숫자를 인식한다.
 
-## AlexNet | [Paper (NIPS)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | *ImageNet Classification with Deep Convolutional Neural Networks*
+## :bulb: AlexNet | [Paper (NIPS)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | *ImageNet Classification with Deep Convolutional Neural Networks*
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
-
-
 
 ## ZFNet | [Paper (Homepage)](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) | *Visualizing and Understanding Convolutional Networks*
 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
@@ -16,10 +14,10 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 ## Auxiliary Classifier | [Paper (arXiv)](https://arxiv.org/pdf/1505.02496.pdf) | *Training Deeper Convolutional Networks with Deep SuperVision*
 Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치기에 gradient가 작아지는 문제를 피할 수 있다.
 
-### GoogLeNet | [Paper (arXiv)](https://arxiv.org/pdf/1409.4842.pdf) | *Going deeper with convolutions*
+## :bulb: GoogLeNet | [Paper (arXiv)](https://arxiv.org/pdf/1409.4842.pdf) | *Going deeper with convolutions*
 2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception module의 개념을 만들었으며, 이를 통해 parameter를 AlexNet 60M에서 GoogLeNet을 4M으로 줄였다. 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다. Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
 
-### VGGNet | [Paper](https://arxiv.org/pdf/1409.1556.pdf) | *Very Deep Convolutional Networks for Large-Scale Image Recognition*
+## :bulb: VGGNet | [Paper](https://arxiv.org/pdf/1409.1556.pdf) | *Very Deep Convolutional Networks for Large-Scale Image Recognition*
 2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타냈다. 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다. 메모리, parameter가 크다는 단점이 있다.
 
 ## :bulb: ResNet | [Paper (CVPR)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) | *Deep Residual Learning for Image Recognition*
