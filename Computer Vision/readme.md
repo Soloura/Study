@@ -5,7 +5,7 @@ Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, �
 ## :bulb: AlexNet | [Paper (NIPS)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf) | *ImageNet Classification with Deep Convolutional Neural Networks*
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
-## ZFNet | [Paper (Homepage)](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) | *Visualizing and Understanding Convolutional Networks*
+### ZFNet | [Paper (Homepage)](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) | *Visualizing and Understanding Convolutional Networks*
 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
 
 ## NIN | [Paper (arXiv)](https://arxiv.org/pdf/1312.4400.pdf) | *Network In Network*
@@ -28,13 +28,13 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 
 ## MobileNet
 
-## R-CNN *Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524) | *Rich feature hierarchies for accurate object detection and semantic segmentation*
+### R-CNN *Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
 
-## *Fast R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1504.08083)
+### *Fast R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1504.08083)
 
-## *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [Paper (arXiv)](https://arxiv.org/abs/1506.01497)
+### *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [Paper (arXiv)](https://arxiv.org/abs/1506.01497)
 
-## *Mask R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1703.06870)
+### *Mask R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1703.06870)
 
 ## YOLO: You Only Look Once | [Homepage](https://pjreddie.com/darknet/yolo/) | *Real-Time Object Detection*
 
