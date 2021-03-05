@@ -52,6 +52,6 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 #### InGAN: Capturing and Retargeting the "DNA" of a Natural Image
 
 #### Reference
-- Blog (KR-KO): [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
-- Book (KR-KO): [Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
-- Yolo Blog (KR), https://medium.com/curg/you-only-look-once-%EB%8B%A4-%EB%8B%A8%EC%A7%80-%ED%95%9C-%EB%B2%88%EB%A7%8C-%EB%B3%B4%EC%95%98%EC%9D%84-%EB%BF%90%EC%9D%B4%EB%9D%BC%EA%B5%AC-bddc8e6238e2, 2021-02-25-Thu.
+- Blog KR-KO: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
+- Book KR-KO: [Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
+- Yolo Blog KR, https://medium.com/curg/you-only-look-once-%EB%8B%A4-%EB%8B%A8%EC%A7%80-%ED%95%9C-%EB%B2%88%EB%A7%8C-%EB%B3%B4%EC%95%98%EC%9D%84-%EB%BF%90%EC%9D%B4%EB%9D%BC%EA%B5%AC-bddc8e6238e2, 2021-02-25-Thu.
