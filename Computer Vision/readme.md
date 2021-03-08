@@ -29,7 +29,7 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 ### *DenseNet: Densely Connected Convolutional Networks* | [Paper (IEEE)](https://ieeexplore.ieee.org/document/8099726) | [Paper (arXiv)](https://arxiv.org/pdf/1608.06993.pdf)
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### *MobileNet, Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
+### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
 
@@ -50,7 +50,7 @@ Network Design/Architecture은 GoogLeNet 모델의 24 convolutional layers and 2
 
 ### MnasNet | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
 
-### EfficientNets | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
+### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
 ### *TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation* | [Paper (arXiv)](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
 
