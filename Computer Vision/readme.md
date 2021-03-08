@@ -44,6 +44,10 @@ YOLO는 이미지 내의 bounding box와 class probaility를 single regression p
 
 Unified Detection은 input image를 S by S grid로 나눈다. 각각의 grid cell은 B개의 bounding box와 각 bounding box에 대한 confidence score를 갖는다. 만약 cell에 object가 없다면 confidence score는 0이 된다. 각각의 grid cell은 C개의 conditional class probability를 갖는다. 각각의 bounding box는 x, y, w, h, confidence로 구성된다. (x, y)는 bounding box의 중심점을 의미하며 grid cell의 범위에 대한 상대값이 입력된다. (w, h) 전체 image의 width, height에 대한 상대값이 입력된다. Test time에는 conditional class probability와 bounding box의 confidence score를 곱하여 class-specific confidence score를 얻는다. 논문에서는 YOLO의 성능평가를 위해 PASCAL VOC를 사용했으며 S, B, C에는 각각 7, 2, 20을 사용했다.
 
+Network Design/Architecture은 GoogLeNet 모델의 24 convolutional layers and 2 fully connected layers을 기반으로 24 convolutional layers를 9개로 대체했다. 계산을 마치면 총 98개의 class specific confidence score를 얻게 되고, 이에 대해 각 20개의 class를 기준으로 non-maximum suppression을 하여 object에 대한 class 및 bounding box location을 결정한다. 
+
+
+
 ### MnasNet | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
 
 ### EfficientNets | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
