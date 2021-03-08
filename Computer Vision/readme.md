@@ -46,6 +46,12 @@ Unified Detection은 input image를 S by S grid로 나눈다. 각각의 grid cel
 
 Network Design/Architecture은 GoogLeNet 모델의 24 convolutional layers and 2 fully connected layers을 기반으로 24 convolutional layers를 9개로 대체했다. 계산을 마치면 총 98개의 class specific confidence score를 얻게 되고, 이에 대해 각 20개의 class를 기준으로 non-maximum suppression을 하여 object에 대한 class 및 bounding box location을 결정한다. 
 
+Loss function은 gird cell의 여러 bounding box 중 ground truth box와의 IOU가 가장 높은 bounding box를 predictor로 설정한다. object가 존재하는 grid cell i의 predictor bounding box j, object가 존재하지 않는 grid cell i의 bounding box j, object가 존재하는 grid cell i을 기호로 사용하고, ground truth box의 중심점이 어떤 grid cell 내부에 위치하면, 그 grid cell에는 object가 존재한다고 여긴다. [참고](https://curt-park.github.io/2017-03-26/yolo/)
+
+YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으므로 작은 object 여러개가 있는 경우에는 제대로 예측하지 못한다. 2. bounding box의 형태가 training data를 통해서만 학습되므로 새로운 형태의 bounding box의 경우 정확히 예측하지 못한다. 3. 몇 단계의 layer를 거쳐서 나온 feature map을 대상으로 bounding box를 예측하므로 localization이 다소 부정확해지는 경우가 있다.
+
+다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
+
 ### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
