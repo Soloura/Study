@@ -29,7 +29,7 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 ### *DenseNet: Densely Connected Convolutional Networks* | [Paper (IEEE)](https://ieeexplore.ieee.org/document/8099726) | [Paper (arXiv)](https://arxiv.org/pdf/1608.06993.pdf)
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### MobileNet
+### *MobileNet, Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
 
@@ -67,3 +67,4 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - YOLO OpenCV, https://docs.opencv.org/master/da/d9d/tutorial_dnn_yolo.html, 2021-03-05-Fri.
 - YOLO Blog KR, https://curt-park.github.io/2017-03-26/yolo/, 2021-03-05-Fri.
 - YOLO Blog KR, https://medium.com/curg/you-only-look-once-%EB%8B%A4-%EB%8B%A8%EC%A7%80-%ED%95%9C-%EB%B2%88%EB%A7%8C-%EB%B3%B4%EC%95%98%EC%9D%84-%EB%BF%90%EC%9D%B4%EB%9D%BC%EA%B5%AC-bddc8e6238e2, 2021-02-25-Thu.
+- MobileNet Blog KR, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-08-Mon.
