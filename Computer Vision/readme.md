@@ -46,9 +46,7 @@ Unified Detection은 input image를 S by S grid로 나눈다. 각각의 grid cel
 
 Network Design/Architecture은 GoogLeNet 모델의 24 convolutional layers and 2 fully connected layers을 기반으로 24 convolutional layers를 9개로 대체했다. 계산을 마치면 총 98개의 class specific confidence score를 얻게 되고, 이에 대해 각 20개의 class를 기준으로 non-maximum suppression을 하여 object에 대한 class 및 bounding box location을 결정한다. 
 
-
-
-### MnasNet | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
+### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
