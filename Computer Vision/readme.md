@@ -74,3 +74,6 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - YOLO Blog KR, https://medium.com/curg/you-only-look-once-%EB%8B%A4-%EB%8B%A8%EC%A7%80-%ED%95%9C-%EB%B2%88%EB%A7%8C-%EB%B3%B4%EC%95%98%EC%9D%84-%EB%BF%90%EC%9D%B4%EB%9D%BC%EA%B5%AC-bddc8e6238e2, 2021-02-25-Thu.
 - MobileNet Blog KR, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-08-Mon.
 - Selective Search for Object Recognition Slide, http://www.cs.cornell.edu/courses/cs7670/2014sp/slides/VisionSeminar14.pdf, 2021-03-09-Tue.
+- Facebook Research Detectron GitHub, https://github.com/facebookresearch/Detectron, 2021-03-09-Tue.
+- Facebook Research Detectron2 GitHub, https://github.com/facebookresearch/detectron2, 2021-03-09-Tue.
+- OpenMMLab Detection Toolbox and Benchmark GitHub, https://github.com/open-mmlab/mmdetection, 2021-03-09-Tue.
