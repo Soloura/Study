@@ -32,6 +32,7 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 ### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
+이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
 ### *Fast R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1504.08083)
 
@@ -72,3 +73,4 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - YOLO Blog KR, https://curt-park.github.io/2017-03-26/yolo/, 2021-03-05-Fri.
 - YOLO Blog KR, https://medium.com/curg/you-only-look-once-%EB%8B%A4-%EB%8B%A8%EC%A7%80-%ED%95%9C-%EB%B2%88%EB%A7%8C-%EB%B3%B4%EC%95%98%EC%9D%84-%EB%BF%90%EC%9D%B4%EB%9D%BC%EA%B5%AC-bddc8e6238e2, 2021-02-25-Thu.
 - MobileNet Blog KR, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-08-Mon.
+- Selective Search for Object Recognition Slide, http://www.cs.cornell.edu/courses/cs7670/2014sp/slides/VisionSeminar14.pdf, 2021-03-09-Tue.
