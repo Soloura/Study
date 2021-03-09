@@ -32,9 +32,10 @@ Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 �
 ### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
-이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
+이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
 ### *Fast R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1504.08083)
+R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다. Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. Joint the feature extractor, classifier, regressor together in a unified framework.
 
 ### *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [Paper (arXiv)](https://arxiv.org/abs/1506.01497)
 
