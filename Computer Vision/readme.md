@@ -3,7 +3,7 @@
 ## Object Detection
 
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Paper (Homepage)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
-Yann LeCun 1998에 발표한 모델로, CNN을 도입했으며 우편 번호, 숫자를 인식한다.
+LeNet은 Yann LeCun이 1989에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. 
 
 ### *AlexNet: ImageNet Classification with Deep Convolutional Neural Networks* | [Paper (NIPS)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
@@ -76,6 +76,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
 - Book KR: [실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전](http://www.yes24.com/Product/Goods/90365150)
+- LeNet Blog KR, https://my-coding-footprints.tistory.com/97, 2021-03-10-Wed.
 - R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN Blog KR, https://tensorflow.blog/2017/06/05/from-r-cnn-to-mask-r-cnn/, 2021-03-05-Fri.
 - R-CNN, Fast R-CNN, Faster R-CNN, Mask R-CNN Youtube, https://youtu.be/kcPAGIgBGRs, 2021-03-09-Tue.
 - YOLO OpenCV, https://docs.opencv.org/master/da/d9d/tutorial_dnn_yolo.html, 2021-03-05-Fri.
