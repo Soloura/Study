@@ -89,3 +89,4 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - Facebook Research Detectron2 GitHub, https://github.com/facebookresearch/detectron2, 2021-03-09-Tue.
 - OpenMMLab Detection Toolbox and Benchmark GitHub, https://github.com/open-mmlab/mmdetection, 2021-03-09-Tue.
 - ResNeXt Blog KR, https://blog.airlab.re.kr/2019/08/resnext, 2021-03-10-Wed.
+- ResNeXt Blog KR, https://everyday-deeplearning.tistory.com/entry/%EC%B4%88-%EA%B0%84%EB%8B%A8-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0ResNext, 2021-03-10-Wed.
