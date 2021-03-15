@@ -92,3 +92,6 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - OpenMMLab Detection Toolbox and Benchmark GitHub, https://github.com/open-mmlab/mmdetection, 2021-03-09-Tue.
 - ResNeXt Blog KR, https://blog.airlab.re.kr/2019/08/resnext, 2021-03-10-Wed.
 - ResNeXt Blog KR, https://everyday-deeplearning.tistory.com/entry/%EC%B4%88-%EA%B0%84%EB%8B%A8-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0ResNext, 2021-03-10-Wed.
+- MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
+- MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
+- MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
