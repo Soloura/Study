@@ -62,6 +62,8 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
+### *SSD: Single Shot MultiBox Detector* | [Paper (arXiv)](https://arxiv.org/pdf/1512.02325.pdf) 
+
 ### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
@@ -95,3 +97,5 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
+- SSD Blog KR, https://taeu.github.io/paper/deeplearning-paper-ssd/, 2021-03-15-Mon.
+- SSD Blog KR, https://cocopambag.tistory.com/15, 2021-03-15-Mon.
