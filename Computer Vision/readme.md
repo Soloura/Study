@@ -66,10 +66,10 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 2015
 
 ### *NASNet: Learning Transferable Architectures for Scalable Image Recognition* | [Paper (arXiv)](https://arxiv.org/pdf/1707.07012.pdf)
-2017
+2017년에 google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
 ### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
-2018
+2018년에 google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
