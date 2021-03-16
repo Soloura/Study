@@ -80,7 +80,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 ### *NASNet: Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/pdf/1707.07012.pdf)
 2017년에 Google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
-### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/pdf/1712.00559.pdf)
+### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/pdf/1712.00559.pdf) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
 2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
 
 ### *ENASNet, Efficient Neural Architecture Search via Parameter Sharing* | [arXiv](https://arxiv.org/pdf/1802.03268.pdf)
@@ -114,6 +114,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - SSD Blog KR, https://cocopambag.tistory.com/15, 2021-03-15-Mon.
 - NASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221559482028&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
 - PNASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221576139392&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-16-Tue.
+- PNASNet GitHub PyTorch, https://github.com/chenxi116/PNASNet.pytorch, 2021-03-16-Tue.
 - ENASNet Blog KR, https://m.blog.naver.com/za_bc/221569478807, 2021-03-16-Tue.
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
