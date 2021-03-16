@@ -37,16 +37,16 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 크기만 줄어든다. Pointwise convolution은 channel 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
-### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [Paper (arXiv)](https://arxiv.org/abs/1311.2524)
+### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [arXiv](https://arxiv.org/abs/1311.2524)
 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
-### *Fast R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1504.08083)
+### *Fast R-CNN* | [arXiv](https://arxiv.org/abs/1504.08083)
 R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다. Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. Joint the feature extractor, classifier, regressor together in a unified framework.
 
-### *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [Paper (arXiv)](https://arxiv.org/abs/1506.01497) | [GitHub (PyCaffe)](https://github.com/rbgirshick/py-faster-rcnn) | [GitHub (PyTorch)](https://github.com/longcw/faster_rcnn_pytorch) | [GitHub (MatLab)](https://github.com/ShaoqingRen/faster_rcnn)
+### *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [arXiv](https://arxiv.org/abs/1506.01497) | [PyCaffe](https://github.com/rbgirshick/py-faster-rcnn) | [PyTorch](https://github.com/longcw/faster_rcnn_pytorch) | [MatLab](https://github.com/ShaoqingRen/faster_rcnn)
 Fast R-CNN에서 남은 bottleneck은 bounding box를 만드는 region proposal 단계이다. Faster R-CNN은 region proposal 단계를 CNN 안에 넣어서 문제를 해결했다. CNN을 통과한 feature map에서 sliding window를 이용해 각 anchor마다 가능한 bounding box의 좌표와 이 bounding box의 점수를 계산한다. 대부분 너무 홀쭉하거나 넓은 물체는 많지 않으므로 2:1, 1:1, 1:2 등의 몇가지 타입으로도 좋다. Faster R-CNN은 Microsoft에서 연구한 내용이다.
 
-### *Mask R-CNN* | [Paper (arXiv)](https://arxiv.org/abs/1703.06870) | [GitHub (PyTorch)](https://github.com/felixgwu/mask_rcnn_pytorch) | [GitHub (TesforFlow)](https://github.com/CharlesShang/FastMaskRCNN)
+### *Mask R-CNN* | [arXiv](https://arxiv.org/abs/1703.06870) | [PyTorch](https://github.com/felixgwu/mask_rcnn_pytorch) | [TesforFlow](https://github.com/CharlesShang/FastMaskRCNN)
 분할된 image를 masking하는 Mask R-CNN은 Facebook에서 연구한 내용으로, 각 픽셀이 object에 해당하는 것인지 아닌지를 masking하는 network를 추가했다. 이는 binary mask라 한다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 RolPool 영역에 위치에 생기는 소숫점 오차를 2D bilinear interpolation을 통해 감소시켰다. 이는 RolAlign이다. 
 
 ### *YOLO: You Only Look Once, Real-Time Object Detection* | [Homepage](https://pjreddie.com/darknet/yolo/)
