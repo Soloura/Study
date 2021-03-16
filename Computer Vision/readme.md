@@ -2,43 +2,43 @@
 
 ## Object Detection
 
-### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Paper (Homepage)](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
-### *AlexNet: ImageNet Classification with Deep Convolutional Neural Networks* | [Paper (NIPS)](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+### *AlexNet: ImageNet Classification with Deep Convolutional Neural Networks* | [NIPS](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
-### *ZFNet: Visualizing and Understanding Convolutional Networks* | [Paper (Homepage)](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+### *ZFNet: Visualizing and Understanding Convolutional Networks* | [Homepage](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
 
-### *NIN: Network In Network* | [Paper (arXiv)](https://arxiv.org/pdf/1312.4400.pdf)
+### *NIN: Network In Network* | [arXiv](https://arxiv.org/abs/1312.4400)
 네트워크 속의 네트워크로, 기존의 CNN의 linear convolution layer와 달리 filter 대신에 MLP(Multi-Layer Perceptron)을 사용하며 non-linear한 성질을 이용해서 feature 추출을 한다. MLP Convolutional layer 여러 개를 network로 만들어서 사용하기 때문에 network in network이다. 또한 1x1 convolution을 이용하여 feature map을 줄였다. 1x1 convolution은 neurons that fire together, wire together인 Hebbian principle와 같이 여러 개의 feature map에서 비슷한 성질을 묶을 수 있어 숫자를 줄여 연산량을 줄일 수 있다. 그리고 기존 CNN와 달리 마지막 layer에 fully connected layer가 아닌 global average pooling을 classifier로 사용하여 overfitting과 연산을 줄인다.
 
-### *Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision* | [Paper (arXiv)](https://arxiv.org/pdf/1505.02496.pdf)
+### *Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision* | [arXiv](https://arxiv.org/abs/1505.02496)
 Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치기에 gradient가 작아지는 문제를 피할 수 있다.
 
-### *GoogLeNet: Going deeper with convolutions* | [Paper (arXiv)](https://arxiv.org/pdf/1409.4842.pdf)
+### *GoogLeNet: Going deeper with convolutions* | [arXiv](https://arxiv.org/abs/1409.4842)
 2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception module의 개념을 만들었으며, 이를 통해 parameter를 AlexNet 60M에서 GoogLeNet을 4M으로 줄였다. 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다. Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
 
-### *VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition* | [Paper](https://arxiv.org/pdf/1409.1556.pdf)
+### *VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition* | [arXiv](https://arxiv.org/abs/1409.1556)
 2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타냈다. 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다. 메모리, parameter가 크다는 단점이 있다.
 
-### *ResNet: Deep Residual Learning for Image Recognition* | [Paper (CVPR)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+### *ResNet: Deep Residual Learning for Image Recognition* | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
 
-### *ResNeXt, Aggregated Residual Transformations for Deep Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1611.05431.pdf)
+### *ResNeXt, Aggregated Residual Transformations for Deep Neural Networks* | [arXiv](https://arxiv.org/abs/1611.05431)
 2016년 UCSD와 Facebook에서 제안한 ResNeXt는 ResNet의 변형 network이다. Input을 *group convolution*을 통해 여러개로 나누고 1x1 convolution으로 input을 transform하고, concat를 통해 merge한다(*Split-Transform-Merge*). ResNet에 비해 *parameter를 줄여 연산량을 줄이고* 더 높은 성능을 보였다. Network에서 각 convolutional layer를 지날 때 마다 output의 크기가 1/2로 줄어든다. ResNet은 하나의 convolutional layer을 통해 deep하게 만들었지만, ResNeXt는 조금 더 깊지만 group convolution을 통해 연산량을 낮췄다. 논문에서 나온 C는 *cardinarity*로 group convolution의 수(the size of the set of transformation)이다. ResNet엣는 50 이하 depth일 때는 block 1개, convolution을 2개만 연산했다. 하지만 ResNeXt에서는 2개의 block은 group convolution의 효과가 없어서 block depth가 3 이상일 때부터 효과가 있다. Cardinality의 크기를 키울수록(group 수가 많아질수록) parameter를 줄여 연산량을 줄일 수 있다. 즉, 같은 parameter일 때 더 많은 channel 이용해서 deeper network 설계가 가능하다.
 
-### *DenseNet: Densely Connected Convolutional Networks* | [Paper (IEEE)](https://ieeexplore.ieee.org/document/8099726) | [Paper (arXiv)](https://arxiv.org/pdf/1608.06993.pdf)
+### *DenseNet: Densely Connected Convolutional Networks* | [IEEE](https://ieeexplore.ieee.org/document/8099726) | [arXiv](https://arxiv.org/abs/1608.06993)
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [Paper (arXiv)](https://arxiv.org/abs/1704.04861)
+### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [arXiv](https://arxiv.org/abs/1704.04861)
 MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다. 고성능의 device가 아닌 vehicle, drone smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 작은 neural network를 만드는 방법에는 1. remove fully-connected layers으로 CNN parameters 90%를 FC layers가 차지한다. 2. kernel reduction으로 3x3을 1x1으로 변경해서 연산량을 줄인다. 3. channel reduction. 4. evenly spaced downsampling으로 초반에 downsampling을 많이 하면 accuracy가 떨어지지만 parameter가 적어지고 후반에 downsampling을 많이 하면 accuracy가 좋아지지만 parameter가 많아지기 때문에 적당히 사용하는 것이 좋다. 5. depthwise seperable convolutions. 6. shuffle operations. 7. distillation & compression.
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 크기만 줄어든다. Pointwise convolution은 channel 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [arXiv](https://arxiv.org/abs/1311.2524)
-이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
+2013년 UC Berkeley에서 발표한 object detection, semantic segmentation model이다. 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
 ### *Fast R-CNN* | [arXiv](https://arxiv.org/abs/1504.08083)
 R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다. Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. Joint the feature extractor, classifier, regressor together in a unified framework.
@@ -62,34 +62,33 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
-### *SSD: Single Shot MultiBox Detector* | [Paper (arXiv)](https://arxiv.org/pdf/1512.02325.pdf) 
+### *SSD: Single Shot MultiBox Detector* | [arXiv](https://arxiv.org/abs/1512.02325) 
 2015
 
+### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
-### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
+### *TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation* | [arXiv](https://arxiv.org/abs/1811.09393) | [GitHub](https://github.com/thunil/TecoGAN)
 
-### *TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation* | [Paper (arXiv)](https://arxiv.org/pdf/1811.09393.pdf) | [GitHub](https://github.com/thunil/TecoGAN)
-
-### *SinGAN: Learning a Generative Model from a Single Natural Image* | [Paper (arXiv)](https://arxiv.org/pdf/1905.01164.pdf) | [GitHub](https://github.com/FriedRonaldo/SinGAN)
+### *SinGAN: Learning a Generative Model from a Single Natural Image* | [arXiv](https://arxiv.org/pdf/1905.01164.pdf) | [GitHub](https://github.com/FriedRonaldo/SinGAN)
 SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
 
-### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [Paper (ICCV)](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
+### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
 
 ## AutoML
 
-### *NASNet: Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/pdf/1707.07012.pdf)
+### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
 2017년에 Google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
-### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/pdf/1712.00559.pdf) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
+### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/abs/1712.00559) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
 2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
 
-### *ENASNet, Efficient Neural Architecture Search via Parameter Sharing* | [arXiv](https://arxiv.org/pdf/1802.03268.pdf)
+### *ENASNet, Efficient Neural Architecture Search via Parameter Sharing* | [arXiv](https://arxiv.org/abs/1802.03268)
 2018년에 Google, CMU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
 
-### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [arXiv](https://arxiv.org/pdf/1807.11626.pdf)
+### *MnasNet, Platform-Aware Neural Architecture Search for Mobile* | [arXiv](https://arxiv.org/abs/1807.11626)
 2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
-### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/ftp/arxiv/papers/2005/2005.07075.pdf)
+### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
 
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
