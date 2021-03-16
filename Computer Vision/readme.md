@@ -65,11 +65,6 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 ### *SSD: Single Shot MultiBox Detector* | [Paper (arXiv)](https://arxiv.org/pdf/1512.02325.pdf) 
 2015
 
-### *NASNet: Learning Transferable Architectures for Scalable Image Recognition* | [Paper (arXiv)](https://arxiv.org/pdf/1707.07012.pdf)
-2017년에 google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
-
-### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [Paper (arXiv)](https://arxiv.org/pdf/1807.11626.pdf)
-2018년에 google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [Paper (arXiv)](https://arxiv.org/pdf/1905.11946.pdf) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
@@ -79,6 +74,22 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
 
 ### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [Paper (ICCV)](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
+
+## AutoML
+
+### *NASNet: Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/pdf/1707.07012.pdf)
+2017년에 Google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
+
+### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/pdf/1712.00559.pdf)
+2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
+
+### *ENASNet, Efficient Neural Architecture Search via Parameter Sharing* | [arXiv](https://arxiv.org/pdf/1802.03268.pdf)
+2018년에 Google, CMU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
+
+### *MnasNet: Platform-Aware Neural Architecture Search for Mobile* | [arXiv](https://arxiv.org/pdf/1807.11626.pdf)
+2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
+
+### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/ftp/arxiv/papers/2005/2005.07075.pdf)
 
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
@@ -102,6 +113,8 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - SSD Blog KR, https://taeu.github.io/paper/deeplearning-paper-ssd/, 2021-03-15-Mon.
 - SSD Blog KR, https://cocopambag.tistory.com/15, 2021-03-15-Mon.
 - NASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221559482028&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
+- PNASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221576139392&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-16-Tue.
+- ENASNet Blog KR, https://m.blog.naver.com/za_bc/221569478807, 2021-03-16-Tue.
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
