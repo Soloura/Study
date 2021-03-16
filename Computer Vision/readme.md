@@ -79,7 +79,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 ## 🌳 AutoML 🌳
 
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
-2017년에 Google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
+2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
 ### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/abs/1712.00559) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
 2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
