@@ -92,6 +92,21 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
 
+- Precision
+Precision measures how accurate is your predictions. The percentage of your predictions are correct
+*Precision = TP / (TP + FP)*
+
+- Recall
+Recall measures how good you find all the positives. 
+*Recall = TP / (TP + FN)*
+
+- IoU(Intersection over Union)
+IoU measures the overlap between 2 boundaries.
+*IoU = area of overlap / area of union*
+
+- AP(Area under curve AUC)
+
+
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
@@ -120,3 +135,4 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
+- mAP(mean Average Precision) for Object Detection Blog US, https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173, 2021-03-23-Tue.
