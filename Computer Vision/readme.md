@@ -65,7 +65,7 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
 ### *SSD: Single Shot MultiBox Detector* | [arXiv](https://arxiv.org/abs/1512.02325) 
-SSD는 2015년에 UNC의 Wei Liu가 제안한 object detection method로, single deep neural network를 이용한다. **Multi-scale feature maps for detection**: 끝이 잘린 base network에 convolutional feature layers를 추가했다. 이 layers는 크기를 점차 줄여서 다양한 크기에서 prediction을 한다. Predicting detection을 하는 convolutional model은 feature layer들(Overfeat and YOLO)과 다르다. **Convolutional predictors for detection**
+SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection method로, single deep neural network를 이용한다. **Multi-scale feature maps for detection**: 끝이 잘린 base network에 convolutional feature layers를 추가했다. 이 layers는 크기를 점차 줄여서 다양한 크기에서 prediction을 한다. Predicting detection을 하는 convolutional model은 feature layer들(Overfeat and YOLO)과 다르다. **Convolutional predictors for detection**
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
