@@ -65,7 +65,7 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
 ### *SSD: Single Shot MultiBox Detector* | [arXiv](https://arxiv.org/abs/1512.02325) 
-2015
+SSD는 2015년에 UNC의 Wei Liu가 제안한 object detection method로, single deep neural network를 이용한다. **Multi-scale feature maps for detection**: 끝이 잘린 base network에 convolutional feature layers를 추가했다. 이 layers는 크기를 점차 줄여서 다양한 크기에서 prediction을 한다. Predicting detection을 하는 convolutional model은 feature layer들(Overfeat and YOLO)과 다르다. **Convolutional predictors for detection**
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
@@ -79,7 +79,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 ## 🌳 AutoML 🌳
 
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
-2017년에 Google에서 proposed model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
+2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
 ### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/abs/1712.00559) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
 2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
@@ -91,6 +91,21 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
 ### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
+
+- Precision
+Precision measures how accurate is your predictions. The percentage of your predictions are correct
+*Precision = TP / (TP + FP)*
+
+- Recall
+Recall measures how good you find all the positives. 
+*Recall = TP / (TP + FN)*
+
+- IoU(Intersection over Union)
+IoU measures the overlap between 2 boundaries.
+*IoU = area of overlap / area of union*
+
+- AP(Area under curve AUC)
+
 
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
@@ -120,3 +135,4 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
+- mAP(mean Average Precision) for Object Detection Blog US, https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173, 2021-03-23-Tue.
