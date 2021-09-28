@@ -37,9 +37,18 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 크기만 줄어든다. Pointwise convolution은 channel 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
-## 🌳 Semantic Segmentation 🌳
+## :deciduous_tree: Segmentation :deciduous_tree:
+
+### Bayes Matting
+사용자가 정의한 trimap을 바탕으로 투명도를 갖도록 컬러 분포를 모델링한다. 사용자의 안쪽 영역과 바깥 영역 입력의 사용자 입력이 필요하다.
+
+### Graph Cut
+Bayes Matting과 trimap, 확률 컬러 모델을 모두 갖는 방법이다.
 
 ### Grab Cut Segmetation Algorithm
+Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard segmentation을 먼저 수행한 뒤, border matting 방법을 적용하여 foreground의 경계 부분에 투명도를 할당한 다음, 나머지 배경 부분은 완전히 투명하게 만드는 방식으로 segmentation을 진행한다.
+
+## 🌳 Semantic Segmentation 🌳
 
 ### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [arXiv](https://arxiv.org/abs/1311.2524)
 R-CNN은 2013년 UC Berkeley의 Ross Girshick이 발표한 object detection, semantic segmentation model이다. 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
@@ -138,3 +147,5 @@ IoU measures the overlap between 2 boundaries.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
 - mAP(mean Average Precision) for Object Detection Blog US, https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173, 2021-03-23-Tue.
+- GrabCut Blog KR, http://www.navisphere.net/2095/grabcut-interactive-foreground-extraction-using-iterated-graph-cuts/, 2021-09-28-Tue.
+- Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
