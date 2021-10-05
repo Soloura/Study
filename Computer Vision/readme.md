@@ -96,7 +96,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
 
-## 🌳 AutoML 🌳
+## :robot: AutoML
 
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
 2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
