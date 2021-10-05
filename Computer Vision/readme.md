@@ -3,14 +3,14 @@
 ## :cloud: Dehazing
 Haze, fog를 제거하는 내용이다. 대상 물체와 관찰자 사이에 존재하는 대기 물질들에 의해 빛의 진행이 방해를 받아 대상이 뿌옇게 보인다.
 
-### Single Image Haze Removal Using Dark Channel Prior | [CVPR](http://mmlab.ie.cuhk.edu.hk/archive/2009/dehaze_cvpr2009.pdf) | [Blog (KR)](https://hyeongminlee.github.io/post/pr001_dehazing/)
+### *Single Image Haze Removal Using Dark Channel Prior* | [CVPR](http://mmlab.ie.cuhk.edu.hk/archive/2009/dehaze_cvpr2009.pdf) | [Blog (KR)](https://hyeongminlee.github.io/post/pr001_dehazing/)
 Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도 1 채널의 명도 값이 매우 낮은 경향이 있다. 이 채널을 dark channel이라 정의하고 사람이 관찰을 통해 얻어낸 사전 지식 prior를 통해 haze를 제거하는 알고리즘을 제안한다.
 
 보통 haze가 존재하지 않는 야외 이미지는 colorful하거나 어두운 색의 대상들 또는 그들의 그림자로 가득 차 있기 떄문에 dark pixel 값이 작게 나온다. 반면 haze가 존재하는 이미지는 대상들이 뿌옇고 잘 보이지 않기 때문에 dark pixel 값이 크게 나온다. 이를 통해 이미지에서 haze를 분리할 수 있다. Dark channel prior를 통해 원본 이미지에서 transmission map을 구하고, soft matting을 적용하여 block 현상을 제거하고, 원본 이미지에서 haze를 제거한 뒤, 마지막으로 가장 밝은 airlight를 구한 뒤 depth map 추정까지 한다.
 
 단, 다양한 이미지들을 보고 통계적으로 얻은 prior를 사용하기 때문에 특정 이미지에 대해서는 haze removal이 잘 되지 않을 수 있다. 또한 object가 대기의 빛과 비슷한 색상을 띠면서 그림자마다 없다면 haze로 취급될 수 있다.
 
-## 🌳 Object Detection 🌳
+## :telescope: Object Detection
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
