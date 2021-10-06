@@ -10,9 +10,13 @@ Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도
 
 단, 다양한 이미지들을 보고 통계적으로 얻은 prior를 사용하기 때문에 특정 이미지에 대해서는 haze removal이 잘 되지 않을 수 있다. 또한 object가 대기의 빛과 비슷한 색상을 띠면서 그림자마다 없다면 haze로 취급될 수 있다.
 
-## Depth :telescope:
+## Depth Prediction :telescope:
+주어진 RGB 이미지에서 depth map을 계산하는 내용이다. 
 
-### Deeper Depth Prediction with Fully Convolutional Residual Networks | [arXiv](https://arxiv.org/abs/1606.00373)
+### *Deeper Depth Prediction with Fully Convolutional Residual Networks* | [arXiv](https://arxiv.org/abs/1606.00373)
+Depth map을 예측하는 fully convolutional architecture를 제안한다. Residual learning, feature map up-sampling, reverse Huber loss function을 이용해서 기존의 방법들에 비해 더 적은 parameters, 실시간 연산, 더 좋은 성능을 가진다.
+
+Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
 ## Object Detection :microscope:
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
