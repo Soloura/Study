@@ -24,6 +24,13 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
 
+### *Histograms of Oriented Gradients for Human Detection* | [CVPR](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+2005년에 CVPR에 게재된 논문으로, 영상에서 대상 영역을 일정 크기의 셀로 나누고, 각 셀마다 gradient 크기가 일정 값 이상인 edge 픽셀들의 방향에 대한 히스토그램을 구한 후, 이들 히스토그램 binary 값들을 일렬로 연결한 벡터이다.
+
+HOG는 Edge의 방향 히스토그램 템플릿이다. 템플릿 매칭의 경우 영상의 기하학적 정보를 그대로 유지하여 매칭할 수 있지만 형태나 위치가 조금만 바뀌어도 매칭이 잘 안되는 문제가 있다. 반면에 히스토그램 매칭은 대상의 형태가 변해도 매칭을 할 수 있지만 대상의 기하학적 정보를 잃어버리고 단지 분포 정보만 기억하기 때문에 잘못된 대상과도 매칭이 되는 문제가 있다. HOG는 템플릿 매칭과 히스토그램 매칭의 중간 단계의 방법이며 블록 단위로는 기하학적 정보를 유지하되, 각 블록 내부에서는 히스토그램을 사용함으로써 로컬한 변화에는 어느정도 robust하다. 그리고 HOG는 edge 방향 정보를 이용하기 때문에 일종의 edge-based 템플릿 매칭 방법으로 볼 수 있다. Edge는 기본적으로 영상의 밝기 변화, 조명 변화 등에 덜 민감하다. 또한 HOG는 물체의 실루엣 정보를 이용하므로 사람, 자동차 등과 같이 내부 패턴이 복잡하지 않으면서도 고유의 독특한 윤곽선 정보를 갖는 물체를 식별하는데 적합한 영상 feature이다.
+
+Local feature인 SIFT와 비교해보면 HOG는 일종의 템플릿 매칭이기 때문에 물체가 회전된 경우나 형태 변화가 심한 경우에는 검출이 힘들지만 SIFT는 모델의 특징점과 입력 영상의 특징점에 대해 특징점 단위로 매칭이 이루어지기 때문에 물체의 형태 변화, 크기 변화, 회전 등에 무관하게 매칭이 이루어질 수 있다. 이러한 특성에 비추어 보았을 때, HOG는 물체의 형태 변화가 심하지 않고 내부 패턴이 단순하며 물체의 윤곽선으로 물체를 식별할 수 있을 경우에 적합하고 SIFT는 액자 그림과 같이 내부 패턴이 복잡하여 특징점이 풍부한 경우에 적합한 방법이다.
+
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
