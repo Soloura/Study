@@ -19,6 +19,11 @@ Depth map을 예측하는 fully convolutional architecture를 제안한다. Resi
 Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
 ## Object Detection :microscope:
+### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+2001년 CVPR에 게재된 논문으로, 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
+
+Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
+
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
@@ -167,3 +172,4 @@ IoU measures the overlap between 2 boundaries.
 - GrabCut Blog KR, http://www.navisphere.net/2095/grabcut-interactive-foreground-extraction-using-iterated-graph-cuts/, 2021-09-28-Tue.
 - Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
 - Single Image Haze Removal Using Dark Channel Prior Blog KR, https://hyeongminlee.github.io/post/pr001_dehazing/, 2021-10-05-Tue.
+- SIFT, HOG, Haar Cascade Algorithm Blog KR, https://darkpgmr.tistory.com/116, 2021-10-09-Sat.
