@@ -1,11 +1,29 @@
-# Natural Language Processing
-## Word Embedding
-### Word2Vec | Word Embedding
-### GloVe | Word Embedding
-### fastText | Word Embedding | [Homepage](https://research.fb.com/blog/2016/08/fasttext/)
+# Natural Language Processing :pencil:
+
+## Word Embedding :pencil2: | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
+단어를 벡터로 바꾸는 방법론이다.
+
+### Word2Vec *Efficient Estimation of Word Representations in Vector Space* | [arXiv](https://arxiv.org/pdf/1301.3781.pdf)
+2013년 구글에서 개발한 워드 임베딩 방법론으로, 단어를 벡터로 바꾼다. 단어를 벡터로 바꾸고 문맥적 의미를 보존하여 단어들 간의 거리를 통해 비슷한 의미라 유추할 수 있다.
+
+주변에 있는 단어들을 가지고 중심 단어를 유추하는 Continuous Bag of Words (CBOW) 방식과 중심에 있는 단어로 주변 단어를 예측하는 Skip-Gram 방식이 있다. 비슷한 위치에 등장하는 단어들은 그 의미도 유사할 것이라는 전제를 통해 distribution hypothesis에 근거한 방법론이다. 
+
+### [GloVe](https://nlp.stanford.edu/projects/glove/) | *Global Vectors for Word Representation* | [Paper](https://nlp.stanford.edu/pubs/glove.pdf)
+2014년 스탠포드에서 개발한 워드 임베딩 방법론으로, 단어 동시 등장 여부를 보존하는 방식이다. GloVe로 임베딩된 단어 벡터끼리의 내적은 동시 등장확률의 로그 값과 같다.
+
+Word2Vec이 임베딩된 두 단어 벡터의 내적이 코사인 유사도라면 GloVe는 동시 등장 확률이다.
+
+### [fastText](https://research.fb.com/blog/2016/08/fasttext/) | [arXiv](https://arxiv.org/abs/1607.01759)
+2016년 페이스북에서 개발한 워드 임베딩 방법론으로, 원래 단어를 Word2Vec에서 기존 단어를 subword의 벡터들로 표현한다는 점이 추가된 내용이다. fastText 또한 Word2Vec와 같이 단어들의 동시 등장 정보를 보존한다.
+
+Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 다른 의미를 가진 단어들도 분포가 같다면 코사인 유사도가 높게 나오는 한계가 존재한다.
+
 ### NPLN(Neural Probabilistic Language Model)
+
 ### SVD(Singular Value Decomposion)
+
 ### PCA(Principal Component Analysis)
+
 ### LSA(Latent Sematic Analysis)
 
 ### Embeddings from Language Model(ELMo) | [Paper (Homepage)](https://www.aclweb.org/anthology/N18-1202/) | [Paper (arXiv)](https://arxiv.org/pdf/1802.05365.pdf)
