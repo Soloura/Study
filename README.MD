@@ -3,6 +3,8 @@ This repository is about studies and review papers from journals and conferences
 
 Papers' themes are about Electrical Engineering, Computer Science, Bioinformatics, Biotechnology, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Speech Recognition, and Reinforcement Learning that I am interested in.
 
+----------
+
 ## Journal
 ### Nature | [Homepage](https://www.nature.com/) | [Nature Journal](https://www.nature.com/) | [Wiki](https://en.wikipedia.org/wiki/Nature_(journal))
 Nature is a British weekly scientific journal founded and based in London, England. As a multidisciplinary publication Nature features peer-reviewed research from a variety of academic disciplines, mainly in science, technology, and the natural sciences. It has core editorial offices across the United States, continental Europe, and Asia under the international scientific publishing company Springer Nature. Nature was one of the world's most cited scientific journals by the Science Edition of the 2019 Journal Citation Reports (with an ascribed impact factor of 42.778), making it one of the world's most-read and most prestigious academic journals. As of 2012, it claimed an online readership of about 3 million unique readers per month.
