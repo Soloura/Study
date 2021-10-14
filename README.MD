@@ -26,6 +26,8 @@ Cell is a peer-reviewed scientific journal publishing research papers across a b
 ### TPAMI (IEEE Transactions on Pattern Analysis and Machine Intelligence) | [Homepage](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34) | [Wiki](https://en.wikipedia.org/wiki/IEEE_Transactions_on_Pattern_Analysis_and_Machine_Intelligence)
 IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer-reviewed scientific journal published by the IEEE Computer Society. It covers research in computer vision and image understanding, pattern analysis and recognition, machine intelligence, machine learning, search techniques, document and handwriting analysis, medical image analysis, video and image sequence analysis, content-based retrieval of image and video, and face and gesture recognition. The editor-in-chief is Sven J. Dickinson (University of Toronto). According to the Journal Citation Reports, the journal has a 2018 impact factor of 17.730.[Ref]
 
+----------
+
 ## Conference
 ### CVPR (Conference on Computer Vision and Pattern Recognition)
 #### [CVPR 2020 (Virtual)](http://cvpr2020.thecvf.com/) | [Papers]()
@@ -58,6 +60,8 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 
 ### AAAI (the AAAI conference on Artificial Intelligence) | [Homepage](https://www.aaai.org/Conferences/AAAI/aaai.php)
 
+----------
+
 ## Organization
 
 ### IEEE Computer Society [Homepage](https://www.computer.org/) | [Wiki](https://en.wikipedia.org/wiki/Institute_of_Electrical_and_Electronics_Engineers)
@@ -74,28 +78,7 @@ Founded in 1979, the Association for the Advancement of Artificial Intelligence 
 ### arXiv | [Homepage](https://arxiv.org/) | [Wiki](https://en.wikipedia.org/wiki/ArXiv)
 arXiv is a free distribution service and an open-access archive for 1,769,134 scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.
 
-## Paper
-- Backpropagation applied to handwritten zip code recognition
-- ImageNet Classification with Deep Convolutional Neural Networks
-- Going deeper with convolutions
-- Rethinking the Inception Architecture for Computer Vision
-- Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning
-- Xception, Deep Learning with Depthwise Separable Convolutions
-- Very Deep Convolutional Networks for Large-Scale Image Recognition
-- Rich Feature Hierarchies for Accurate Object Detection and Semantic Segmentation
-- Deep Residual Learning for Image Recognition
-- Identity Mappings in Deep Residual Networks
-- Aggregated Residual Transformations for Deep Neural Networks
-- Wide Residual Networks
-- Network In Network
-- Convolution in Convolution for Network in Network
-- Fast R-CNN
-- Faster R-CNN, Towards Real-Time Object Detection with Region Proposal Networks
-- Mask R-CNN
-- SSD, Single Shot MultiBox Detector
-- You Only Look Once, Unified, Real-Time Object Detection
-- YOLO9000, Better, Faster, Stronger
-- YOLOv3, An Incremental Improvement
+----------
 
 ## Reference
 - Nature Wiki, https://en.wikipedia.org/wiki/Nature_(journal), 2020-07-21-Tue.
