@@ -159,6 +159,11 @@ IoU measures the overlap between 2 boundaries.
 
 - AP(Area under curve AUC)
 
+## Few-Shot Learning :bow_and_arrow:
+### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
+
+### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
+
 
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
@@ -193,3 +198,4 @@ IoU measures the overlap between 2 boundaries.
 - Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
 - Single Image Haze Removal Using Dark Channel Prior Blog KR, https://hyeongminlee.github.io/post/pr001_dehazing/, 2021-10-05-Tue.
 - SIFT, HOG, Haar Cascade Algorithm Blog KR, https://darkpgmr.tistory.com/116, 2021-10-09-Sat.
+- Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
