@@ -165,6 +165,15 @@ IoU measures the overlap between 2 boundaries.
 
 ### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
 
+## Few-Shot Object Detection
+### *LSTD: A Low-Shot Transfer Detector for Object Detection* | [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16778/16580)
+
+### *Few-shot Object Detection via Feature Reweighting* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kang_Few-Shot_Object_Detection_via_Feature_Reweighting_ICCV_2019_paper.pdf)
+
+### *Meta-Learning to Detect Rare Objects* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.pdf)
+
+### *One-Shot Object Detection with Co-Attention and Co-Excitation* | [NIPS 2019](https://openreview.net/pdf?id=Hye3UNrlLS) | [GitHub](https://github.com/timy90022/One-Shot-Object-Detection)
+
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
