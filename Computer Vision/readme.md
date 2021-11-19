@@ -57,10 +57,15 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
 ## Object Detection :microscope:
+### Haar-like Feature | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
+Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
+
 ### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 2001년 CVPR에 게재된 논문으로, 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
 Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
+
+Haar-like Feature, Integral Image, AdaBoost, Cascade Classifier
 
 ### *Distinctive Image Features from Scale-Invariant Keypoints* | [IJCV](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 2004년에 IJCV에 게재된 논문으로, 식별하기 쉬운 특징점들을 선택한 뒤, 각 특징점을 중심으로 local patch에 대해 특징 벡터를 추출한 feature이다. 
@@ -210,5 +215,6 @@ IoU measures the overlap between 2 boundaries.
 - Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
 - Ensemble Bagging Boosting Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-11-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5-Ensemble-Learning-%EB%B0%B0%EA%B9%85Bagging%EA%B3%BC-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting, 2021-11-19-Fri.
 - AdaBoost Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost, 2021-11-19-Fri.
+- Haar-like Feature Wiki, https://en.wikipedia.org/wiki/Haar-like_feature, 2021-11-19-Fri.
 - Haar-like Feature Blog KR, https://wiserloner.tistory.com/1101, 2021-11-19-Fri.
 - Haar Cascade Blog KR, https://webnautes.tistory.com/1352, 2021-11-19-Fri.
