@@ -65,7 +65,7 @@ Haar-like features are digital image features used in object recognition. They o
 
 Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
 
-Haar-like Feature, Integral Image, AdaBoost, Cascade Classifier
+Haar-like Feature, Integral Image, AdaBoost(Ensemble, Bagging, Boosting, Stump, weak learner, Amount of Say), Cascade Classifier
 
 ### *Distinctive Image Features from Scale-Invariant Keypoints* | [IJCV](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 2004년에 IJCV에 게재된 논문으로, 식별하기 쉬운 특징점들을 선택한 뒤, 각 특징점을 중심으로 local patch에 대해 특징 벡터를 추출한 feature이다. 
