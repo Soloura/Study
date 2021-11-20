@@ -22,6 +22,8 @@ Depth map을 예측하는 fully convolutional architecture를 제안한다. Resi
 
 Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
+----------
+
 ## Object Recognition :ballot_box_with_check:
 ### *Haar-like Feature* | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
