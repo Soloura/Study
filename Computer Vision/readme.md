@@ -1,5 +1,7 @@
 # Computer Vision :eyeglasses:
 
+----------
+
 ## Dehazing :cloud:
 Haze, fog를 제거하는 내용이다. 대상 물체와 관찰자 사이에 존재하는 대기 물질들에 의해 빛의 진행이 방해를 받아 대상이 뿌옇게 보인다.
 
@@ -9,6 +11,8 @@ Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도
 보통 haze가 존재하지 않는 야외 이미지는 colorful하거나 어두운 색의 대상들 또는 그들의 그림자로 가득 차 있기 떄문에 dark pixel 값이 작게 나온다. 반면 haze가 존재하는 이미지는 대상들이 뿌옇고 잘 보이지 않기 때문에 dark pixel 값이 크게 나온다. 이를 통해 이미지에서 haze를 분리할 수 있다. Dark channel prior를 통해 원본 이미지에서 transmission map을 구하고, soft matting을 적용하여 block 현상을 제거하고, 원본 이미지에서 haze를 제거한 뒤, 마지막으로 가장 밝은 airlight를 구한 뒤 depth map 추정까지 한다.
 
 단, 다양한 이미지들을 보고 통계적으로 얻은 prior를 사용하기 때문에 특정 이미지에 대해서는 haze removal이 잘 되지 않을 수 있다. 또한 object가 대기의 빛과 비슷한 색상을 띠면서 그림자마다 없다면 haze로 취급될 수 있다.
+
+----------
 
 ## Depth Prediction :telescope:
 주어진 RGB 이미지에서 depth map을 계산하는 내용이다. 
@@ -58,6 +62,8 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 7. Distillation & Compression.
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
+
+----------
 
 ## Object Detection :microscope:
 ### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
@@ -110,19 +116,21 @@ SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection meth
 ### *Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision* | [arXiv](https://arxiv.org/abs/1505.02496)
 Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치기에 gradient가 작아지는 문제를 피할 수 있다.
 
-## Segmentation :scissors:
+----------
 
+## Segmentation :scissors:
 ### Bayes Matting
 사용자가 정의한 trimap을 바탕으로 투명도를 갖도록 컬러 분포를 모델링한다. 사용자의 안쪽 영역과 바깥 영역 입력의 사용자 입력이 필요하다.
 
 ### Graph Cut
 Bayes Matting과 trimap, 확률 컬러 모델을 모두 갖는 방법이다.
 
-### Grab Cut Segmetation Algorithm
+### *"GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts* | [ACMTG](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
 Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard segmentation을 먼저 수행한 뒤, border matting 방법을 적용하여 foreground의 경계 부분에 투명도를 할당한 다음, 나머지 배경 부분은 완전히 투명하게 만드는 방식으로 segmentation을 진행한다.
 
-## Semantic Segmentation :fork_and_knife:
+----------
 
+## Semantic Segmentation :fork_and_knife:
 ### *Mask R-CNN* | [arXiv](https://arxiv.org/abs/1703.06870) | [PyTorch](https://github.com/felixgwu/mask_rcnn_pytorch) | [TesforFlow](https://github.com/CharlesShang/FastMaskRCNN)
 Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. 각 픽셀이 object에 해당하는 것인지 아닌지를 masking하는 network를 추가했다. 이는 binary mask라 한다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 RolPool 영역에 위치에 생기는 소숫점 오차를 2D bilinear interpolation을 통해 감소시켰다. 이는 RolAlign이다. 
 
@@ -135,8 +143,9 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
 
-## AutoML :robot:
+----------
 
+## AutoML :robot:
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
 2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
@@ -150,6 +159,8 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
 ### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
+
+----------
 
 - Precision
 Precision measures how accurate is your predictions. The percentage of your predictions are correct
@@ -165,6 +176,8 @@ IoU measures the overlap between 2 boundaries.
 
 - AP(Area under curve AUC)
 
+----------
+
 ## Few-Shot Learning :bow_and_arrow:
 ### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
 
@@ -178,6 +191,8 @@ IoU measures the overlap between 2 boundaries.
 ### *Meta-Learning to Detect Rare Objects* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.pdf)
 
 ### *One-Shot Object Detection with Co-Attention and Co-Excitation* | [NIPS 2019](https://openreview.net/pdf?id=Hye3UNrlLS) | [GitHub](https://github.com/timy90022/One-Shot-Object-Detection)
+
+----------
 
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
