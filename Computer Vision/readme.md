@@ -19,6 +19,9 @@ Depth map을 예측하는 fully convolutional architecture를 제안한다. Resi
 Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
 ## Object Recognition :ballot_box_with_check:
+### *Haar-like Feature* | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
+Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
+
 ### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
@@ -57,9 +60,6 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
 ## Object Detection :microscope:
-### Haar-like Feature | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
-Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
-
 ### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 2001년 CVPR에 게재된 논문으로, 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
