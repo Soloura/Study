@@ -147,6 +147,16 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ----------
 
+## Optical Character Recognitino
+
+## Scene Text Detection
+### *Character Region Awareness for Text Detection* | [CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
+
+## Scene Text Recognition
+### *What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Baek_What_Is_Wrong_With_Scene_Text_Recognition_Model_Comparisons_Dataset_ICCV_2019_paper.pdf)
+
+----------
+
 ## AutoML :robot:
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012)
 2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
