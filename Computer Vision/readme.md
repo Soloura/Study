@@ -147,7 +147,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ----------
 
-## Optical Character Recognitino
+## Optical Character Recognition :calendar:
 
 ## Scene Text Detection
 ### *Character Region Awareness for Text Detection* | [CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
