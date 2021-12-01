@@ -65,6 +65,8 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
+### *Searching for MobileNetV3* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
+
 ----------
 
 ## Object Detection :microscope:
@@ -219,6 +221,7 @@ IoU measures the overlap between 2 boundaries.
 - MobileNet Version 1 Blog KR, http://melonicedlatte.com/machinelearning/2019/11/01/212800.html, 2021-03-08-Mon.
 - MobileNet Version 2 Blog KR, https://blog.naver.com/PostView.nhn?blogId=chacagea&logNo=221692490366&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView, 2021-03-09-Tue.
 - MobileNet Version 1 Blog KR, https://blog.naver.com/chacagea/221582912200, 2021-03-09-Tue.
+- MobileNet Version 3 Blog KR, https://seongkyun.github.io/papers/2019/12/03/mbv3/, 2021-12-01-Wed.
 - Selective Search for Object Recognition Slide, http://www.cs.cornell.edu/courses/cs7670/2014sp/slides/VisionSeminar14.pdf, 2021-03-09-Tue.
 - Facebook Research Detectron GitHub, https://github.com/facebookresearch/Detectron, 2021-03-09-Tue.
 - Facebook Research Detectron2 GitHub, https://github.com/facebookresearch/detectron2, 2021-03-09-Tue.
