@@ -216,12 +216,24 @@ def relu(x):
   return max(0, x)
 ```
 
+### ReLU6 | [Blog (KR)](https://gaussian37.github.io/dl-concept-relu6/)
+```Python
+def relu6(x):
+  return min(6, relu(x))
+```
+
 ### Swish | [Blog (KR)](https://eehoeskrap.tistory.com/440)
 Swish는 깊은 neural network에서 ReLU보다 높은 accuracy를 가진다. 모든 batch size에 대해 Swish는 ReLU에 비해 accuracy가 높다. Bounded below, unbounded above 특성이 있다. Non-monotonic 함수이며 1차, 2차 미분을 갖는다.
 
 ```Python
 def swish(x):
   return x * tf.nn.sigmoid(x) # x * torch.sigmoid(x)
+```
+
+### Hard Swish
+```Python
+def hard_swish(x):
+  return x * relu6(x+3)/6
 ```
 
 ### Mish | [Blog (KR)](https://eehoeskrap.tistory.com/440)
@@ -275,3 +287,4 @@ def mish(x):
 - Haar-like Feature Blog KR, https://wiserloner.tistory.com/1101, 2021-11-19-Fri.
 - Haar Cascade Blog KR, https://webnautes.tistory.com/1352, 2021-11-19-Fri.
 - Swish vs. Wish Blog KR, https://eehoeskrap.tistory.com/440, 2021-12-01-Wed.
+- ReLU6 Blog KR, https://gaussian37.github.io/dl-concept-relu6/, 2021-12-02-Thu.
