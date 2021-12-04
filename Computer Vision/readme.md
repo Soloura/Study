@@ -138,7 +138,7 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 ## Semantic Segmentation :fork_and_knife:
 ### *Mask R-CNN* | [arXiv](https://arxiv.org/abs/1703.06870) | [PyTorch](https://github.com/felixgwu/mask_rcnn_pytorch) | [TesforFlow](https://github.com/CharlesShang/FastMaskRCNN)
-Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. 각 픽셀이 object에 해당하는 것인지 아닌지를 masking하는 network를 추가했다. 이는 binary mask라 한다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 RolPool 영역에 위치에 생기는 소숫점 오차를 2D bilinear interpolation을 통해 감소시켰다. 이는 RolAlign이다. 
+Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. Faster R-CNN에 각 픽셀이 object class에 해당하는지 binary masking하는 분기 network를 추가했다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 Rol Pooling에서 rounding하며 발생하는 소숫점 오차를 RoI Align(2D bilinear interpolation)로 대체해서 감소시켰다.
 
 ### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
