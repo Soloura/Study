@@ -69,7 +69,7 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 ### *Searching for MobileNetV3* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
 
-### *Squeeze-and-Excitation Networks* | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf)
+### *Squeeze-and-Excitation Networks* | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
 
 ----------
 
@@ -282,6 +282,7 @@ def mish(x):
 - MobileNet Version 2 Blog KR, https://blog.naver.com/PostView.nhn?blogId=chacagea&logNo=221692490366&categoryNo=0&parentCategoryNo=0&viewDate=&currentPage=1&postListTopCurrentPage=1&from=postView, 2021-03-09-Tue.
 - MobileNet Version 1 Blog KR, https://blog.naver.com/chacagea/221582912200, 2021-03-09-Tue.
 - MobileNet Version 3 Blog KR, https://seongkyun.github.io/papers/2019/12/03/mbv3/, 2021-12-01-Wed.
+- SENet Blog KR, https://jayhey.github.io/deep%20learning/2018/07/18/SENet/, 2021-12-05-Sun.
 - Selective Search for Object Recognition Slide, http://www.cs.cornell.edu/courses/cs7670/2014sp/slides/VisionSeminar14.pdf, 2021-03-09-Tue.
 - Facebook Research Detectron GitHub, https://github.com/facebookresearch/Detectron, 2021-03-09-Tue.
 - Facebook Research Detectron2 GitHub, https://github.com/facebookresearch/detectron2, 2021-03-09-Tue.
