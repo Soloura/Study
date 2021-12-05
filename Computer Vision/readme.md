@@ -174,6 +174,8 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 ### *MnasNet, Platform-Aware Neural Architecture Search for Mobile* | [arXiv](https://arxiv.org/abs/1807.11626) | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F)
 2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
 
+### *NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications* | [ECCV](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tien-Ju_Yang_NetAdapt_Platform-Aware_Neural_ECCV_2018_paper.pdf)
+
 ### *Adapting Neural Architectures Between Domains* | [NIPS](https://proceedings.neurips.cc//paper/2020/file/08f38e0434442128fab5ead6217ca759-Paper.pdf)
 
 ### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
