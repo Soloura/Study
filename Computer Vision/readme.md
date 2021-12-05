@@ -69,7 +69,7 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 ### *Searching for MobileNetV3* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
 
-### *Squeeze-and-Excitation Networks* | [arXiv](https://arxiv.org/pdf/1709.01507.pdf)
+### *Squeeze-and-Excitation Networks* | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf)
 
 ----------
 
