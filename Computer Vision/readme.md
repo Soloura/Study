@@ -196,6 +196,12 @@ IoU measures the overlap between 2 boundaries.
 
 - AP(Area under curve AUC)
 
+- FLOPS(FLoating point Operations Per Second)
+
+- FLOPs(FLoating point OPerationS)
+
+- MAC(Multiply ACcumulate)
+
 ----------
 
 ## Few-Shot Learning :bow_and_arrow:
@@ -289,6 +295,7 @@ def mish(x):
 - MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
 - MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
 - MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
+- NetAdapt Blog KR, https://m.blog.naver.com/kangdonghyun/221316167111, 2021-12-05-Sun.
 - mAP(mean Average Precision) for Object Detection Blog US, https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173, 2021-03-23-Tue.
 - GrabCut Blog KR, http://www.navisphere.net/2095/grabcut-interactive-foreground-extraction-using-iterated-graph-cuts/, 2021-09-28-Tue.
 - Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
@@ -303,3 +310,5 @@ def mish(x):
 - Swish vs. Wish Blog KR, https://eehoeskrap.tistory.com/440, 2021-12-01-Wed.
 - ReLU6 Blog KR, https://gaussian37.github.io/dl-concept-relu6/, 2021-12-02-Thu.
 - Sigmoid Blog KR, http://taewan.kim/post/sigmoid_diff/, 2021-12-02-Thu.
+- FLOPS FLOPs Blog KR, https://ladofa.blogspot.com/2020/08/flops-flops.html, 2021-12-05-Sun.
+- FLOPS FLOPs MAC Blog KR, https://bongjasee.tistory.com/3, 2021-12-05-Sun.
