@@ -305,6 +305,8 @@ def mish(x):
 - Single Image Haze Removal Using Dark Channel Prior Blog KR, https://hyeongminlee.github.io/post/pr001_dehazing/, 2021-10-05-Tue.
 - SIFT, HOG, Haar Cascade Algorithm Blog KR, https://darkpgmr.tistory.com/116, 2021-10-09-Sat.
 - Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
+- Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/3, 2021-12-06-Mon.
+- Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/7?category=894440, 2021-12-06-Mon.
 - Ensemble Bagging Boosting Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-11-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5-Ensemble-Learning-%EB%B0%B0%EA%B9%85Bagging%EA%B3%BC-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting, 2021-11-19-Fri.
 - AdaBoost Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost, 2021-11-19-Fri.
 - Haar-like Feature Wiki, https://en.wikipedia.org/wiki/Haar-like_feature, 2021-11-19-Fri.
