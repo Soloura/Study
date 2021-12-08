@@ -207,6 +207,8 @@ IoU measures the overlap between 2 boundaries.
 ----------
 
 ## Few-Shot Learning :bow_and_arrow:
+
+## Few-Shot Object Recognition
 ### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
 
 ### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
