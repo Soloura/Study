@@ -224,6 +224,10 @@ IoU measures the overlap between 2 boundaries.
 
 ----------
 
+## Multi modal
+
+----------
+
 ## Activation Function
 
 ### Sigmoid | [Blog (KR)](http://taewan.kim/post/sigmoid_diff/)
