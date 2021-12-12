@@ -224,7 +224,7 @@ IoU measures the overlap between 2 boundaries.
 
 ----------
 
-## Multi modal
+## Multi modal Learning
 
 ----------
 
