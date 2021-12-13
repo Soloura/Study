@@ -30,7 +30,7 @@ Meta learning is a subfield of machine learning where automatic learning algorit
 
 #### Reference
 - Meta Learning Wiki, https://en.wikipedia.org/wiki/Meta_learning_(computer_science), 2021-12-14-Tue.
-- Meta Learning Blog KR, https://rhcsky.tistory.com/5, 2021-12-14-Tue.
 - Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
 - Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/3, 2021-12-06-Mon.
 - Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/7?category=894440, 2021-12-06-Mon.
+- Meta Learning Blog KR, https://rhcsky.tistory.com/5, 2021-12-14-Tue.
