@@ -3,14 +3,16 @@
 
 ----------
 
-## Few-Shot Object Recognition
+## Classification
+### *Edge-Learning Graph Neural Network for Few-shot Learning* | [CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Edge-Labeling_Graph_Neural_Network_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
+
 ### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
 
 ### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
 
 ----------
 
-## Few-Shot Object Detection
+## Detection
 ### *LSTD: A Low-Shot Transfer Detector for Object Detection* | [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16778/16580)
 
 ### *Few-shot Object Detection via Feature Reweighting* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kang_Few-Shot_Object_Detection_via_Feature_Reweighting_ICCV_2019_paper.pdf)
