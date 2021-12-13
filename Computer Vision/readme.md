@@ -24,7 +24,7 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 ----------
 
-## Object Recognition :ballot_box_with_check:
+## Object Recognition | Object Classification | :ballot_box_with_check:
 ### *Haar-like Feature* | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
