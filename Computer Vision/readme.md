@@ -206,28 +206,6 @@ IoU measures the overlap between 2 boundaries.
 
 ----------
 
-## Few-Shot Learning :bow_and_arrow:
-
-## Few-Shot Object Recognition
-### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
-
-### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
-
-## Few-Shot Object Detection
-### *LSTD: A Low-Shot Transfer Detector for Object Detection* | [AAAI 2018](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16778/16580)
-
-### *Few-shot Object Detection via Feature Reweighting* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Kang_Few-Shot_Object_Detection_via_Feature_Reweighting_ICCV_2019_paper.pdf)
-
-### *Meta-Learning to Detect Rare Objects* | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Wang_Meta-Learning_to_Detect_Rare_Objects_ICCV_2019_paper.pdf)
-
-### *One-Shot Object Detection with Co-Attention and Co-Excitation* | [NIPS 2019](https://openreview.net/pdf?id=Hye3UNrlLS) | [GitHub](https://github.com/timy90022/One-Shot-Object-Detection)
-
-----------
-
-## Multi modal Learning
-
-----------
-
 ## Activation Function
 
 ### Sigmoid | [Blog (KR)](http://taewan.kim/post/sigmoid_diff/)
@@ -274,6 +252,16 @@ def mish(x):
 
 ----------
 
+## Few-Shot Learning :bow_and_arrow:
+`This content moved to the "Few-Shot Learning" page.`
+
+----------
+
+## Multi modal Learning
+`This content moved to the "Multi-modal Learning" page.`
+
+----------
+
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
@@ -310,9 +298,6 @@ def mish(x):
 - Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
 - Single Image Haze Removal Using Dark Channel Prior Blog KR, https://hyeongminlee.github.io/post/pr001_dehazing/, 2021-10-05-Tue.
 - SIFT, HOG, Haar Cascade Algorithm Blog KR, https://darkpgmr.tistory.com/116, 2021-10-09-Sat.
-- Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
-- Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/3, 2021-12-06-Mon.
-- Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/7?category=894440, 2021-12-06-Mon.
 - Ensemble Bagging Boosting Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-11-%EC%95%99%EC%83%81%EB%B8%94-%ED%95%99%EC%8A%B5-Ensemble-Learning-%EB%B0%B0%EA%B9%85Bagging%EA%B3%BC-%EB%B6%80%EC%8A%A4%ED%8C%85Boosting, 2021-11-19-Fri.
 - AdaBoost Blog KR, https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost, 2021-11-19-Fri.
 - Haar-like Feature Wiki, https://en.wikipedia.org/wiki/Haar-like_feature, 2021-11-19-Fri.
