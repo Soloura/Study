@@ -9,11 +9,11 @@ Meta learning is a subfield of machine learning where automatic learning algorit
 ----------
 
 ## Classification
-### *Edge-Learning Graph Neural Network for Few-shot Learning* | [CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Edge-Labeling_Graph_Neural_Network_for_Few-Shot_Learning_CVPR_2019_paper.pdf)
+### *Few-Shot Learning with Graph Neural Networks* | [ICLR 2018](https://openreview.net/pdf?id=BJj6qGbRW) | [arXiv](https://arxiv.org/abs/1711.04043)
 
-### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [arXiv](https://arxiv.org/abs/1805.10002)
+### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [ICLR 2019] | [arXiv](https://arxiv.org/abs/1805.10002)
 
-### *Few-Shot Learning with Graph Neural Networks* | [arXiv](https://arxiv.org/abs/1711.04043)
+### *Edge-Learning Graph Neural Network for Few-shot Learning* | [CVPR 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kim_Edge-Labeling_Graph_Neural_Network_for_Few-Shot_Learning_CVPR_2019_paper.pdf) | [arXiv](https://arxiv.org/pdf/1905.01436.pdf)
 
 ----------
 
