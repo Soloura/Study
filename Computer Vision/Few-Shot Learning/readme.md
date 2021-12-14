@@ -8,7 +8,17 @@ Meta learning is a subfield of machine learning where automatic learning algorit
 
 ----------
 
-## Classification
+## Metric Learning
+### *Siamese Neural Networks for One-shot Image Recognition* | [ICML 2015](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+
+### *Matching Networks for One Shot Learning* | [NIPS 2016](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)
+
+### *Prototypical Networks for Few-shot Learning* | [NIPS 2017](https://papers.nips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf)
+
+### *Learning to Compare: Relation Network for Few-Shot Learning* | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sung_Learning_to_Compare_CVPR_2018_paper.pdf)
+
+## Graph Neural Network
+
 ### *Few-Shot Learning with Graph Neural Networks* | [ICLR 2018](https://openreview.net/pdf?id=BJj6qGbRW) | [arXiv](https://arxiv.org/abs/1711.04043)
 
 ### *Learning to Propagate Labels: Transductive Propagation Network for Few-Shot Learning* | [ICLR 2019](https://openreview.net/pdf?id=SyVuRiC5K7) | [arXiv](https://arxiv.org/abs/1805.10002)
