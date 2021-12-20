@@ -45,3 +45,4 @@ Meta learning is a subfield of machine learning where automatic learning algorit
 - Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/3, 2021-12-06-Mon.
 - Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/7?category=894440, 2021-12-06-Mon.
 - Meta Learning Blog KR, https://rhcsky.tistory.com/5, 2021-12-14-Tue.
+- Graph Neural Networks for Few-shot and Zero-shot Learning GitHub, https://github.com/thunlp/GNNPapers#few-shot-and-zero-shot-learning, 2021-12-20-Mon.
