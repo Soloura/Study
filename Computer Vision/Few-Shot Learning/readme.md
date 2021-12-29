@@ -11,6 +11,9 @@ Meta learning is a subfield of machine learning where automatic learning algorit
 ## Metric Learning
 ### *Siamese Neural Networks for One-shot Image Recognition* | [ICML 2015](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
 
+- Siamese Neural Network | [Wiki](https://en.wikipedia.org/wiki/Siamese_neural_network)
+A Siamese neural network (twin NN) uses the same weights while working in tandem on two different input vectors to compute comparable output vectors.
+
 ### *Matching Networks for One Shot Learning* | [NIPS 2016](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)
 
 ### *Prototypical Networks for Few-shot Learning* | [NIPS 2017](https://papers.nips.cc/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf)
