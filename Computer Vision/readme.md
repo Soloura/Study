@@ -319,5 +319,6 @@ def mish(x):
 - FLOPS FLOPs MAC Blog KR, https://bongjasee.tistory.com/3, 2021-12-05-Sun.
 - YOLOv4 Blog KR, https://jetsonaicar.tistory.com/68, 2022-01-17-Mon.
 - YOLOv4 Related Works Blog KR, https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html, 2022-01-17-Mon.
+- YOLOv5 GitHub, https://github.com/ultralytics/yolov5, 2022-01-17-Mon.
 - YOLOv5 Docs, https://docs.ultralytics.com/, 2022-01-17-Mon.
 - SequeezeSeqV2, Darknet51, Darknet52 Blog KR, https://www.wenyanet.com/opensource/ko/6114b45841db8a44780b2403.html, 2022-01-17-Mon.
