@@ -131,6 +131,8 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 
 ### *YOLOv4: Optimal Speed and Accuracy of Object Detection* | [arXiv](https://arxiv.org/abs/2004.10934) | [Blog (KR)](https://jetsonaicar.tistory.com/68) | [Blog (KR)](https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html)
 
+### *YOLOv5* | [Docs](https://docs.ultralytics.com/)
+
 ----------
 
 ## Segmentation :scissors:
@@ -317,4 +319,5 @@ def mish(x):
 - FLOPS FLOPs MAC Blog KR, https://bongjasee.tistory.com/3, 2021-12-05-Sun.
 - YOLOv4 Blog KR, https://jetsonaicar.tistory.com/68, 2022-01-17-Mon.
 - YOLOv4 Related Works Blog KR, https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html, 2022-01-17-Mon.
+- YOLOv5 Docs, https://docs.ultralytics.com/, 2022-01-17-Mon.
 - SequeezeSeqV2, Darknet51, Darknet52 Blog KR, https://www.wenyanet.com/opensource/ko/6114b45841db8a44780b2403.html, 2022-01-17-Mon.
