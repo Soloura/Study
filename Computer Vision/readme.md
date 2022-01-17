@@ -125,6 +125,12 @@ SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection meth
 ### *Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision* | [arXiv](https://arxiv.org/abs/1505.02496)
 Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치기에 gradient가 작아지는 문제를 피할 수 있다.
 
+### *YOLO9000: Better, Faster, Stronger* | [Homepage](https://pjreddie.com/darknet/yolov2/) | [arXiv](https://arxiv.org/abs/1612.08242)
+
+### *YOLOv3:AnIncrementalImprovement* | [Homepage](https://pjreddie.com/darknet/yolo/) |[PDF](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fpjreddie.com%2Fmedia%2Ffiles%2Fpapers%2FYOLOv3.pdf&clen=2241388&chunk=true)
+
+### *YOLOv4: Optimal Speed and Accuracy of Object Detection* | [arXiv](https://arxiv.org/abs/2004.10934) | [Blog (KR)](https://jetsonaicar.tistory.com/68) | [Blog (KR)](https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html)
+
 ----------
 
 ## Segmentation :scissors:
@@ -309,3 +315,6 @@ def mish(x):
 - Sigmoid Blog KR, http://taewan.kim/post/sigmoid_diff/, 2021-12-02-Thu.
 - FLOPS FLOPs Blog KR, https://ladofa.blogspot.com/2020/08/flops-flops.html, 2021-12-05-Sun.
 - FLOPS FLOPs MAC Blog KR, https://bongjasee.tistory.com/3, 2021-12-05-Sun.
+- YOLOv4 Blog KR, https://jetsonaicar.tistory.com/68, 2022-01-17-Mon.
+- YOLOv4 Related Works Blog KR, https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html, 2022-01-17-Mon.
+- SequeezeSeqV2, Darknet51, Darknet52 Blog KR, https://www.wenyanet.com/opensource/ko/6114b45841db8a44780b2403.html, 2022-01-17-Mon.
