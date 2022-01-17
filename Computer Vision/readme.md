@@ -131,7 +131,7 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 
 ### *YOLOv4: Optimal Speed and Accuracy of Object Detection* | [arXiv](https://arxiv.org/abs/2004.10934) | [Blog (KR)](https://jetsonaicar.tistory.com/68) | [Blog (KR)](https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html)
 
-### *YOLOv5* | [Docs](https://docs.ultralytics.com/)
+### *YOLOv5* | [GitHub](https://github.com/ultralytics/yolov5) | [Docs](https://docs.ultralytics.com/)
 
 ----------
 
