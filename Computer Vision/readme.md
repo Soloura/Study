@@ -271,6 +271,11 @@ def mish(x):
 
 ----------
 
+### *Does Colour Really Matter? Evaluation via Object Classification* | [Homepage](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
+ResNet-50 trained with color images performed better in object classification by 12% than that of gray images. For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
+
+----------
+
 #### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
