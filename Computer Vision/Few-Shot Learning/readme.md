@@ -41,6 +41,10 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 
 ----------
 
+### *Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples* | [Google AI Blog](https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html) | [ICLR 2020](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fopenreview.net%2Fattachment%3Fid%3DrkgAGAVKPr%26name%3Doriginal_pdf&clen=1281351)
+
+----------
+
 #### Reference
 - Meta Learning Wiki, https://en.wikipedia.org/wiki/Meta_learning_(computer_science), 2021-12-14-Tue.
 - Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
@@ -49,3 +53,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - Few-Shot Object Detection Blog KR, https://blog.si-analytics.ai/7?category=894440, 2021-12-06-Mon.
 - Meta Learning Blog KR, https://rhcsky.tistory.com/5, 2021-12-14-Tue.
 - Graph Neural Networks for Few-shot and Zero-shot Learning GitHub, https://github.com/thunlp/GNNPapers#few-shot-and-zero-shot-learning, 2021-12-20-Mon.
+- Meta Dataset Google AI Blog, https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html, 2022-01-26-Wed.
