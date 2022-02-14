@@ -31,8 +31,9 @@ Codex is the model that powers GitHub Copilot.
 ----------
 
 #### Article
-- 인공일반지능(AGI), 시도해도 될까, https://www.technologyreview.kr/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/, 2022-02-13-Sun.
-- Artificial general intelligence: Are we close, and does it even make sense to try?, https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/, 2022-02-13-Sun.
+- [인공일반지능(AGI), 시도해도 될까](https://www.technologyreview.kr/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
+- [Artificial general intelligence: Are we close, and does it even make sense to try?]( https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
+- [Meta's new learning algorithm can teach AI to multi-task](https://www.technologyreview.com/2022/01/20/1043885/meta-ai-facebook-learning-algorithm-nlp-vision-speech-agi/), 2022-02-14-Mon.
 
 ----------
 
