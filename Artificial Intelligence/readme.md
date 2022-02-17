@@ -21,7 +21,7 @@ Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila i
 
 ## [OpenAI](https://openai.com/)
 
-## [CSAIL](https://www.csail.mit.edu/)
+## [MIT CSAIL](https://www.csail.mit.edu/)
 
 ----------
 
