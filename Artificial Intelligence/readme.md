@@ -37,6 +37,7 @@ Codex is the model that powers GitHub Copilot.
 - [Artificial general intelligence: Are we close, and does it even make sense to try?]( https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
 - [Meta's new learning algorithm can teach AI to multi-task](https://www.technologyreview.com/2022/01/20/1043885/meta-ai-facebook-learning-algorithm-nlp-vision-speech-agi/), 2022-02-14-Mon.
 - [Machine that learn language more like kids do](https://www.csail.mit.edu/news/machines-learn-language-more-kids-do), 2022-02-17-Thu.
+- [Competitive programming with AlphaCode](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode), 2022-02-18-Fri.
 
 ----------
 
