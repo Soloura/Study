@@ -38,6 +38,7 @@ Codex is the model that powers GitHub Copilot.
 - [Meta's new learning algorithm can teach AI to multi-task](https://www.technologyreview.com/2022/01/20/1043885/meta-ai-facebook-learning-algorithm-nlp-vision-speech-agi/), 2022-02-14-Mon.
 - [Machine that learn language more like kids do](https://www.csail.mit.edu/news/machines-learn-language-more-kids-do), 2022-02-17-Thu.
 - [Competitive programming with AlphaCode](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode), 2022-02-18-Fri.
+- [Using reinforcement learning to identify high-risk states and treatments in healthcare](https://www.microsoft.com/en-us/research/blog/using-reinforcement-learning-to-identify-high-risk-states-and-treatments-in-healthcare/), 2022-02-20-Sun.
 
 ----------
 
