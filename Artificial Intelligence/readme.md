@@ -40,6 +40,7 @@ Codex is the model that powers GitHub Copilot.
 - [Competitive programming with AlphaCode](https://deepmind.com/blog/article/Competitive-programming-with-AlphaCode), 2022-02-18-Fri.
 - [Using reinforcement learning to identify high-risk states and treatments in healthcare](https://www.microsoft.com/en-us/research/blog/using-reinforcement-learning-to-identify-high-risk-states-and-treatments-in-healthcare/), 2022-02-20-Sun.
 - [AlphaFold: a solution to a 50-year-old grand challenge in biology](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology), 2022-02-21-Mon.
+- [Can machine-learning models overcome biased datasets?](https://news.mit.edu/2022/machine-learning-biased-data-0221), 2022-02-22-Tue.
 
 ----------
 
