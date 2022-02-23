@@ -1,4 +1,4 @@
-# Few-Shot Learning
+# Few-Shot Learning | [Article](https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/)
 `This page is moved from the "Computer Vision" page.`
 
 Few-shot learning means making classification or regression based on a very small number of samples or even a zero number of  sample. It is different with other normal deep learning methods. The goal of few-shot learning is not to let the model recognize the images in the training set and then generalize to the test set. Instead, the goal is to learn: "Learn to learn". Its goal is to know the similarity and difference between objects.
@@ -19,6 +19,22 @@ Datasets for few-shot learning; 2 datasets that are most widely used in research
 
 ### Meta Learning | [Wiki](https://en.wikipedia.org/wiki/Meta_learning_(computer_science))
 Meta learning is a subfield of machine learning where automatic learning algorithms are applied to metadata about machine learning experiments. The main goal os to use such metadata to understand how automatic learning can become felxible in solving learning problems, hence to improve the performance of existing learning algorithms or to learn (induce) the learning algorithm itself, hence the alternative term learning to learn.
+
+----------
+
+### Zero-Shot Learning | [Article](https://www.analyticsvidhya.com/blog/2022/02/classification-without-training-data-zero-shot-learning-approach/)
+
+In a zero-shot learning approach, we have data in the following manner. Seen classes: classes with labels available for training. Unseen classes: classes that occur only in the test set or during inference and not present during training. Auxiliary information: information about both seen and unseen class labels during training time.
+
+Based on the data available during inference zero-shot learning can be classified into two types. Conventional zero-shot learning: if during test time we only expect images from unseen classes. Generalized zero-shot learning: if during testing phase images from both seen and unseen class can be present.
+
+To evalute a zero-shot recognition model top-1 accuracy metric is generally used. This metric is similar to accuracy but for zero-shot, we take the average accuarcy of both the seen and unseen classes. We want both their accuarcy to be high for this reason Harmonic mean of the accuracy of both classes is selected as a metric. 
+
+Accuracy = 1/N * sum(correct_predictions/total_number_of_samples)
+
+Mean = (2 * Accuracy_on_seen_class * Accuracy_on_unseen_class) / (Accuracy_on_seen_class + Accuracy_on_unseen_class)
+
+This can be thought of as a transfer learning approach where we try to transfer information from target classes.
 
 ----------
 
@@ -69,3 +85,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - Graph Neural Networks for Few-shot and Zero-shot Learning GitHub, https://github.com/thunlp/GNNPapers#few-shot-and-zero-shot-learning, 2021-12-20-Mon.
 - Meta Dataset Google AI Blog, https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html, 2022-01-26-Wed.
 - An Introduction to Few-Shot Learning, https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/, 2022-02-23-Wed.
+- Classification without Training Data: Zero-shot Learning Approach, https://www.analyticsvidhya.com/blog/2022/02/classification-without-training-data-zero-shot-learning-approach/, 2022-02-23-Wed.
