@@ -1,6 +1,20 @@
 # Few-Shot Learning
 `This page is moved from the "Computer Vision" page.`
 
+Few-shot learning means making classification or regression based on a very small number of samples or even a zero number of  sample. It is different with other normal deep learning methods. The goal of few-shot learning is not to let the model recognize the images in the training set and then generalize to the test set. Instead, the goal is to learn: "Learn to learn". Its goal is to know the similarity and difference between objects.
+
+Support set is meta learning's jargon. The small set of labeled images is called a support set. The difference between the training and the support set is the training set is big and the support set is small. The support set can only provide additional information at test time.
+
+Few-shot learning is a kind of meta-learning. Meta learning is different from traditional supervised learning. Tranditional supervised learning asks the model to recognize the training data and then generalize to unseen test data. Differently, meta learning's goal is to learn. In meta-learning, the unknown object is called a query.
+
+In few-shot learning, the query sample is never seen before. The query sample is from an unknown class. This is the main difference from tranditional supervised learning.
+
+K-way means the support set has k classes. N-shot means every class has n samples. The support set is called k-way and n-shot. As the number of ways increases, the prediction accuracy drops. As the number of shots increases, the prediction accuracy improves.
+
+The basic idead of few-shot learning is to train a function that predicts similarity. After training, the learned similarity function can be used for making predictions for unseen queries. We can use the similarity function to compare the query with every sample in the support set and calculate the similarity scores. Then, find the sample with the highest similarity score and use it as the prediction. Given a support set, we can compute the similarity between the query and every sample in the support set to find the most similar sample.
+
+Datasets for few-shot learning; 2 datasets that are most widely used in research papers: Omniglot (hand-written dataset) and Mini-ImageNet.
+
 ----------
 
 ### Meta Learning | [Wiki](https://en.wikipedia.org/wiki/Meta_learning_(computer_science))
@@ -54,3 +68,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - Meta Learning Blog KR, https://rhcsky.tistory.com/5, 2021-12-14-Tue.
 - Graph Neural Networks for Few-shot and Zero-shot Learning GitHub, https://github.com/thunlp/GNNPapers#few-shot-and-zero-shot-learning, 2021-12-20-Mon.
 - Meta Dataset Google AI Blog, https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html, 2022-01-26-Wed.
+- An Introduction to Few-Shot Learning, https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/, 2022-02-23-Wed.
