@@ -8,6 +8,10 @@ Weak AI is AI trained and focused to perform specific tasks. Weak AI drives most
 Strong AI is made up of Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). Artificial general intelligence (AGI), or general AI, is a theoretical form of AI where a machine would have an intelligence equaled to humans; it would have a self-aware consciousness that has the ability to solve problems, learn, and plan for the future. Artificial Super Intelligence (ASI)-also known as superintelligence-would surpass the intelligence and ability of the human brain. While storng AI is still entirely theoretical with no practical examples in use today, that doesn't mean AI researchers aren't also exploring its development. In the meantime, the best examples of ASI might be from science fiction, such as HAL, the superhuman, rogue computer assistant in 2001: A Space Odyssey.
 
 ## Machine Learning (ML)
+IBM research suggest ML to evolve around the following segments in the future:
+- Classic ML: Deals with problems with one dataset at a time, one task and one heavy training.
+- Few-shot ML: Deals with heavy offline training, then easy learning on similar tasks.
+- Developing ML: Continuous life-long learning on various tasks.
 
 ## Deep Learning (DL)
 Deep learning is actually comprised of neural networks. "Deep" in deep learning refers to a neural network comprised of more than three layers-which would be inclusive of the inputs and the output-can be considered a deep learning algorithm.
@@ -57,3 +61,4 @@ Codex is the model that powers GitHub Copilot.
 - OpenAI, https://openai.com/, 2022-02-13-Sun.
 - GitHub Copilot, https://copilot.github.com/, 2022-02-13-Sun.
 - OpenAI Codex, https://openai.com/blog/openai-codex/, 2022-02-13-Sun.
+- What is Few-Shot Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
