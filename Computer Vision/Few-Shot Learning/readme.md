@@ -86,3 +86,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - Meta Dataset Google AI Blog, https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html, 2022-01-26-Wed.
 - An Introduction to Few-Shot Learning, https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/, 2022-02-23-Wed.
 - Classification without Training Data: Zero-shot Learning Approach, https://www.analyticsvidhya.com/blog/2022/02/classification-without-training-data-zero-shot-learning-approach/, 2022-02-23-Wed.
+- What is Few-Show Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
