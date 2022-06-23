@@ -46,6 +46,7 @@ Codex is the model that powers GitHub Copilot.
 - [AlphaFold: a solution to a 50-year-old grand challenge in biology](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology), 2022-02-21-Mon.
 - [Can machine-learning models overcome biased datasets?](https://news.mit.edu/2022/machine-learning-biased-data-0221), 2022-02-22-Tue.
 - [Can Computer Algorithms Learn about the Ethics of Warfare?](https://www.technologyreview.kr/%ec%bb%b4%ed%93%a8%ed%84%b0-%ec%95%8c%ea%b3%a0%eb%a6%ac%eb%93%ac%ec%9d%80-%ec%9c%a4%eb%a6%ac%ec%a0%81-%ec%a0%84%ed%88%ac%eb%b0%a9%eb%b2%95%ec%9d%84-%eb%b0%b0%ec%9a%b8-%ec%88%98-%ec%9e%88%ec%9d%84/), 2022-03-07-Mon.
+- [Goole's Artificial Intelligence App LaMDA Believes It's Human With Real Thoughts & Feelings](https://globalgrind.com/5342206/google-lambda-sentience/amp/), 2022-06-23-Thu.
 
 ----------
 
