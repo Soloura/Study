@@ -36,6 +36,9 @@ Mean = (2 * Accuracy_on_seen_class * Accuracy_on_unseen_class) / (Accuracy_on_se
 
 This can be thought of as a transfer learning approach where we try to transfer information from target classes.
 
+### One-shot Learning | [Wiki](https://en.wikipedia.org/wiki/One-shot_learning)
+One-shot learning is an object categorization problem, found mostly in computer vision. Whereas most machine learning-based object categorization algorithms require training on hundreds of thousands of samples, one-shot learning aims to classify objects from one, or only a few, samples.
+
 ----------
 
 ## Metric Learning
@@ -87,3 +90,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - An Introduction to Few-Shot Learning, https://www.analyticsvidhya.com/blog/2021/05/an-introduction-to-few-shot-learning/, 2022-02-23-Wed.
 - Classification without Training Data: Zero-shot Learning Approach, https://www.analyticsvidhya.com/blog/2022/02/classification-without-training-data-zero-shot-learning-approach/, 2022-02-23-Wed.
 - What is Few-Show Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
+- One-shot Learning WiKi, https://en.wikipedia.org/wiki/One-shot_learning, 2022-06-29-Wed.
