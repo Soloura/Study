@@ -16,7 +16,11 @@ IBM research suggest ML to evolve around the following segments in the future:
 ## Deep Learning (DL)
 Deep learning is actually comprised of neural networks. "Deep" in deep learning refers to a neural network comprised of more than three layers-which would be inclusive of the inputs and the output-can be considered a deep learning algorithm.
 
-----------
+## Neural Modeling Fields | [Wiki](https://en.wikipedia.org/wiki/Neural_modeling_fields)
+
+Neural Modeling Field (NMF) is a mathematical framework for machine learning which combines ideas from neural networks, fuzzy logic, and model based recognition. It has also been referred to as modeling fields, modeling fields theory (MFT), Maximum likelihood artificial neural networks (MLANS). This framework has been developed by Leonid Perlovsky at the AFRL. NMF is interpreted as a mathematical description of mind's mechanisms, including concepts, emotions, instincts, imagination, thinking, and understanding. NMF is a multi-level, hetero-hierarchical system. At each level in NMF there are concept-models encapsulating the knowledge; they generate so-called top-down signals, interacting with input, bottom-up signals. THese interactions are governed by dynamic equations, which drive concept-model learning, adaptation, and formation of new concept-models for better correspondence to the input, bottom-up signals.
+
+---
 
 ## [Mila](https://mila.quebec/en/mila/)
 Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila is a research institue in artificial intelligence that rallies nearly 900 researchers specializing in the field of machine learning.
@@ -27,16 +31,18 @@ Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila i
 
 ## [MIT CSAIL](https://www.csail.mit.edu/)
 
-----------
+---
 
 ## [GitHub Copilot](https://copilot.github.com/)
 
 ## [OpenAI Codex](https://openai.com/blog/openai-codex/)
 Codex is the model that powers GitHub Copilot.
 
-----------
+---
 
-#### Article related to AI
+# Article
+
+### related to AI
 - [인공일반지능(AGI), 시도해도 될까](https://www.technologyreview.kr/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
 - [Artificial general intelligence: Are we close, and does it even make sense to try?]( https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
 - [Meta's new learning algorithm can teach AI to multi-task](https://www.technologyreview.com/2022/01/20/1043885/meta-ai-facebook-learning-algorithm-nlp-vision-speech-agi/), 2022-02-14-Mon.
@@ -48,15 +54,13 @@ Codex is the model that powers GitHub Copilot.
 - [Can Computer Algorithms Learn about the Ethics of Warfare?](https://www.technologyreview.kr/%ec%bb%b4%ed%93%a8%ed%84%b0-%ec%95%8c%ea%b3%a0%eb%a6%ac%eb%93%ac%ec%9d%80-%ec%9c%a4%eb%a6%ac%ec%a0%81-%ec%a0%84%ed%88%ac%eb%b0%a9%eb%b2%95%ec%9d%84-%eb%b0%b0%ec%9a%b8-%ec%88%98-%ec%9e%88%ec%9d%84/), 2022-03-07-Mon.
 - [Goole's Artificial Intelligence App LaMDA Believes It's Human With Real Thoughts & Feelings](https://globalgrind.com/5342206/google-lambda-sentience/amp/), 2022-06-23-Thu.
 
-----------
-
-#### Article unrelated to AI
+### unrelated to AI
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
 - [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
 
-----------
+---
 
-#### Reference
+### Reference
 - What is artificial intelligence IBM, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence, 2022-02-12-Sat.
 - About Mila, https://mila.quebec/en/mila/, 2022-02-12-Sat.
 - DeepMind, https://deepmind.com/, 2022-02-13-Sun.
@@ -64,3 +68,4 @@ Codex is the model that powers GitHub Copilot.
 - GitHub Copilot, https://copilot.github.com/, 2022-02-13-Sun.
 - OpenAI Codex, https://openai.com/blog/openai-codex/, 2022-02-13-Sun.
 - What is Few-Shot Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
+- Neural Modeling Fields Wiki, https://en.wikipedia.org/wiki/Neural_modeling_fields, 2022-09-19-Mon.
