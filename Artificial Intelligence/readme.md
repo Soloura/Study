@@ -55,6 +55,7 @@ Codex is the model that powers GitHub Copilot.
 - [Goole's Artificial Intelligence App LaMDA Believes It's Human With Real Thoughts & Feelings](https://globalgrind.com/5342206/google-lambda-sentience/amp/), 2022-06-23-Thu.
 - [In-home wireless device tracks disease progression in Parkinson's patients](https://news.mit.edu/2022/home-wireless-parkinsons-progression-0921), 2022-09-26-Mon.
 - [LOLNeRF: Learn from One Look](https://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html), 2022-09-26-Mon.
+- [AL that can learn the patterns of human language](https://feedly.com/i/entry/NwHO2cNXnJxomKwaSvhGDBXV4Lc7B4INaC4YnMl3/fs=_182ef0744b0:4878f3:559ea8bd), 2022-09-26-Mon.
 
 ### unrelated to AI
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
