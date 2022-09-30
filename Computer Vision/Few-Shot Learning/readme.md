@@ -42,7 +42,7 @@ One-shot learning is an object categorization problem, found mostly in computer 
 ----------
 
 ## Metric Learning
-### *Siamese Neural Networks for One-shot Image Recognition* | [ICML 2015](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf)
+### *Siamese Neural Networks for One-shot Image Recognition* | [ICML 2015](https://www.cs.cmu.edu/~rsalakhu/papers/oneshot1.pdf) | [Blog (KR)](https://tyami.github.io/deep%20learning/Siamese-neural-networks/)
 
 - Siamese Neural Network | [Wiki](https://en.wikipedia.org/wiki/Siamese_neural_network)
 A Siamese neural network (twin NN) uses the same weights while working in tandem on two different input vectors to compute comparable output vectors.
@@ -76,9 +76,9 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 
 ### *Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples* | [Google AI Blog](https://ai.googleblog.com/2020/05/announcing-meta-dataset-dataset-of.html) | [ICLR 2020](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fopenreview.net%2Fattachment%3Fid%3DrkgAGAVKPr%26name%3Doriginal_pdf&clen=1281351)
 
-----------
+---
 
-#### Reference
+### Reference
 - Meta Learning Wiki, https://en.wikipedia.org/wiki/Meta_learning_(computer_science), 2021-12-14-Tue.
 - Few-Shot Learning Blog KR, https://www.kakaobrain.com/blog/106, 2021-10-19-Tue.
 - Edge-Learning Graph Neural Network for Few-shot Learning KR, https://www.kakaobrain.com/blog/112, 2021-12-14-Tue.
@@ -91,3 +91,4 @@ A Siamese neural network (twin NN) uses the same weights while working in tandem
 - Classification without Training Data: Zero-shot Learning Approach, https://www.analyticsvidhya.com/blog/2022/02/classification-without-training-data-zero-shot-learning-approach/, 2022-02-23-Wed.
 - What is Few-Show Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
 - One-shot Learning WiKi, https://en.wikipedia.org/wiki/One-shot_learning, 2022-06-29-Wed.
+- Siameses Network Blog KR, https://tyami.github.io/deep%20learning/Siamese-neural-networks/, 2022-09-30-Fri.
