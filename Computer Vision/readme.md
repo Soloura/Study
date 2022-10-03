@@ -24,7 +24,16 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 ----------
 
-## Object Recognition | Object Classification | :ballot_box_with_check:
+## Object Recognition | Object Classification | [MathWorks (KR)](https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html) | :ballot_box_with_check:
+
+객체 인식은 이미지 또는 비디오 상의 객체를 식별하는 컴퓨터 비전 기술입니다. 객체 인식은 딥러닝과 머신 러닝 알고리즘을 통해 산출되는 핵심 기술입니다. 사람은 사진 또는 비디오를 볼 때 인물, 물체, 장면 및 시각적 세부 사항을 쉽게 알아챌 수 있습니다. 이 기술의 목표는 이미지에 포함된 사항을 이해하는 수준의 능력과 같이 사람이라면 당연히 할 수 있는 일을 컴퓨터도 할 수 있도록 학습시키는 것입니다.
+
+객체 인식은 무인 자동차에서 활용되는 핵심 기술로, 자동차가 정지 신호를 인식하고 보행자와 가로등을 구별할 수 있도록 합니다. 또한 객체 인식 기술은 바이오이미징에서의 질병 식별, 산업 검사 및 로봇 비전과 같은 여러 분야에서 활용할 수 있습니다.
+
+### 객체 인식과 객체 감지의 차이점
+
+객체 감지(Object detection)와 객체 인식(Object recognition)은 서로 유사한 객체 식별 기술이지만, 실행 방식은 서로 다릅니다. 객체 감지는 이미지에서 객체의 인스턴스를 찾아내는 프로세스입니다. 딥러닝의 경우 객체 감지는 이미지에서 객체를 식별할 뿐 아니라 위치까지 파악되는 객체 인식의 서브셋입니다. 이를 통해 하나의 이미지에서 여러 객체를 식별하고 각 위치를 파악할 수 있습니다.
+
 ### *Haar-like Feature* | [Wiki](https://en.wikipedia.org/wiki/Haar-like_feature)
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
@@ -274,9 +283,9 @@ def mish(x):
 ### *Does Colour Really Matter? Evaluation via Object Classification* | [Homepage](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
 ResNet-50 trained with color images performed better in object classification by 12% than that of gray images. For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
 
-----------
+---
 
-#### Reference
+### Reference
 - Blog KR: [Laon People Machine Learning Academy](https://blog.naver.com/laonple/220463627091)
 - Book KR: [컴퓨터 비전과 딥러닝 (Deep Learning for Computer Vision](http://www.yes24.com/Product/Goods/63830791)
 - Book KR: [실전! 텐서플로 2를 활용한 딥러닝 컴퓨터 비전](http://www.yes24.com/Product/Goods/90365150)
@@ -327,3 +336,4 @@ ResNet-50 trained with color images performed better in object classification by
 - YOLOv5 GitHub, https://github.com/ultralytics/yolov5, 2022-01-17-Mon.
 - YOLOv5 Docs, https://docs.ultralytics.com/, 2022-01-17-Mon.
 - SequeezeSeqV2, Darknet51, Darknet52 Blog KR, https://www.wenyanet.com/opensource/ko/6114b45841db8a44780b2403.html, 2022-01-17-Mon.
+- 객체 인식 Mathworks KR, https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html, 2022-10-03-Mon.
