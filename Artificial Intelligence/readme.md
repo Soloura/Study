@@ -61,6 +61,10 @@ Codex is the model that powers GitHub Copilot.
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
 - [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
 
+### MLOps | [Databricks](https://www.databricks.com/glossary/mlops)
+
+MLOps stands for Machine Learning Operations. MLOps is a core function of Machine Learning engineering, focused on streamlining the process of taking machine learning models to production, and then maintaining and monitoring them. MLOps is a collaborative function, often comprising data scientists, devops engineers, and IT.
+
 ---
 
 ### Reference
@@ -72,3 +76,4 @@ Codex is the model that powers GitHub Copilot.
 - OpenAI Codex, https://openai.com/blog/openai-codex/, 2022-02-13-Sun.
 - What is Few-Shot Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
 - Neural Modeling Fields Wiki, https://en.wikipedia.org/wiki/Neural_modeling_fields, 2022-09-19-Mon.
+- MLOps Databricks, https://www.databricks.com/glossary/mlops, 2022-10-04-Tue.
