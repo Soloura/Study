@@ -26,6 +26,8 @@ Casual Learning is a more relaxted approach to finding out how to do new things.
 
 Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you;re actually interested in.
 
+### Online Learning | [Blog (KR)](https://daeson.tistory.com/225)
+
 ---
 
 ## [Mila](https://mila.quebec/en/mila/)
@@ -84,3 +86,4 @@ MLOps stands for Machine Learning Operations. MLOps is a core function of Machin
 - Neural Modeling Fields Wiki, https://en.wikipedia.org/wiki/Neural_modeling_fields, 2022-09-19-Mon.
 - MLOps Databricks, https://www.databricks.com/glossary/mlops, 2022-10-04-Tue.
 - Casual Learning Distributed Training, https://distributedtraining.com/casual-learning/, 2022-10-07-Fri.
+- Online Learning Blog KR, https://daeson.tistory.com/225, 2022-10-07-Fri.
