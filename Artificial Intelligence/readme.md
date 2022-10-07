@@ -20,6 +20,12 @@ Deep learning is actually comprised of neural networks. "Deep" in deep learning 
 
 Neural Modeling Field (NMF) is a mathematical framework for machine learning which combines ideas from neural networks, fuzzy logic, and model based recognition. It has also been referred to as modeling fields, modeling fields theory (MFT), Maximum likelihood artificial neural networks (MLANS). This framework has been developed by Leonid Perlovsky at the AFRL. NMF is interpreted as a mathematical description of mind's mechanisms, including concepts, emotions, instincts, imagination, thinking, and understanding. NMF is a multi-level, hetero-hierarchical system. At each level in NMF there are concept-models encapsulating the knowledge; they generate so-called top-down signals, interacting with input, bottom-up signals. THese interactions are governed by dynamic equations, which drive concept-model learning, adaptation, and formation of new concept-models for better correspondence to the input, bottom-up signals.
 
+### Casual Learning | [Distributed Training](https://distributedtraining.com/casual-learning/)
+
+Casual Learning is a more relaxted approach to finding out how to do new things.
+
+Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you;re actually interested in.
+
 ---
 
 ## [Mila](https://mila.quebec/en/mila/)
@@ -77,3 +83,4 @@ MLOps stands for Machine Learning Operations. MLOps is a core function of Machin
 - What is Few-Shot Learning? Methods & Applications in 2022, https://research.aimultiple.com/few-shot-learning/, 2022-02-28-Mon.
 - Neural Modeling Fields Wiki, https://en.wikipedia.org/wiki/Neural_modeling_fields, 2022-09-19-Mon.
 - MLOps Databricks, https://www.databricks.com/glossary/mlops, 2022-10-04-Tue.
+- Casual Learning Distributed Training, https://distributedtraining.com/casual-learning/, 2022-10-07-Fri.
