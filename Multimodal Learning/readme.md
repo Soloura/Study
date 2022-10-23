@@ -3,6 +3,50 @@
 Information in the real world usually comes as different modalities. For example, images are usually associated with tags and text explanations; text contains images to more clearly express the main idea of the article. Different modalities are characterized by different statistical properties. For instance, images are
 usually represented as pixel intensities or outputs of feature extractors, while texts are represented as discrete word count vectors. Due to the distinct statistical properties of different information resources, it is important to discover the relationship between different modalities. Multimodal learning is a good model to represent the joint representations of different modalities. The multimodal learning model is also capable of supplying a missing modality based on observed ones. The multimodal learning model combines two deep Boltzmann machines, each corresponding to one modalilty. An addtional hidden layer is placed on top of the two Boltzmann Machines to produce the joint representation.
 
+---
+
+## Overview | [Blog (KR)](https://seunghan96.github.io/mult/study-(multi)Multimodal-Learning%EC%86%8C%EA%B0%9C/)
+
+Multimodal learning은 다양한 형태 (modality) 데이터를 사용하여 모델을 학습한다.: vision, text, speech, touch, smell, and meta data
+
+변수들의 차원이 다르다.
+
+Expression:
+
+Single-modal: y = f(X_n^p)
+
+Multi-modal: y = f(X_term^doc, X_(x, y)^color, X_time^voice, X_time^sensor)
+
+Key Point:
+
+어떻게 특징 차원이 다른 데이터를 동시에 잘 학습할 수 있을까? - 각각의 데이터의 특성을 잘 통합하는 것에 있다.
+
+Multimodal learning은 여러 source의 데이터를 통합하는 방식에 따라 구분할 수 있다.
+
+1. 다른 특성의 데이터를 embedding하여 특성이 같은 데이터로 추출한다. ex) Deep CCA (Deep Canonical Correlation Analysis). (u, v) =argmax corr (uTX, vTY)
+
+2. 각기 다른 Model의 예측 값을 통합한다(Co-training, Ensemble). 각각의 모델은 다른 가중치를 가지고 통합된다. P(Y) = sum{text, speech, vision}gamma*P(Y) (gamma = weight)
+
+3. 각각의 데이터는 각자의 neural network를 통해 학습된 뒤, 거기서 추출된 embedding vector를 (선형) 결합한다.
+ex1) Multimodal CNN (m-CNN): image와 text의 matching 정도 관계 파악 - image/text 특징을 concatenate하는 nn, concatenate된 vector로써 최종 예측을 하는 nn,
+ex2) Multimodal RNN (m-RNN): image와 관련된 text를 생성 - 시계열 특성을 파악하는 nn, image/text의 특징을 concatenate하는 nn
+
+Challenges:
+
+1. Representation: multimodal data를 어떻게 잘 highly correlated할 것인지?
+method1) joint representation: 두 data가 합쳐진 뒤 하나의 representation.
+method2) coordinated representation: 두 data가 각각 축약된 뒤, 이들을 서로 concatemate - ex) Deep Data
+
+2. Translation: entity를 다른 modality의 entity로 변환/생성
+
+3. Alignment: 서로 다른 modality의 데이터의 관계를 파악
+
+4. Fusion: 서로 다른 modality의 데이터를 잘 결합하여 예측을 수행
+
+5. Co-learning: knowledge가 부족한 특정 modality의 데이터를 knowledge가 풍부한 다른 modality의 데이터를 사용하여 보완
+
+---
+
 ### A Generalist Agent | [DeepMind](https://www.deepmind.com/publications/a-generalist-agent)
 The agent, Gato, works as a multi-modal, multi-task, multi-embodiment generalist policy. The same network with the same weights can play Atari, caption images, chat, stack blocks with a real robot arm and much more, deciding based on its context whether to ouput text, joint torques, button presses, or other tokens.
 
@@ -51,3 +95,4 @@ Imagen: imagine, illustrate, inspire.
 - Imagen, https://imagen.research.google/, 2022-09-30-Fri.
 - Imagen GitHub, https://github.com/lucidrains/imagen-pytorch, 2022-09-30-Fri.
 - Imagen arXiv, https://arxiv.org/abs/2205.11487, 2022-09-30-Fri.
+- Multimodal Learning Blog KR, https://seunghan96.github.io/mult/study-(multi)Multimodal-Learning%EC%86%8C%EA%B0%9C/, 2022-10-23-Sun.
