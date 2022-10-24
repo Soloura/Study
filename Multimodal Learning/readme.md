@@ -45,6 +45,13 @@ method2) coordinated representation: 두 data가 각각 축약된 뒤, 이들을
 
 5. Co-learning: knowledge가 부족한 특정 modality의 데이터를 knowledge가 풍부한 다른 modality의 데이터를 사용하여 보완
 
+## Survey | [Blog (KR)](https://techy8855.tistory.com/20)
+
+1. Representation: multiple modalities를 어떻게 잘 결합할 것인가? - Joint method, Combinded method, nn의 vector representation을 어떻게 할 것인가.
+2. Translation: 하나의 modality가 다른 modality로 옮겨져 갈 때, 이 관계를 학습한다. Uni-modality로는 한국-영어 번역 모델이 있고, multi-modality의 경우, 문장을 쓰면 그 문장이 이미지화되는 모델이다.
+3. Alignment: multi modality 간의 직접적인 관계를 학습하는 것으로, multimodal pair (x, y, z)를 align(pairing)하여 조합 자체를 학습한다.
+4. Fusion: multi-modality에서 나온 각각의 정보를 잘 조합해서 최종 예측에 사용한다.
+
 ---
 
 ### A Generalist Agent | [DeepMind](https://www.deepmind.com/publications/a-generalist-agent)
@@ -95,4 +102,5 @@ Imagen: imagine, illustrate, inspire.
 - Imagen, https://imagen.research.google/, 2022-09-30-Fri.
 - Imagen GitHub, https://github.com/lucidrains/imagen-pytorch, 2022-09-30-Fri.
 - Imagen arXiv, https://arxiv.org/abs/2205.11487, 2022-09-30-Fri.
-- Multimodal Learning Blog KR, https://seunghan96.github.io/mult/study-(multi)Multimodal-Learning%EC%86%8C%EA%B0%9C/, 2022-10-23-Sun.
+- Multimodal Learning Overview Blog KR, https://seunghan96.github.io/mult/study-(multi)Multimodal-Learning%EC%86%8C%EA%B0%9C/, 2022-10-23-Sun.
+- Multimodal Learning Survey Blog KR, https://techy8855.tistory.com/20, 2022-10-24-Mon.
