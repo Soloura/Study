@@ -53,7 +53,7 @@ Learn at your own pace, in your own time and just what you want to know about, n
 ### Lifelong Learning | Continual Learning | [Blog (KR)](https://realblack0.github.io/2020/03/22/lifelong-learning.html)
 
 Methods:
-- 1. Regularization: NN의 weight를 예전 task의 성능에 기여한 중요도에 따라 weight update를 제한 - 중요한 weight일 수록 semantic drift가 발생하지 않도록 하여 multi task가 가능
+1. Regularization: NN의 weight를 예전 task의 성능에 기여한 중요도에 따라 weight update를 제한 - 중요한 weight일 수록 semantic drift가 발생하지 않도록 하여 multi task가 가능
    - Elastic Weight Consolidation (EWC) by Google Deepmind
      - Task에 대한 conditional probabilty를 사용
        - logP(sigma|D) = logp(D|sigma) + logp(sigma) - logp(D) = logp(Db|sigma) + logp(sigma|Da) - logp(Db)
@@ -64,25 +64,25 @@ Methods:
        - With L2 regularization, new task의 성능을 포기하는 만큼 old task의 성능을 보존 -> multi task 모두 만족시키지 못하는 성능에 수렴
        - With EWC, old task 성능 유지하며 old task의 성능을 최대화 weight를 찾음 -> multi task 오차가 적은 교집합 부분으로 weight 갱신
 
-- 2. Structure: NN의 구조를 동적으로 변경 - node/layer 추가
-  - Progressive Network by Google Deepmind
-    - Method
-      - Transfer learning model은 pre-trained weight를 초기화 단계에서 통합
-      - Progressive networks는 new task 학습 때 pre-trained를 남겨둠
-      - New task 학습할 때 NN에 sub network을 추가하여 구조를 변경
-      - Sub network은 new task를 학습하는데만 사용
-      - Pre-trained weight로부터 유용한 feature 추출하여 sub network 학습에 활용
-    - Training
-      - Task 1 학습할 때, 기본 NN 사용
-      - Task 2 학습할 때, sub network 추가, 기존 NN의 weight 고정(catastrphic forgetting 방지), 기존 NN의 i-th layer의 output은 sub network의 i+1-th layer의 추가 input으로 사용 - 기존 weight를 sub network에 통합하는 과정을 lateral connection(측면 연결)이라 함
-      - Task 3 학습할 때, task 2 때와 같이, sub network 추가, 기존 NN의 weight 고정, laternal connection
-      - 각 task 학습 이후 새로운 NN(column)을 추가하는 방법으로 catastrophic forgetting 방지, lateral connection으로 knowledge transfer
+2. Structure: NN의 구조를 동적으로 변경 - node/layer 추가
+   - Progressive Network by Google Deepmind
+     - Method
+       - Transfer learning model은 pre-trained weight를 초기화 단계에서 통합
+       - Progressive networks는 new task 학습 때 pre-trained를 남겨둠
+       - New task 학습할 때 NN에 sub network을 추가하여 구조를 변경
+       - Sub network은 new task를 학습하는데만 사용
+       - Pre-trained weight로부터 유용한 feature 추출하여 sub network 학습에 활용
+     - Training
+       - Task 1 학습할 때, 기본 NN 사용
+       - Task 2 학습할 때, sub network 추가, 기존 NN의 weight 고정(catastrphic forgetting 방지), 기존 NN의 i-th layer의 output은 sub network의 i+1-th layer의 추가 input으로 사용 - 기존 weight를 sub network에 통합하는 과정을 lateral connection(측면 연결)이라 함
+       - Task 3 학습할 때, task 2 때와 같이, sub network 추가, 기존 NN의 weight 고정, laternal connection
+       - 각 task 학습 이후 새로운 NN(column)을 추가하는 방법으로 catastrophic forgetting 방지, lateral connection으로 knowledge transfer
 
-- 3. Memory
-  - Deep Generative Replay by SK T-Brain
+3. Memory
+    - Deep Generative Replay by SK T-Brain
 
-- 4. Fusion
-  - Dynamically Expandable Network 
+4. Fusion
+    - Dynamically Expandable Network 
 
 ### Catastrophic Forgetting
 
