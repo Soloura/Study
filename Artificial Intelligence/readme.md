@@ -62,13 +62,24 @@ Methods:
      - Comparison 
        - With no penalty, weight는 old task의 최적화 범위를 벗어나 new task에만 최적화 -> semantic drift, catastrophic forgetting
        - With L2 regularization, new task의 성능을 포기하는 만큼 old task의 성능을 보존 -> multi task 모두 만족시키지 못하는 성능에 수렴
-       - With EWC, old task 성능 유지하며 old task의 성능을 최대화하는 weight를 찾음 -> multi task 오차가 적은 교집합 부분으로 weight 갱신
+       - With EWC, old task 성능 유지하며 old task의 성능을 최대화 weight를 찾음 -> multi task 오차가 적은 교집합 부분으로 weight 갱신
 
-- Structure
-  - Progressive Network
+- Structure: NN의 구조를 동적으로 변경 - node/layer 추가
+  - Progressive Network by Google Deepmind
+    - Method
+      - Transfer learning model은 pre-trained weight를 초기화 단계에서 통합
+      - Progressive networks는 new task 학습 때 pre-trained를 남겨둠
+      - New task 학습할 때 NN에 sub network을 추가하여 구조를 변경
+      - Sub network은 new task를 학습하는데만 사용
+      - Pre-trained weight로부터 유용한 feature 추출하여 sub network 학습에 활용
+    - Training
+      - Task 1 학습할 때, 기본 NN 사용
+      - Task 2 학습할 때, sub network 추가, 기존 NN의 weight 고정(catastrphic forgetting 방지), 기존 NN의 i-th layer의 output은 sub network의 i+1-th layer의 추가 input으로 사용 - 기존 weight를 sub network에 통합하는 과정을 lateral connection(측면 연결)이라 함
+      - Task 3 학습할 때, task 2 때와 같이, sub network 추가, 기존 NN의 weight 고정, laternal connection
+      - 각 task 학습 이후 새로운 NN(column)을 추가하는 방법으로 catastrophic forgetting 방지, lateral connection으로 knowledge transfer
 
 - Memory
-  - Deep Generative Replay
+  - Deep Generative Replay by SK T-Brain
 
 - Fusion
   - Dynamically Expandable Network 
