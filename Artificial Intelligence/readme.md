@@ -55,7 +55,14 @@ Learn at your own pace, in your own time and just what you want to know about, n
 Methods:
 - Regularization: NN의 weight를 예전 task의 성능에 기여한 중요도에 따라 weight update를 제한 - 중요한 weight일 수록 semantic drift가 발생하지 않도록 하여 multi task가 가능
    - Elastic Weight Consolidation (EWC) by Google Deepmind
-     - With no penalty, 
+     - Task에 대한 conditional probabilty를 사용
+       - logP(sigma|D) = logp(D|sigma) + logp(sigma) - logp(D) = logp(Db|sigma) + logp(sigma|Da) - logp(Db)
+     - Fi(Fisher Information Matrix)를 활용하여 weight parameter에 제한을 가하는 loss function을 사용
+       - L(sigma) = Lb(sigma) + sum(lambda/2)Fi(sigmai-sigmaAi)**
+     - Comparison 
+       - With no penalty, weight는 old task의 최적화 범위를 벗어나 new task에만 최적화 -> semantic drift, catastrophic forgetting
+       - With L2 regularization, new task의 성능을 포기하는 만큼 old task의 성능을 보존 -> multi task 모두 만족시키지 못하는 성능에 수렴
+       - With EWC, old task 성능 유지하며 old task의 성능을 최대화하는 weight를 찾음 -> multi task 오차가 적은 교집합 부분으로 weight 갱신
 
 - Structure
   - Progressive Network
