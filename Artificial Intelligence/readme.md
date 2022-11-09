@@ -50,7 +50,7 @@ Learn at your own pace, in your own time and just what you want to know about, n
 - Cons
   - More resources required
   
-### Lifelong Learning | [Blog (KR)](https://realblack0.github.io/2020/03/22/lifelong-learning.html)
+### Lifelong Learning | Continual Learning | [Blog (KR)](https://realblack0.github.io/2020/03/22/lifelong-learning.html)
 
 ### Catastrophic Forgetting
 
