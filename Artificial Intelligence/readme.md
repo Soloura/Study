@@ -59,6 +59,24 @@ Learn at your own pace, in your own time and just what you want to know about, n
 
 ### Online Learning | [Blog (KR)](https://daeson.tistory.com/225)
 
+- Characteristic
+  - Learn model with sequencial data or mini-batch data
+  - Learn model with new data
+- Pros
+  - Fast
+  - Less resources
+- Cons
+  - According to learning rate, recent or past pattern can be forgotten
+
+### Offline Learning | Batch Learning | [Blog (KR)](https://irron2004.tistory.com/2)
+
+- Characteristic
+  - Use all data to learn model
+  - Need to use previous data to learn model with new data
+- Pros
+- Cons
+  - More resources required
+
 ---
 
 ### [Mila](https://mila.quebec/en/mila/)
