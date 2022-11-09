@@ -52,6 +52,20 @@ Learn at your own pace, in your own time and just what you want to know about, n
   
 ### Lifelong Learning | Continual Learning | [Blog (KR)](https://realblack0.github.io/2020/03/22/lifelong-learning.html)
 
+Methods:
+- Regularization: NN의 weight를 예전 task의 성능에 기여한 중요도에 따라 weight update를 제한 - 중요한 weight일 수록 semantic drift가 발생하지 않도록 하여 multi task가 가능
+   - Elastic Weight Consolidation (EWC) by Google Deepmind
+     - With no penalty, 
+
+- Structure
+  - Progressive Network
+
+- Memory
+  - Deep Generative Replay
+
+- Fusion
+  - Dynamically Expandable Network 
+
 ### Catastrophic Forgetting
 
 - Characteristic
