@@ -79,7 +79,14 @@ Methods:
        - 각 task 학습 이후 새로운 NN(column)을 추가하는 방법으로 catastrophic forgetting 방지, lateral connection으로 knowledge transfer
 
 3. Memory
-    - Deep Generative Replay by SK T-Brain
+    - Deep Generative Replay (DGR) by SK T-Brain: 생물학적 기억 mechanism을 모방 <-> regularization, structure는 NN modeling 방식
+      - 뇌의 해마를 모방하여 만든 알고리즘
+        - 해마는 뇌로 들어온 감각 정보를 단기간 저장하고 있다가 이를 대뇌피질로 보내 장기 기억으로 저장하거나 삭제
+        - DGR은 단기 기억과 장기 기억의 상보적 학습 관계를 generator와 solver로 구현
+        - Generator는 GAN 기반, 학습했던 데이터와 유사한 데이터를 replay
+        - Solver는 주어진 task를 해결하는 장기 기억 역할, new task를 학습할 때 generator가 생성한 old task에 대한 데이터를 동시에 학습
+        - 다른 모델에 학습된 지식을 전달하는 것도 가능 - Scholar(학자) model
+      - Training 
 
 4. Fusion
     - Dynamically Expandable Network 
