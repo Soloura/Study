@@ -86,7 +86,13 @@ Methods:
         - Generator는 GAN 기반, 학습했던 데이터와 유사한 데이터를 replay
         - Solver는 주어진 task를 해결하는 장기 기억 역할, new task를 학습할 때 generator가 생성한 old task에 대한 데이터를 동시에 학습
         - 다른 모델에 학습된 지식을 전달하는 것도 가능 - Scholar(학자) model
-      - Training 
+      - Training
+        - DGR은 Task N개를 순차적으로 학습
+        - Task 1을 학습할 때, generator는 데이터를 replay하도록 학습, solver는 task 1에 대해 학습, 이 상태를 scholar 1
+        - Task 2부터 단기 기억 사용, Task 2의 데이터를 x, 정답을 y라 하고 generator가 task 1을 replay한 것을 y'라 하면, generator는 x와 x'을 동시에 replay하도록 학습
+        - x'을 solver에 입력하여 얻은 결과를 y'라 하면, solver는 아직 task 2를 학습하기 전이므로 x'와 y'는 task 1의 데이터를 재현한 것과 그에 대한 예측
+        - x, y, x', y'을 모두 사용하여 task 1과 task 2를 동시에 수행할 수 있도록 solver를 학습
+        - 새로운 task를 학습하면서 catastrophic forgetting을 막음
 
 4. Fusion
     - Dynamically Expandable Network 
