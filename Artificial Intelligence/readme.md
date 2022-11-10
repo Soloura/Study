@@ -95,7 +95,25 @@ Methods:
         - 새로운 task를 학습하면서 catastrophic forgetting을 막음
 
 4. Fusion
-    - Dynamically Expandable Network 
+    - Dynamically Expandable Network (DEN) by KAIST
+      - Regularization과 structure 접근법을 혼합
+        - 최초 task 1에 대한 학습은 L1 regularization을 이용하여 weight가 sparsely 학습
+        - Weight가 0일 경우 model에서 해당 weight parameter 삭제
+        - 새로운 task 학습
+        - Selective retraining 단계, 중요한 node 탐색, weight 갱신
+          - Layer 1까지의 weight 고정, L1 regularization 학습, task B 학습에 중요한 layer 2의 node를 찾을 수 있음
+          - Node를 따라가면 task B를 학습하는데 중요한 node와 weight를 찾을 수 있음
+          - 탐색이 끝나면 L2 regularization으로 학습하며 중요한 node와 weight를 미세 조정
+        - Dynamic network expansion 단계, 새로운 task를 학습하는데 모델의 capacity가 부족할 경우 network를 확장
+          - Selective retraining 결과, 새로운 task에 대한 loss가 threshold 이상일 경우, 모델의 capacitiy가 부족하다 판단
+          - Layer 별로 임의의 개수 만큼 node 추가
+          - Group sparsity regularization을 이용해 추가된 k개의 node 중 필요 없는 nodes 제거, 제거되지 않은 node도 sparse하게 함
+        - Network split/duplication 단계, sematic drift 확인 및 해소
+          - Task B를 학습하기 전 weight와 학습 후 weight 사이의 L2 distance 계산
+          - L2 distance가 임계치를 넘으면 semantic drift가 발생했다고 판단, 해당 node를 복제하여 layer에 추가
+          - 임계치를 넘은 node가 기존 값을 유지하도록 regularization으로 규제하며 모델이 재학습하도록 함
+        - DEN의 학습 과정은 이전 task에 관련된 weight는 최대한 유지하면서 새로운 task를 학습하기 때문에 catastrophic forgetting 예방
+        - Progressive netoworks보다 capacity를 효율적으로 
 
 ### Catastrophic Forgetting
 
