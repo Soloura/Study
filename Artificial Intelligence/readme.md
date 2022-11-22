@@ -163,6 +163,9 @@ Codex is the model that powers GitHub Copilot.
 - [In-home wireless device tracks disease progression in Parkinson's patients](https://news.mit.edu/2022/home-wireless-parkinsons-progression-0921), 2022-09-26-Mon.
 - [LOLNeRF: Learn from One Look](https://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html), 2022-09-26-Mon.
 - [AL that can learn the patterns of human language](https://feedly.com/i/entry/NwHO2cNXnJxomKwaSvhGDBXV4Lc7B4INaC4YnMl3/fs=_182ef0744b0:4878f3:559ea8bd), 2022-09-26-Mon.
+- [메타 논문 생성 AI '갤럭티카' 수준미달로 3일만에 폐쇄](http://www.aitimes.com/news/articleView.html?idxno=148034), 2022-11-22-Tue.
+- ["품질이 형편없네"... 메타가 만든 AI챗봇, 이대로 괜찮나](http://www.aitimes.com/news/articleView.html?idxno=146343), 2022-11-22-Tue.
+- [원하는 텍스트 콘텐츠 생성해주는 앱 '노션 AI'](http://www.aitimes.com/news/articleView.html?idxno=147997), 2022-11-22-Tue.
 
 ### Articles unrelated to AI
 
