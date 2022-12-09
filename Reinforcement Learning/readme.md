@@ -44,7 +44,11 @@ Q(s, a) = V(s) + A(a) ... [Eq. 4]
 
 Dueling DQN은 어드밴티지 함수와 가치 함수를 분리하여 계산하고 마지막 계층에서만 조합하여 하나의 Q 함수로 만들어주는 네트워크이다. 에이전트가 특정 시간에 가치와 어드밴티지 둘 다에 대해 신경 쓰지는 않을 수 있다. 특정 액션과 연결될 필요를 없애면 상태를 더 robust 추정 값을 얻을 수 있다.
 
-----------
-#### Reference
+### Learning from Human Preferences | [OpenAI](https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/)
+
+---
+
+### Reference
 - 강화학습 첫걸음, 아서 줄리아니, 송교석, 한빛미디어
 - 파이썬과 케라스로 배우는 강화학습, 이웅원, 양혁렬, 김건우, 이영무, 이의령, 위키북스 
+- Learning from Human Preferences, https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/, 2022-12-09-Fri.
