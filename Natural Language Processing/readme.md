@@ -53,6 +53,12 @@ Language Models are Few-Shot Learners
 
 Linguistic models deal with statements as they are used to express meanings. While fact models focus on simple operational meanings within a given conceptual commitment (existence of objects, discernablility of objects as representatives of certain concepts, characteristics of individual objects and relationships between objects), linguistic models focus on meanings corresponding to the conceptual commitment itself, regardless of the actual objects such as what are the charcteristics of concepts, how concepts are defined in terms of other concepts, and what relationships between concepts are necessary, permissible or obligatory. Thus statements in fact models describe individual views while statements in linguistic models describe viewpoints. Linguistic models focus at the definitions of new meanings, therefore they facilitate unconstrained communications where new meanings are defined on-the-fly. The flexibility of unrestricted linguistic communication comes with a price: the intended meaning needs to be unraveled from the expression, and the more complex the meaning, the more complex is the unraveling process. The key challenge of unrestricted linguistic communication is not so much in parsing a natural language sentence (which can be quite complex) but rather in dealing with complex meanings that are defined on-the-fly by some sentences and are used in the follow-up sentences. For example, we can say: “Remember the nuts-and-bolts illustrations from the previous chapter? Did you notice that there are a total of 35 nuts visible in these figures?” While humans routinely deal with the dynamic updates to the conceptual commitment, it is a barrier for machine-to-machine information exchanges.
 
+---
+
+# Speech
+
+### Whisper | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf)
+
 ## Lecture
 ### 딥러닝을 이용한 자연어 처리 (조경현 교수님) | [Homepage](https://www.edwith.org/deepnlp)
 
@@ -80,3 +86,6 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 - OpenAI ChatGPT Try, https://chat.openai.com/auth/login, 2022-12-09-Fri.
 - OpenAI InstructGPT, https://openai.com/blog/instruction-following/, 2022-12-09-Fri.
 - OpenAI InstructGPT arXiv, https://arxiv.org/abs/2203.02155, 2022-12-09-Fri.
+- Whisper, https://openai.com/blog/whisper/, 2022-12-10-Sat.
+- Whisper GitHub, https://github.com/openai/whisper, 2022-12-10-Sat.
+- Whisper Paper, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf, 2022-12-10-Sat.
