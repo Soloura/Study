@@ -48,6 +48,8 @@ Dueling DQN은 어드밴티지 함수와 가치 함수를 분리하여 계산하
 
 Periodically, two video clips of its behavior are given to a human, and the human decides which of the two clips is closest to fulfilling its goal - in this case, a backflip. The AI gradually builds a model of the goal of the task by finding the reward function that best explains the human's judgments. It then uses RL to learn how to achieve that goal. As its behavior improves, it continues to ask for human feedback on trajectory pairs where it's most uncertain about which is better, and further refines its understanding of the goal.
 
+### AlphaCode
+
 ---
 
 ### Reference
