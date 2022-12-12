@@ -166,6 +166,7 @@ Codex is the model that powers GitHub Copilot.
 - [메타 논문 생성 AI '갤럭티카' 수준미달로 3일만에 폐쇄](http://www.aitimes.com/news/articleView.html?idxno=148034), 2022-11-22-Tue.
 - ["품질이 형편없네"... 메타가 만든 AI챗봇, 이대로 괜찮나](http://www.aitimes.com/news/articleView.html?idxno=146343), 2022-11-22-Tue.
 - [원하는 텍스트 콘텐츠 생성해주는 앱 '노션 AI'](http://www.aitimes.com/news/articleView.html?idxno=147997), 2022-11-22-Tue.
+- [딥마인드, 코드 생성 AI '알파코드' 공개](http://www.aitimes.com/news/articleView.html?idxno=148344)
 
 ### Articles unrelated to AI
 
