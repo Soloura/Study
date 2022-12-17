@@ -125,6 +125,12 @@ Methods:
 
 - Characteristic
   - Node or wieght can be changed, when pre-trained weight has been excessively adjusted in the process of new learning
+  
+### Federated Learning | [WiKi](https://en.wikipedia.org/wiki/Federated_learning)
+
+Federated Learning (also known as collaborative learning) is a machine learning technique that trains an algorithm across multiple decentralized edge devices or servers holding local data samples, without exchaning them. This approach stands in contrast to traditional centralized machine learning techniques where all the local datasets are uploaded to one server, as well as to more classical decentralized approaches which often assume that local data samples are identically distributed.
+
+Federated learning enables multiple actors to build a common, robust machine learning model without sharing data, thus allowing to address critical issues such as data privacy, data security, data access rights and access to heterogeneous data. Its applicaitons are spread over a number of industires including defences, telecommunications, IoT, and pharmaceutices. A major open question at the moment is how inferior models learned through federated data are relative to ones where the data are pooled. Another open question concerns the trustworthiness of the edge devices and the impact of malicious actors on the learned model.
 
 ---
 
@@ -220,3 +226,4 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - MLOps Google Cloud, https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning, 2022-10-11-Tue.
 - Batch Learning Offline Learning Online Learning Blog KR, https://irron2004.tistory.com/2, 2022-11-09-Wed.
 - Lifelong Learning Blog KR, https://realblack0.github.io/2020/03/22/lifelong-learning.html, 2022-11-09-Wed.
+- Federated Learning WiKi, https://en.wikipedia.org/wiki/Federated_learning, 2022-12-17-Sat.
