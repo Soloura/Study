@@ -18,15 +18,14 @@
 - [메타 논문 생성 AI '갤럭티카' 수준미달로 3일만에 폐쇄](http://www.aitimes.com/news/articleView.html?idxno=148034), 2022-11-22-Tue.
 - ["품질이 형편없네"... 메타가 만든 AI챗봇, 이대로 괜찮나](http://www.aitimes.com/news/articleView.html?idxno=146343), 2022-11-22-Tue.
 - [원하는 텍스트 콘텐츠 생성해주는 앱 '노션 AI'](http://www.aitimes.com/news/articleView.html?idxno=147997), 2022-11-22-Tue.
-- [딥마인드, 코드 생성 AI '알파코드' 공개](http://www.aitimes.com/news/articleView.html?idxno=148344)
-- [애플, 완전 자율주행차 개발 포기하나](http://www.aitimes.com/news/articleView.html?idxno=148301)
-- [구글, 챗GPT 옆룽에 '코드 레드' 발령](http://www.aitimes.com/news/articleView.html?idxno=148599)
-- [AI를 이용해 한 달간 '가짜 인생'을 산 남자](http://www.aitimes.com/news/articleView.html?idxno=148550)
+- [딥마인드, 코드 생성 AI '알파코드' 공개](http://www.aitimes.com/news/articleView.html?idxno=148344), 2022-12-24-Sat.
+- [애플, 완전 자율주행차 개발 포기하나](http://www.aitimes.com/news/articleView.html?idxno=148301), 2022-12-24-Sat.
+- [구글, 챗GPT 옆룽에 '코드 레드' 발령](http://www.aitimes.com/news/articleView.html?idxno=148599), 2022-12-24-Sat.
+- [AI를 이용해 한 달간 '가짜 인생'을 산 남자](http://www.aitimes.com/news/articleView.html?idxno=148550), 2022-12-24-Sat.
 
 ## Articles unrelated to AI
 
 - [이베이코리아 인수전](https://it.donga.com/31732/), 2021-03-28-Mon.
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
 - [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
-- [애플, '탈중국' 박차...대체지는 베트남과 인도](http://www.aitimes.com/news/articleView.html?idxno=1485920)
-- 
+- [애플, '탈중국' 박차...대체지는 베트남과 인도](http://www.aitimes.com/news/articleView.html?idxno=1485920), 2022-12-24-Sat.
