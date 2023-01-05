@@ -22,6 +22,7 @@
 - [애플, 완전 자율주행차 개발 포기하나](http://www.aitimes.com/news/articleView.html?idxno=148301), 2022-12-24-Sat.
 - [구글, 챗GPT 옆룽에 '코드 레드' 발령](http://www.aitimes.com/news/articleView.html?idxno=148599), 2022-12-24-Sat.
 - [AI를 이용해 한 달간 '가짜 인생'을 산 남자](http://www.aitimes.com/news/articleView.html?idxno=148550), 2022-12-24-Sat.
+- [MS, 검색엔진 '빙'에 '챗GPT' 탑재한다…구글 검색과 맞짱 예고](http://www.aitimes.com/news/articleView.html?idxno=148811), 2023-01-05-Thu.
 
 ## Articles unrelated to AI
 
