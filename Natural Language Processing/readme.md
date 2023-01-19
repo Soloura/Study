@@ -3,13 +3,13 @@
 ## :pencil2: Word Embedding | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
 단어를 벡터로 바꾸는 방법론이다.
 
-### Word2Vec *Efficient Estimation of Word Representations in Vector Space* | [arXiv](https://arxiv.org/pdf/1301.3781.pdf)
+### Word2Vec | Efficient Estimation of Word Representations in Vector Space | [arXiv](https://arxiv.org/pdf/1301.3781.pdf)
 
 2013년 구글에서 개발한 워드 임베딩 방법론으로, 단어를 벡터로 바꾼다. 단어를 벡터로 바꾸고 문맥적 의미를 보존하여 단어들 간의 거리를 통해 비슷한 의미라 유추할 수 있다.
 
 주변에 있는 단어들을 가지고 중심 단어를 유추하는 Continuous Bag of Words (CBOW) 방식과 중심에 있는 단어로 주변 단어를 예측하는 Skip-Gram 방식이 있다. 비슷한 위치에 등장하는 단어들은 그 의미도 유사할 것이라는 전제를 통해 distribution hypothesis에 근거한 방법론이다. 
 
-### [GloVe](https://nlp.stanford.edu/projects/glove/) | *Global Vectors for Word Representation* | [Paper](https://nlp.stanford.edu/pubs/glove.pdf)
+### [GloVe](https://nlp.stanford.edu/projects/glove/) | Global Vectors for Word Representation | [Paper](https://nlp.stanford.edu/pubs/glove.pdf)
 
 2014년 스탠포드에서 개발한 워드 임베딩 방법론으로, 단어 동시 등장 여부를 보존하는 방식이다. GloVe로 임베딩된 단어 벡터끼리의 내적은 동시 등장확률의 로그 값과 같다.
 
