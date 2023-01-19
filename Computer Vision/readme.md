@@ -8,7 +8,7 @@ Haze, fog를 제거하는 내용이다. 대상 물체와 관찰자 사이에 존
 
 Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도 1 채널의 명도 값이 매우 낮은 경향이 있다. 이 채널을 dark channel이라 정의하고 사람이 관찰을 통해 얻어낸 사전 지식 prior를 통해 haze를 제거하는 알고리즘을 제안한다.
 
-보통 haze가 존재하지 않는 야외 이미지는 colorful하거나 어두운 색의 대상들 또는 그들의 그림자로 가득 차 있기 떄문에 dark pixel 값이 작게 나온다. 반면 haze가 존재하는 이미지는 대상들이 뿌옇고 잘 보이지 않기 때문에 dark pixel 값이 크게 나온다. 이를 통해 이미지에서 haze를 분리할 수 있다. Dark channel prior를 통해 원본 이미지에서 transmission map을 구하고, soft matting을 적용하여 block 현상을 제거하고, 원본 이미지에서 haze를 제거한 뒤, 마지막으로 가장 밝은 airlight를 구한 뒤 depth map 추정까지 한다.
+보통 haze가 존재하지 않는 야외 이미지는 colorful하거나 어두운 색의 대상들 또는 그들의 그림자로 가득 차 있기 문에 dark pixel 값이 작게 나온다. 반면 haze가 존재하는 이미지는 대상들이 뿌옇고 잘 보이지 않기 때문에 dark pixel 값이 크게 나온다. 이를 통해 이미지에서 haze를 분리할 수 있다. Dark channel prior를 통해 원본 이미지에서 transmission map을 구하고, soft matting을 적용하여 block 현상을 제거하고, 원본 이미지에서 haze를 제거한 뒤, 마지막으로 가장 밝은 airlight를 구한 뒤 depth map 추정까지 한다.
 
 단, 다양한 이미지들을 보고 통계적으로 얻은 prior를 사용하기 때문에 특정 이미지에 대해서는 haze removal이 잘 되지 않을 수 있다. 또한 object가 대기의 빛과 비슷한 색상을 띠면서 그림자마다 없다면 haze로 취급될 수 있다.
 
