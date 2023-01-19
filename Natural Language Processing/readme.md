@@ -9,13 +9,13 @@
 
 주변에 있는 단어들을 가지고 중심 단어를 유추하는 Continuous Bag of Words (CBOW) 방식과 중심에 있는 단어로 주변 단어를 예측하는 Skip-Gram 방식이 있다. 비슷한 위치에 등장하는 단어들은 그 의미도 유사할 것이라는 전제를 통해 distribution hypothesis에 근거한 방법론이다. 
 
-### [GloVe](https://nlp.stanford.edu/projects/glove/) | Global Vectors for Word Representation | [Paper](https://nlp.stanford.edu/pubs/glove.pdf)
+### [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/) | [Paper](https://nlp.stanford.edu/pubs/glove.pdf)
 
 2014년 스탠포드에서 개발한 워드 임베딩 방법론으로, 단어 동시 등장 여부를 보존하는 방식이다. GloVe로 임베딩된 단어 벡터끼리의 내적은 동시 등장확률의 로그 값과 같다.
 
 Word2Vec이 임베딩된 두 단어 벡터의 내적이 코사인 유사도라면 GloVe는 동시 등장 확률이다.
 
-### [fastText](https://research.fb.com/blog/2016/08/fasttext/) | [arXiv](https://arxiv.org/abs/1607.01759)
+### [fastText](https://research.fb.com/blog/2016/08/fasttext/) | Bag or Tricks for Efficient Text Classification | Enriching Word Vectors with Subword Information | [arXiv](https://arxiv.org/abs/1607.01759) | [arXiv](https://arxiv.org/abs/1607.04606)
 
 2016년 페이스북에서 개발한 워드 임베딩 방법론으로, 원래 단어를 Word2Vec에서 기존 단어를 subword의 벡터들로 표현한다는 점이 추가된 내용이다. fastText 또한 Word2Vec와 같이 단어들의 동시 등장 정보를 보존한다.
 
