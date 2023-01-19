@@ -1,8 +1,6 @@
-# _Computer Vision_ :eyeglasses:
+# :eyeglasses: Computer Vision
 
----
-
-## Dehazing :cloud:
+## :cloud: Dehazing
 
 Haze, fog를 제거하는 내용이다. 대상 물체와 관찰자 사이에 존재하는 대기 물질들에 의해 빛의 진행이 방해를 받아 대상이 뿌옇게 보인다.
 
@@ -14,21 +12,19 @@ Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도
 
 단, 다양한 이미지들을 보고 통계적으로 얻은 prior를 사용하기 때문에 특정 이미지에 대해서는 haze removal이 잘 되지 않을 수 있다. 또한 object가 대기의 빛과 비슷한 색상을 띠면서 그림자마다 없다면 haze로 취급될 수 있다.
 
----
+## :telescope: Depth Prediction
 
-## _Depth Prediction_ :telescope:
+It is a field that calculates a depth map from a given image or video(or construct a three-dimensional space).
 
-주어진 RGB 이미지에서 depth map을 계산하는 내용이다. 
+주어진 RGB 이미지에서 depth map을 계산하는 내용이다.
 
-### *Deeper Depth Prediction with Fully Convolutional Residual Networks* | 3DV 2016 | [arXiv](https://arxiv.org/abs/1606.00373) | [GitHub](https://github.com/irolaina/FCRN-DepthPrediction)
+### Deeper Depth Prediction with Fully Convolutional Residual Networks | 3DV 2016 | [arXiv](https://arxiv.org/abs/1606.00373) | [GitHub](https://github.com/irolaina/FCRN-DepthPrediction)
 
 Depth map을 예측하는 fully convolutional architecture를 제안한다. Residual learning, feature map up-sampling, reverse Huber loss function을 이용해서 기존의 방법들에 비해 더 적은 parameters, 실시간 연산, 더 좋은 성능을 가진다.
 
 Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
----
-
-## _Object Recognition_ | _Object Classification_ | [MathWorks (KR)](https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html) | :ballot_box_with_check:
+## :ballot_box_with_check: Object Recognition | Classification | [MathWorks (KR)](https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html)
 
 객체 인식은 이미지 또는 비디오 상의 객체를 식별하는 컴퓨터 비전 기술입니다. 객체 인식은 딥러닝과 머신 러닝 알고리즘을 통해 산출되는 핵심 기술입니다. 사람은 사진 또는 비디오를 볼 때 인물, 물체, 장면 및 시각적 세부 사항을 쉽게 알아챌 수 있습니다. 이 기술의 목표는 이미지에 포함된 사항을 이해하는 수준의 능력과 같이 사람이라면 당연히 할 수 있는 일을 컴퓨터도 할 수 있도록 학습시키는 것입니다.
 
