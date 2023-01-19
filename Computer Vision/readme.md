@@ -24,7 +24,7 @@ Depth map을 예측하는 fully convolutional architecture를 제안한다. Resi
 
 Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 개념으로 up-sampling res-block을 만들었고, 이를 up-projection이라 이름 붙였다. 이를 통해 convolutional layer를 지날수록 resolution이 작아지는 걸 다시 키우고, depth prediction을 가능하게 했다. 그리고 이를 reformulate하여 훈련 시간을 줄이고 효율을 높였다. Potentially non-zero values에 대해서만 계산을 유도하도록 경험/직관적으로 unpooling이 75% 되었을 때 하도록 reformulate하였다.
 
-## :ballot_box_with_check: Object Recognition | Classification | [MathWorks (KR)](https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html)
+## :ballot_box_with_check: Object Recognition | [MathWorks (KR)](https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html)
 
 객체 인식은 이미지 또는 비디오 상의 객체를 식별하는 컴퓨터 비전 기술입니다. 객체 인식은 딥러닝과 머신 러닝 알고리즘을 통해 산출되는 핵심 기술입니다. 사람은 사진 또는 비디오를 볼 때 인물, 물체, 장면 및 시각적 세부 사항을 쉽게 알아챌 수 있습니다. 이 기술의 목표는 이미지에 포함된 사항을 이해하는 수준의 능력과 같이 사람이라면 당연히 할 수 있는 일을 컴퓨터도 할 수 있도록 학습시키는 것입니다.
 
@@ -34,15 +34,15 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 객체 감지(Object detection)와 객체 인식(Object recognition)은 서로 유사한 객체 식별 기술이지만, 실행 방식은 서로 다르다. 객체 감지는 이미지에서 객체의 인스턴스를 찾아내는 프로세스이다. 객체 감지는 이미지에서 객체를 식별할 뿐 아니라 위치까지 파악되는 객체 인식의 서브셋이다. 이를 통해 하나의 이미지에서 여러 객체를 식별하고 각 위치를 파악할 수 있다.
 
-### *Haar-like Feature* | [WiKi](https://en.wikipedia.org/wiki/Haar-like_feature)
+### Haar-like Feature | [WiKi](https://en.wikipedia.org/wiki/Haar-like_feature)
 
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
-### *LeNet: Gradient-Based Learning Applied to Document Recognition* | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+### LeNet: Gradient-Based Learning Applied to Document Recognition | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
 
-### *AlexNet: ImageNet Classification with Deep Convolutional Neural Networks* | [NIPS](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
