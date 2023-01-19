@@ -91,9 +91,7 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ### *Squeeze-and-Excitation Networks* | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
 
-----------
-
-## _Object Detection_ :microscope:
+## :microscope: Object Detection
 
 ### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
@@ -175,7 +173,7 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 
 Bayes Matting과 trimap, 확률 컬러 모델을 모두 갖는 방법이다.
 
-### *"GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts* | [ACMTG](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
+### "GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts | [ACMTG](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
 
 Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard segmentation을 먼저 수행한 뒤, border matting 방법을 적용하여 foreground의 경계 부분에 투명도를 할당한 다음, 나머지 배경 부분은 완전히 투명하게 만드는 방식으로 segmentation을 진행한다.
 
