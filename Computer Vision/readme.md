@@ -4,7 +4,7 @@
 
 Haze, fog를 제거하는 내용이다. 대상 물체와 관찰자 사이에 존재하는 대기 물질들에 의해 빛의 진행이 방해를 받아 대상이 뿌옇게 보인다.
 
-### *Single Image Haze Removal Using Dark Channel Prior* | [CVPR, 2009](http://mmlab.ie.cuhk.edu.hk/archive/2009/dehaze_cvpr2009.pdf) | [Blog (KR)](https://hyeongminlee.github.io/post/pr001_dehazing/)
+### :cloud: Single Image Haze Removal Using Dark Channel Prior | [CVPR, 2009](http://mmlab.ie.cuhk.edu.hk/archive/2009/dehaze_cvpr2009.pdf) | [Blog (KR)](https://hyeongminlee.github.io/post/pr001_dehazing/)
 
 Haze가 존재하지 않는 픽셀들은 대부분 RGB의 3 채널 중 적어도 1 채널의 명도 값이 매우 낮은 경향이 있다. 이 채널을 dark channel이라 정의하고 사람이 관찰을 통해 얻어낸 사전 지식 prior를 통해 haze를 제거하는 알고리즘을 제안한다.
 
@@ -18,7 +18,7 @@ It is a field that calculates a depth map from a given image or video(or constru
 
 주어진 RGB 이미지에서 depth map을 계산하는 내용이다.
 
-### Deeper Depth Prediction with Fully Convolutional Residual Networks | 3DV 2016 | [arXiv](https://arxiv.org/abs/1606.00373) | [GitHub](https://github.com/irolaina/FCRN-DepthPrediction)
+### :telescope: Deeper Depth Prediction with Fully Convolutional Residual Networks | 3DV, 2016 | [arXiv](https://arxiv.org/abs/1606.00373) | [GitHub](https://github.com/irolaina/FCRN-DepthPrediction)
 
 Depth map을 예측하는 fully convolutional architecture를 제안한다. Residual learning, feature map up-sampling, reverse Huber loss function을 이용해서 기존의 방법들에 비해 더 적은 parameters, 실시간 연산, 더 좋은 성능을 가진다.
 
