@@ -36,7 +36,7 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 ### Object Recognition vs. Object Detection
 
-객체 감지(Object detection)와 객체 인식(Object recognition)은 서로 유사한 객체 식별 기술이지만, 실행 방식은 서로 다르다. 객체 감지는 이미지에서 객체의 인스턴스를 찾아내는 프로세스이다. 객체 감지는 이미지에서 객체를 식별할 뿐 아니라 위치까지 파악되는 객체 인식의 서브셋이다. 이를 통해 하나의 이미지에서 여러 객체를 식별하고 각 위치를 파악할 수 있다..
+객체 감지(Object detection)와 객체 인식(Object recognition)은 서로 유사한 객체 식별 기술이지만, 실행 방식은 서로 다르다. 객체 감지는 이미지에서 객체의 인스턴스를 찾아내는 프로세스이다. 객체 감지는 이미지에서 객체를 식별할 뿐 아니라 위치까지 파악되는 객체 인식의 서브셋이다. 이를 통해 하나의 이미지에서 여러 객체를 식별하고 각 위치를 파악할 수 있다.
 
 ### *Haar-like Feature* | [WiKi](https://en.wikipedia.org/wiki/Haar-like_feature)
 
