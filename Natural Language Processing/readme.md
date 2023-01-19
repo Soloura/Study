@@ -65,12 +65,15 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 
 ---
 
-# Speech
+# :microphone: Speech
 
 ### Whisper | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf)
 
-## Lecture
-### 딥러닝을 이용한 자연어 처리 (조경현 교수님) | [Homepage](https://www.edwith.org/deepnlp)
+---
+
+Lecture:
+- NLP
+  - [딥러닝을 이용한 자연어 처리 (조경현 교수님)](https://www.edwith.org/deepnlp)
 
 ---
 
