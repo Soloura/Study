@@ -38,6 +38,10 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
+### Does Colour Really Matter? Evaluation via Object Classification | [CIC, 2018](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
+
+ResNet-50 trained with color images performed better in object classification by 12% than that of gray images. For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
+
 ### LeNet: Gradient-Based Learning Applied to Document Recognition | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
 LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
@@ -210,28 +214,6 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ---
 
-## :robot: AutoML
-
-### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012) | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221559482028&proxyReferer=https:%2F%2Fwww.google.com%2F)
-2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
-
-### *PNASNet, Progressive Neural Architecture Search* | [arXiv](https://arxiv.org/abs/1712.00559) | [PyTorch](https://github.com/chenxi116/PNASNet.pytorch)
-2017년에 Google, JHU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
-
-### *ENASNet, Efficient Neural Architecture Search via Parameter Sharing* | [arXiv](https://arxiv.org/abs/1802.03268)
-2018년에 Google, CMU, Stanford에서 연구한 model로, model architecture를 학습해서 최적의 model architecture를 찾는 model이다.
-
-### *MnasNet, Platform-Aware Neural Architecture Search for Mobile* | [arXiv](https://arxiv.org/abs/1807.11626) | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F)
-2018년에 Google에서 proposed model로, mobile environment에서 최적의 model architecture를 찾는 model이다. RL search를 이용한다.
-
-### *NetAdapt: Platform-Aware Neural Network Adaptation for Mobile Applications* | [ECCV](https://openaccess.thecvf.com/content_ECCV_2018/papers/Tien-Ju_Yang_NetAdapt_Platform-Aware_Neural_ECCV_2018_paper.pdf)
-
-### *Adapting Neural Architectures Between Domains* | [NIPS](https://proceedings.neurips.cc//paper/2020/file/08f38e0434442128fab5ead6217ca759-Paper.pdf)
-
-### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
-
----
-
 - Precision
 Precision measures how accurate is your predictions. The percentage of your predictions are correct
 *Precision = TP / (TP + FP)*
@@ -252,7 +234,7 @@ IoU measures the overlap between 2 boundaries.
 
 - MAC(Multiply ACcumulate)
 
-----------
+---
 
 ## Activation Function
 
@@ -286,32 +268,34 @@ def swish(x):
 ```
 
 ### Hard Swish
+
 ```Python
 def hard_swish(x):
   return x * (relu6(x+3))/6
 ```
 
 ### Mish | [Blog (KR)](https://eehoeskrap.tistory.com/440)
+
 Mish는 무한대로 가기 때문에(unbounded above) 캡핑으로 인한 포화를 피할 수 있다. Bounded below이기 때문에 strong regularation이 나타날 수 있고 overfitting을 감소시킬 수 있다. 또한 약간의 음수를 허용하기 때문에 ReLU zero bound보다는 gradient가 더 잘 흐를 수 있다. 범위는 -0.31 ~ infinite이다. Non-monotonic 함수이며 1차, 2차 미분을 갖는다.
+
 ```Python
 def mish(x):
   return x * tf.nn.tanh(tf.nn.softplus(x)) # x * torch.tanh(F.softplus(x))
 ```
 
-----------
+---
 
-## Few-Shot Learning :bow_and_arrow:
-`This content moved to the "Few-Shot Learning" page.`
+## :bow_and_arrow: Few-Shot Learning
 
-----------
+`This content moved to the 'Few-Shot Learning' page.`
 
-## Multi modal Learning
-`This content moved to the "Multi-modal Learning" page.`
+## :art: Multimodal Learning
 
-----------
+`This content moved to the 'Multimodal Learning' page.`
 
-### *Does Colour Really Matter? Evaluation via Object Classification* | [Homepage](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
-ResNet-50 trained with color images performed better in object classification by 12% than that of gray images. For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
+## :robot: AutoML
+
+`This content has moved to the 'AutoML' page.`
 
 ---
 
@@ -338,14 +322,6 @@ ResNet-50 trained with color images performed better in object classification by
 - ResNeXt Blog KR, https://everyday-deeplearning.tistory.com/entry/%EC%B4%88-%EA%B0%84%EB%8B%A8-%EB%85%BC%EB%AC%B8%EB%A6%AC%EB%B7%B0ResNext, 2021-03-10-Wed.
 - SSD Blog KR, https://taeu.github.io/paper/deeplearning-paper-ssd/, 2021-03-15-Mon.
 - SSD Blog KR, https://cocopambag.tistory.com/15, 2021-03-15-Mon.
-- NASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221559482028&proxyReferer=https%3A%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
-- PNASNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221576139392&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-16-Tue.
-- PNASNet GitHub PyTorch, https://github.com/chenxi116/PNASNet.pytorch, 2021-03-16-Tue.
-- ENASNet Blog KR, https://m.blog.naver.com/za_bc/221569478807, 2021-03-16-Tue.
-- MnasNet Blog KR, https://developers-kr.googleblog.com/2018/09/mnasnet-towards-automating-design-of.html, 2021-03-15-Mon.
-- MNasNet Blog KR, https://kmbin93.github.io/deeplearning/2020/07/21/MnasNet/, 2021-03-15-Mon.
-- MNasNet Blog KR, https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221570652712&proxyReferer=https:%2F%2Fwww.google.com%2F, 2021-03-15-Mon.
-- NetAdapt Blog KR, https://m.blog.naver.com/kangdonghyun/221316167111, 2021-12-05-Sun.
 - mAP(mean Average Precision) for Object Detection Blog US, https://jonathan-hui.medium.com/map-mean-average-precision-for-object-detection-45c121a31173, 2021-03-23-Tue.
 - GrabCut Blog KR, http://www.navisphere.net/2095/grabcut-interactive-foreground-extraction-using-iterated-graph-cuts/, 2021-09-28-Tue.
 - Graph Cut Wiki, https://en.wikipedia.org/wiki/Graph_cuts_in_computer_vision, 2021-09-28-Tue.
