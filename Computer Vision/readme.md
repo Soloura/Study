@@ -161,27 +161,27 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 
 ### *YOLOv5* | [GitHub](https://github.com/ultralytics/yolov5) | [Docs](https://docs.ultralytics.com/)
 
-----------
+---
 
-## _Segmentation_ :scissors:
+## :scissors: Segmentation
 
-### _Bayes Matting_
+### Bayes Matting
 
 사용자가 정의한 trimap을 바탕으로 투명도를 갖도록 컬러 분포를 모델링한다. 사용자의 안쪽 영역과 바깥 영역 입력의 사용자 입력이 필요하다.
 
-### _Graph Cut_
+### Graph Cut
 
 Bayes Matting과 trimap, 확률 컬러 모델을 모두 갖는 방법이다.
 
-### "GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts | [ACMTG](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
+### "GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts | [ACMTG, 2012](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
 
 Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard segmentation을 먼저 수행한 뒤, border matting 방법을 적용하여 foreground의 경계 부분에 투명도를 할당한 다음, 나머지 배경 부분은 완전히 투명하게 만드는 방식으로 segmentation을 진행한다.
 
 ----------
 
-## _Semantic Segmentation_ :fork_and_knife:
+## :fork_and_knife: Semantic Segmentation
 
-### *Mask R-CNN* | [arXiv](https://arxiv.org/abs/1703.06870) | [PyTorch](https://github.com/felixgwu/mask_rcnn_pytorch) | [TesforFlow](https://github.com/CharlesShang/FastMaskRCNN)
+### Mask R-CNN | [arXiv](https://arxiv.org/abs/1703.06870) | [PyTorch](https://github.com/felixgwu/mask_rcnn_pytorch) | [TesforFlow](https://github.com/CharlesShang/FastMaskRCNN)
 
 Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. Faster R-CNN에 각 픽셀이 object class에 해당하는지 binary masking하는 분기 network를 추가했다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 Rol Pooling에서 rounding하며 발생하는 소숫점 오차를 RoIAlign(2D bilinear interpolation)로 대체해서 감소시켰다.
 
@@ -196,19 +196,22 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
 
-----------
+---
 
-## Optical Character Recognition :calendar:
+## :calendar: Optical Character Recognition
 
 ## Scene Text Detection
-### *Character Region Awareness for Text Detection* | [CVPR](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
+
+### Character Region Awareness for Text Detection | [CVPR, 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
 
 ## Scene Text Recognition
-### *What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Baek_What_Is_Wrong_With_Scene_Text_Recognition_Model_Comparisons_Dataset_ICCV_2019_paper.pdf)
 
-----------
+### What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis | [ICCV, 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Baek_What_Is_Wrong_With_Scene_Text_Recognition_Model_Comparisons_Dataset_ICCV_2019_paper.pdf)
 
-## AutoML :robot:
+---
+
+## :robot: AutoML
+
 ### *NASNet, Learning Transferable Architectures for Scalable Image Recognition* | [arXiv](https://arxiv.org/abs/1707.07012) | [Blog (KR)](https://m.blog.naver.com/PostView.nhn?blogId=za_bc&logNo=221559482028&proxyReferer=https:%2F%2Fwww.google.com%2F)
 2017년에 Google Brain의 Barret Zoph이 발표한 학습을 통해 modeal architecture를 찾는 network model이다. Reinforcement Learning(RL) search를 사용해서 architecture를 최적화하는 framework로 Neural Architecture Search(NAS) Net이다.
 
@@ -227,7 +230,7 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ### *YOSO, You Only Search Once: A Fast Automation Framework for Single-Stage DNN/Accelerator Co-design* | [arXiv](https://arxiv.org/abs/2005.07075)
 
-----------
+---
 
 - Precision
 Precision measures how accurate is your predictions. The percentage of your predictions are correct
