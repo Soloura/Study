@@ -69,11 +69,11 @@ LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모�
 
 2016년 UCSD와 Facebook에서 제안한 ResNeXt는 ResNet의 변형 network이다. Input을 *group convolution*을 통해 여러개로 나누고 1x1 convolution으로 input을 transform하고, concat를 통해 merge한다(*Split-Transform-Merge*). ResNet에 비해 *parameter를 줄여 연산량을 줄이고* 더 높은 성능을 보였다. Network에서 각 convolutional layer를 지날 때 마다 output의 크기가 1/2로 줄어든다. ResNet은 하나의 convolutional layer을 통해 deep하게 만들었지만, ResNeXt는 조금 더 깊지만 group convolution을 통해 연산량을 낮췄다. 논문에서 나온 C는 *cardinarity*로 group convolution의 수(the size of the set of transformation)이다. ResNet엣는 50 이하 depth일 때는 block 1개, convolution을 2개만 연산했다. 하지만 ResNeXt에서는 2개의 block은 group convolution의 효과가 없어서 block depth가 3 이상일 때부터 효과가 있다. Cardinality의 크기를 키울수록(group 수가 많아질수록) parameter를 줄여 연산량을 줄일 수 있다. 즉, 같은 parameter일 때 더 많은 channel 이용해서 deeper network 설계가 가능하다.
 
-### *DenseNet: Densely Connected Convolutional Networks* | [IEEE](https://ieeexplore.ieee.org/document/8099726) | [arXiv](https://arxiv.org/abs/1608.06993)
+### DenseNet: Densely Connected Convolutional Networks | [IEEE](https://ieeexplore.ieee.org/document/8099726) | [arXiv](https://arxiv.org/abs/1608.06993)
 
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### *MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application* | [arXiv](https://arxiv.org/abs/1704.04861)
+### MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application | [arXiv](https://arxiv.org/abs/1704.04861)
 
 MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다. 고성능의 device가 아닌 vehicle, drone, smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 작은 neural network를 만드는 방법은 다음과 같다.
 
@@ -97,7 +97,7 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ## :microscope: Object Detection
 
-### *Rapid Object Detection using a Boosted Cascade of Simple Features* | [CVPR](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+### Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2007](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
 2001년 CVPR에 게재된 논문으로, 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
@@ -111,7 +111,7 @@ Haar-like Feature, Integral Image, AdaBoost(Ensemble, Bagging, Boosting, Stump, 
 
 SIFT 특징 벡터는 특징점 주변의 영상 패치를 4x4 블록으로 나눈뒤, 각 블록에 속한 픽셀들의 gradient 방향과 크기에 대한 히스토그램을 구한 후 이 히스토그램 binary 값들을 일렬로 쭉 연결한 128차원의 벡터다. SIFT는 기본적으로 특징점 주변의 local gradient 분포 특성(밝기 변화의 방향 및 밝기 변화의 급격한 정도)을 표한하는 feature다.
 
-### *Histograms of Oriented Gradients for Human Detection* | [CVPR](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+### Histograms of Oriented Gradients for Human Detection | [CVPR, 2005](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
 2005년에 CVPR에 게재된 논문으로, 영상에서 대상 영역을 일정 크기의 셀로 나누고, 각 셀마다 gradient 크기가 일정 값 이상인 edge 픽셀들의 방향에 대한 히스토그램을 구한 후, 이들 히스토그램 binary 값들을 일렬로 연결한 벡터이다.
 
