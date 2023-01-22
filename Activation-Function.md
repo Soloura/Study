@@ -1,4 +1,4 @@
-# Activation Function
+# :hammer_and_wrench: Activation Function
 
 `This page is from the 'Computer Vision' page.`
 
