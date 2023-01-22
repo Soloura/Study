@@ -1,6 +1,6 @@
 # :hammer_and_wrench: Loss Function
 
-## Regression
+## :chart: Regression
 
 ### Mean Absolute Error (MAE)
 
@@ -8,7 +8,7 @@
 
 ### Root Mean Square Error (RMSE)
 
-## Classification
+## :bow_and_arrow: Classification
 
 ### Binary Cross Entroy
 
