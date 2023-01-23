@@ -16,9 +16,12 @@ Loss is the penalty for a bad prediction. That is, loss is a number indicating h
 
 ### Categorical Cross Entroy
 
+## :hammer_and_wrench: [`tf.keras.losses`](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
+
 ---
 
 ### Reference
 - Loss Function, https://brunch.co.kr/@mnc/9, 2023-01-22-Sun.
 - Descending into ML: Training and Loss, https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss, 2023-01-23-Mon.
 - Loss function, https://en.wikipedia.org/wiki/Loss_function, 2023-01-23-Mon.
+- Module: tf.keras.losses, https://www.tensorflow.org/api_docs/python/tf/keras/losses, 2023-01-23-Mon.
