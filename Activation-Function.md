@@ -52,9 +52,14 @@ def mish(x):
   return x * tf.nn.tanh(tf.nn.softplus(x)) # x * torch.tanh(F.softplus(x))
 ```
 
+### Universal activation function for machine learning | [Scientific reports, 2021](https://www.nature.com/articles/s41598-021-96723-8)
+
+Propose a universal activation function (UAF) that achieves near optimal performance in quantification, classification, and reinforcement learning problems.
+
 --- 
 
 ### Reference
 - Swish vs. Wish Blog KR, https://eehoeskrap.tistory.com/440, 2021-12-01-Wed.
 - ReLU6 Blog KR, https://gaussian37.github.io/dl-concept-relu6/, 2021-12-02-Thu.
 - Sigmoid Blog KR, http://taewan.kim/post/sigmoid_diff/, 2021-12-02-Thu.
+- Universal activation function for machine learning, https://www.nature.com/articles/s41598-021-96723-8, 2023-01-23-Mon.
