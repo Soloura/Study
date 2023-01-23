@@ -24,6 +24,7 @@
 - [AI를 이용해 한 달간 '가짜 인생'을 산 남자](http://www.aitimes.com/news/articleView.html?idxno=148550), 2022-12-24-Sat.
 - [MS, 검색엔진 '빙'에 '챗GPT' 탑재한다…구글 검색과 맞짱 예고](http://www.aitimes.com/news/articleView.html?idxno=148811), 2023-01-05-Thu.
 - [AI 변호사, 역사상 첫 인간 변호](http://www.aitimes.com/news/articleView.html?idxno=148876), 2023-01-10-Tue.
+- ["인공지능 국내기업 사용률 2.7%...3년간 제자리걸음"](https://www.aitimes.com/news/articleView.html?idxno=149075), 2023-01-23-Mon.
 
 ## Articles unrelated to AI
 
