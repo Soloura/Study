@@ -79,6 +79,8 @@ def mish(x): return x * tf.nn.tanh(tf.nn.softplus(x)) # x * torch.tanh(F.softplu
 
 Propose a universal activation function (UAF) that achieves near optimal performance in quantification, classification, and reinforcement learning problems.
 
+## :hammer_and_wrench: [`tf.keras.layers.Activation`](https://www.tensorflow.org/api_docs/python/tf/keras/layers/Activation)
+
 --- 
 
 ### Reference
@@ -88,3 +90,4 @@ Propose a universal activation function (UAF) that achieves near optimal perform
 - ReLU6 Blog KR, https://gaussian37.github.io/dl-concept-relu6/, 2021-12-02-Thu.
 - Sigmoid Blog KR, http://taewan.kim/post/sigmoid_diff/, 2021-12-02-Thu.
 - Universal activation function for machine learning, https://www.nature.com/articles/s41598-021-96723-8, 2023-01-23-Mon.
+- tf.keras.layers.Activation, https://www.tensorflow.org/api_docs/python/tf/keras/layers/Activation, 2023-01-23-Mon.
