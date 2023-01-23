@@ -1,8 +1,8 @@
 # :hammer_and_wrench: [Optimization](https://en.wikipedia.org/wiki/Mathematical_optimization)
 
-### A Survey of Optimization Methods from a Machine Learning | [arXiv, 2019](https://arxiv.org/pdf/1906.06821.pdf)
+### :books: A Survey of Optimization Methods from a Machine Learning | [arXiv, 2019](https://arxiv.org/pdf/1906.06821.pdf)
 
-### Gradient Descent (GD)
+### :books: Gradient Descent (GD)
 
 The gradient descent method is the earliest and most common optimization method.
 
@@ -22,7 +22,7 @@ Advantages:
 Disadvantages:
 - In each parameter update, gradients of total samples need to be calculated, so the calculation cost is high.
 
-### Stochastic Gradient Descent (SGD) | A Stochastic Approximation Method | [Ann. Math. Statist., 1951](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full)
+### :books: Stochastic Gradient Descent (SGD) | A Stochastic Approximation Method | [Ann. Math. Statist., 1951](https://projecteuclid.org/journals/annals-of-mathematical-statistics/volume-22/issue-3/A-Stochastic-Approximation-Method/10.1214/aoms/1177729586.full)
 
 :key: Properties:
 - The update parameters are calculated using a randomly sampled mini-batch.
@@ -35,7 +35,7 @@ Disadvantages:
 - It is diffcult to choose an appropriate learning rate, and using the same learning rate for all parameters is not appropriate.
 - The solution may be trapped at the saddle point in some cases.
 
-### AdaGrad | Adaptive Subgradient Methods for Online Learning and Stochastic Optimization | [JMLR, 2011](https://jmlr.org/papers/v12/duchi11a.html)
+### :books: AdaGrad | Adaptive Subgradient Methods for Online Learning and Stochastic Optimization | [JMLR, 2011](https://jmlr.org/papers/v12/duchi11a.html)
 
 :key: Properties:
 - The learning rate is adaptively adjusted according to the sum of the squares of all historical gradients.
@@ -50,7 +50,7 @@ Disadvantages:
 - A manual learning rate is still needed.
 - It is not suitable for dealing with non-convex problems.
 
-### Adam | Adam: A method for stochastic optimization | [ICLR, 2015](https://dblp.org/rec/journals/corr/KingmaB14.html) | [arXiv, 2017 v9](https://arxiv.org/abs/1412.6980)
+### :books: Adam | Adam: A method for stochastic optimization | [ICLR, 2015](https://dblp.org/rec/journals/corr/KingmaB14.html) | [arXiv, 2017 v9](https://arxiv.org/abs/1412.6980)
 
 :key: Properties:
 - Combine the adaptive methods and the momentum method. 
