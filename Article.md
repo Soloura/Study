@@ -2,7 +2,8 @@
 
 ## Articles related to AI
 
-- [인공일반지능(AGI), 시도해도 될까](https://www.technologyreview.kr/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
+### English
+
 - [Artificial general intelligence: Are we close, and does it even make sense to try?]( https://www.technologyreview.com/2020/10/15/1010461/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
 - [Meta's new learning algorithm can teach AI to multi-task](https://www.technologyreview.com/2022/01/20/1043885/meta-ai-facebook-learning-algorithm-nlp-vision-speech-agi/), 2022-02-14-Mon.
 - [Machine that learn language more like kids do](https://www.csail.mit.edu/news/machines-learn-language-more-kids-do), 2022-02-17-Thu.
@@ -15,6 +16,10 @@
 - [In-home wireless device tracks disease progression in Parkinson's patients](https://news.mit.edu/2022/home-wireless-parkinsons-progression-0921), 2022-09-26-Mon.
 - [LOLNeRF: Learn from One Look](https://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html), 2022-09-26-Mon.
 - [AL that can learn the patterns of human language](https://feedly.com/i/entry/NwHO2cNXnJxomKwaSvhGDBXV4Lc7B4INaC4YnMl3/fs=_182ef0744b0:4878f3:559ea8bd), 2022-09-26-Mon.
+
+### Korean
+
+- [인공일반지능(AGI), 시도해도 될까](https://www.technologyreview.kr/artificial-general-intelligence-robots-ai-agi-deepmind-google-openai/), 2022-02-13-Sun.
 - [메타 논문 생성 AI '갤럭티카' 수준미달로 3일만에 폐쇄](http://www.aitimes.com/news/articleView.html?idxno=148034), 2022-11-22-Tue.
 - ["품질이 형편없네"... 메타가 만든 AI챗봇, 이대로 괜찮나](http://www.aitimes.com/news/articleView.html?idxno=146343), 2022-11-22-Tue.
 - [원하는 텍스트 콘텐츠 생성해주는 앱 '노션 AI'](http://www.aitimes.com/news/articleView.html?idxno=147997), 2022-11-22-Tue.
@@ -26,10 +31,19 @@
 - [AI 변호사, 역사상 첫 인간 변호](http://www.aitimes.com/news/articleView.html?idxno=148876), 2023-01-10-Tue.
 - ["인공지능 국내기업 사용률 2.7%...3년간 제자리걸음"](https://www.aitimes.com/news/articleView.html?idxno=149075), 2023-01-23-Mon.
 - [SKT, AI 에이닷에 장기기억·멀티모달 추가...향후 챗GPT 접목](https://www.aitimes.com/news/articleView.html?idxno=149077), 2023-01-24-Tue.
+- [카카오브레인, 글로벌 신약개발사로 도약 추진](https://www.aitimes.com/news/articleView.html?idxno=148350), 2023-01-24-Tue.
+- ['챗GPT', 논문 저자로 등장...네이처 등 반발](https://www.aitimes.com/news/articleView.html?idxno=149051), 2023-01-24-Tue.
+- [‘챗GPT’ 잡을 구글의 비밀병기는 ‘스패로우’](https://www.aitimes.com/news/articleView.html?idxno=149050), 2023-01-24-Tue.
 
 ## Articles unrelated to AI
 
+### English
+
+- [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
+
+### Korean
+
 - [이베이코리아 인수전](https://it.donga.com/31732/), 2021-03-28-Mon.
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
-- [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
 - [애플, '탈중국' 박차...대체지는 베트남과 인도](http://www.aitimes.com/news/articleView.html?idxno=1485920), 2022-12-24-Sat.
+- ["양자컴퓨팅 발전으로 모든 암호 기능 상실할 것"](https://www.aitimes.com/news/articleView.html?idxno=149044), 2023-01-24-Tue.
