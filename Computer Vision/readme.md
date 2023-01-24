@@ -38,9 +38,11 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
-### Does Colour Really Matter? Evaluation via Object Classification | [CIC, 2018](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
+### :art: Does Colour Really Matter? Evaluation via Object Classification | [CIC, 2018](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
 
-ResNet-50 trained with color images performed better in object classification by 12% than that of gray images. For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
+ResNet-50 trained with color images performed better in object classification by 12% than that of gray images.
+
+For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
 
 ### LeNet: Gradient-Based Learning Applied to Document Recognition | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
