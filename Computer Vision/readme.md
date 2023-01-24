@@ -44,34 +44,55 @@ ResNet-50 trained with color images performed better in object classification by
 
 For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
 
-### LeNet: Gradient-Based Learning Applied to Document Recognition | [Homepage](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+### LeNet: Gradient-Based Learning Applied to Document Recognition | [Proceedings of the IEEE, 1998](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
-LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다. LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
+LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다.
 
-### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다.
+
+Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다.
+
+LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다.
+
+LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다.
+
+LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다.
+
+LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
+
+### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS, 2012](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
-### *ZFNet: Visualizing and Understanding Convolutional Networks* | [Homepage](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+### ZFNet: Visualizing and Understanding Convolutional Networks | [ECCV, 2014](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
 
-### *GoogLeNet: Going deeper with convolutions* | [arXiv](https://arxiv.org/abs/1409.4842)
-2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception module의 개념을 만들었으며, 이를 통해 parameter를 AlexNet 60M에서 GoogLeNet을 4M으로 줄였다. 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다. Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
+### GoogLeNet: Going deeper with convolutions | [CVPR, 2015](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) | [arXiv, 2014](https://arxiv.org/abs/1409.4842)
 
-### *VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition* | [arXiv](https://arxiv.org/abs/1409.1556)
+2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception module의 개념을 만들었으며, 이를 통해 parameter를 60M(AlexNet)에서 4M(GoogLeNet)으로 줄였다.
 
-2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타냈다. 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다. 메모리, parameter가 크다는 단점이 있다.
+1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다.
 
-### *ResNet: Deep Residual Learning for Image Recognition* | [CVPR](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
+
+### VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition | [ICLR, 2015](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/) | [arXiv, 2014](https://arxiv.org/abs/1409.1556)
+
+2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타냈다.
+
+시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다.
+
+메모리, parameter가 크다는 단점이 있다.
+
+### ResNet: Deep Residual Learning for Image Recognition | [CVPR, 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
 
-### *ResNeXt, Aggregated Residual Transformations for Deep Neural Networks* | [arXiv](https://arxiv.org/abs/1611.05431)
+### ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | [CVPR, 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) | [arXiv](https://arxiv.org/abs/1611.05431)
 
 2016년 UCSD와 Facebook에서 제안한 ResNeXt는 ResNet의 변형 network이다. Input을 *group convolution*을 통해 여러개로 나누고 1x1 convolution으로 input을 transform하고, concat를 통해 merge한다(*Split-Transform-Merge*). ResNet에 비해 *parameter를 줄여 연산량을 줄이고* 더 높은 성능을 보였다. Network에서 각 convolutional layer를 지날 때 마다 output의 크기가 1/2로 줄어든다. ResNet은 하나의 convolutional layer을 통해 deep하게 만들었지만, ResNeXt는 조금 더 깊지만 group convolution을 통해 연산량을 낮췄다. 논문에서 나온 C는 *cardinarity*로 group convolution의 수(the size of the set of transformation)이다. ResNet엣는 50 이하 depth일 때는 block 1개, convolution을 2개만 연산했다. 하지만 ResNeXt에서는 2개의 block은 group convolution의 효과가 없어서 block depth가 3 이상일 때부터 효과가 있다. Cardinality의 크기를 키울수록(group 수가 많아질수록) parameter를 줄여 연산량을 줄일 수 있다. 즉, 같은 parameter일 때 더 많은 channel 이용해서 deeper network 설계가 가능하다.
 
-### DenseNet: Densely Connected Convolutional Networks | [IEEE](https://ieeexplore.ieee.org/document/8099726) | [arXiv](https://arxiv.org/abs/1608.06993)
+### DenseNet: Densely Connected Convolutional Networks | [CVPR, 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) | [arXiv, 2016](https://arxiv.org/abs/1608.06993)
 
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
