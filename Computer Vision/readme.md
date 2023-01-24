@@ -96,7 +96,7 @@ Auxiliary classifier block unit을 통해 vanishing gradient를 피한다.
 
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### MobileNet: Efficient Convolutional Neural Networks for Mobile Vision Application | [arXiv](https://arxiv.org/abs/1704.04861)
+### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | [arXiv, 2017](https://arxiv.org/abs/1704.04861)
 
 MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다. 고성능의 device가 아닌 vehicle, drone, smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 작은 neural network를 만드는 방법은 다음과 같다.
 
