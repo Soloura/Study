@@ -120,29 +120,31 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ## :microscope: Object Detection
 
-### Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2007](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+### Haar-Cascade: Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2001](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
-2001년 CVPR에 게재된 논문으로, 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
+영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
 Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
 
 Haar-like Feature, Integral Image, AdaBoost(Ensemble, Bagging, Boosting, Stump, weak learner, Amount of Say), Cascade Classifier
 
-### *Distinctive Image Features from Scale-Invariant Keypoints* | [IJCV](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+### SIFT: Distinctive Image Features from Scale-Invariant Keypoints | [IJCV, 2004](https://people.eecs.berkeley.edu/~malik/cs294/lowe-ijcv04.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
-2004년에 IJCV에 게재된 논문으로, 식별하기 쉬운 특징점들을 선택한 뒤, 각 특징점을 중심으로 local patch에 대해 특징 벡터를 추출한 feature이다. 
+식별하기 쉬운 특징점들을 선택한 뒤, 각 특징점을 중심으로 local patch에 대해 특징 벡터를 추출한 feature이다. 
 
-SIFT 특징 벡터는 특징점 주변의 영상 패치를 4x4 블록으로 나눈뒤, 각 블록에 속한 픽셀들의 gradient 방향과 크기에 대한 히스토그램을 구한 후 이 히스토그램 binary 값들을 일렬로 쭉 연결한 128차원의 벡터다. SIFT는 기본적으로 특징점 주변의 local gradient 분포 특성(밝기 변화의 방향 및 밝기 변화의 급격한 정도)을 표한하는 feature다.
+SIFT feature vector는 특징점 주변의 영상 패치를 4x4 블록으로 나눈뒤, 각 블록에 속한 픽셀들의 gradient 방향과 크기에 대한 히스토그램을 구한 후 이 히스토그램 binary 값들을 일렬로 쭉 연결한 128차원의 벡터다.
 
-### Histograms of Oriented Gradients for Human Detection | [CVPR, 2005](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+SIFT는 기본적으로 특징점 주변의 local gradient 분포 특성(밝기 변화의 방향 및 밝기 변화의 급격한 정도)을 표한하는 feature다.
 
-2005년에 CVPR에 게재된 논문으로, 영상에서 대상 영역을 일정 크기의 셀로 나누고, 각 셀마다 gradient 크기가 일정 값 이상인 edge 픽셀들의 방향에 대한 히스토그램을 구한 후, 이들 히스토그램 binary 값들을 일렬로 연결한 벡터이다.
+### HOG: Histograms of Oriented Gradients for Human Detection | [CVPR, 2005](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
+
+영상에서 대상 영역을 일정 크기의 셀로 나누고, 각 셀마다 gradient 크기가 일정 값 이상인 edge 픽셀들의 방향에 대한 히스토그램을 구한 후, 이들 히스토그램 binary 값들을 일렬로 연결한 벡터이다.
 
 HOG는 Edge의 방향 히스토그램 템플릿이다. 템플릿 매칭의 경우 영상의 기하학적 정보를 그대로 유지하여 매칭할 수 있지만 형태나 위치가 조금만 바뀌어도 매칭이 잘 안되는 문제가 있다. 반면에 히스토그램 매칭은 대상의 형태가 변해도 매칭을 할 수 있지만 대상의 기하학적 정보를 잃어버리고 단지 분포 정보만 기억하기 때문에 잘못된 대상과도 매칭이 되는 문제가 있다. HOG는 템플릿 매칭과 히스토그램 매칭의 중간 단계의 방법이며 블록 단위로는 기하학적 정보를 유지하되, 각 블록 내부에서는 히스토그램을 사용함으로써 로컬한 변화에는 어느정도 robust하다. 그리고 HOG는 edge 방향 정보를 이용하기 때문에 일종의 edge-based 템플릿 매칭 방법으로 볼 수 있다. Edge는 기본적으로 영상의 밝기 변화, 조명 변화 등에 덜 민감하다. 또한 HOG는 물체의 실루엣 정보를 이용하므로 사람, 자동차 등과 같이 내부 패턴이 복잡하지 않으면서도 고유의 독특한 윤곽선 정보를 갖는 물체를 식별하는데 적합한 영상 feature이다.
 
 Local feature인 SIFT와 비교해보면 HOG는 일종의 템플릿 매칭이기 때문에 물체가 회전된 경우나 형태 변화가 심한 경우에는 검출이 힘들지만 SIFT는 모델의 특징점과 입력 영상의 특징점에 대해 특징점 단위로 매칭이 이루어지기 때문에 물체의 형태 변화, 크기 변화, 회전 등에 무관하게 매칭이 이루어질 수 있다. 이러한 특성에 비추어 보았을 때, HOG는 물체의 형태 변화가 심하지 않고 내부 패턴이 단순하며 물체의 윤곽선으로 물체를 식별할 수 있을 경우에 적합하고 SIFT는 액자 그림과 같이 내부 패턴이 복잡하여 특징점이 풍부한 경우에 적합한 방법이다.
 
-### *R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation* | [arXiv](https://arxiv.org/abs/1311.2524)
+### R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation | [arXiv](https://arxiv.org/abs/1311.2524)
 
 R-CNN은 2013년 UC Berkeley의 Ross Girshick이 발표한 object detection, semantic segmentation model이다. 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
@@ -154,7 +156,7 @@ Fast R-CNN은 2015년 Microsoft의 Ross Girshick이 ICCV15에서 발표한 R-CNN
 
 Faster R-CNN은 2015년 Microsoft에서 인턴을 했던 USTC의 Shaoqing Ren이 NIPS15에서 발표한 Fast R-CNN의 개선된 model이다. Fast R-CNN에서 남은 bottleneck은 bounding box를 만드는 region proposal 단계이다. Faster R-CNN은 region proposal 단계를 CNN 안에 넣어서 문제를 해결했다. CNN을 통과한 feature map에서 sliding window를 이용해 각 anchor마다 가능한 bounding box의 좌표와 이 bounding box의 점수를 계산한다. 대부분 너무 홀쭉하거나 넓은 물체는 많지 않으므로 2:1, 1:1, 1:2 등의 몇가지 타입으로도 좋다. Faster R-CNN은 Microsoft에서 연구한 내용이다.
 
-### *YOLO: You Only Look Once, Real-Time Object Detection* | [Homepage](https://pjreddie.com/darknet/yolo/)
+### YOLO: You Only Look Once, Real-Time Object Detection | [Homepage](https://pjreddie.com/darknet/yolo/)
 
 YOLO는 이미지 내의 bounding box와 class probaility를 single regression problem으로 unified하여 이미지를 한번 보는 것으로 object의 종류와 위치를 추측한다. Single convolutional network를 통해 multiple bounding box에 대한 class probability를 계산하는 방식이다. 기존의 object detection method와 비교했을 때, YOLO의 상대적인 장점과 단점은 다음과 같다. 장점으로는 1. 간단한 처리과정으로 속도가 매우 빠르고 기존의 다른 real-time detection system들과 비교할 때 2배 정도 높은 mAP를 보인다. 2. Image 전체를 1번에 바라보는 방식으로 class에 대한 맥락적 이해도가 높아 낮은 background error(false-negative)를 보인다. 3. Object에 대한 좀 더 일반화된 특징을 학습하기 때문에 natural image로 학습하고 artwork에 테스트해도 다른 detection system에 비해 훨씬 높은 성능을 보인다. 단점으로는 상대적으로 정확도가 낮은데, 특히 작은 object일 수록이다.
 
@@ -168,11 +170,15 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
-### *SSD: Single Shot MultiBox Detector* | [ECCV 2016](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) | [arXiv](https://arxiv.org/abs/1512.02325)
+### SSD: Single Shot MultiBox Detector | [ECCV 2016](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) | [arXiv](https://arxiv.org/abs/1512.02325)
 
-SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection method로, single deep neural network를 이용한다. **Multi-scale feature maps for detection**: 끝이 잘린 base network에 convolutional feature layers를 추가했다. 이 layers는 크기를 점차 줄여서 다양한 크기에서 prediction을 한다. Predicting detection을 하는 convolutional model은 feature layer들(Overfeat and YOLO)과 다르다. **Convolutional predictors for detection**
+SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection method로, single deep neural network를 이용한다.
 
-### *NIN: Network In Network* | [arXiv](https://arxiv.org/abs/1312.4400)
+Multi-scale feature maps for detection: 끝이 잘린 base network에 convolutional feature layers를 추가했다. 이 layers는 크기를 점차 줄여서 다양한 크기에서 prediction을 한다.
+
+Predicting detection을 하는 convolutional model은 feature layer들(Overfeat and YOLO)과 다르다. **Convolutional predictors for detection**
+
+### NIN: Network In Network | [arXiv](https://arxiv.org/abs/1312.4400)
 
 네트워크 속의 네트워크로, 기존의 CNN의 linear convolution layer와 달리 filter 대신에 MLP(Multi-Layer Perceptron)을 사용하며 non-linear한 성질을 이용해서 feature 추출을 한다. MLP Convolutional layer 여러 개를 network로 만들어서 사용하기 때문에 network in network이다. 또한 1x1 convolution을 이용하여 feature map을 줄였다. 1x1 convolution은 neurons that fire together, wire together인 Hebbian principle와 같이 여러 개의 feature map에서 비슷한 성질을 묶을 수 있어 숫자를 줄여 연산량을 줄일 수 있다. 그리고 기존 CNN와 달리 마지막 layer에 fully connected layer가 아닌 global average pooling을 classifier로 사용하여 overfitting과 연산을 줄인다.
 
