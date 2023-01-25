@@ -34,6 +34,7 @@
 - [카카오브레인, 글로벌 신약개발사로 도약 추진](https://www.aitimes.com/news/articleView.html?idxno=148350), 2023-01-24-Tue.
 - ['챗GPT', 논문 저자로 등장...네이처 등 반발](https://www.aitimes.com/news/articleView.html?idxno=149051), 2023-01-24-Tue.
 - [‘챗GPT’ 잡을 구글의 비밀병기는 ‘스패로우’](https://www.aitimes.com/news/articleView.html?idxno=149050), 2023-01-24-Tue.
+- [인공지능 이용한 뇌과학 성과는...'뇌과학·산업 컨퍼런스' 개최](https://www.aitimes.com/news/articleView.html?idxno=148781), 2023-01-25-Wed.
 
 ## Articles unrelated to AI
 
@@ -47,3 +48,5 @@
 - [미래의 안보 기술을 찾아라…美 정보기관 NSA에 떨어진 특명](https://www.technologyreview.kr/%eb%af%b8%eb%9e%98%eb%a5%bc-%eb%a7%8c%eb%93%a4%ea%b3%a0-%ec%9e%88%eb%8a%94-%eb%af%b8%ea%b5%ad-nsa%ec%9d%98-%ec%8a%a4%ed%8c%8c%ec%9d%b4%eb%93%a4/), 2022-02-15-Tue.
 - [애플, '탈중국' 박차...대체지는 베트남과 인도](http://www.aitimes.com/news/articleView.html?idxno=1485920), 2022-12-24-Sat.
 - ["양자컴퓨팅 발전으로 모든 암호 기능 상실할 것"](https://www.aitimes.com/news/articleView.html?idxno=149044), 2023-01-24-Tue.
+- [MS, 메타버스 사업 손절...핵심 부서 해체·정리해고](https://www.aitimes.com/news/articleView.html?idxno=149089), 2023-01-25-Wed.
+- [애플, 첫 헤드셋에 '손가락 컨트롤' 탑재...가격은 370만원](https://www.aitimes.com/news/articleView.html?idxno=149079), 2023-01-25-Wed.
