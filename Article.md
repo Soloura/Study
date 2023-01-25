@@ -16,6 +16,8 @@
 - [In-home wireless device tracks disease progression in Parkinson's patients](https://news.mit.edu/2022/home-wireless-parkinsons-progression-0921), 2022-09-26-Mon.
 - [LOLNeRF: Learn from One Look](https://ai.googleblog.com/2022/09/lolnerf-learn-from-one-look.html), 2022-09-26-Mon.
 - [AL that can learn the patterns of human language](https://feedly.com/i/entry/NwHO2cNXnJxomKwaSvhGDBXV4Lc7B4INaC4YnMl3/fs=_182ef0744b0:4878f3:559ea8bd), 2022-09-26-Mon.
+- [7 ways Google is using AI to help solve society's challenges](https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/), 2023-01-25-Wed.
+- [Unpacking the “black box” to build better AI models](https://news.mit.edu/2023/stefanie-jegelka-machine-learning-0108), 2023-01-25-Wed.
 
 ### Korean
 
