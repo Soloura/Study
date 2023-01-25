@@ -120,6 +120,14 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ## :microscope: Object Detection
 
+### AdaBoost (Adaptive Boosting) | [Blog #1 (KR)](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) [Blog #2 (KR)](https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/)
+
+AdaBoost is a weak learner or model which uses several stumps called forest of stumps with different weights (amount of say).
+
+Each stumps effect to after stumps (serially).
+
+AdaBoost learns faster than bagging method, because of number and complexity of calculation of boosting is less than those of bagging method.
+
 ### Haar-Cascade: Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2001](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
@@ -325,3 +333,4 @@ IoU measures the overlap between 2 boundaries.
 - SequeezeSeqV2, Darknet51, Darknet52 Blog KR, https://www.wenyanet.com/opensource/ko/6114b45841db8a44780b2403.html, 2022-01-17-Mon.
 - 객체 인식 Mathworks KR, https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html, 2022-10-03-Mon.
 - Deeper Depth Prediction with Fully Convolutional Residual Networks GitHub, https://github.com/irolaina/FCRN-DepthPrediction, 2023-01-19-Thu.
+- AdaBoost Blog KR, https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/, 2023-01-25-Wed.
