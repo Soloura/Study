@@ -243,7 +243,19 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ## :calendar: Scene Text Detection (STD)
 
+Regression-based text detectors
+
+Segmentation-based text detectors
+
+End-to-end text detectors
+
+Character-level text detectors
+
 ### Character Region Awareness for Text Detection | [CVPR, 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
+
+Ground Truth Label Generation
+
+Weakly-Supervised Learning
 
 ## :calendar: Scene Text Recognition (STR)
 
