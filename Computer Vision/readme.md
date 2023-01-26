@@ -253,7 +253,7 @@ Character-level text detectors
 
 ### Character Region Awareness for Text Detection | [CVPR, 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
 
-Ground Truth Label Generation
+Ground Truth Label Generation, region score(center of the character), affinity score(center of the space between adjacent characters)
 
 Weakly-Supervised Learning
 
