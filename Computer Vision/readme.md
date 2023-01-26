@@ -38,74 +38,94 @@ Unpooling layer, kernel, ReLU로 up-convolution block을 만들고, 반대의 �
 
 Haar-like features are digital image features used in object recognition. They owe their name to their intuitive similarity with Haar wavelets and were used in the first real-time face detector.
 
-### :art: Does Colour Really Matter? Evaluation via Object Classification | [CIC, 2018](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
+### :art: Does Colour Really Matter? Evaluation via Object Classification | [CIC 2018](https://www2.cs.sfu.ca/~funt/Funt_Zhu_DoesColourMatter_CIC26_2018.pdf)
 
 ResNet-50 trained with color images performed better in object classification by 12% than that of gray images.
 
 For some tasks, the model trained with color images succeeded, but the model trained with gray images failed.
 
-### LeNet: Gradient-Based Learning Applied to Document Recognition | [Proceedings of the IEEE, 1998](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
+### LeNet: Gradient-Based Learning Applied to Document Recognition | [Proceedings of the IEEE 1998](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
-LeNet은 Yann LeCun이 1998에 제안한 Convolutional Neural Network(CNN) 모델이다.
+LeNet은 Yann LeCun이 제안한 CNN 모델이다.
 
-LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다. 기존의 Fully Connected(FC)를 개선하고자 연구되었다.
+LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다.
+
+LeNet은 기존의 Fully Connected(FC/Dense) layer를 개선하고자 연구되었다.
 
 Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다.
 
-LeNet은 local receptive field, shared weight, sub sampling을 결합한 convoltuional layer을 이용한다.
+LeNet은 local receptive field, shared weight, subsampling을 결합한 convoltuional layer을 이용한다.
 
 LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다.
 
 LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다.
 
-LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-OUTPUT(Gaussian connection)이다.
+LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-Output(Gaussian connection)이다.
 
-### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS, 2012](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS 2012](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 AlexNet은 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알렸다.
 
 AlexNet은 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
-### ZFNet: Visualizing and Understanding Convolutional Networks | [ECCV, 2014](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
+### ZFNet: Visualizing and Understanding Convolutional Networks | [ECCV 2014](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
-2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었고, 중간 convolutional layer의 크기를 늘린 구조이다.
+ZFNet은 2013년 ImageNet ILSVRC에서 1위를 한 모델로, NYU의 Matthew Zeiler와 Rob Fergus의 성 앞글자를 하나씩 따서 이름이 붙었다.
 
-### GoogLeNet: Going deeper with convolutions | [CVPR, 2015](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) | [arXiv, 2014](https://arxiv.org/abs/1409.4842)
+ZFNet은 중간 convolutional layer의 크기를 늘린 구조이다.
 
-2014년 ImageNet ILSVRC에서 1위한 Google에서 만든 모델로, Inception module의 개념을 만들었으며, 이를 통해 parameter를 60M(AlexNet)에서 4M(GoogLeNet)으로 줄였다.
+### GoogLeNet: Going deeper with convolutions | [CVPR 2015](https://www.cs.unc.edu/~wliu/papers/GoogLeNet.pdf) | [arXiv 2014](https://arxiv.org/abs/1409.4842)
 
-1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다.
+GoogLeNet은 2014년 ImageNet ILSVRC에서 1위한 모델이다.
 
-Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
+GoogLeNet은 Inception module을 만들었으며, 이를 통해 parameter를 60M(AlexNet)에서 4M(GoogLeNet)으로 줄였다.
 
-### VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition | [ICLR, 2015](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/) | [arXiv, 2014](https://arxiv.org/abs/1409.1556)
+GoogLeNet은 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다.
 
-2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타냈다.
+GoogLeNet은 Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
 
-시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다.
+### VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition | [ICLR 2015](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/) | [arXiv, 2014](https://arxiv.org/abs/1409.1556)
 
-메모리, parameter가 크다는 단점이 있다.
+VGGNet은 2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타낸다.
 
-### ResNet: Deep Residual Learning for Image Recognition | [CVPR, 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+VGGNet은 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다.
 
-2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델로, layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 소개했다.
+VGGNet은 메모리, parameter가 크다는 단점이 있다.
 
-### ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | [CVPR, 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) | [arXiv](https://arxiv.org/abs/1611.05431)
+### ResNet: Deep Residual Learning for Image Recognition | [CVPR 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-2016년 UCSD와 Facebook에서 제안한 ResNeXt는 ResNet의 변형 network이다. Input을 *group convolution*을 통해 여러개로 나누고 1x1 convolution으로 input을 transform하고, concat를 통해 merge한다(*Split-Transform-Merge*). ResNet에 비해 *parameter를 줄여 연산량을 줄이고* 더 높은 성능을 보였다. Network에서 각 convolutional layer를 지날 때 마다 output의 크기가 1/2로 줄어든다. ResNet은 하나의 convolutional layer을 통해 deep하게 만들었지만, ResNeXt는 조금 더 깊지만 group convolution을 통해 연산량을 낮췄다. 논문에서 나온 C는 *cardinarity*로 group convolution의 수(the size of the set of transformation)이다. ResNet엣는 50 이하 depth일 때는 block 1개, convolution을 2개만 연산했다. 하지만 ResNeXt에서는 2개의 block은 group convolution의 효과가 없어서 block depth가 3 이상일 때부터 효과가 있다. Cardinality의 크기를 키울수록(group 수가 많아질수록) parameter를 줄여 연산량을 줄일 수 있다. 즉, 같은 parameter일 때 더 많은 channel 이용해서 deeper network 설계가 가능하다.
+ResNet은 2015년 ImageNet ILSVRC에서 1위를 한 Microsoft에서 만든 모델이다.
 
-### DenseNet: Densely Connected Convolutional Networks | [CVPR, 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) | [arXiv, 2016](https://arxiv.org/abs/1608.06993)
+ResNet은 layer 수가 Deep 보다 많은 Deeper한 네트워크에 대해서 학습을 하는 residual framework/module을 사용한다.
 
-Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
+### ResNeXt: Aggregated Residual Transformations for Deep Neural Networks | [CVPR 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Xie_Aggregated_Residual_Transformations_CVPR_2017_paper.pdf) | [arXiv](https://arxiv.org/abs/1611.05431)
+
+ResNeXt는 2016년 UCSD와 Facebook에서 제안한 ResNet의 변형 network이다.
+
+Input을 _group convolution_을 통해 여러개로 나누고 1x1 convolution으로 input을 transform하고, concat를 통해 merge한다(*Split-Transform-Merge*). ResNet에 비해 *parameter를 줄여 연산량을 줄이고* 더 높은 성능을 보였다. Network에서 각 convolutional layer를 지날 때 마다 output의 크기가 1/2로 줄어든다. ResNet은 하나의 convolutional layer을 통해 deep하게 만들었지만, ResNeXt는 조금 더 깊지만 group convolution을 통해 연산량을 낮췄다. 논문에서 나온 C는 *cardinarity*로 group convolution의 수(the size of the set of transformation)이다. 
+
+ResNet에서는 50 이하 depth일 때는 block 1개, convolution을 2개만 연산했다. 하지만 ResNeXt에서는 2개의 block은 group convolution의 효과가 없어서 block depth가 3 이상일 때부터 효과가 있다. Cardinality의 크기를 키울수록(group 수가 많아질수록) parameter를 줄여 연산량을 줄일 수 있다. 즉, 같은 parameter일 때 더 많은 channel 이용해서 deeper network 설계가 가능하다.
+
+### DenseNet: Densely Connected Convolutional Networks | [CVPR 2017](https://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Densely_Connected_Convolutional_CVPR_2017_paper.pdf) | [arXiv 2016](https://arxiv.org/abs/1608.06993)
+
+DenseNet은 Huang이 제안한 ResNet의 확장 버전으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다.
+
+하지만, DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다.
+
+이를 통해, 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
 ### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | [arXiv 2017](https://arxiv.org/abs/1704.04861)
 
-MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다. 고성능의 device가 아닌 vehicle, drone, smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 작은 neural network를 만드는 방법은 다음과 같다.
+MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다.
 
-1. Remove fully-connected layers으로 CNN parameters 90%를 FC layers가 차지한다.
-2. Kernel reduction으로 3x3을 1x1으로 변경해서 연산량을 줄인다. 
+고성능의 device가 아닌 vehicle, drone, smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 
+
+작은 neural network를 만드는 방법은 다음과 같다:
+
+1. Remove fully-connected layers: CNN parameters 90%를 FC layers가 차지한다.
+2. Kernel reduction: 3x3을 1x1으로 변경해서 연산량을 줄인다. 
 3. Channel reduction. 
-4. Evenly spaced downsampling으로 초반에 downsampling을 많이 하면 accuracy가 떨어지지만 parameter가 적어지고 후반에 downsampling을 많이 하면 accuracy가 좋아지지만 parameter가 많아지기 때문에 적당히 사용하는 것이 좋다. 
+4. Evenly spaced downsampling: 초반에 downsampling을 많이 하면 accuracy가 떨어지지만 parameter가 적어지고, 후반에 downsampling을 많이 하면 accuracy가 좋아지지만 parameter가 많아지기 때문에 적당히 사용하는 것이 좋다. 
 5. **Depthwise seperable convolutions.**
 6. Shuffle operations. 
 7. Distillation & Compression.
@@ -134,7 +154,11 @@ AdaBoost learns faster than bagging method, because of number and complexity of 
 
 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
-Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다. 같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다. 물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
+Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다.
+
+같은 종류의 feature이여도 물체 내에서의 위치 및 크기에 따라 서로 다른 feature로 간주하기 때문에 다양한 feature 조합이 가능하다. 다양한 features 중 대상과 관련이 있는 의미 있는 feature 선정은 boosting 알고리즘 등의 학습 알고리즘을 이용한다.
+
+물체의 기하학적인 정보를 유지하며 영역 단위의 밝기 차이를 이용하기 때문에 영역 내부에서의 물체의 형태 변화 및 약간의 위치 변화를 어느 정도 커버할 수 있다. 하지만 영상의 contrast, 광원의 방향에 따른 영상 밝기의 변화에 영향을 받으며 물체가 회전된 경우에는 object detection이 힘들다.
 
 Haar-like Feature, Integral Image, AdaBoost(Ensemble, Bagging, Boosting, Stump, weak learner, Amount of Say), Cascade Classifier
 
@@ -156,15 +180,39 @@ Local feature인 SIFT와 비교해보면 HOG는 일종의 템플릿 매칭이기
 
 ### R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation | [arXiv](https://arxiv.org/abs/1311.2524)
 
-R-CNN은 2013년 UC Berkeley의 Ross Girshick이 발표한 object detection, semantic segmentation model이다. 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
+R-CNN은 2013년 UC Berkeley의 Ross Girshick이 발표한 object detection, semantic segmentation model이다.
+
+이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다:
+- 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다.
+  - Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다.
+- 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다.
+  - 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다.
+  - CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다.
+- 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
 ### Fast R-CNN | [arXiv](https://arxiv.org/abs/1504.08083)
 
-Fast R-CNN은 2015년 Microsoft의 Ross Girshick이 ICCV15에서 발표한 R-CNN을 개선한 model이다. R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다. Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. Joint the feature extractor, classifier, regressor together in a unified framework.
+Fast R-CNN은 2015년 Microsoft의 Ross Girshick이 ICCV15에서 발표한 R-CNN을 개선한 model이다.
+
+R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 
+
+때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다.
+
+Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. 
+
+Joint the feature extractor, classifier, regressor together in a unified framework.
 
 ### Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | [arXiv](https://arxiv.org/abs/1506.01497) | [PyCaffe](https://github.com/rbgirshick/py-faster-rcnn) | [PyTorch](https://github.com/longcw/faster_rcnn_pytorch) | [MatLab](https://github.com/ShaoqingRen/faster_rcnn)
 
-Faster R-CNN은 2015년 Microsoft에서 인턴을 했던 USTC의 Shaoqing Ren이 NIPS15에서 발표한 Fast R-CNN의 개선된 model이다. Fast R-CNN에서 남은 bottleneck은 bounding box를 만드는 region proposal 단계이다. Faster R-CNN은 region proposal 단계를 CNN 안에 넣어서 문제를 해결했다. CNN을 통과한 feature map에서 sliding window를 이용해 각 anchor마다 가능한 bounding box의 좌표와 이 bounding box의 점수를 계산한다. 대부분 너무 홀쭉하거나 넓은 물체는 많지 않으므로 2:1, 1:1, 1:2 등의 몇가지 타입으로도 좋다. Faster R-CNN은 Microsoft에서 연구한 내용이다.
+Faster R-CNN은 2015년 Microsoft에서 인턴을 했던 USTC의 Shaoqing Ren이 NIPS15에서 발표한 Fast R-CNN의 개선된 model이다. 
+
+Fast R-CNN에서 남은 bottleneck은 bounding box를 만드는 region proposal 단계이다. 
+
+Faster R-CNN은 region proposal 단계를 CNN 안에 넣어서 문제를 해결했다.
+
+CNN을 통과한 feature map에서 sliding window를 이용해 각 anchor마다 가능한 bounding box의 좌표와 이 bounding box의 점수를 계산한다.
+
+대부분 너무 홀쭉하거나 넓은 물체는 많지 않으므로 2:1, 1:1, 1:2 등의 몇가지 타입으로도 좋다.
 
 ### YOLO: You Only Look Once, Real-Time Object Detection | [Homepage](https://pjreddie.com/darknet/yolo/)
 
