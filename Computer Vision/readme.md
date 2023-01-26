@@ -62,7 +62,9 @@ LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)
 
 ### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS, 2012](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
-2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알리게 된 모델로, 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
+AlexNet은 2012년 ImageNet ILSVRC에서 1위를 하며 CNN을 널리 알렸다.
+
+AlexNet은 주로 convolutional layer 다음에 pooling layer가 오는 구조와 달리 convolutional layer가 오도록 구성했다.
 
 ### ZFNet: Visualizing and Understanding Convolutional Networks | [ECCV, 2014](https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf)
 
