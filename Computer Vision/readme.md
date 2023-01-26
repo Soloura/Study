@@ -96,7 +96,7 @@ Auxiliary classifier block unit을 통해 vanishing gradient를 피한다.
 
 Huang이 제안한 ResNet의 확장판으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다. DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
-### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | [arXiv, 2017](https://arxiv.org/abs/1704.04861)
+### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | [arXiv 2017](https://arxiv.org/abs/1704.04861)
 
 MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018, 2019에 발표되었다. 고성능의 device가 아닌 vehicle, drone, smart phone과 같은 환경에서는 computing power, memory가 부족하다. 따라서 battery performance가 중요한 곳을 목적으로 설계된 CNN이다. 작은 neural network를 만드는 방법은 다음과 같다.
 
@@ -110,13 +110,13 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
-### *MobileNetV2: Inverted Residuals and Linear Bottlenecks* | [CVPR, 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1801.04381)
+### MobileNetV2: Inverted Residuals and Linear Bottlenecks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1801.04381)
 
-### *Searching for MobileNetV3* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
+### Searching for MobileNetV3 | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
 
 Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
-### *Squeeze-and-Excitation Networks* | [CVPR](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
+### Squeeze-and-Excitation Networks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
 
 ## :microscope: Object Detection
 
@@ -156,11 +156,11 @@ Local feature인 SIFT와 비교해보면 HOG는 일종의 템플릿 매칭이기
 
 R-CNN은 2013년 UC Berkeley의 Ross Girshick이 발표한 object detection, semantic segmentation model이다. 이미지를 분류하는 것보다 이미지 안에 object인지 구분하는 것이 어려운 작업이다. R-CNN은 이를 위해 몇 단계를 거친다. 먼저 후보 이미지 영역을 찾아내는 region proposal/bounding box를 찾는 단계가 있다. Bounding box를 찾기 위해 색상이나 패턴 등이 비슷한 인접한 픽셀을 합치는 selective search 과정을 거친다. 다음 추출한 bounding box를 CNN의 입력으로 넣기 위해 강제로 사이즈를 통일 시킨다. 이 때 CNN은 훈련된 AlexNet의 변형된 버전이다. CNN의 마지막 단계에서 Support Vector Machine(SVM)을 사용하여 이미지를 분류한다. 그리고 최종적으로 분류된 object의 bounding box 좌표를 더 정확히 맞추기 위해 linear regression model을 사용한다.
 
-### *Fast R-CNN* | [arXiv](https://arxiv.org/abs/1504.08083)
+### Fast R-CNN | [arXiv](https://arxiv.org/abs/1504.08083)
 
 Fast R-CNN은 2015년 Microsoft의 Ross Girshick이 ICCV15에서 발표한 R-CNN을 개선한 model이다. R-CNN의 문제점은 모든 bounding box에 대해 CNN, SVM, linear regression 3가지 모델을 훈련시켜야하기 떄문에 어렵다. 때문에 Fast R-CNN은 bounding box 사이에 겹치는 영역이 CNN을 통과시키는 것은 낭비라 생각했다. Region of Interset Pooling(RolPool)의 개념을 도입하여 selective search에서 찾은 bounding box 정보를 CNN을 통과시키면서 유지시키고 최종 CNN feature map으로부터 해당 영역을 추출하여 pooling한다. 이를 통해 bounding box마다 CNN을 거치는 시간을 단축시킨다. 또한 SVM 대신 CNN 뒤에 softmax를 놓고 linear regression 대신 softmax layer와 동일하게 뒤에 추가했다. Joint the feature extractor, classifier, regressor together in a unified framework.
 
-### *Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks* | [arXiv](https://arxiv.org/abs/1506.01497) | [PyCaffe](https://github.com/rbgirshick/py-faster-rcnn) | [PyTorch](https://github.com/longcw/faster_rcnn_pytorch) | [MatLab](https://github.com/ShaoqingRen/faster_rcnn)
+### Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks | [arXiv](https://arxiv.org/abs/1506.01497) | [PyCaffe](https://github.com/rbgirshick/py-faster-rcnn) | [PyTorch](https://github.com/longcw/faster_rcnn_pytorch) | [MatLab](https://github.com/ShaoqingRen/faster_rcnn)
 
 Faster R-CNN은 2015년 Microsoft에서 인턴을 했던 USTC의 Shaoqing Ren이 NIPS15에서 발표한 Fast R-CNN의 개선된 model이다. Fast R-CNN에서 남은 bottleneck은 bounding box를 만드는 region proposal 단계이다. Faster R-CNN은 region proposal 단계를 CNN 안에 넣어서 문제를 해결했다. CNN을 통과한 feature map에서 sliding window를 이용해 각 anchor마다 가능한 bounding box의 좌표와 이 bounding box의 점수를 계산한다. 대부분 너무 홀쭉하거나 넓은 물체는 많지 않으므로 2:1, 1:1, 1:2 등의 몇가지 타입으로도 좋다. Faster R-CNN은 Microsoft에서 연구한 내용이다.
 
@@ -190,17 +190,17 @@ Predicting detection을 하는 convolutional model은 feature layer들(Overfeat 
 
 네트워크 속의 네트워크로, 기존의 CNN의 linear convolution layer와 달리 filter 대신에 MLP(Multi-Layer Perceptron)을 사용하며 non-linear한 성질을 이용해서 feature 추출을 한다. MLP Convolutional layer 여러 개를 network로 만들어서 사용하기 때문에 network in network이다. 또한 1x1 convolution을 이용하여 feature map을 줄였다. 1x1 convolution은 neurons that fire together, wire together인 Hebbian principle와 같이 여러 개의 feature map에서 비슷한 성질을 묶을 수 있어 숫자를 줄여 연산량을 줄일 수 있다. 그리고 기존 CNN와 달리 마지막 layer에 fully connected layer가 아닌 global average pooling을 classifier로 사용하여 overfitting과 연산을 줄인다.
 
-### *Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision* | [arXiv](https://arxiv.org/abs/1505.02496)
+### Auxiliary Classifier: Training Deeper Convolutional Networks with Deep SuperVision | [arXiv](https://arxiv.org/abs/1505.02496)
 
 Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치기에 gradient가 작아지는 문제를 피할 수 있다.
 
-### *YOLO9000: Better, Faster, Stronger* | [Homepage](https://pjreddie.com/darknet/yolov2/) | [arXiv](https://arxiv.org/abs/1612.08242)
+### YOLOv2: YOLO9000: Better, Faster, Stronger | [Homepage](https://pjreddie.com/darknet/yolov2/) | [arXiv](https://arxiv.org/abs/1612.08242)
 
-### *YOLOv3:AnIncrementalImprovement* | [Homepage](https://pjreddie.com/darknet/yolo/) |[PDF](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fpjreddie.com%2Fmedia%2Ffiles%2Fpapers%2FYOLOv3.pdf&clen=2241388&chunk=true)
+### YOLOv3:AnIncrementalImprovement | [Homepage](https://pjreddie.com/darknet/yolo/) |[PDF](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/viewer.html?pdfurl=https%3A%2F%2Fpjreddie.com%2Fmedia%2Ffiles%2Fpapers%2FYOLOv3.pdf&clen=2241388&chunk=true)
 
-### *YOLOv4: Optimal Speed and Accuracy of Object Detection* | [arXiv](https://arxiv.org/abs/2004.10934) | [Blog (KR)](https://jetsonaicar.tistory.com/68) | [Blog (KR)](https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html)
+### YOLOv4: Optimal Speed and Accuracy of Object Detection | [arXiv](https://arxiv.org/abs/2004.10934) | [Blog (KR)](https://jetsonaicar.tistory.com/68) | [Blog (KR)](https://jjeamin.github.io/darknet_book/part1_paper/yolov4.html)
 
-### *YOLOv5* | [GitHub](https://github.com/ultralytics/yolov5) | [Docs](https://docs.ultralytics.com/)
+### YOLOv5 | [GitHub](https://github.com/ultralytics/yolov5) | [Docs](https://docs.ultralytics.com/)
 
 ---
 
@@ -226,16 +226,16 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. Faster R-CNN에 각 픽셀이 object class에 해당하는지 binary masking하는 분기 network를 추가했다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 Rol Pooling에서 rounding하며 발생하는 소숫점 오차를 RoIAlign(2D bilinear interpolation)로 대체해서 감소시켰다.
 
-### *EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks* | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
+### EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
 
-### *TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation* | [arXiv](https://arxiv.org/abs/1811.09393) | [GitHub](https://github.com/thunil/TecoGAN)
+### TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation | [arXiv](https://arxiv.org/abs/1811.09393) | [GitHub](https://github.com/thunil/TecoGAN)
 
-### *SinGAN: Learning a Generative Model from a Single Natural Image* | [arXiv](https://arxiv.org/pdf/1905.01164.pdf) | [GitHub](https://github.com/FriedRonaldo/SinGAN)
+### SinGAN: Learning a Generative Model from a Single Natural Image | [arXiv](https://arxiv.org/pdf/1905.01164.pdf) | [GitHub](https://github.com/FriedRonaldo/SinGAN)
 
 SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image를 생성하는 연구이지만, 차이점은 InGAN은 a single image에 대해서 여러 condition을 적용했지만, SinGAN은 unconditional한 방식이다.
 
-### *InGAN: Capturing and Retargeting the "DNA" of a Natural Image* | [ICCV](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
+### InGAN: Capturing and Retargeting the "DNA" of a Natural Image | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shocher_InGAN_Capturing_and_Retargeting_the_DNA_of_a_Natural_Image_ICCV_2019_paper.pdf) | [Paper (arXiv)](https://arxiv.org/abs/1812.00231)
 
 ---
 
