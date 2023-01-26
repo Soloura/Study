@@ -241,13 +241,44 @@ SinGAN은 InGan과 마찬가지로 a single natural image로 부터 여러 image
 
 ## :calendar: Optical Character Recognition
 
-## :calendar: Scene Text Detection
+## :calendar: Scene Text Detection (STD)
 
 ### Character Region Awareness for Text Detection | [CVPR, 2019](https://openaccess.thecvf.com/content_CVPR_2019/papers/Baek_Character_Region_Awareness_for_Text_Detection_CVPR_2019_paper.pdf)
 
-## :calendar: Scene Text Recognition
+## :calendar: Scene Text Recognition (STR)
 
 ### What Is Wrong With Scene Text Recognition Model Comparisons? Dataset and Model Analysis | [ICCV, 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Baek_What_Is_Wrong_With_Scene_Text_Recognition_Model_Comparisons_Dataset_ICCV_2019_paper.pdf)
+
+This paper proposes a model that produces good performance by comparing, analyzing, and combining datasets and models.
+
+Datasets
+- Synthetic datasets
+  - MJSynth (MJ): designed for STR, 8.9 M word box images
+  - SynthText (ST): originally designed for STD, cropping word boxes used for STR, 5.5 M
+- Real-world datasets
+  - Regular datasets - horizontally laid out characters that have even spacings between them
+    - IIIT5K-Words (IIIT)
+    - Street View Text (SVT)
+    - ICDAR2003 (IC03)
+    - ICDAR2013 (IC13)
+  - Irregular datasets - contain harder corner cases for STR, such as curved and arbitrarily rotated or distored texts
+    - ICDAR2015 (IC15)
+    - SVT Perspective (SP)
+    - CUTE80 (CT)
+
+Framework
+- Transformation - transforms the input image into the normalized image.
+  - Thin-plat spline (TPS) transformation - a variant of the spatial transformation network (STN)
+- Feature extraction - CNN abstract abstract an input image and outputs a visual feature map
+  - VGG
+  - RCNN
+  - ResNet
+- Sequence modeling - extracted features reshaped to be a sequence of features
+  - Bidirectional LSTM (BiLSTM)
+  - :key: Rosetta removed the BiLSTM to reduct computational complexity and memory consumption.
+- Prediction
+  - Connectionist temporal classification (CTC): allows for the prediction of a non-fixed number of a sequence even though a fixed number of the features are given.
+  - Attention-based sequence prediction (Attn): automatically captures the information flow within the input sequence to predict the output sequence.
 
 ---
 
