@@ -37,6 +37,7 @@
 - ['챗GPT', 논문 저자로 등장...네이처 등 반발](https://www.aitimes.com/news/articleView.html?idxno=149051), 2023-01-24-Tue.
 - [‘챗GPT’ 잡을 구글의 비밀병기는 ‘스패로우’](https://www.aitimes.com/news/articleView.html?idxno=149050), 2023-01-24-Tue.
 - [인공지능 이용한 뇌과학 성과는...'뇌과학·산업 컨퍼런스' 개최](https://www.aitimes.com/news/articleView.html?idxno=148781), 2023-01-25-Wed.
+- [정부, 차세대 AI 개발에 2600억 투입...'AI 10대 프로젝트' 추진](https://www.aitimes.com/news/articleView.html?idxno=149128), 2023-01-27-Fri.
 
 ## Articles unrelated to AI
 
