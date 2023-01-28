@@ -46,21 +46,11 @@ For some tasks, the model trained with color images succeeded, but the model tra
 
 ### LeNet: Gradient-Based Learning Applied to Document Recognition | [Proceedings of the IEEE 1998](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf)
 
-LeNet은 Yann LeCun이 제안한 CNN 모델이다.
+LeNet은 Yann LeCun이 제안한 CNN 모델이다. LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다.
 
-LeNet은 손글씨로 된 우편 번호(숫자)를 인식한다.
+LeNet은 기존의 Fully Connected(FC/Dense) layer를 개선하고자 연구되었다. Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다. LeNet은 local receptive field, shared weight, subsampling을 결합한 convoltuional layer을 이용한다.
 
-LeNet은 기존의 Fully Connected(FC/Dense) layer를 개선하고자 연구되었다.
-
-Image는 spatial structure, information을 갖는데, FC layer에 통과시키기 위해 flatten 작업을 거치면 topology data를 잃게 된다.
-
-LeNet은 local receptive field, shared weight, subsampling을 결합한 convoltuional layer을 이용한다.
-
-LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다.
-
-LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다.
-
-LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-Output(Gaussian connection)이다.
+LeNet-1부터 LeNet-5이 연구 및 개발되었는데, 차이는 convolution kernel/filter의 개수를 늘리고 마지막 FC layer 크기를 키웠다. LeNet-1은 input-convolution-subsampling-convolution-subsampling-convolution-output이다. LeNet-5는 Input-C1(Convolution)-S2(Subsampling)-C3(Convolution)-S4(Subsampling)-C5(Full connection)-F6(Full connection)-Output(Gaussian connection)이다.
 
 ### AlexNet: ImageNet Classification with Deep Convolutional Neural Networks | [NIPS 2012](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
@@ -78,19 +68,13 @@ ZFNet은 중간 convolutional layer의 크기를 늘린 구조이다.
 
 GoogLeNet은 2014년 ImageNet ILSVRC에서 1위한 모델이다.
 
-GoogLeNet은 Inception module을 만들었으며, 이를 통해 parameter를 60M(AlexNet)에서 4M(GoogLeNet)으로 줄였다.
-
-GoogLeNet은 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다.
-
-GoogLeNet은 Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
+GoogLeNet은 Inception module을 만들었으며, 이를 통해 parameter를 60M(AlexNet)에서 4M(GoogLeNet)으로 줄였다. GoogLeNet은 1x1 convolution, NIN, Inception module을 사용하여 연산량을 유지하면서 network를 깊고 넓게 만들었다. GoogLeNet은 Auxiliary classifier block unit을 통해 vanishing gradient를 피한다. 
 
 ### VGGNet: Very Deep Convolutional Networks for Large-Scale Image Recognition | [ICLR 2015](https://www.robots.ox.ac.uk/~vgg/publications/2015/Simonyan15/) | [arXiv, 2014](https://arxiv.org/abs/1409.1556)
 
 VGGNet은 2014년 ImageNet ILSVRC에서 2위한 Oxford University에서 만든 모델로 depth에 따른 영향을 나타낸다.
 
-VGGNet은 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다.
-
-VGGNet은 메모리, parameter가 크다는 단점이 있다.
+VGGNet은 시작부터 끝까지 3x3 convolution과 2x2 max pooling을 사용하는 homogeneous 구조에서 depth가 16일 때 최적의 결과가 나오며, 분류 성능은 GoogLeNet에 비해 성능은 부족하지만 다중 전달 학습 과제에서는 성능이 우월했다. VGGNet은 메모리, parameter가 크다는 단점이 있다.
 
 ### ResNet: Deep Residual Learning for Image Recognition | [CVPR 2016](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
@@ -110,9 +94,7 @@ ResNet에서는 50 이하 depth일 때는 block 1개, convolution을 2개만 연
 
 DenseNet은 Huang이 제안한 ResNet의 확장 버전으로 ResNet 블록에서는 합산을 통해 이전 layer와 현재 layer가 합쳐졌다.
 
-하지만, DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다.
-
-이를 통해, 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
+하지만, DenseNet의 경우, 연결을 통해 합쳐진다. 모든 layer를 이전 layer와 연결하고 현재 layer를 다음 layer에 연결한다. 이를 통해, 더 매끄러운 기울기, 특징 변환 등과 같은 여러 가지 이점을 제공한다. 또한 parameter의 개수가 줄어든다.
 
 ### MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications | [arXiv 2017](https://arxiv.org/abs/1704.04861)
 
