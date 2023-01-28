@@ -53,3 +53,4 @@
 - ["양자컴퓨팅 발전으로 모든 암호 기능 상실할 것"](https://www.aitimes.com/news/articleView.html?idxno=149044), 2023-01-24-Tue.
 - [MS, 메타버스 사업 손절...핵심 부서 해체·정리해고](https://www.aitimes.com/news/articleView.html?idxno=149089), 2023-01-25-Wed.
 - [애플, 첫 헤드셋에 '손가락 컨트롤' 탑재...가격은 370만원](https://www.aitimes.com/news/articleView.html?idxno=149079), 2023-01-25-Wed.
+- [명품 '욕망의 꼭대기'에..레비예프·그라프 '빛'으로 자리잡다](https://realestate.daum.net/news/detail/hotissue/1087461/MD20160304113808197), 2023-01-28-Sat.
