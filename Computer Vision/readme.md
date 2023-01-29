@@ -116,6 +116,8 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 ### MobileNetV2: Inverted Residuals and Linear Bottlenecks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1801.04381)
 
+stride 1 residual block, stride 2 block, Linear Bottlenecks, Inverted Residuals: Bottleneck Residual Block
+
 ### Searching for MobileNetV3 | [ICCV 2019](https://openaccess.thecvf.com/content_ICCV_2019/papers/Howard_Searching_for_MobileNetV3_ICCV_2019_paper.pdf) | [Blog (KR)](https://seongkyun.github.io/papers/2019/12/03/mbv3/)
 
 Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
