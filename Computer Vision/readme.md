@@ -114,7 +114,7 @@ MobileNet은 Google에서 연구한 Network로 version 1, 2, 3은 각 2017, 2018
 
 기존의 CNN은 HxW 크기의 C개의 채널 image에 KxKxC 크기의 M개 filter를 곱하여 H'xW' 크기의 M 채널의 image를 생성한다. Depthwise & Pointwise convolution은 이와 달리 한 방향으로만 크기를 줄이는 전략이다. Depthwise convolution은 channel 개수는 줄어들지 않고 1개의 channel에서의 **크기**만 줄어든다. Pointwise convolution은 **channel** 숫자가 1개로 줄어든다. 기존 CNN의 parameter 수는 K^2CM, 계산량은 K^2CMH'W'이다. Depthwise convoltuion과 Pointwise convolution을 합한 parameter는 K^2C+CM, 계산량은 K^2CW'H' + CMW"H"이다. 만약 W'=W", H'=H"이면 W'H'C(K^2+M)이다. 즉, Depthwise convolution과 pointwise convolution을 합친 Separable convolutions의 계산량은 기존 CNN에 비해서 (1/M + 1/K^2)으로 K=3일 경우 약 8~9배의 효율을 보인다. (H=H'=H", W=W'=W"d 일 때)
 
-### MobileNetV2: Inverted Residuals and Linear Bottlenecks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1801.04381)
+### MobileNetV2: Inverted Residuals and Linear Bottlenecks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/abs/1801.04381) | [Blog (KR)](https://gaussian37.github.io/dl-concept-mobilenet_v2/)
 
 stride 1 residual block, stride 2 block, Linear Bottlenecks, Inverted Residuals: Bottleneck Residual Block
 
@@ -411,3 +411,4 @@ IoU measures the overlap between 2 boundaries.
 - 객체 인식 Mathworks KR, https://kr.mathworks.com/solutions/image-video-processing/object-recognition.html, 2022-10-03-Mon.
 - Deeper Depth Prediction with Fully Convolutional Residual Networks GitHub, https://github.com/irolaina/FCRN-DepthPrediction, 2023-01-19-Thu.
 - AdaBoost Blog KR, https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/, 2023-01-25-Wed.
+- MobileNetV2(모바일넷 v2), Inverted Residuals and Linear Bottlenecks, https://gaussian37.github.io/dl-concept-mobilenet_v2/, 2023-01-29-Sun.
