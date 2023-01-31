@@ -18,6 +18,7 @@
 - [AL that can learn the patterns of human language](https://feedly.com/i/entry/NwHO2cNXnJxomKwaSvhGDBXV4Lc7B4INaC4YnMl3/fs=_182ef0744b0:4878f3:559ea8bd), 2022-09-26-Mon.
 - [7 ways Google is using AI to help solve society's challenges](https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/), 2023-01-25-Wed.
 - [Unpacking the “black box” to build better AI models](https://news.mit.edu/2023/stefanie-jegelka-machine-learning-0108), 2023-01-25-Wed.
+- [9 ways we use AI in our products](https://blog.google/technology/ai/9-ways-we-use-ai-in-our-products/), 2023-01-31-Tue.
 
 ### Korean
 
