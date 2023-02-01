@@ -39,6 +39,7 @@
 - [‘챗GPT’ 잡을 구글의 비밀병기는 ‘스패로우’](https://www.aitimes.com/news/articleView.html?idxno=149050), 2023-01-24-Tue.
 - [인공지능 이용한 뇌과학 성과는...'뇌과학·산업 컨퍼런스' 개최](https://www.aitimes.com/news/articleView.html?idxno=148781), 2023-01-25-Wed.
 - [정부, 차세대 AI 개발에 2600억 투입...'AI 10대 프로젝트' 추진](https://www.aitimes.com/news/articleView.html?idxno=149128), 2023-01-27-Fri.
+- ['클로드'가 ‘챗GPT’의 라이벌?](https://www.aitimes.com/news/articleView.html?idxno=149195), 2023-02-01-Wed.
 
 ## Articles unrelated to AI
 
@@ -55,3 +56,4 @@
 - [MS, 메타버스 사업 손절...핵심 부서 해체·정리해고](https://www.aitimes.com/news/articleView.html?idxno=149089), 2023-01-25-Wed.
 - [애플, 첫 헤드셋에 '손가락 컨트롤' 탑재...가격은 370만원](https://www.aitimes.com/news/articleView.html?idxno=149079), 2023-01-25-Wed.
 - [명품 '욕망의 꼭대기'에..레비예프·그라프 '빛'으로 자리잡다](https://realestate.daum.net/news/detail/hotissue/1087461/MD20160304113808197), 2023-01-28-Sat.
+- [과기정통부, 4개 과학기술원 공공기관 지정 해제](https://www.aitimes.com/news/articleView.html?idxno=149177), 2023-02-01-Wed.
