@@ -16,6 +16,8 @@ Loss is the penalty for a bad prediction. That is, loss is a number indicating h
 
 Entropy is an average amount of information about probabilistically occurring events. The amount of information is defined as follows and can be seen as representing the degree of surprise.
 
+The more difficult the prediction, the greater the amount of information and the greater the entropy.
+
 ### Binary Cross Entropy
 
 ### Categorical Cross Entropy
