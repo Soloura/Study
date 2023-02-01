@@ -12,9 +12,13 @@ Loss is the penalty for a bad prediction. That is, loss is a number indicating h
 
 ## :bow_and_arrow: Classification
 
-### Binary Cross Entroy
+### Entropy
 
-### Categorical Cross Entroy
+Entropy is an average amount of information about probabilistically occurring events. The amount of information is defined as follows and can be seen as representing the degree of surprise.
+
+### Binary Cross Entropy
+
+### Categorical Cross Entropy
 
 ## :hammer_and_wrench: [`tf.keras.losses`](https://www.tensorflow.org/api_docs/python/tf/keras/losses)
 
@@ -25,3 +29,4 @@ Loss is the penalty for a bad prediction. That is, loss is a number indicating h
 - Descending into ML: Training and Loss, https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss, 2023-01-23-Mon.
 - Loss function, https://en.wikipedia.org/wiki/Loss_function, 2023-01-23-Mon.
 - Module: tf.keras.losses, https://www.tensorflow.org/api_docs/python/tf/keras/losses, 2023-01-23-Mon.
+- Cross Entropy Blog KR, https://curt-park.github.io/2018-09-19/loss-cross-entropy/, 2023-02-01-Wed.
