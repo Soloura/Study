@@ -31,4 +31,4 @@ The more difficult the prediction, the greater the amount of information and the
 - Descending into ML: Training and Loss, https://developers.google.com/machine-learning/crash-course/descending-into-ml/training-and-loss, 2023-01-23-Mon.
 - Loss function, https://en.wikipedia.org/wiki/Loss_function, 2023-01-23-Mon.
 - Module: tf.keras.losses, https://www.tensorflow.org/api_docs/python/tf/keras/losses, 2023-01-23-Mon.
-- Cross Entropy Blog KR, https://curt-park.github.io/2018-09-19/loss-cross-entropy/, 2023-02-01-Wed.
+- [손실함수] Binary Cross Entropy, https://curt-park.github.io/2018-09-19/loss-cross-entropy/, 2023-02-01-Wed.
