@@ -1,4 +1,26 @@
-# Reinforcement Learning :robot:
+# :robot: Reinforcement Learning
+
+Reinforcement learning is a class of solution methods that work well on the class of problems, and the field that studies these problems and their solution methods.
+
+Reinforcement learning problems involve learning what to do-how to map situations to actions-so as to maximize a numerical reward signal.
+
+## Elements of Reinforcement Learning
+
+### Policy
+
+A policy defines the learning agent's way of behaving at a given time.
+
+### Reward Signal
+
+A reward signal defines the goal in a reinforcement learning problem. On each time step, the environment sends to the reinforcement learning agent a single number, a reward.
+
+Whereas the reward signal indicates what is good in an immediate sense, a value function specifies what is good in the long run.
+
+### Model
+
+Model is something that mimics the bevaior of the environment, or more generally, that allows inferences to be made about how the environment will behave.
+
+Models are used for planning, by which we mean any way of deciding on a course of action by considering possible future situations before they are actually experienced.
 
 ## Q Learning
 
