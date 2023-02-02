@@ -99,7 +99,7 @@ AlphaGo plays Go superior than professional human Go player.
 
 AlphaFold predicts 3D models of protein structures. It can solve protein-folding problems.
 
-## :robot: [AlphaZero](https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go)
+## :robot: [AlphaZero](https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go) | [Science](https://www.science.org/doi/full/10.1126/science.aar6404)
 
 AlphaZero plays chess, shogi, and Go.
 
@@ -119,4 +119,5 @@ AlphaCode programs a solution of programming problems.
 - AlphaFold, https://www.deepmind.com/research/highlighted-research/alphafold, 2023-02-02-Thu.
 - AlphaCode, https://alphacode.deepmind.com/, 2023-02-02-Thu.
 - AlphaZero: Shedding new light on hcess, shogi, and Go, https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go, 2023-02-02-Thu.
+- AlphaZero, https://www.science.org/doi/full/10.1126/science.aar6404, 2023-02-02-Thu.
 - Competitive programming with AlphaCode, https://www.deepmind.com/blog/competitive-programming-with-alphacode, 2023-02-02-Thu.
