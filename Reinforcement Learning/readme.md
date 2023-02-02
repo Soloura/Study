@@ -20,7 +20,22 @@ Whereas the reward signal indicates what is good in an immediate sense, a value 
 
 Model is something that mimics the bevaior of the environment, or more generally, that allows inferences to be made about how the environment will behave. Models are used for planning, by which we mean any way of deciding on a course of action by considering possible future situations before they are actually experienced.
 
-## Q Learning
+## Q Learning | [WiKi](https://en.wikipedia.org/wiki/Q-learning)
+
+Q-learning is a model-free reinforcement learning algorithm to learn the value of an action in a particular state. It does not require a model of the environment, and it can handle problems with stochastic transitions and rewards without requiring adaptations.
+
+"Q" refers to the function that th algorithms computes-the expected rewards for an action taken in a given state.
+
+Q-new(s_t, a_t) <- Q(s_t, a_t) + alpha * (r_t + gamma * max(Q(s_(t+1), a) - Q(s_t, a_t)
+
+Q-new(s_t, a_t) is the sum of three factions:
+1. (1 - alpha) * Q(s_t, a_t): the current value (weighted by one minus the learning rate)
+2. alpha * r_t: the reward r_t = r(s_t, a_t) to obtain if action is taken when in state (weighted by learning rate)
+3. alpha * gamma * max(s_(t+1), a_t): the maximum reward that can be obtained from state s_(t+1) (weighted by learning rate and discount factor)
+
+An episode of the algorithm ends when state s_t+1 is a final or terminal state. However, Q-learning can also learn in non-episodic tasks (as a result of the property of convergent infinite series). If the discount factor is lower than 1, the action value are finite even if the problem can contain infitine loops.
+
+For all final states s_f, Q(s_f, a) is never updated, but is set to the reward value r observed for state s_f. In most cases, Q(s_f, a) can be taken to equal zero.
 
 관찰을 액션에 직접적으로 매핑하는 함수를 학습하는 정책 경사 방법과 달리, Q 러닝은 각 상태 내에서의 값을 학습하고자 시도하며 그 상태 내에서 특정 액션을 취한다. 정책 경사 방법과 Q 러닝 접근법은 궁극적으로는 주어진 환경 아래 지능적인 액션을 취하게 한다는 점에서는 동일하지만 액션에 도달하는 수단이 완전히 다르다.
 
@@ -84,3 +99,4 @@ Periodically, two video clips of its behavior are given to a human, and the huma
 - 파이썬과 케라스로 배우는 강화학습, 이웅원, 양혁렬, 김건우, 이영무, 이의령, 위키북스 
 - Learning from Human Preferences, https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/, 2022-12-09-Fri.
 - Reinforcment Learning: An Introduction (2nd Ed.), Richard S. Sutton and Andrew G. Barto, The MIT Press, 2014.
+- Q-learning, https://en.wikipedia.org/wiki/Q-learning, 2023-02-02-Thu.
