@@ -87,11 +87,25 @@ Q(s, a) = V(s) + A(a) ... [Eq. 4]
 
 Dueling DQN은 어드밴티지 함수와 가치 함수를 분리하여 계산하고 마지막 계층에서만 조합하여 하나의 Q 함수로 만들어주는 네트워크이다. 에이전트가 특정 시간에 가치와 어드밴티지 둘 다에 대해 신경 쓰지는 않을 수 있다. 특정 액션과 연결될 필요를 없애면 상태를 더 robust 추정 값을 얻을 수 있다.
 
-### :robot: Learning from Human Preferences | [OpenAI](https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/) [arXiv](https://arxiv.org/abs/1706.03741)
+## :robot: Learning from Human Preferences | [OpenAI](https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/) [arXiv](https://arxiv.org/abs/1706.03741)
 
 Periodically, two video clips of its behavior are given to a human, and the human decides which of the two clips is closest to fulfilling its goal - in this case, a backflip. The AI gradually builds a model of the goal of the task by finding the reward function that best explains the human's judgments. It then uses RL to learn how to achieve that goal. As its behavior improves, it continues to ask for human feedback on trajectory pairs where it's most uncertain about which is better, and further refines its understanding of the goal.
 
-### AlphaCode
+## :robot: [AlphaGo](https://www.deepmind.com/research/highlighted-research/alphago)
+
+AlphaGo plays Go superior than professional human Go player.
+
+## :robot: [AlphaFold](https://www.deepmind.com/research/highlighted-research/alphafold)
+
+AlphaFold predicts 3D models of protein structures. It can solve protein-folding problems.
+
+## :robot: [AlphaZero](https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go)
+
+AlphaZero plays chess, shogi, and Go.
+
+## :robot: [AlphaCode](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+
+AlphaCode programs a solution of programming problems.
 
 ---
 
@@ -101,3 +115,8 @@ Periodically, two video clips of its behavior are given to a human, and the huma
 - Learning from Human Preferences, https://openai.com/blog/deep-reinforcement-learning-from-human-preferences/, 2022-12-09-Fri.
 - Reinforcment Learning: An Introduction (2nd Ed.), Richard S. Sutton and Andrew G. Barto, The MIT Press, 2014.
 - Q-learning, https://en.wikipedia.org/wiki/Q-learning, 2023-02-02-Thu.
+- AlphaGo, https://www.deepmind.com/research/highlighted-research/alphago, 2023-02-02-Thu.
+- AlphaFold, https://www.deepmind.com/research/highlighted-research/alphafold, 2023-02-02-Thu.
+- AlphaCode, https://alphacode.deepmind.com/, 2023-02-02-Thu.
+- AlphaZero: Shedding new light on hcess, shogi, and Go, https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go, 2023-02-02-Thu.
+- Competitive programming with AlphaCode, https://www.deepmind.com/blog/competitive-programming-with-alphacode, 2023-02-02-Thu.
