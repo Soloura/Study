@@ -4,19 +4,21 @@ Reinforcement learning is a class of solution methods that work well on the clas
 
 Reinforcement learning problems involve learning what to do-how to map situations to actions-so as to maximize a numerical reward signal.
 
-## Elements of Reinforcement Learning
+## 4 Elements of Reinforcement Learning
 
-### Policy
+### 1. Policy
 
 A policy defines the learning agent's way of behaving at a given time.
 
-### Reward Signal
+### 2. Reward Signal
 
 A reward signal defines the goal in a reinforcement learning problem. On each time step, the environment sends to the reinforcement learning agent a single number, a reward.
 
+### 3. Value function
+
 Whereas the reward signal indicates what is good in an immediate sense, a value function specifies what is good in the long run.
 
-### Model
+### 4. Model
 
 Model is something that mimics the bevaior of the environment, or more generally, that allows inferences to be made about how the environment will behave.
 
