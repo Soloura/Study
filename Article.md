@@ -41,6 +41,7 @@
 - [정부, 차세대 AI 개발에 2600억 투입...'AI 10대 프로젝트' 추진](https://www.aitimes.com/news/articleView.html?idxno=149128), 2023-01-27-Fri.
 - ['클로드'가 ‘챗GPT’의 라이벌?](https://www.aitimes.com/news/articleView.html?idxno=149195), 2023-02-01-Wed.
 - ['챗GPT 플러스' 월 이용료는 20달러](https://www.aitimes.com/news/articleView.html?idxno=149238), 2023-02-03-Fri.
+- [네이버, '챗GPT'에 대항할 '서치GPT' 상반기 출시한다](https://www.aitimes.com/news/articleView.html?idxno=149259), 2023-02-03-Fri.
 
 ## Articles unrelated to AI
 
@@ -58,3 +59,4 @@
 - [애플, 첫 헤드셋에 '손가락 컨트롤' 탑재...가격은 370만원](https://www.aitimes.com/news/articleView.html?idxno=149079), 2023-01-25-Wed.
 - [명품 '욕망의 꼭대기'에..레비예프·그라프 '빛'으로 자리잡다](https://realestate.daum.net/news/detail/hotissue/1087461/MD20160304113808197), 2023-01-28-Sat.
 - [과기정통부, 4개 과학기술원 공공기관 지정 해제](https://www.aitimes.com/news/articleView.html?idxno=149177), 2023-02-01-Wed.
+- [구글, '믿는 도끼' 유튜브에 발목 잡혔다](https://zdnet.co.kr/view/?no=20230203120235), 2023-02-03-Fri.
