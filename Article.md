@@ -40,6 +40,7 @@
 - [인공지능 이용한 뇌과학 성과는...'뇌과학·산업 컨퍼런스' 개최](https://www.aitimes.com/news/articleView.html?idxno=148781), 2023-01-25-Wed.
 - [정부, 차세대 AI 개발에 2600억 투입...'AI 10대 프로젝트' 추진](https://www.aitimes.com/news/articleView.html?idxno=149128), 2023-01-27-Fri.
 - ['클로드'가 ‘챗GPT’의 라이벌?](https://www.aitimes.com/news/articleView.html?idxno=149195), 2023-02-01-Wed.
+- ['챗GPT 플러스' 월 이용료는 20달러](https://www.aitimes.com/news/articleView.html?idxno=149238), 2023-02-03-Fri.
 
 ## Articles unrelated to AI
 
