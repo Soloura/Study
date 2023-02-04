@@ -42,6 +42,7 @@
 - ['클로드'가 ‘챗GPT’의 라이벌?](https://www.aitimes.com/news/articleView.html?idxno=149195), 2023-02-01-Wed.
 - ['챗GPT 플러스' 월 이용료는 20달러](https://www.aitimes.com/news/articleView.html?idxno=149238), 2023-02-03-Fri.
 - [네이버, '챗GPT'에 대항할 '서치GPT' 상반기 출시한다](https://www.aitimes.com/news/articleView.html?idxno=149259), 2023-02-03-Fri.
+- [중국 AI 기업에 담아둔 미국 투자금 49조원 '어쩌나'](https://www.aitimes.com/news/articleView.html?idxno=149248), 2023-02-04-Sat.
 
 ## Articles unrelated to AI
 
