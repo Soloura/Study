@@ -19,6 +19,10 @@
 - [7 ways Google is using AI to help solve society's challenges](https://blog.google/technology/ai/7-ways-google-is-using-ai-to-help-solve-societys-challenges/), 2023-01-25-Wed.
 - [Unpacking the “black box” to build better AI models](https://news.mit.edu/2023/stefanie-jegelka-machine-learning-0108), 2023-01-25-Wed.
 - [9 ways we use AI in our products](https://blog.google/technology/ai/9-ways-we-use-ai-in-our-products/), 2023-01-31-Tue.
+- [New AI classifier for indicating AI-written text](https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/), 2023-02-05-Sun.
+- [OpenAI and Microsoft Extend Partnership](https://openai.com/blog/openai-and-microsoft-extend-partnership/), 2023-02-05-Sun.
+- [Introducing ChatGPT Plus](https://openai.com/blog/chatgpt-plus/), 2023-02-05-Sun.
+- [Fully Autonomous Real-World Reinforcement Learning with Applications to Mobile Manipulation](https://bair.berkeley.edu/blog/2023/01/20/relmm/), 2023-02-05-Sun.
 
 ### Korean
 
