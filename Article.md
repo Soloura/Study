@@ -47,6 +47,7 @@
 - ['챗GPT 플러스' 월 이용료는 20달러](https://www.aitimes.com/news/articleView.html?idxno=149238), 2023-02-03-Fri.
 - [네이버, '챗GPT'에 대항할 '서치GPT' 상반기 출시한다](https://www.aitimes.com/news/articleView.html?idxno=149259), 2023-02-03-Fri.
 - [중국 AI 기업에 담아둔 미국 투자금 49조원 '어쩌나'](https://www.aitimes.com/news/articleView.html?idxno=149248), 2023-02-04-Sat.
+- [오픈AI CTO도 '챗GPT' 규제 필요성 언급](https://www.aitimes.com/news/articleView.html?idxno=149289), 2023-02-06-Mon.
 
 ## Articles unrelated to AI
 
