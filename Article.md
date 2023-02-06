@@ -65,3 +65,4 @@
 - [명품 '욕망의 꼭대기'에..레비예프·그라프 '빛'으로 자리잡다](https://realestate.daum.net/news/detail/hotissue/1087461/MD20160304113808197), 2023-01-28-Sat.
 - [과기정통부, 4개 과학기술원 공공기관 지정 해제](https://www.aitimes.com/news/articleView.html?idxno=149177), 2023-02-01-Wed.
 - [구글, '믿는 도끼' 유튜브에 발목 잡혔다](https://zdnet.co.kr/view/?no=20230203120235), 2023-02-03-Fri.
+- [[천자 칼럼] 스티브 잡스의 아이들](https://www.hankyung.com/opinion/article/2018080526101), 2023-02-06-Mon.
