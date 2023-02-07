@@ -48,6 +48,7 @@
 - [네이버, '챗GPT'에 대항할 '서치GPT' 상반기 출시한다](https://www.aitimes.com/news/articleView.html?idxno=149259), 2023-02-03-Fri.
 - [중국 AI 기업에 담아둔 미국 투자금 49조원 '어쩌나'](https://www.aitimes.com/news/articleView.html?idxno=149248), 2023-02-04-Sat.
 - [오픈AI CTO도 '챗GPT' 규제 필요성 언급](https://www.aitimes.com/news/articleView.html?idxno=149289), 2023-02-06-Mon.
+- [구글, 챗GPT 경쟁자 '바드' 정식 공개..."테스트 거쳐 몇 주내 일반 공개"](https://www.aitimes.com/news/articleView.html?idxno=149295), 2023-02-07-Tue.
 
 ## Articles unrelated to AI
 
