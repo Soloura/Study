@@ -49,6 +49,9 @@
 - [중국 AI 기업에 담아둔 미국 투자금 49조원 '어쩌나'](https://www.aitimes.com/news/articleView.html?idxno=149248), 2023-02-04-Sat.
 - [오픈AI CTO도 '챗GPT' 규제 필요성 언급](https://www.aitimes.com/news/articleView.html?idxno=149289), 2023-02-06-Mon.
 - [구글, 챗GPT 경쟁자 '바드' 정식 공개..."테스트 거쳐 몇 주내 일반 공개"](https://www.aitimes.com/news/articleView.html?idxno=149295), 2023-02-07-Tue.
+- [챗GPT 개발사 “AI가 사실 지어내… 규제 필요”](https://www.donga.com/news/Economy/article/all/20230207/117765658/1), 2023-02-07-Tue.
+- [빌려 쓰는 인공지능, 'AIaaS' 뜬다…"인프라 부족해도 문제없어"](https://www.yna.co.kr/view/AKR20230206125100017?input=1195m), 2023-02-07-Tue.
+- [전세계 91곳 있는데 한국은 0곳…이스라엘에도 뒤졌다](https://www.hankyung.com/it/article/2023020682011), 2023-02-07-Tue.
 
 ## Articles unrelated to AI
 
@@ -68,3 +71,4 @@
 - [과기정통부, 4개 과학기술원 공공기관 지정 해제](https://www.aitimes.com/news/articleView.html?idxno=149177), 2023-02-01-Wed.
 - [구글, '믿는 도끼' 유튜브에 발목 잡혔다](https://zdnet.co.kr/view/?no=20230203120235), 2023-02-03-Fri.
 - [[천자 칼럼] 스티브 잡스의 아이들](https://www.hankyung.com/opinion/article/2018080526101), 2023-02-06-Mon.
+- [메타버스에 가구당 월 8만원 … 시장 선점 노리는 韓기업](https://www.mk.co.kr/news/it/10632496), 2023-02-07-Tue.
