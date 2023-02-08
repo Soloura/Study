@@ -136,6 +136,8 @@ AdaBoost learns faster than bagging method, because of number and complexity of 
 
 ### Haar-Cascade: Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2001](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
+Haar-Cascade uses elementary features using brightness differences between regions as features. The Haar-Cascade method extracts the features of an object by combining these elementary features by position and size. Therefore, it is useful when detecting objects such as human faces or stairs with clear patterns. 
+
 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
 Edge, line and center-surround features 등에 대한 특징 값은 feature의 흰색 부분에 해당하는 영상 픽셀들의 밝기 합에서 검은색 부분의 밝기 합을 뺀 차로 계산한다. 그리고 계산된 영역의 밝기 차이가 feature의 threshold 값과 비교를 통해 대상을 식별한다. Multiple features를 사용하며 대상 물체에 대한 조합을 만들어 만족하면 대상이고 만족하지 않으면 배경이라 판단한다.
