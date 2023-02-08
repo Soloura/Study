@@ -314,7 +314,7 @@ Datasets
 
 Framework
 - Transformation - transforms the input image into the normalized image.
-  - Thin-plat spline (TPS) transformation - a variant of the spatial transformation network (STN)
+  - Thin-plate spline (TPS) transformation - a variant of the spatial transformation network (STN)
 - Feature extraction - CNN abstract abstract an input image and outputs a visual feature map
   - VGG
   - RCNN
