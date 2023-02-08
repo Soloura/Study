@@ -52,6 +52,7 @@
 - [챗GPT 개발사 “AI가 사실 지어내… 규제 필요”](https://www.donga.com/news/Economy/article/all/20230207/117765658/1), 2023-02-07-Tue.
 - [빌려 쓰는 인공지능, 'AIaaS' 뜬다…"인프라 부족해도 문제없어"](https://www.yna.co.kr/view/AKR20230206125100017?input=1195m), 2023-02-07-Tue.
 - [전세계 91곳 있는데 한국은 0곳…이스라엘에도 뒤졌다](https://www.hankyung.com/it/article/2023020682011), 2023-02-07-Tue.
+- [MS, 신형 AI '프로메테우스' 검색 통합...'챗GPT' 업그레이드 버전](https://www.aitimes.com/news/articleView.html?idxno=149319), 2023-02-08-Wed.
 
 ## Articles unrelated to AI
 
