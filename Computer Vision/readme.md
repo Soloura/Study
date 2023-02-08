@@ -128,15 +128,11 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ### AdaBoost (Adaptive Boosting) | [Blog #1 (KR)](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) [Blog #2 (KR)](https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/)
 
-AdaBoost is a weak learner or model which uses several stumps called forest of stumps with different weights (amount of say).
-
-Each stumps effect to after stumps (serially).
-
-AdaBoost learns faster than bagging method, because of number and complexity of calculation of boosting is less than those of bagging method.
+Adaptive Boosting is a weak learner which uses several stumps called forest of stumps with different weights (amount of say). Each stumps effect after stumps sequentially. AdaBoost learns faster than bagging methods because the number and complexity of calculation of boosting is less than those of bagging methods.
 
 ### Haar-Cascade: Rapid Object Detection using a Boosted Cascade of Simple Features | [CVPR, 2001](https://www.cs.cmu.edu/~efros/courses/LBMV07/Papers/viola-cvpr-01.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
-Haar-Cascade uses elementary features using brightness differences between regions as features. The Haar-Cascade method extracts the features of an object by combining these elementary features by position and size. Therefore, it is useful when detecting objects such as human faces or stairs with clear patterns. 
+“Haar-Cascade” uses elementary features using brightness differences between regions as features. The Haar-Cascade method extracts the features of an object by combining these elementary features by position and size. Therefore, it is useful when detecting objects such as human faces or stairs with clear patterns. The name “Haar” is from the “Haar” features, and “Cascade” is from cascade classifier “AdaBoost”.
 
 영상에서 영역과 영역의 밝기 차이를 특징으로 이용한 다양한 형태의 elementary features가 있으며, 이들을 다양한 위치와 크기로 조합하여 물체에 대한 특징을 추출하는 알고리즘이다. 
 
