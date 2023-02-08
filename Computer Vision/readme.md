@@ -154,6 +154,8 @@ SIFT는 기본적으로 특징점 주변의 local gradient 분포 특성(밝기 
 
 ### HOG: Histograms of Oriented Gradients for Human Detection | [CVPR, 2005](https://lear.inrialpes.fr/people/triggs/pubs/Dalal-cvpr05.pdf) | [Blog (KR)](https://darkpgmr.tistory.com/116)
 
+“Histogram of Gradient” is a vector that divides an image into cells of a certain size, obtains a histogram of the directions of pixels (edge pixels) whose gradient magnitude is greater than a certain value for each cell, and connects these values. HOG is a combination of edge-based template matching and histogram-based matching methods. Therefore, HOG maintains geometric information on a block-by-block basis and uses a histogram inside a block to be robust to changes. As a result, the HOG is suitable for object detection when the shape of the object is not significantly changed, the inner pattern is simple, and it can be identified by the outline such as the case of a person.
+
 영상에서 대상 영역을 일정 크기의 셀로 나누고, 각 셀마다 gradient 크기가 일정 값 이상인 edge 픽셀들의 방향에 대한 히스토그램을 구한 후, 이들 히스토그램 binary 값들을 일렬로 연결한 벡터이다.
 
 HOG는 Edge의 방향 히스토그램 템플릿이다. 템플릿 매칭의 경우 영상의 기하학적 정보를 그대로 유지하여 매칭할 수 있지만 형태나 위치가 조금만 바뀌어도 매칭이 잘 안되는 문제가 있다. 반면에 히스토그램 매칭은 대상의 형태가 변해도 매칭을 할 수 있지만 대상의 기하학적 정보를 잃어버리고 단지 분포 정보만 기억하기 때문에 잘못된 대상과도 매칭이 되는 문제가 있다. HOG는 템플릿 매칭과 히스토그램 매칭의 중간 단계의 방법이며 블록 단위로는 기하학적 정보를 유지하되, 각 블록 내부에서는 히스토그램을 사용함으로써 로컬한 변화에는 어느정도 robust하다. 그리고 HOG는 edge 방향 정보를 이용하기 때문에 일종의 edge-based 템플릿 매칭 방법으로 볼 수 있다. Edge는 기본적으로 영상의 밝기 변화, 조명 변화 등에 덜 민감하다. 또한 HOG는 물체의 실루엣 정보를 이용하므로 사람, 자동차 등과 같이 내부 패턴이 복잡하지 않으면서도 고유의 독특한 윤곽선 정보를 갖는 물체를 식별하는데 적합한 영상 feature이다.
