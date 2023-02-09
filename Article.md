@@ -23,6 +23,7 @@
 - [OpenAI and Microsoft Extend Partnership](https://openai.com/blog/openai-and-microsoft-extend-partnership/), 2023-02-05-Sun.
 - [Introducing ChatGPT Plus](https://openai.com/blog/chatgpt-plus/), 2023-02-05-Sun.
 - [Fully Autonomous Real-World Reinforcement Learning with Applications to Mobile Manipulation](https://bair.berkeley.edu/blog/2023/01/20/relmm/), 2023-02-05-Sun.
+- [Alphabet shares fall 7% following Google’s A.I. event](https://www.cnbc.com/2023/02/08/alphabet-shares-slip-following-googles-ai-event-.html), 2023-02-09-Thu.
 
 ### Korean
 
