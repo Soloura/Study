@@ -56,6 +56,7 @@
 - [MS, 신형 AI '프로메테우스' 검색 통합...'챗GPT' 업그레이드 버전](https://www.aitimes.com/news/articleView.html?idxno=149319), 2023-02-08-Wed.
 - [구글 챗봇 ‘바드’ 공개 뒤 주가 폭락…홍보 행사서 틀린 답변](https://www.hani.co.kr/arti/international/international_general/1078939.html), 2023-02-09-Thu.
 - [밸런타인 데이 '챗GPT' 활용법...AI 잘 쓰면 사랑꾼](https://www.aitimes.com/news/articleView.html?idxno=149380), 2023-02-11-Sat.
+- [주가 폭락과 오답 시인 그리고 내부 비판...흔들리는 구글](https://www.aitimes.com/news/articleView.html?idxno=149391), 2023-02-12-Sun.
 
 ## Articles unrelated to AI
 
