@@ -63,6 +63,7 @@
 ### English
 
 - [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
+- [Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System](https://www.nytimes.com/2023/02/16/business/tesla-recall-full-self-driving.html), 2023-02-18-Sat.
 
 ### Korean
 
