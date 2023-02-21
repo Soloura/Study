@@ -79,3 +79,4 @@
 - [구글, '믿는 도끼' 유튜브에 발목 잡혔다](https://zdnet.co.kr/view/?no=20230203120235), 2023-02-03-Fri.
 - [[천자 칼럼] 스티브 잡스의 아이들](https://www.hankyung.com/opinion/article/2018080526101), 2023-02-06-Mon.
 - [메타버스에 가구당 월 8만원 … 시장 선점 노리는 韓기업](https://www.mk.co.kr/news/it/10632496), 2023-02-07-Tue.
+- [암호화폐에서 인공지능으로...美 투자자, 갈아타기 시전](https://www.aitimes.com/news/articleView.html?idxno=149554), 2023-02-21-Tue.
