@@ -58,6 +58,7 @@
 - [밸런타인 데이 '챗GPT' 활용법...AI 잘 쓰면 사랑꾼](https://www.aitimes.com/news/articleView.html?idxno=149380), 2023-02-11-Sat.
 - [주가 폭락과 오답 시인 그리고 내부 비판...흔들리는 구글](https://www.aitimes.com/news/articleView.html?idxno=149391), 2023-02-12-Sun.
 - [MS '빙' 일주일 써보니...MS는 좋다는데](https://www.aitimes.com/news/articleView.html?idxno=149526), 2023-02-19-Sun.
+- [메타, GPT3 같은 대규모 언어 모델 'LLaMA' 공개...생성 AI 전쟁 합류](https://www.aitimes.com/news/articleView.html?idxno=149681), 2023-02-26-Sun.
 
 ## Articles unrelated to AI
 
