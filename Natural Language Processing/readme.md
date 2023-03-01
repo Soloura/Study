@@ -1,6 +1,37 @@
-# :pencil: Natural Language Processing
+# Natural Language Processing
 
-## :pencil2: Word Embedding | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
+## [Recurrent Neural Network](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+
+Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states.
+
+The pros and cons of a typical RNN architecture:
+- Advantages:
+  - Possibility of processing input of any length
+  - Model size not increasing with size of input
+  - Computation takes into account historical information
+  - Weights are shared across time
+- Drawbacks:
+  - Computation being slow
+  - Difficulty of accessing information from a long time ago
+  - Cannot consider any future input for the current state
+
+### Loss function
+
+In the case of a recurrent neural network, the loss function L of all time steps is defined based on the loss at every time step as follows:
+
+L(y_hat, y) = sum(L(y_hat^t, y^t))
+
+### Backpropagation through time
+
+Backpropagation is done at each point in time. At timestep T, the derivative of the loss L with respect to weight matrix W is experssed as follows:
+
+dL^T / dW = sum(dL^T/dW)|_t
+
+### GNU/LSTM
+
+Gated Recurrent Unit(GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encounterd by tranditional RNNs, with LSTM being a generalization of GRU. 
+
+## Word Embedding | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
 단어를 벡터로 바꾸는 방법론이다.
 
 ### Word2Vec | Efficient Estimation of Word Representations in Vector Space | [arXiv](https://arxiv.org/pdf/1301.3781.pdf)
@@ -106,3 +137,4 @@ Lecture:
 - Whisper, https://openai.com/blog/whisper/, 2022-12-10-Sat.
 - Whisper GitHub, https://github.com/openai/whisper, 2022-12-10-Sat.
 - Whisper Paper, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf, 2022-12-10-Sat.
+- Recurrent Nerual Network CS230, https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks, 2023-03-01-Wed.
