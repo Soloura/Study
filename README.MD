@@ -75,7 +75,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 
 ### AAAI (the AAAI conference on Artificial Intelligence) | [Homepage](https://www.aaai.org/Conferences/AAAI/aaai.php)
 
-### [AGI (Conference Series On Artificial General Intelligence)](https://agi-conference.org/)
+### AGI (Conference Series On Artificial General Intelligence) | [Homepage](https://agi-conference.org/)
 
 - [AGI 2023 (Stockholm, Sweden)](https://agi-conf.org/2023/)
 - [AGI 2022 (Seattle, Washington)](https://agi-conf.org/2022/)
