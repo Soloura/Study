@@ -78,7 +78,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence is a monthly peer
 ### AGI (Conference Series On Artificial General Intelligence) | [Homepage](https://agi-conference.org/)
 
 - [AGI 2023 (Stockholm, Sweden)](https://agi-conf.org/2023/)
-- [AGI 2022 (Seattle, Washington)](https://agi-conf.org/2022/)
+- [AGI 2022 (Seattle, Washington)](https://agi-conf.org/2022/) | [Papers](https://agi-conf.org/2022/accepted-papers/)
 - [AGI 2021 (San Francisco Bay Area, California)](https://agi-conf.org/2021/)
 - [AGI 2020 (Virtual Conference)](https://agi-conf.org/2020/)
 
