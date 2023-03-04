@@ -66,6 +66,8 @@
 
 - [Robust Routing Using Electrical Flows](https://ai.googleblog.com/2022/02/robust-routing-using-electrical-flows.html), 2022-02-19-Sat.
 - [Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System](https://www.nytimes.com/2023/02/16/business/tesla-recall-full-self-driving.html), 2023-02-18-Sat.
+- [Why isn't Austin in top 10 'best places to live' anymore? U.S. News and World Report has thoughts](https://www.statesman.com/story/news/2022/05/18/best-places-live-2022-austin-tx-out-top-10-list/9822074002/), 2023-03-04-Sat.
+- [Best Places to Live in the U.S. in 2022-2023](https://realestate.usnews.com/places/rankings/best-places-to-live), 2023-03-04-Sat.
 
 ### Korean
 
