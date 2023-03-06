@@ -60,6 +60,7 @@
 - [MS '빙' 일주일 써보니...MS는 좋다는데](https://www.aitimes.com/news/articleView.html?idxno=149526), 2023-02-19-Sun.
 - [메타, GPT3 같은 대규모 언어 모델 'LLaMA' 공개...생성 AI 전쟁 합류](https://www.aitimes.com/news/articleView.html?idxno=149681), 2023-02-26-Sun.
 - [MS, 멀티모달 대규모 언어 모델 ‘코스모스-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149758), 2023-03-05-Sun.
+- [뜨는 직업 ‘프롬프트 엔지니어’](https://www.aitimes.com/news/articleView.html?idxno=149768), 2023-03-06-Mon.
 
 ## Articles unrelated to AI
 
