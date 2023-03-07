@@ -8,11 +8,11 @@ Strong AI contrasts with weak AI (or narrow AI), which is not intended to have g
 
 ## Paper
 
-### Mapping the Landscape of Human-Level Artificial General Intelligence | [AI Magazine 2012](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2322)
+### Mapping the Landscape of Human-Level Artificial General Intelligence | [AI Mag 2012](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/2322)
 
-a roadmap toward the grand AI vision with human
+### Artificial general intelligence: concept, state of the art, and future prospects | [Journal of AGI 2014](https://sciendo.com/article/10.2478/jagi-2014-0001)
 
-### Artificial general intelligence: concept, state of the art, and future prospects | [Journal of Artificial General Intelligence 2014](https://sciendo.com/article/10.2478/jagi-2014-0001)
+Perception, Actuation, Memory, Learning, Reasining, Planning, Attention, Motivation, Emotion, Modeling Self and Other, Social Interaction, Communication, Quantitative, Building/Creation
 
 ### Toward a Comprehensive List of Necessary Abilities for Human Inteliigence, Part 1: Constructing Knowledge | AGI 2022
 
