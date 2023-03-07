@@ -61,6 +61,7 @@
 - [메타, GPT3 같은 대규모 언어 모델 'LLaMA' 공개...생성 AI 전쟁 합류](https://www.aitimes.com/news/articleView.html?idxno=149681), 2023-02-26-Sun.
 - [MS, 멀티모달 대규모 언어 모델 ‘코스모스-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149758), 2023-03-05-Sun.
 - [뜨는 직업 ‘프롬프트 엔지니어’](https://www.aitimes.com/news/articleView.html?idxno=149768), 2023-03-06-Mon.
+- [구글, 100개 언어 자동번역하는 AI 모델 공개](https://www.aitimes.com/news/articleView.html?idxno=149818), 2023-03-07-Tue.
 
 ## Articles unrelated to AI
 
