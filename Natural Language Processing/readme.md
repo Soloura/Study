@@ -34,7 +34,11 @@ Gated Recurrent Unit(GRU) and Long Short-Term Memory units (LSTM) deal with the 
 ## Word Embedding | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
 단어를 벡터로 바꾸는 방법론이다.
 
-### Word2Vec | Efficient Estimation of Word Representations in Vector Space | [arXiv](https://arxiv.org/pdf/1301.3781.pdf)
+### Word2Vec
+
+### Efficient Estimation of Word Representations in Vector Space | [arXiv 2013](https://arxiv.org/pdf/1301.3781.pdf)
+
+### Distributed Representations of Words and Phrases and their Compositionality | [NIPS 2013](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf)
 
 2013년 구글에서 개발한 워드 임베딩 방법론으로, 단어를 벡터로 바꾼다. 단어를 벡터로 바꾸고 문맥적 의미를 보존하여 단어들 간의 거리를 통해 비슷한 의미라 유추할 수 있다.
 
