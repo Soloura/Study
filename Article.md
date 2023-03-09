@@ -24,6 +24,7 @@
 - [Introducing ChatGPT Plus](https://openai.com/blog/chatgpt-plus/), 2023-02-05-Sun.
 - [Fully Autonomous Real-World Reinforcement Learning with Applications to Mobile Manipulation](https://bair.berkeley.edu/blog/2023/01/20/relmm/), 2023-02-05-Sun.
 - [Alphabet shares fall 7% following Google’s A.I. event](https://www.cnbc.com/2023/02/08/alphabet-shares-slip-following-googles-ai-event-.html), 2023-02-09-Thu.
+- [Researchers Selected to Develop Novel Approaches to Lifelong Machine Learning](https://www.darpa.mil/news-events/2018-05-03), 2023-03-09-Thu.
 
 ### Korean
 
