@@ -30,6 +30,12 @@ VI. Concluding - VII. Using (the knowledge) - VIII. Optimizing - IX. Doing, Taki
 
 ---
 
+### Evolving Deep Neural Networks | Artificial Intelligence in the Age of Neural Networks and Brain Computing (2nd Ed.) 2023
+
+This paper proposes an automated method, CoDeepNEAT, for optimizing deep learning architectures through evolution.
+
+---
+
 ### Reference
 - AGI 2008, https://agi-conference.org/2008/, 2023-03-03-Fri.
 - AGI Wiki, https://en.wikipedia.org/wiki/Artificial_general_intelligence, 2023-03-03-Fri.
