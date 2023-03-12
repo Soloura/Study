@@ -63,6 +63,7 @@
 - [MS, 멀티모달 대규모 언어 모델 ‘코스모스-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149758), 2023-03-05-Sun.
 - [뜨는 직업 ‘프롬프트 엔지니어’](https://www.aitimes.com/news/articleView.html?idxno=149768), 2023-03-06-Mon.
 - [구글, 100개 언어 자동번역하는 AI 모델 공개](https://www.aitimes.com/news/articleView.html?idxno=149818), 2023-03-07-Tue.
+- [독일MS "비디오 생성 GPT-4 다음주 공개"](https://www.aitimes.com/news/articleView.html?idxno=149895), 2023-03-12-Sun.
 
 ## Articles unrelated to AI
 
