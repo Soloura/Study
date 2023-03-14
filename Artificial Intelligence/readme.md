@@ -125,6 +125,8 @@ The rest of the system is composed of configuration, automation, data collection
 
 To develop and operate complex systems like these, you can apply DevOps principles to ML systems (MLOps). This document covers concepts to consider when setting up an MLOps environment for your data science practices, such as CI, CD, and CT in ML.
 
+### Continous Machine Learning | [Blog](https://levity.ai/blog/what-is-continuous-machine-learning)
+
 ---
 
 ### Reference
