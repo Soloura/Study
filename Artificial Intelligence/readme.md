@@ -35,7 +35,9 @@ Casual Learning is a more relaxted approach to finding out how to do new things.
 
 Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you;re actually interested in.
 
-### Online Learning | [Blog (KR)](https://daeson.tistory.com/225)
+### Online Learning | [Wiki](https://en.wikipedia.org/wiki/Online_machine_learning) | [Blog (KR)](https://daeson.tistory.com/225)
+
+Online machine learning is a method of machine learning in which data becomes available in a sequential order and is used to update the best predictor for future data at each step, as opposed to batch learning techniques which generate the best predictor by learning on the entire training data set at once. Online learning is a common technique used in areas of machine learning where it is computationally infeasible to train over the entire dataset, requiring the need of out-of-core algorithms. It is also used in situations where it is necessary for the algorithm to dynamically adapt to new patterns in the data, or when the data itself is generated as a function of time, e.g., stock price prediction. Online learning algorithms may be prone to catastrophic interference, a problem that can be addressed by incremental learning approaches.
 
 - Characteristic
   - Learn model with sequencial data or mini-batch data
@@ -45,6 +47,16 @@ Learn at your own pace, in your own time and just what you want to know about, n
   - Less resources
 - Cons
   - According to learning rate, recent or past pattern can be forgotten
+
+### Incremental Learning | [Wiki](https://en.wikipedia.org/wiki/Incremental_learning)
+
+Incremental learning is a method of machine learning in which input data is continuously used to extend the existing model's knowledge i.e. to further train the model. It represents a dynamic technique of supervised learning and unsupervised learning that can be applied when training data becomes available gradually over time or its size is out of system memory limits. Algorithms that can facilitate incremental learning are known as incremental machine learning algorithms.
+
+Many traditional machine learning algorithms inherently support incremental learning. Other algorithms can be adapted to facilitate incremental learning. Examples of incremental algorithms include decision trees, decision rules, artificial neural networks or the incremental SVM.
+
+The aim of incremental learning is for the learning model to adapt to new data without forgetting its existing knowledge. Some incremental learners have built-in some parameter or assumption that controls the relevancy of old data, while others, called stable incremental machine learning algorithms, learn representations of the training data that are not even partially forgotten over time. 
+
+Incremental algorithms are frequently applied to data streams or big data, addressing issues in data availability and resource scarcity respectively. Stock trend prediction and user profiling are some examples of data streams where new data becomes continuously available. Applying incremental learning to big data aims to produce faster classification or forecasting times.
 
 ### Offline Learning | Batch Learning | [AI for Anyone](https://www.aiforanyone.org/glossary/offline-learning) | [Blog (KR)](https://irron2004.tistory.com/2)
 
@@ -102,7 +114,7 @@ Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila i
 
 ---
 
-##
+## Programming Assist
 
 ### [GitHub Copilot](https://copilot.github.com/)
 
@@ -156,7 +168,9 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Neural Modeling Fields Wiki, https://en.wikipedia.org/wiki/Neural_modeling_fields, 2022-09-19-Mon.
 - MLOps Databricks, https://www.databricks.com/glossary/mlops, 2022-10-04-Tue.
 - Casual Learning Distributed Training, https://distributedtraining.com/casual-learning/, 2022-10-07-Fri.
+- Online Learning Wiki, https://en.wikipedia.org/wiki/Online_machine_learning, 2023-03-14-Tue.
 - Online Learning Blog KR, https://daeson.tistory.com/225, 2022-10-07-Fri.
+- Incremental Learning Wiki, https://en.wikipedia.org/wiki/Incremental_learning, 2023-03-14-Tue.
 - MLOps Google Cloud, https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning, 2022-10-11-Tue.
 - Batch Learning Offline Learning Online Learning Blog KR, https://irron2004.tistory.com/2, 2022-11-09-Wed.
 - Federated Learning WiKi, https://en.wikipedia.org/wiki/Federated_learning, 2022-12-17-Sat.
