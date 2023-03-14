@@ -81,7 +81,9 @@ Offline learning is a type of AI where the system is not constantly being traine
 
 `This content has moved to the 'Lifelong Learning' page.`
 
-### Catastrophic Forgetting
+### Catastrophic Forgetting/Interference | [Wiki](https://en.wikipedia.org/wiki/Catastrophic_interference)
+
+Catastrophic interference is the tendency of an artificial neural network to abruptly and drastically forget previously learned information upon learning new information. Neural networks are an important part of the network approach and connectionist approach to cognitive science. With these networks, human capabilities such as memory and learning can be modeled using computer simulations.
 
 - Characteristic
   - Performance reduced, when learning different task
@@ -176,3 +178,4 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Federated Learning WiKi, https://en.wikipedia.org/wiki/Federated_learning, 2022-12-17-Sat.
 - Continous Machine Learning Blog, https://levity.ai/blog/what-is-continuous-machine-learning, 2023-03-14-Tue.
 - Offline Learning Blog, https://www.aiforanyone.org/glossary/offline-learning, 2023-03-14-Tue.
+- Catastrophic Interference Wiki, https://en.wikipedia.org/wiki/Catastrophic_interference, 2023-03-14-Tue.
