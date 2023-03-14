@@ -112,6 +112,25 @@ DeL-TaCo:
   - learn a policy that maps natural language verbs and initial observations to full trajectories by training a video classifier on a large dataset of annotated human vides
     - Concept2robot: Learning manipulation concepts from instructions and human demonstrations (RSS 2020)
 - Pretrained Multi-modal Models for Multitask Policies
+  - pretrained vision-language models to learn richer vision features for downstream policies.
+    - CLIPort
+      - Cliport: What and where pathways for robotic manipulation (CoRL 2021)
+    - CLIP
+      - Learning transferable visual models from natural language supervision (arXiv 2021)
+    - Transporter-based
+      - Transporter networks: Rearranging the visual world for robotic manipulation (CoRL 2020)
+    - PerAct
+      - A multi-task transformer for robotic manipulation (CoRL 2022)
+  - ZeST
+    - Can foundation models perform zero-shot task specification for robot manipulation? (LDCC 2022)
+  - Socratic Models
+    - Socratic models: Composing zero-shot multimodal reasoning with language (arXiv 2022)
+  - R3M
+    - R3m: A universal visual representation for robot manipulation (arXiv 2022)
+  - ResNet
+    - Deep residual learning for image recognition (arXiv 2015)
+  - Ego4D
+    - Ego4d: Around the world in 3,000 hours of egocentric video (arXiv 2021)
 
 ### Other Applications of Language for Robotics
 
