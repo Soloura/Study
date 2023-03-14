@@ -54,6 +54,67 @@ method2) coordinated representation: 두 data가 각각 축약된 뒤, 이들을
 
 ---
 
+## Papers
+
+### Using Both Demonstrations and Language Instructions to Efficiently Learn Robotics Tasks | ICLR 2023
+
+Train a sinle multi-task policy on a few hundred challenging robotic pick-and-place tasks and propose DeL-TaCo (Joint Demo-Lnaguage Task Conditioning), a method for conditioning a robotic policy on task embeddings comprised of two components: a visual demonstraction and a language instruction.
+
+DeL-TaCo:
+1. Substantially decreases the teacher effort needed to specify a new task
+2. achieves better generalization performance on novel objects and instructions over previous task-conditioning methods
+
+- Training: Train a single multi-task policy on hundreds of tasks.
+- Testing: One-shot generalization to ~100 new tasks (new objects, colors, shapes).
+
+---
+
+### Related Works
+
+### Multi-task Learning
+
+- condition multi-task policies one-hot vectors
+  - Bridge data: Boosting generalization of robotic skills with cross-domain datasets (arXiv 2021)
+  - Mt-opt: Continuous multi-task robotic reinforcement learning at scale (arXiv 2021)
+  - Don’t start from scratch: Leveraging prior data to automate robotic reinforcement learning (CoRL 2022)
+  - Conservative data sharing for multi-task offline reinforcement learning (NIPS 2021)
+- Embedding spaces taht are shaped with pretrained language models
+  - Hierarchical goal-conditioned policies
+    - Demonstration-bootstrapped autonomous practicing via multi-task reinforcement learning (arXiv 2022)
+  - Probabilistic modeling techniques
+    - Multi-task reinforcement learning: a hierarchical bayesian approach (ICML 2007)
+  - distillation and transfer learning
+    - Actor-mimic: Deep multitask and transfer reinforcement learning (arXiv 2015)
+    - Distral: Robust multitask reinforcement learning (arXiv 2017)
+    - Knowledge transfer in multi-task deep reinforcement learning for continuous control (arXiv 2020)
+    - Policy distillation (arXiv 2015)
+  - Data sharing
+    - Impala: Scalable distributed deep-rl with importance weighted actor-learner architectures (ICML 2018)
+    - Multi-task deep reinforcement learning with popart (AAAI 2019)
+  - Gradient-based techniques
+    - Gradient surgery for multi-task learning (arXiv 2020)
+  - Policy modularization
+    - Modular multitask reinforcement learning with policy sketches (ICML 2017)
+    - Learning modular neural network policies for multi-task and multi-robot transfer (ICRA 2017)
+  - Task modularization
+    - Multi-task reinforcement learning with soft modularization (arXiv 2020)
+
+### Learning with Language and Demonstratins
+
+- Conditioning Multitask Policies on Language or Demonstrations
+- Pretrained Multi-modal Models for Multitask Policies
+
+### Other Applications of Language for Robotics
+
+- Language-shaped state representations
+  - Meta World multitask benchmark
+    - Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning (CoRL 2019)
+- Hierarchical Learning with Language
+
+---
+
+## Models
+
 ### A Generalist Agent | [DeepMind](https://www.deepmind.com/publications/a-generalist-agent)
 The agent, Gato, works as a multi-modal, multi-task, multi-embodiment generalist policy. The same network with the same weights can play Atari, caption images, chat, stack blocks with a real robot arm and much more, deciding based on its context whether to ouput text, joint torques, button presses, or other tokens.
 
