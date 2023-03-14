@@ -50,6 +50,10 @@ Learn at your own pace, in your own time and just what you want to know about, n
 - Cons
   - More resources required
 
+### Lifelong Learning
+
+`This content has moved to the 'Lifelong Learning' page.`
+
 ### Catastrophic Forgetting
 
 - Characteristic
