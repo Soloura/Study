@@ -2,10 +2,11 @@
 
 Artificial intelligence leverages computers and machines to mimic the problem-solving and decision-making capabilities of the human mind.
 
-## Weak AI | Narrow AI | Artificial Narrow Intelligence
-Weak AI is AI trained and focused to perform specific tasks. Weak AI drives most of the AI that surrounds us today. 'Narrow' might be a more accurate descriptor for this type of AI as it is anyhing but weak; it enables some very robust applications, such as Apple's Siri, Amazon's Alexa, IBM Watsom, and autonomous vehicles.
+### Weak AI | Narrow AI | Artificial Narrow Intelligence (ANI)
 
-## Strong AI | Artificial General Intelligence | Artificial Super Intelligence | General AI
+Weak AI-also called Narrow AI or Artificial Narrow Intelligence (ANI)-is AI trained and focused to perform specific tasks. Weak AI drives most of the AI that surrounds us today. 'Narrow' might be a more accurate descriptor for this type of AI as it is anything but weak; it enables some very robust applications, such as Apple's Siri, Amazon's Alexa, IBM Watsom, and autonomous vehicles.
+
+### Strong AI | Artificial General Intelligence (AGI) | Artificial Super Intelligence (ASI) | General AI
 
 Strong AI is made up of Artificial General Intelligence (AGI) and Artificial Super Intelligence (ASI). Artificial general intelligence (AGI), or general AI, is a theoretical form of AI where a machine would have an intelligence equaled to humans; it would have a self-aware consciousness that has the ability to solve problems, learn, and plan for the future. Artificial Super Intelligence (ASI)-also known as superintelligence-would surpass the intelligence and ability of the human brain. While storng AI is still entirely theoretical with no practical examples in use today, that doesn't mean AI researchers aren't also exploring its development. In the meantime, the best examples of ASI might be from science fiction, such as HAL, the superhuman, rogue computer assistant in 2001: A Space Odyssey.
 
@@ -20,9 +21,9 @@ IBM research suggest ML to evolve around the following segments in the future:
 
 ## Deep Learning | [IBM](https://www.ibm.com/topics/deep-learning)
 
-Deep learning is actually comprised of neural networks. "Deep" in deep learning refers to a neural network comprised of more than three layers-which would be inclusive of the inputs and the output-can be considered a deep learning algorithm.
-
 Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain-albeit far matching its ability-allowing it to learn from large amounts of data. While a neural network with a single layer can still make approximate predictions, additional hidden layers can help to optimize and refine for accuracy.
+
+Deep learning is actually comprised of neural networks. "Deep" in deep learning refers to a neural network comprised of more than three layers-which would be inclusive of the inputs and the output-can be considered a deep learning algorithm.
 
 ## Neural Modeling Fields | [WiKi](https://en.wikipedia.org/wiki/Neural_modeling_fields)
 
