@@ -46,12 +46,22 @@ Learn at your own pace, in your own time and just what you want to know about, n
 - Cons
   - According to learning rate, recent or past pattern can be forgotten
 
-### Offline Learning | Batch Learning | [Blog (KR)](https://irron2004.tistory.com/2)
+### Offline Learning | Batch Learning | [AI for Anyone](https://www.aiforanyone.org/glossary/offline-learning) | [Blog (KR)](https://irron2004.tistory.com/2)
+
+Offline learning is a type of AI where the system is not constantly being trained with new data. Instead, it is trained with a set of data and then left to learn on its own.
 
 - Characteristic
   - Use all data to learn model
   - Need to use previous data to learn model with new data
-- Pros
+- Pros/Benefits
+  - Reduce the amount of data that is needed to train a model
+    - Learn from a smaller dataset and then transfer that knowledge to a larger dataset
+    - Reduce the amount of time and resources
+  - Improve the generalization of a model
+    - Learn from a variety of data sources
+    - Learn to generalize better to new data
+  - Improve the interpretability of a model
+    - Learn to better understand the data and the relationships between the data
 - Cons
   - More resources required
 
@@ -78,6 +88,8 @@ Federated learning enables multiple actors to build a common, robust machine lea
 
 ---
 
+## Organazation
+
 ### [Mila](https://mila.quebec/en/mila/)
 
 Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila is a research institue in artificial intelligence that rallies nearly 900 researchers specializing in the field of machine learning.
@@ -89,6 +101,8 @@ Founded in 1993 by Professor Yoshua Bengio of the Universite de Montreal, Mila i
 ### [MIT CSAIL](https://www.csail.mit.edu/)
 
 ---
+
+##
 
 ### [GitHub Copilot](https://copilot.github.com/)
 
@@ -147,3 +161,4 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Batch Learning Offline Learning Online Learning Blog KR, https://irron2004.tistory.com/2, 2022-11-09-Wed.
 - Federated Learning WiKi, https://en.wikipedia.org/wiki/Federated_learning, 2022-12-17-Sat.
 - Continous Machine Learning Blog, https://levity.ai/blog/what-is-continuous-machine-learning, 2023-03-14-Tue.
+- Offline Learning Blog, https://www.aiforanyone.org/glossary/offline-learning, 2023-03-14-Tue.
