@@ -102,6 +102,15 @@ DeL-TaCo:
 ### Learning with Language and Demonstratins
 
 - Conditioning Multitask Policies on Language or Demonstrations
+  - BC-Z
+    - BC-z: Zero-shot task generalization with robotic imitation learning (CoRL 2021)
+  - either the instruction or demonstration embeddings
+    - Language conditioned imitation learning over unstructured data (arXiv 2021)
+    - Calvin: A benchmark for language-conditioned policy learning for long-horizon robot manipulation tasks (arXiv 2021)
+  - both demonstrations and language to learn associations between demenstration embeddings and language-conditioned latent plans
+    - What matters in language conditioned imitation learning (arXiv 2022)
+  - learn a policy that maps natural language verbs and initial observations to full trajectories by training a video classifier on a large dataset of annotated human vides
+    - Concept2robot: Learning manipulation concepts from instructions and human demonstrations (RSS 2020)
 - Pretrained Multi-modal Models for Multitask Policies
 
 ### Other Applications of Language for Robotics
@@ -110,6 +119,21 @@ DeL-TaCo:
   - Meta World multitask benchmark
     - Meta-world: A benchmark and evaluation for multi-task and meta reinforcement learning (CoRL 2019)
 - Hierarchical Learning with Language
+  - shaping high-level plan vectors
+    - What matters in language conditioned imitation learning (arXiv 2022)
+  - skill representation
+    - Lisa: Learning interpretable skill abstractions from language (arXiv 2022)
+  - low-level policy to output the action
+    - Lila: Language-informed latent actions (CoRL 2021)
+- Language for Rewards and Planning
+  - Reward shaping in RL
+    - Learning language-conditioned robot behavior from offline data and crowd-sourced annotation (arXiv 2021)
+    - Using natural language for reward shaping in reinforcement learning (arXiv 2019)
+    - Pixl2r: Guiding reinforcement learning using natural language by mapping pixels to rewards (arXiv 2020)
+  - long-horizon tasks
+    - Inner monologue: Embodied reasoning through planning with language models (arXiv 2022)
+    - Do as I can and not as I say: Grounding language in robotic affordances (arXiv 2022)
+    - Open-vocabulary queryable scene representations for real world planning (arXiv 2022)
 
 ---
 
