@@ -106,6 +106,48 @@ arXiv is a free distribution service and an open-access archive for 1,769,134 sc
 
 ---
 
+## Degree | [BigFuture](https://bigfuture.collegeboard.org/plan-for-college/college-basics/college-classes/quick-guide-your-college-degree-options#:~:text=There%20are%20generally%20four%20categories,doctorate%20and%20a%20professional%20degree.)
+
+### Associate Degree
+
+An associate degree is a two-year degree typcially offered at community colleges, technical colleges, and career colleges. However, some four-year universities offer them as well. Examples of some associate degrees include Associate of Arts (AA) and Associate of Science (AS).
+
+AS degrees are generally more narrowly focused and prepare students for science and math-related careers. AA degrees are broader and focus on field outside of math and science such as liberal arts, business administration, criminal justice, and culinary arts.
+
+Some students who earn an associate degree transfer to a four-year program to earn a bachelor's degree. Others complete associate degrees and then go straight to work.
+
+### Bachelor's or Baccalaureate Degree
+
+Bachelor's degrees require students to complete four- or five-year programs in a specific academic discipline. The two most common types of bachelor's degrees are bachelor of arts (BA) and bachelor of science (BS). Other types of bachelor's degrees include the bachelor of fine arts (BFA), and bachelor of architecture (BArch).
+
+Because bachelor's degrees train students to enter a specific field, many professional careers require them. Earning a bachelor's degree can open the door to many job opportunities and increase your potential income.
+
+### Graduate Degree
+
+Graduate degrees are advanced degrees that some students pursue after earning a bachelor's degree. The two most common are master of arts (MA) and master of science (MS). Other examples include master of fine arts (MFA) and master of business administration (MBA). A graduate degree is like an extension of a bachelor's degree whereby a student further enriches their knowledge of their field and narrows their focus of study.
+
+Graduate degrees usually take around two years to attain, but this can vary based on the degree. Many institutions allow students to enroll in a graduate program in a field unrelated to their bachelor's degree. This may require some extra credit hours, though.
+
+### Doctoral Degree and Professional Degree
+
+The doctorate and professional degrees are the highest levels of education one can attain. They signify mastery of a subject and often come with the coveted title "doctor". Although the two are similar, there are some important differences.
+
+A doctorate or doctoral degree is a research-oriented degree focused on scholarly development. The most common doctorate is the Doctor of Philosophy (PhD). Despite the name, a PhD covers many disciplines, not just philosophy.
+
+A professional degree is an application-oriented degree, meaning it prepares students for a specific working position. There are many types of professional degrees. Some examples are: doctor of medicine (MD), doctor of pharmacy (PharmD), and doctor of medicine in dentistry (DMD) in the field of medicine, and juris doctor (JD) and doctor of juridical science (SJD) in the field of law.
+
+A graduate degree does not need to precede a doctorate or professional degree. Often, students will go straight into a doctorate or professional program following their bachelor's, however some programs will require a master's degree to gain entry. Completion can take anywhere from four to eight years, depending on the field of study.
+
+Many doctoral students work either full-time or part-time while they study in the program. This, along with the field they are studying, will significantly affect the time it takes to complete their degree.
+
+### Joint Degrees
+
+Some students may choose to pursue a joint degree, also known as a dual degree, which means they simultaneously study for a bachelor's degree and a graduate degree. Joint degrees can be pursued in the same college or can be split between two different colleges. For example, Berklee College of Music and Harvard University offer a dual bachelor's/master's program in which a student receives a bacheleor of arts (BA) at Harvard and a master of music (MM) or master of arts (MA) at Berklee.
+
+Depending on the program, it may be possible to study at the same time for a master's degree and a doctorate. For example, the University of Southern California offers a program leading to doctor of pharmacy and master of public health degrees.
+
+---
+
 ## Reference
 - Nature Wiki, https://en.wikipedia.org/wiki/Nature_(journal), 2020-07-21-Tue.
 - Science Wiki, https://en.wikipedia.org/wiki/Science_(journal), 2020-07-21-Tue.
@@ -117,3 +159,4 @@ arXiv is a free distribution service and an open-access archive for 1,769,134 sc
 - arXiv, https://arxiv.org/, 2020-09-29-Tue.
 - arXiv Wiki, https://en.wikipedia.org/wiki/ArXiv, 2020-09-29-Tue.
 - Conference Series On Artificial General Intelligence, https://agi-conference.org/, 2023-03-02-Thu.
+- Degree Types BigPicture, https://bigfuture.collegeboard.org/plan-for-college/college-basics/college-classes/quick-guide-your-college-degree-options#:~:text=There%20are%20generally%20four%20categories,doctorate%20and%20a%20professional%20degree., 2023-03-16-Thu.
