@@ -67,6 +67,7 @@
 - [GPT-4, 이전과 달라진 점 5가지는](https://www.aitimes.com/news/articleView.html?idxno=149969), 2023-03-16-Thu.
 - [MS, 이미지 생성하는 ‘비주얼 챗GPT’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149953), 2023-03-16-Thu.
 - [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965), 2023-03-16-Thu.
+- [식음료용 인공지능 '테이스트GPT' ](https://www.aitimes.com/news/articleView.html?idxno=149941), 2023-03-16-Thu.
 
 ## Articles unrelated to AI
 
