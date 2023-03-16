@@ -1,6 +1,6 @@
 # Natural Language Processing
 
-## [Recurrent Neural Network](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+## Recurrent Neural Network [CS230: Deep Learning](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states.
 
@@ -110,7 +110,9 @@ GPT-4 is
 
 ## Speech Recognition
 
-### Whisper - A model that can convert audio into text | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf)
+### Whisper - A model that can convert audio into text | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](https://cdn.openai.com/papers/whisper.pdf)
+
+Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language indentification.
 
 ---
 
