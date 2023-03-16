@@ -64,6 +64,9 @@
 - [뜨는 직업 ‘프롬프트 엔지니어’](https://www.aitimes.com/news/articleView.html?idxno=149768), 2023-03-06-Mon.
 - [구글, 100개 언어 자동번역하는 AI 모델 공개](https://www.aitimes.com/news/articleView.html?idxno=149818), 2023-03-07-Tue.
 - [독일MS "비디오 생성 GPT-4 다음주 공개"](https://www.aitimes.com/news/articleView.html?idxno=149895), 2023-03-12-Sun.
+- [GPT-4, 이전과 달라진 점 5가지는](https://www.aitimes.com/news/articleView.html?idxno=149969), 2023-03-16-Thu.
+- [MS, 이미지 생성하는 ‘비주얼 챗GPT’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149953), 2023-03-16-Thu.
+- [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965), 2023-03-16-Thu.
 
 ## Articles unrelated to AI
 
