@@ -146,6 +146,10 @@ Some students may choose to pursue a joint degree, also known as a dual degree, 
 
 Depending on the program, it may be possible to study at the same time for a master's degree and a doctorate. For example, the University of Southern California offers a program leading to doctor of pharmacy and master of public health degrees.
 
+### [What's the Difference Between an LLM and JD Degree?](https://law.pepperdine.edu/blog/posts/llm-versus-jd-degree.htm)
+
+The JD is typically designed to prepare the individual for practicing law, and the programming of an LLM is designed to build upon the experience of the latter. The LLM is also known to be more supportive in the development of a law career in consulting or policy-driven initiatives.
+
 ---
 
 ## Reference
@@ -160,3 +164,4 @@ Depending on the program, it may be possible to study at the same time for a mas
 - arXiv Wiki, https://en.wikipedia.org/wiki/ArXiv, 2020-09-29-Tue.
 - Conference Series On Artificial General Intelligence, https://agi-conference.org/, 2023-03-02-Thu.
 - Degree Types BigPicture, https://bigfuture.collegeboard.org/plan-for-college/college-basics/college-classes/quick-guide-your-college-degree-options#:~:text=There%20are%20generally%20four%20categories,doctorate%20and%20a%20professional%20degree., 2023-03-16-Thu.
+- LLM vs. JD Pepperdine, https://law.pepperdine.edu/blog/posts/llm-versus-jd-degree.htm, 2023-03-16-Thu.
