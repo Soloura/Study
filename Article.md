@@ -68,6 +68,8 @@
 - [MS, 이미지 생성하는 ‘비주얼 챗GPT’ 공개](https://www.aitimes.com/news/articleView.html?idxno=149953), 2023-03-16-Thu.
 - [구글, 의료전문 LLM '메드-PaLM' 공개...헬스케어 AI 소개](https://www.aitimes.com/news/articleView.html?idxno=149965), 2023-03-16-Thu.
 - [식음료용 인공지능 '테이스트GPT' ](https://www.aitimes.com/news/articleView.html?idxno=149941), 2023-03-16-Thu.
+- [멀티모달로 진화하는 언어모델](https://www.aitimes.com/news/articleView.html?idxno=149894), 2023-03-18-Sat.
+- [파이토치 2.0 정식 출시...머신러닝 최대 2배 가속](https://www.aitimes.com/news/articleView.html?idxno=150019), 2023-03-18-Sat.
 
 ## Articles unrelated to AI
 
