@@ -70,6 +70,7 @@
 - [식음료용 인공지능 '테이스트GPT' ](https://www.aitimes.com/news/articleView.html?idxno=149941), 2023-03-16-Thu.
 - [멀티모달로 진화하는 언어모델](https://www.aitimes.com/news/articleView.html?idxno=149894), 2023-03-18-Sat.
 - [파이토치 2.0 정식 출시...머신러닝 최대 2배 가속](https://www.aitimes.com/news/articleView.html?idxno=150019), 2023-03-18-Sat.
+- ["챗GPT 게 섯거라"...AI 챗봇 줄줄이 출시](https://zdnet.co.kr/view/?no=20230317071729), 2023-03-19-Sun.
 
 ## Articles unrelated to AI
 
