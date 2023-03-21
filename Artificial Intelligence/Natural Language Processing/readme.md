@@ -64,7 +64,7 @@ Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 
 
 2015년 ICLR에 게재된 논문으로, Attention mechanism을 이용해 중요한 부분만 집중하게 하여 machine translation하는 내용이다.
 
-### Transformer | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+### Transformer | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 
@@ -158,3 +158,4 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - Recurrent Nerual Network CS230, https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks, 2023-03-01-Wed.
 - GPT-4 OpenAI, https://openai.com/product/gpt-4, 2023-03-16-Thu.
 - Transformer Wiki, https://en.wikipedia.org/wiki/Transformer_(machine_learning_model), 2023-03-21-Tue.
+- Attention is All you Need, https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html, 2023-03-21-Tue.
