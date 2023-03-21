@@ -42,7 +42,7 @@ Gated Recurrent Unit(GRU) and Long Short-Term Memory units (LSTM) deal with the 
 
 Gated recurrent units (GRUs) are a gating mechanism in recurrent neural networks, introduced in 2014 by Cho et al. The GRU is like a long short-term memory (LSTM) with a forget gate, but has fewer parameters than LSTM, as it lacks an output gate. GRU's performance on certain tasks of polyphonic music modeling, speech signal modeling and natural language processing was found to be similar to that of LSTM. GRUs shown that gating is indeed helpful in general and Bengio's team concluding that no concrete conclusion on which of the two gating units was better.
 
-Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling | [NIPS 2014] | [arXiv 2014]
+Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling | [NIPS 2014](https://nyuscholars.nyu.edu/en/publications/empirical-evaluation-of-gated-recurrent-neural-networks-on-sequen) | [arXiv 2014](https://arxiv.org/abs/1412.3555)
 
 Are GRU cells more specific and LSTM cells more sensitive in motive classification of text?", Frontiers in Artificial Intelligence | [Frontiers in AI 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861254/)
 
