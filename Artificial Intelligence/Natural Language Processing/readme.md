@@ -62,7 +62,15 @@ Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 
 
 ### Attention | *Neural Machine Translatin by Jointly Learning to Align and Translate* | [arXiv](https://arxiv.org/abs/1409.0473)
 
-2015년 ICLR에 게재된 논문으로, Attention mechanism을 이용해 중요한 부분만 집중하게 하여 machine translation하는 내용이다. 
+2015년 ICLR에 게재된 논문으로, Attention mechanism을 이용해 중요한 부분만 집중하게 하여 machine translation하는 내용이다.
+
+### Transformer | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+
+A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
+
+Like recurrent neural networks (RNNs), transformers are designed to process sequential input data, such as natural language, with applications towards tasks such as translation and text summarization. However, unlike RNNs, transformers process the entire input all at once. The attention mechanism provides context for any position in the input sequence. For example, if the input data is a natural language sentence, the transformer does not have to process one word at a time. This allows for more parallization than RNNs and therefore reduces training times.
+
+Transformers were introduced in 2017 by a team at Google Brain and are increasingly the model of choice for NLP problems, replacing RNN models such as long short-term memory (LSTM). The additional training parallelization allows training on larger datasets. This led to the development of pretrained systems such as BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer), which were trained with large language datasets, such as the Wikipedia Corpus and Common Crawl, and can be fine-tuned for specific tasks.
 
 ### NPLN(Neural Probabilistic Language Model)
 
@@ -75,6 +83,8 @@ Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 
 ### Embeddings from Language Model(ELMo) | [Paper (Homepage)](https://www.aclweb.org/anthology/N18-1202/) | [Paper (arXiv)](https://arxiv.org/pdf/1802.05365.pdf)
 
 ### Doc2Vec
+
+---
 
 ### Bidirectional Encoder Representations from Transformers(BERT)
 
@@ -147,3 +157,4 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - Whisper Paper, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf, 2022-12-10-Sat.
 - Recurrent Nerual Network CS230, https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks, 2023-03-01-Wed.
 - GPT-4 OpenAI, https://openai.com/product/gpt-4, 2023-03-16-Thu.
+- Transformer Wiki, https://en.wikipedia.org/wiki/Transformer_(machine_learning_model), 2023-03-21-Tue.
