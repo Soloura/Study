@@ -33,9 +33,20 @@ Backpropagation is done at each point in time. At timestep T, the derivative of 
 
 dL^T / dW = sum(dL^T/dW)|_t
 
-### GNU/LSTM
+### GRU/LSTM
 
-Gated Recurrent Unit(GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encounterd by tranditional RNNs, with LSTM being a generalization of GRU. 
+Gated Recurrent Unit(GRU) and Long Short-Term Memory units (LSTM) deal with the vanishing gradient problem encounterd by tranditional RNNs, with LSTM being a generalization of GRU.
+
+
+### GRU - Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation | [EMNLP 2014](https://aclanthology.org/D14-1179/)
+
+Gated recurrent units (GRUs) are a gating mechanism in recurrent neural networks, introduced in 2014 by Cho et al. The GRU is like a long short-term memory (LSTM) with a forget gate, but has fewer parameters than LSTM, as it lacks an output gate. GRU's performance on certain tasks of polyphonic music modeling, speech signal modeling and natural language processing was found to be similar to that of LSTM. GRUs shown that gating is indeed helpful in general and Bengio's team concluding that no concrete conclusion on which of the two gating units was better.
+
+Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling | [NIPS 2014] | [arXiv 2014]
+
+Are GRU cells more specific and LSTM cells more sensitive in motive classification of text?", Frontiers in Artificial Intelligence | [Frontiers in AI 2020](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7861254/)
+
+---
 
 ## Word Embedding | [Blog (KR)](https://ratsgo.github.io/from%20frequency%20to%20semantics/2017/03/11/embedding/)
 단어를 벡터로 바꾸는 방법론이다.
@@ -178,3 +189,5 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - BERT GitHub, https://github.com/google-research/bert, 2023-03-21-Tue.
 - BERT Wiki, https://en.wikipedia.org/wiki/BERT_(language_model), 2023-03-21-Tue.
 - Natural Language Processing IBM, https://www.ibm.com/topics/natural-language-processing, 2023-03-21-Tue.
+- GRU Wiki, https://en.wikipedia.org/wiki/Gated_recurrent_unit, 2023-03-21-Tue.
+- GRU EMNLP 2014, https://aclanthology.org/D14-1179/, 2023-03-21-Tue.
