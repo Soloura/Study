@@ -60,11 +60,15 @@ Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 
 
 ### Enriching Word Vectors with Subword Information | [TACL, 2017](https://aclanthology.org/Q17-1010.pdf) | [arXiv](https://arxiv.org/abs/1607.04606)
 
-### Attention | *Neural Machine Translatin by Jointly Learning to Align and Translate* | [arXiv](https://arxiv.org/abs/1409.0473)
+### Attention - Neural Machine Translatin by Jointly Learning to Align and Translate | [arXiv](https://arxiv.org/abs/1409.0473) | [Wiki](https://en.wikipedia.org/wiki/Attention_(machine_learning))
 
 2015년 ICLR에 게재된 논문으로, Attention mechanism을 이용해 중요한 부분만 집중하게 하여 machine translation하는 내용이다.
 
-### Transformer - Attention is All you Need | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
+An attention is a technique that is meant to mimic cognitive attention. The effect enchances some parts of the input data while diminishing other parts - the motivation being that the network should devote more focus to the small, but important, parts of the data. Learning which part of the data is more important than another depends on the context, and this is trained by gradient descent.
+
+Attention-like mechanisms were introduced in the 1990s under name like multiplicative modules, sigma pi units, and hyper-networks. Its flexibility comes from its role as "soft weights: that can change during runtime, in contrast to standard weights that must remain fixed at runtime. Uses of attention include memory in neural Turing machines, reasoning tasks in differentiable neural computers, language processing in transformers, and LSTMs, and multi-sensory data processing (sound, images, video, and text) in perceivers. Listed in the Variants section below are the many schemes to implement the soft-weight mechanisms.
+
+### Transformer - Attention is All you Need | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
 
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 
@@ -157,5 +161,6 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - Whisper Paper, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf, 2022-12-10-Sat.
 - Recurrent Nerual Network CS230, https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks, 2023-03-01-Wed.
 - GPT-4 OpenAI, https://openai.com/product/gpt-4, 2023-03-16-Thu.
+- Attention Wiki, https://en.wikipedia.org/wiki/Attention_(machine_learning), 2023-03-21-Tue.
 - Transformer Wiki, https://en.wikipedia.org/wiki/Transformer_(machine_learning_model), 2023-03-21-Tue.
 - Attention is All you Need, https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html, 2023-03-21-Tue.
