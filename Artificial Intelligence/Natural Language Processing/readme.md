@@ -1,6 +1,12 @@
-# Natural Language Processing
+# Natural Language Processing (NLP) | [IBM](https://www.ibm.com/topics/natural-language-processing)
 
-## Recurrent Neural Network [CS230: Deep Learning](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
+Natural Language Processing (NLP) refers to the branch of computer science - and more specifically, the branch of artificial intelligence or AI - concerned with giving computers the ability to understand text and spoken words in much the same way human beings can.
+
+NLP combines computational linguistics - rule-based modeling of human language - with statistical, machine learning, and deep learning models. Together, these technologies enable computers to process human language in the form of text or voice data and to 'understand' its full meaning, complete with the speaker or writer's intent and sentiment.
+
+NLP drives computer programs that translate text from one language to another, respond to spoken commands, and summarize large volumes of text rapidly - even in real time. There's a good chance you've interacted with NLP in the form of voice-operated GPS systems, digital assistants, speech-to-text dictation software, customer service chatbots, and other consumer conveniences. But NLP also plays a growing role in enterprise solutions that help streamline business operations, increase employee productivity, and simplify mission-critical business processes.
+
+## Recurrent Neural Network | [CS230: Deep Learning](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks)
 
 Recurrent neural networks, also known as RNNs, are a class of neural networks that allow previous outputs to be used as inputs while having hidden states.
 
@@ -76,13 +82,13 @@ Like recurrent neural networks (RNNs), transformers are designed to process sequ
 
 Transformers were introduced in 2017 by a team at Google Brain and are increasingly the model of choice for NLP problems, replacing RNN models such as long short-term memory (LSTM). The additional training parallelization allows training on larger datasets. This led to the development of pretrained systems such as BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer), which were trained with large language datasets, such as the Wikipedia Corpus and Common Crawl, and can be fine-tuned for specific tasks.
 
-### NPLN(Neural Probabilistic Language Model)
+### NPLN (Neural Probabilistic Language Model)
 
-### SVD(Singular Value Decomposion)
+### SVD (Singular Value Decomposion)
 
-### PCA(Principal Component Analysis)
+### PCA (Principal Component Analysis)
 
-### LSA(Latent Sematic Analysis)
+### LSA (Latent Sematic Analysis)
 
 ### Embeddings from Language Model(ELMo) | [Paper (Homepage)](https://www.aclweb.org/anthology/N18-1202/) | [Paper (arXiv)](https://arxiv.org/pdf/1802.05365.pdf)
 
@@ -132,7 +138,8 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 
 ## Lecture
 
-### [딥러닝을 이용한 자연어 처리 (조경현 교수님)](https://www.edwith.org/deepnlp)
+- [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
+- [딥러닝을 이용한 자연어 처리 (조경현 교수님)](https://www.edwith.org/deepnlp)
 
 ---
 
@@ -170,3 +177,4 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - BERT arXiv, https://arxiv.org/pdf/1810.04805.pdf, 2023-03-21-Tue.
 - BERT GitHub, https://github.com/google-research/bert, 2023-03-21-Tue.
 - BERT Wiki, https://en.wikipedia.org/wiki/BERT_(language_model), 2023-03-21-Tue.
+- Natural Language Processing IBM, https://www.ibm.com/topics/natural-language-processing, 2023-03-21-Tue.
