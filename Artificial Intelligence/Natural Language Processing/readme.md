@@ -64,7 +64,7 @@ Word2Vec, GloVe, fastText 모두 동시 등장 정보를 이용하기 때문에 
 
 2015년 ICLR에 게재된 논문으로, Attention mechanism을 이용해 중요한 부분만 집중하게 하여 machine translation하는 내용이다.
 
-### Transformer | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
+### Transformer - Attention is All you Need | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html)
 
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 
