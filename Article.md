@@ -72,6 +72,11 @@
 - [파이토치 2.0 정식 출시...머신러닝 최대 2배 가속](https://www.aitimes.com/news/articleView.html?idxno=150019), 2023-03-18-Sat.
 - ["챗GPT 게 섯거라"...AI 챗봇 줄줄이 출시](https://zdnet.co.kr/view/?no=20230317071729), 2023-03-19-Sun.
 - [인공지능(AI) 언어모델 ‘BERT(버트)'는 무엇인가](https://www.aitimes.kr/news/articleView.html?idxno=13117), 2023-03-21-Tue.
+- [마.침.내. GPT-4!](https://www.aitimes.com/news/articleView.html?idxno=150024), 2023-03-23-Thu.
+- [슈퍼컴퓨터도 임대한다...엔비디아, AI용 'DGX 클라우드' 출시](https://www.aitimes.com/news/articleView.html?idxno=150083), 2023-03-23-Thu.
+- [구글, AI 챗봇 '바드' 공식 출시...검색 아닌 별도 채팅 서비스](https://www.aitimes.com/news/articleView.html?idxno=150081), 2023-03-23-Thu.
+- [뤼튼, 'GPT-4' 탑재 챗봇 서비스 '챗 뤼튼' 무료 공개](https://www.aitimes.com/news/articleView.html?idxno=150076), 2023-03-23-Thu.
+- [뤼튼, 억대 연봉 내걸고 '프롬프트 엔지니어' 공개 채용](https://www.aitimes.com/news/articleView.html?idxno=149968), 2023-03-23-Thu.
 
 ## Articles unrelated to AI
 
