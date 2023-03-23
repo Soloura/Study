@@ -77,6 +77,7 @@
 - [구글, AI 챗봇 '바드' 공식 출시...검색 아닌 별도 채팅 서비스](https://www.aitimes.com/news/articleView.html?idxno=150081), 2023-03-23-Thu.
 - [뤼튼, 'GPT-4' 탑재 챗봇 서비스 '챗 뤼튼' 무료 공개](https://www.aitimes.com/news/articleView.html?idxno=150076), 2023-03-23-Thu.
 - [뤼튼, 억대 연봉 내걸고 '프롬프트 엔지니어' 공개 채용](https://www.aitimes.com/news/articleView.html?idxno=149968), 2023-03-23-Thu.
+- [사람에게 사기치고, 시스템 탈출 계획 세운 'GPT-4'](https://www.aitimes.com/news/articleView.html?idxno=150111), 2023-03-23-Thu.
 
 ## Articles unrelated to AI
 
