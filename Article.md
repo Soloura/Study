@@ -79,6 +79,7 @@
 - [뤼튼, 억대 연봉 내걸고 '프롬프트 엔지니어' 공개 채용](https://www.aitimes.com/news/articleView.html?idxno=149968), 2023-03-23-Thu.
 - [사람에게 사기치고, 시스템 탈출 계획 세운 'GPT-4'](https://www.aitimes.com/news/articleView.html?idxno=150111), 2023-03-23-Thu.
 - ['챗GPT'도 최신 정보 사용 가능...‘플러그인’ 기능 출시](https://www.aitimes.com/news/articleView.html?idxno=150126), 2023-03-25-Sat.
+- [리바이스, AI 모델 도입해 화제...일자리 우려한 비난도 나와](https://www.aitimes.com/news/articleView.html?idxno=150189), 2023-03-29-Wed.
 
 ## Articles unrelated to AI
 
