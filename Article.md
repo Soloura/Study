@@ -81,7 +81,8 @@
 - ['챗GPT'도 최신 정보 사용 가능...‘플러그인’ 기능 출시](https://www.aitimes.com/news/articleView.html?idxno=150126), 2023-03-25-Sat.
 - [리바이스, AI 모델 도입해 화제...일자리 우려한 비난도 나와](https://www.aitimes.com/news/articleView.html?idxno=150189), 2023-03-29-Wed.
 - [세레브라스, 자체 개발한 소형언어모델 오픈소스로 공개](https://www.aitimes.com/news/articleView.html?idxno=150208), 2023-03-29-Wed.
-- ['챗GPT'로 애플 '시리' 대체할 수 있는 방법](https://www.aitimes.com/news/articleView.html?idxno=150219), 2023-04-01-Sat.)
+- ['챗GPT'로 애플 '시리' 대체할 수 있는 방법](https://www.aitimes.com/news/articleView.html?idxno=150219), 2023-04-01-Sat.
+- ['챗GPT' 연결 도와주는 클라우드 플랫폼 등장](https://www.aitimes.com/news/articleView.html?idxno=150263), 2023-04-02-Sun.
 
 ## Articles unrelated to AI
 
