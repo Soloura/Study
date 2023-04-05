@@ -83,6 +83,7 @@
 - [세레브라스, 자체 개발한 소형언어모델 오픈소스로 공개](https://www.aitimes.com/news/articleView.html?idxno=150208), 2023-03-29-Wed.
 - ['챗GPT'로 애플 '시리' 대체할 수 있는 방법](https://www.aitimes.com/news/articleView.html?idxno=150219), 2023-04-01-Sat.
 - ['챗GPT' 연결 도와주는 클라우드 플랫폼 등장](https://www.aitimes.com/news/articleView.html?idxno=150263), 2023-04-02-Sun.
+- [슈퍼컴 필요없는 소형 언어모델 'sLLM' 급부상](https://www.aitimes.com/news/articleView.html?idxno=150299), 2023-04-05-Wed.
 
 ## Articles unrelated to AI
 
