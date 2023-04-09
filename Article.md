@@ -111,3 +111,4 @@
 - [암호화폐에서 인공지능으로...美 투자자, 갈아타기 시전](https://www.aitimes.com/news/articleView.html?idxno=149554), 2023-02-21-Tue.
 - [삼성전자, 인텔 꺾고 반도체 매출 1위...SK하이닉스 4위](https://zdnet.co.kr/view/?no=20230307085930), 2023-03-07-Tue.
 - [복지천국이라던 구글 ‘무료 식사’까지 줄인다](https://www.chosun.com/economy/tech_it/2023/04/05/27FMQ5WLPRALDD64ZOVWYTAFMU/), 2023-04-05-Wed.
+- [테슬라, 고객 차량 영상 사내 공유로 구설수 올라](https://www.aitimes.com/news/articleView.html?idxno=150407), 2023-04-09-Sun.
