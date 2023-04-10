@@ -35,7 +35,7 @@ Casual Learning is a more relaxted approach to finding out how to do new things.
 
 Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you;re actually interested in.
 
-### Online Learning | [Wiki](https://en.wikipedia.org/wiki/Online_machine_learning) | [Blog (KR)](https://daeson.tistory.com/225)
+### Online Learning | [Wiki](https://en.wikipedia.org/wiki/Online_machine_learning)
 
 Online machine learning is a method of machine learning in which data becomes available in a sequential order and is used to update the best predictor for future data at each step, as opposed to batch learning techniques which generate the best predictor by learning on the entire training data set at once. Online learning is a common technique used in areas of machine learning where it is computationally infeasible to train over the entire dataset, requiring the need of out-of-core algorithms. It is also used in situations where it is necessary for the algorithm to dynamically adapt to new patterns in the data, or when the data itself is generated as a function of time, e.g., stock price prediction. Online learning algorithms may be prone to catastrophic interference, a problem that can be addressed by incremental learning approaches.
 
@@ -47,6 +47,14 @@ Online machine learning is a method of machine learning in which data becomes av
   - Less resources
 - Cons
   - According to learning rate, recent or past pattern can be forgotten
+
+### BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning | ICLR 2019 | [arXiv](https://arxiv.org/abs/1810.08272) | [GitHub](https://github.com/mila-iqia/babyai)
+
+### Reccurent Indepedent Mechanisms | ICLR 2021 | [arXiv](https://arxiv.org/abs/1909.10893) | [GitHub](https://github.com/anirudh9119/RIMs)
+
+[Blog #1 (KR)](https://daeson.tistory.com/225)
+
+[Blog #2 (KR)](https://brunch.co.kr/@advisor/23)
 
 ### Incremental Learning | [Wiki](https://en.wikipedia.org/wiki/Incremental_learning)
 
@@ -179,3 +187,4 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Continous Machine Learning Blog, https://levity.ai/blog/what-is-continuous-machine-learning, 2023-03-14-Tue.
 - Offline Learning Blog, https://www.aiforanyone.org/glossary/offline-learning, 2023-03-14-Tue.
 - Catastrophic Interference Wiki, https://en.wikipedia.org/wiki/Catastrophic_interference, 2023-03-14-Tue.
+- Casual Learning Blog KR, https://brunch.co.kr/@advisor/23, 2023-04-10-Mon.
