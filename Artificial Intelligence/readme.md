@@ -33,7 +33,13 @@ Neural Modeling Field (NMF) is a mathematical framework for machine learning whi
 
 Casual Learning is a more relaxted approach to finding out how to do new things.
 
-Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you;re actually interested in.
+Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you're actually interested in.
+
+[Blog (KR)](https://daeson.tistory.com/225)
+
+BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning | ICLR 2019 | [arXiv](https://arxiv.org/abs/1810.08272) | [GitHub](https://github.com/mila-iqia/babyai)
+
+Reccurent Indepedent Mechanisms | ICLR 2021 | [arXiv](https://arxiv.org/abs/1909.10893) | [GitHub](https://github.com/anirudh9119/RIMs)
 
 ### Online Learning | [Wiki](https://en.wikipedia.org/wiki/Online_machine_learning)
 
@@ -48,13 +54,7 @@ Online machine learning is a method of machine learning in which data becomes av
 - Cons
   - According to learning rate, recent or past pattern can be forgotten
 
-### BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning | ICLR 2019 | [arXiv](https://arxiv.org/abs/1810.08272) | [GitHub](https://github.com/mila-iqia/babyai)
-
-### Reccurent Indepedent Mechanisms | ICLR 2021 | [arXiv](https://arxiv.org/abs/1909.10893) | [GitHub](https://github.com/anirudh9119/RIMs)
-
-[Blog #1 (KR)](https://daeson.tistory.com/225)
-
-[Blog #2 (KR)](https://brunch.co.kr/@advisor/23)
+[Blog (KR)](https://brunch.co.kr/@advisor/23)
 
 ### Incremental Learning | [Wiki](https://en.wikipedia.org/wiki/Incremental_learning)
 
