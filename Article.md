@@ -85,6 +85,8 @@
 - ['챗GPT' 연결 도와주는 클라우드 플랫폼 등장](https://www.aitimes.com/news/articleView.html?idxno=150263), 2023-04-02-Sun.
 - [슈퍼컴 필요없는 소형 언어모델 'sLLM' 급부상](https://www.aitimes.com/news/articleView.html?idxno=150299), 2023-04-05-Wed.
 - [AI 핵심 ‘머신 러닝’ 개발… 작년 미국 16건, 한국은 한 건도 없었다](https://www.chosun.com/economy/tech_it/2023/04/05/56QCQLEPKJFAVMYGLMVHKQCS4I/), 2023-04-05-Wed.
+- [AI는 ‘물먹는 하마’…챗GPT 대화 한번에 물 500ml 필요](https://www.aitimes.com/news/articleView.html?idxno=150488), 2023-04-15-Sat.
+- 
 
 ## Articles unrelated to AI
 
@@ -112,3 +114,6 @@
 - [삼성전자, 인텔 꺾고 반도체 매출 1위...SK하이닉스 4위](https://zdnet.co.kr/view/?no=20230307085930), 2023-03-07-Tue.
 - [복지천국이라던 구글 ‘무료 식사’까지 줄인다](https://www.chosun.com/economy/tech_it/2023/04/05/27FMQ5WLPRALDD64ZOVWYTAFMU/), 2023-04-05-Wed.
 - [테슬라, 고객 차량 영상 사내 공유로 구설수 올라](https://www.aitimes.com/news/articleView.html?idxno=150407), 2023-04-09-Sun.
+- [1500개 행정 서비스, 홈페이지 한 곳으로 모은다](https://zdnet.co.kr/view/?no=20230414150911), 2023-04-15-Sat.
+- [정부, '초거대 AI' 경쟁력 강화 방안 마련](https://www.aitimes.com/news/articleView.html?idxno=150535), 2023-04-15-Sat.
+- [라인, 음성 신호처리 학회 'ICASSP 2023'서 논문 8편 채택](https://www.aitimes.com/news/articleView.html?idxno=150534), 2023-04-15-Sat.
