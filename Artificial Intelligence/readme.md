@@ -35,7 +35,9 @@ Casual Learning is a more relaxted approach to finding out how to do new things.
 
 Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you're actually interested in.
 
-[Introduction to Casual Inference (Brady Neal)](https://www.bradyneal.com/causal-inference-course)
+### Causal Learning
+
+[Introduction to Causal Inference (Brady Neal)](https://www.bradyneal.com/causal-inference-course)
 
 [Blog (KR)](https://brunch.co.kr/@advisor/23)
 
