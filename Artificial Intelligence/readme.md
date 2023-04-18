@@ -35,6 +35,8 @@ Casual Learning is a more relaxted approach to finding out how to do new things.
 
 Learn at your own pace, in your own time and just what you want to know about, not what the rigid course director says you must have completed before you get to the bit you're actually interested in.
 
+[Introduction to Casual Inference (Brady Neal)](https://www.bradyneal.com/causal-inference-course)
+
 [Blog (KR)](https://brunch.co.kr/@advisor/23)
 
 BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning | ICLR 2019 | [arXiv](https://arxiv.org/abs/1810.08272) | [GitHub](https://github.com/mila-iqia/babyai)
@@ -188,3 +190,4 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Offline Learning Blog, https://www.aiforanyone.org/glossary/offline-learning, 2023-03-14-Tue.
 - Catastrophic Interference Wiki, https://en.wikipedia.org/wiki/Catastrophic_interference, 2023-03-14-Tue.
 - Casual Learning Blog KR, https://brunch.co.kr/@advisor/23, 2023-04-10-Mon.
+- Introduction to Casual Inference Brady Neal, https://www.bradyneal.com/causal-inference-course, 2023-04-18-Tue.
