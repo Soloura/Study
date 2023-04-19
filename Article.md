@@ -87,6 +87,7 @@
 - [AI 핵심 ‘머신 러닝’ 개발… 작년 미국 16건, 한국은 한 건도 없었다](https://www.chosun.com/economy/tech_it/2023/04/05/56QCQLEPKJFAVMYGLMVHKQCS4I/), 2023-04-05-Wed.
 - [AI는 ‘물먹는 하마’…챗GPT 대화 한번에 물 500ml 필요](https://www.aitimes.com/news/articleView.html?idxno=150488), 2023-04-15-Sat.
 - [AI 챗봇에 인격 부여하는 '페르소나' 서비스 유행](https://www.aitimes.com/news/articleView.html?idxno=150588), 2023-04-19-Wed.
+- ['오토GPT'는 선물인가 재앙인가](https://www.aitimes.com/news/articleView.html?idxno=150562), 2023-04-19-Wed.
 
 ## Articles unrelated to AI
 
