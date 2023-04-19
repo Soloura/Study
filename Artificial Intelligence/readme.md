@@ -169,6 +169,14 @@ To develop and operate complex systems like these, you can apply DevOps principl
 
 ---
 
+### Hysteresis | [Wiki](https://en.wikipedia.org/wiki/Hysteresis) | [Blog (KR)](https://m.blog.naver.com/yhy886700/221338210668)
+
+Hysteresis is the dependence of the state of a system on its history.
+
+이력 현상은 파괴된 뒤 결코 다시 회복할 수 없는 현상, 강한 비선형 현상이란 선형화가 단지 관찰된 형상만으로 분류할 수 없다는 것, 어떤 물리량이 그때의 물리 조건만으로는 일의적으로 결정되지 않고 그 이전에 그 물질이 경과해온 상태의 변화 과정에 의존하는 현상이다.
+
+---
+
 ### Reference
 - Artificial Intelligence IBM, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence, 2022-02-12-Sat.
 - Machine Learning IBM, https://www.ibm.com/topics/machine-learning, 2023-03-14-Tue.
@@ -193,3 +201,5 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - Catastrophic Interference Wiki, https://en.wikipedia.org/wiki/Catastrophic_interference, 2023-03-14-Tue.
 - Casual Learning Blog KR, https://brunch.co.kr/@advisor/23, 2023-04-10-Mon.
 - Introduction to Casual Inference Brady Neal, https://www.bradyneal.com/causal-inference-course, 2023-04-18-Tue.
+- Hysteresis Wiki, https://en.wikipedia.org/wiki/Hysteresis, 2023-04-19-Wed.
+- Hysteresis Blog KR, https://m.blog.naver.com/yhy886700/221338210668, 2023-04-19-Wed.
