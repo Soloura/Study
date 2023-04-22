@@ -120,3 +120,4 @@
 - [라인, 음성 신호처리 학회 'ICASSP 2023'서 논문 8편 채택](https://www.aitimes.com/news/articleView.html?idxno=150534), 2023-04-15-Sat.
 - [피자 배달 드론·계단 걷는 로봇...진화하는 무인 배송 / YTN](https://youtu.be/LAA79vgf_HI), 2023-04-16-Sun.
 - ['관광 대국' 명성 되찾고 있지만...웃을 수만은 없는 동포들 / YTN](https://youtu.be/AAgyXO6o4gg), 2023-04-16-Sun.
+- [뇌파 이용한 '브레인아트' 전시회 열려](https://www.aitimes.com/news/articleView.html?idxno=150657), 2023-04-22-Sat.
