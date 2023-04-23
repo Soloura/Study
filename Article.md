@@ -121,3 +121,4 @@
 - [피자 배달 드론·계단 걷는 로봇...진화하는 무인 배송 / YTN](https://youtu.be/LAA79vgf_HI), 2023-04-16-Sun.
 - ['관광 대국' 명성 되찾고 있지만...웃을 수만은 없는 동포들 / YTN](https://youtu.be/AAgyXO6o4gg), 2023-04-16-Sun.
 - [뇌파 이용한 '브레인아트' 전시회 열려](https://www.aitimes.com/news/articleView.html?idxno=150657), 2023-04-22-Sat.
+- [역삼동 2억 5천 오피스텔, 중개수수료 102만원?](https://naver.me/5fjxfiHX), 2023-04-23-Sun.
