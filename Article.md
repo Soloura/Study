@@ -88,6 +88,7 @@
 - [AI는 ‘물먹는 하마’…챗GPT 대화 한번에 물 500ml 필요](https://www.aitimes.com/news/articleView.html?idxno=150488), 2023-04-15-Sat.
 - [AI 챗봇에 인격 부여하는 '페르소나' 서비스 유행](https://www.aitimes.com/news/articleView.html?idxno=150588), 2023-04-19-Wed.
 - ['오토GPT'는 선물인가 재앙인가](https://www.aitimes.com/news/articleView.html?idxno=150562), 2023-04-19-Wed.
+- [SKT-스캐터랩, 감성 더한 새로운 LLM 공동 개발](https://www.aitimes.com/news/articleView.html?idxno=150680), 2023-04-26-Wed.
 
 ## Articles unrelated to AI
 
