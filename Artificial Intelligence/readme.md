@@ -177,6 +177,22 @@ Hysteresis is the dependence of the state of a system on its history.
 
 ---
 
+## :iphone: Services
+
+### [ChatSonic](https://writesonic.com/chat?ref=soanle13&gclid=CjwKCAjwl6OiBhA2EiwAuUwWZWnBY_9cqxPVdoeCQLQG22w4FKA4-p2zGt8WUAnQl0RSU7Ho2diVZBoC_HoQAvD_BwE)
+
+### [DeepL](https://www.deepl.com/translator): Translator
+
+### [Craiyon](https://www.craiyon.com/): Image Generator
+
+### [invideo](https://invideo.io/): Video Generator
+
+### [upscale.media](https://www.upscale.media/): Upscale and Enhance Image
+
+### [ContentIdeas](https://contentideas.io/): Images
+
+---
+
 ### Reference
 - Artificial Intelligence IBM, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence, 2022-02-12-Sat.
 - Machine Learning IBM, https://www.ibm.com/topics/machine-learning, 2023-03-14-Tue.
@@ -203,3 +219,9 @@ Hysteresis is the dependence of the state of a system on its history.
 - Introduction to Casual Inference Brady Neal, https://www.bradyneal.com/causal-inference-course, 2023-04-18-Tue.
 - Hysteresis Wiki, https://en.wikipedia.org/wiki/Hysteresis, 2023-04-19-Wed.
 - Hysteresis Blog KR, https://m.blog.naver.com/yhy886700/221338210668, 2023-04-19-Wed.
+- ChatSonic, https://writesonic.com/chat?ref=soanle13&gclid=CjwKCAjwl6OiBhA2EiwAuUwWZWnBY_9cqxPVdoeCQLQG22w4FKA4-p2zGt8WUAnQl0RSU7Ho2diVZBoC_HoQAvD_BwE, 2023-04-27-Thu.
+- Translator DeepL, https://www.deepl.com/translator, 2023-04-27-Thu.
+- Image Generator Craiyon, https://www.craiyon.com/, 2023-04-27-Thu.
+- Video Generator invideo, https://invideo.io/, 2023-04-27-Thu.
+- upscale media, https://www.upscale.media/, 2023-04-27-Thu.
+- ContentIdeas, https://contentideas.io/, 2023-04-27-Thu.
