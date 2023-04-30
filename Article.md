@@ -89,6 +89,8 @@
 - [AI 챗봇에 인격 부여하는 '페르소나' 서비스 유행](https://www.aitimes.com/news/articleView.html?idxno=150588), 2023-04-19-Wed.
 - ['오토GPT'는 선물인가 재앙인가](https://www.aitimes.com/news/articleView.html?idxno=150562), 2023-04-19-Wed.
 - [SKT-스캐터랩, 감성 더한 새로운 LLM 공동 개발](https://www.aitimes.com/news/articleView.html?idxno=150680), 2023-04-26-Wed.
+- [“챗GPT, 쉿!” 채팅내용 비공개 기능](https://www.aitimes.com/news/articleView.html?idxno=150799), 2023-04-30-Sun.
+- [MS "검색 세대교체" 주장에 구글 "수많은 변화 중 하나" 응수](https://www.aitimes.com/news/articleView.html?idxno=150767), 2023-04-30-Sun.
 
 ## Articles unrelated to AI
 
@@ -123,3 +125,4 @@
 - ['관광 대국' 명성 되찾고 있지만...웃을 수만은 없는 동포들 / YTN](https://youtu.be/AAgyXO6o4gg), 2023-04-16-Sun.
 - [뇌파 이용한 '브레인아트' 전시회 열려](https://www.aitimes.com/news/articleView.html?idxno=150657), 2023-04-22-Sat.
 - [역삼동 2억 5천 오피스텔, 중개수수료 102만원?](https://naver.me/5fjxfiHX), 2023-04-23-Sun.
+- [아쉬움 많지만, 가상자산 제도화 성과…A- 학점](https://zdnet.co.kr/view/?no=20230426111552), 2023-04-30-Sun.
