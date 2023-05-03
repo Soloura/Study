@@ -91,6 +91,7 @@
 - [SKT-스캐터랩, 감성 더한 새로운 LLM 공동 개발](https://www.aitimes.com/news/articleView.html?idxno=150680), 2023-04-26-Wed.
 - [“챗GPT, 쉿!” 채팅내용 비공개 기능](https://www.aitimes.com/news/articleView.html?idxno=150799), 2023-04-30-Sun.
 - [MS "검색 세대교체" 주장에 구글 "수많은 변화 중 하나" 응수](https://www.aitimes.com/news/articleView.html?idxno=150767), 2023-04-30-Sun.
+- ['생각' 읽어주는 인공지능 등장](https://www.aitimes.com/news/articleView.html?idxno=150812), 2023-05-03-Wed.
 
 ## Articles unrelated to AI
 
