@@ -102,6 +102,7 @@
 - [Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System](https://www.nytimes.com/2023/02/16/business/tesla-recall-full-self-driving.html), 2023-02-18-Sat.
 - [Why isn't Austin in top 10 'best places to live' anymore? U.S. News and World Report has thoughts](https://www.statesman.com/story/news/2022/05/18/best-places-live-2022-austin-tx-out-top-10-list/9822074002/), 2023-03-04-Sat.
 - [Best Places to Live in the U.S. in 2022-2023](https://realestate.usnews.com/places/rankings/best-places-to-live), 2023-03-04-Sat.
+- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-08-Mon.
 
 ### Korean
 
