@@ -93,6 +93,7 @@
 - [MS "검색 세대교체" 주장에 구글 "수많은 변화 중 하나" 응수](https://www.aitimes.com/news/articleView.html?idxno=150767), 2023-04-30-Sun.
 - ['생각' 읽어주는 인공지능 등장](https://www.aitimes.com/news/articleView.html?idxno=150812), 2023-05-03-Wed.
 - [생각을 영화로 만드는 인공지능 시대 '성큼'](https://www.aitimes.com/news/articleView.html?idxno=150860), 2023-05-05-Fri.
+- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-09-Tue.
 
 ## Articles unrelated to AI
 
