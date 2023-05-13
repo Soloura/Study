@@ -131,3 +131,4 @@
 - [역삼동 2억 5천 오피스텔, 중개수수료 102만원?](https://naver.me/5fjxfiHX), 2023-04-23-Sun.
 - [아쉬움 많지만, 가상자산 제도화 성과…A- 학점](https://zdnet.co.kr/view/?no=20230426111552), 2023-04-30-Sun.
 - [금융권 상고 출신 “살아있네”](https://fetv.co.kr/news/article.html?no=49391), 2023-05-01-Mon.
+- [소프트뱅크, AI 집중 투자 위해 알리바바 투자금 회수](https://www.aitimes.com/news/articleView.html?idxno=151077), 2023-05-13-Sat.
