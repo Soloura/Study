@@ -93,7 +93,7 @@
 - [MS "검색 세대교체" 주장에 구글 "수많은 변화 중 하나" 응수](https://www.aitimes.com/news/articleView.html?idxno=150767), 2023-04-30-Sun.
 - ['생각' 읽어주는 인공지능 등장](https://www.aitimes.com/news/articleView.html?idxno=150812), 2023-05-03-Wed.
 - [생각을 영화로 만드는 인공지능 시대 '성큼'](https://www.aitimes.com/news/articleView.html?idxno=150860), 2023-05-05-Fri.
-- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-09-Tue.
+- [메타, 오픈소스 멀티모달 모델 ‘이미지바인드’ 공개](https://www.aitimes.com/news/articleView.html?idxno=150942), 2023-05-14-Sun.
 
 ## Articles unrelated to AI
 
@@ -103,7 +103,6 @@
 - [Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System](https://www.nytimes.com/2023/02/16/business/tesla-recall-full-self-driving.html), 2023-02-18-Sat.
 - [Why isn't Austin in top 10 'best places to live' anymore? U.S. News and World Report has thoughts](https://www.statesman.com/story/news/2022/05/18/best-places-live-2022-austin-tx-out-top-10-list/9822074002/), 2023-03-04-Sat.
 - [Best Places to Live in the U.S. in 2022-2023](https://realestate.usnews.com/places/rankings/best-places-to-live), 2023-03-04-Sat.
-- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-08-Mon.
 
 ### Korean
 
@@ -131,4 +130,5 @@
 - [역삼동 2억 5천 오피스텔, 중개수수료 102만원?](https://naver.me/5fjxfiHX), 2023-04-23-Sun.
 - [아쉬움 많지만, 가상자산 제도화 성과…A- 학점](https://zdnet.co.kr/view/?no=20230426111552), 2023-04-30-Sun.
 - [금융권 상고 출신 “살아있네”](https://fetv.co.kr/news/article.html?no=49391), 2023-05-01-Mon.
+- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-08-Mon.
 - [소프트뱅크, AI 집중 투자 위해 알리바바 투자금 회수](https://www.aitimes.com/news/articleView.html?idxno=151077), 2023-05-13-Sat.
