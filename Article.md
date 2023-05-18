@@ -26,6 +26,7 @@
 - [Alphabet shares fall 7% following Google’s A.I. event](https://www.cnbc.com/2023/02/08/alphabet-shares-slip-following-googles-ai-event-.html), 2023-02-09-Thu.
 - [Researchers Selected to Develop Novel Approaches to Lifelong Machine Learning](https://www.darpa.mil/news-events/2018-05-03), 2023-03-09-Thu.
 - [Microsoft Bing “Celebrity” mode allows users to chat with famous personalities](https://www.thehindu.com/sci-tech/technology/microsoft-bing-celebrity-mode-allows-users-to-chat-with-famous-personalities/article66586698.ece), 2023-05-18-Thu.
+- [Bing Chat has a secret ‘Celebrity’ mode to impersonate celebrities](https://www.bleepingcomputer.com/news/microsoft/bing-chat-has-a-secret-celebrity-mode-to-impersonate-celebrities/), 2023-05-18-Thu.
 
 ### Korean
 
