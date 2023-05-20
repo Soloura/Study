@@ -96,6 +96,7 @@
 - ['생각' 읽어주는 인공지능 등장](https://www.aitimes.com/news/articleView.html?idxno=150812), 2023-05-03-Wed.
 - [생각을 영화로 만드는 인공지능 시대 '성큼'](https://www.aitimes.com/news/articleView.html?idxno=150860), 2023-05-05-Fri.
 - [메타, 오픈소스 멀티모달 모델 ‘이미지바인드’ 공개](https://www.aitimes.com/news/articleView.html?idxno=150942), 2023-05-14-Sun.
+- [KAIST, 항암 백신 찾는 AI 모델 ‘딥네오’ 개발](https://www.aitimes.com/news/articleView.html?idxno=151154), 2023-05-20-Sat.
 
 ## Articles unrelated to AI
 
