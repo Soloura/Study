@@ -135,3 +135,4 @@
 - [금융권 상고 출신 “살아있네”](https://fetv.co.kr/news/article.html?no=49391), 2023-05-01-Mon.
 - [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-08-Mon.
 - [소프트뱅크, AI 집중 투자 위해 알리바바 투자금 회수](https://www.aitimes.com/news/articleView.html?idxno=151077), 2023-05-13-Sat.
+- ["삼성, 모바일 검색엔진 교체 검토 중단...구글 그대로 쓴다"](https://www.aitimes.com/news/articleView.html?idxno=151215), 2023-05-21-Sun.
