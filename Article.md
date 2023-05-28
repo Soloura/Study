@@ -138,3 +138,4 @@
 - ["삼성, 모바일 검색엔진 교체 검토 중단...구글 그대로 쓴다"](https://www.aitimes.com/news/articleView.html?idxno=151215), 2023-05-21-Sun.
 - [BCI의 기적...척수에 결합해 하반신 마비 환자 일으켜](https://www.aitimes.com/news/articleView.html?idxno=151325), 2023-05-27-Sat.
 - [오픈AI “다시 오픈!”](https://www.aitimes.com/news/articleView.html?idxno=151219), 2023-05-27-Sat.
+- ['페르소나 챗봇'의 원조, 모바일 서비스 시작](https://www.aitimes.com/news/articleView.html?idxno=151377), 2023-05-28-Sun.
