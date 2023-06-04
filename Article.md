@@ -99,6 +99,7 @@
 - [KAIST, 항암 백신 찾는 AI 모델 ‘딥네오’ 개발](https://www.aitimes.com/news/articleView.html?idxno=151154), 2023-05-20-Sat.
 - [네이버, 외국 정부에 맞춤형 AI 모델 제공한다](https://www.aitimes.com/news/articleView.html?idxno=151379), 2023-05-31-Wed.
 - [오픈AI, 챗GPT 환각 문제 개선 방안 공개](https://www.aitimes.com/news/articleView.html?idxno=151451), 2023-06-03-Sat.
+- [챗봇 학대하는 'AI 가스라이팅' 성행](https://www.aitimes.com/news/articleView.html?idxno=151502), 2023-06-04-Sun.
 
 ## Articles unrelated to AI
 
