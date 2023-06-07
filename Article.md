@@ -101,6 +101,7 @@
 - [오픈AI, 챗GPT 환각 문제 개선 방안 공개](https://www.aitimes.com/news/articleView.html?idxno=151451), 2023-06-03-Sat.
 - [챗봇 학대하는 'AI 가스라이팅' 성행](https://www.aitimes.com/news/articleView.html?idxno=151502), 2023-06-04-Sun.
 - [챗GPT·빙챗·바드를 부끄럽게 만든 1등 클로드](https://www.aitimes.com/news/articleView.html?idxno=151525), 2023-06-07-Wed.
+- [AI 챗봇과 결혼한 여성...영화 '그녀'가 실제 상황으로](https://www.aitimes.com/news/articleView.html?idxno=151527), 2023-06-07-Wed.
 
 ## Articles unrelated to AI
 
