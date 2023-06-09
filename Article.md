@@ -145,3 +145,4 @@
 - [오픈AI “다시 오픈!”](https://www.aitimes.com/news/articleView.html?idxno=151219), 2023-05-27-Sat.
 - ['페르소나 챗봇'의 원조, 모바일 서비스 시작](https://www.aitimes.com/news/articleView.html?idxno=151377), 2023-05-28-Sun.
 - [애플의 도박...450만원짜리 MR 헤드셋 공개](https://www.aitimes.com/news/articleView.html?idxno=151534), 2023-06-06-Tue.
+- ["한국 스타트업에 투자ㆍ협력하고 싶다"...샘알트만 오픈AI CEO](https://www.aitimes.com/news/articleView.html?idxno=151610), 2023-06-09-Fri.
