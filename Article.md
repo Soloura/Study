@@ -102,6 +102,7 @@
 - [챗봇 학대하는 'AI 가스라이팅' 성행](https://www.aitimes.com/news/articleView.html?idxno=151502), 2023-06-04-Sun.
 - [챗GPT·빙챗·바드를 부끄럽게 만든 1등 클로드](https://www.aitimes.com/news/articleView.html?idxno=151525), 2023-06-07-Wed.
 - [AI 챗봇과 결혼한 여성...영화 '그녀'가 실제 상황으로](https://www.aitimes.com/news/articleView.html?idxno=151527), 2023-06-07-Wed.
+- [MS, 미 정부기관에 오픈AI의 GPT-4 모델 첫 제공](https://www.aitimes.com/news/articleView.html?idxno=151595), 2023-06-10-Sat.
 
 ## Articles unrelated to AI
 
