@@ -103,6 +103,7 @@
 - [챗GPT·빙챗·바드를 부끄럽게 만든 1등 클로드](https://www.aitimes.com/news/articleView.html?idxno=151525), 2023-06-07-Wed.
 - [AI 챗봇과 결혼한 여성...영화 '그녀'가 실제 상황으로](https://www.aitimes.com/news/articleView.html?idxno=151527), 2023-06-07-Wed.
 - [MS, 미 정부기관에 오픈AI의 GPT-4 모델 첫 제공](https://www.aitimes.com/news/articleView.html?idxno=151595), 2023-06-10-Sat.
+- [오라클-코히어, MS-오픈AI 대항마 되나](https://www.aitimes.com/news/articleView.html?idxno=151643), 2023-06-13-Tue.
 
 ## Articles unrelated to AI
 
