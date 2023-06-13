@@ -104,6 +104,7 @@
 - [AI 챗봇과 결혼한 여성...영화 '그녀'가 실제 상황으로](https://www.aitimes.com/news/articleView.html?idxno=151527), 2023-06-07-Wed.
 - [MS, 미 정부기관에 오픈AI의 GPT-4 모델 첫 제공](https://www.aitimes.com/news/articleView.html?idxno=151595), 2023-06-10-Sat.
 - [오라클-코히어, MS-오픈AI 대항마 되나](https://www.aitimes.com/news/articleView.html?idxno=151643), 2023-06-13-Tue.
+- [딥마인드, 새로운 AI 정렬 알고리즘 발견...10여년 만의 진전](https://www.aitimes.com/news/articleView.html?idxno=151590), 2023-06-13-Tue.
 
 ## Articles unrelated to AI
 
@@ -149,3 +150,4 @@
 - [애플의 도박...450만원짜리 MR 헤드셋 공개](https://www.aitimes.com/news/articleView.html?idxno=151534), 2023-06-06-Tue.
 - ["한국 스타트업에 투자ㆍ협력하고 싶다"...샘알트만 오픈AI CEO](https://www.aitimes.com/news/articleView.html?idxno=151610), 2023-06-09-Fri.
 - [애플의 야심, 통할까?](https://www.aitimes.com/news/articleView.html?idxno=151626), 2023-06-11-Sun.
+- [“헛것 본 줄, 귀신인가”…방음터널 위 서 있던 의문의 女 정체는](https://n.news.naver.com/article/020/0003503145), 2023-06-13-Tue.
