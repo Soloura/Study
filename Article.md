@@ -105,6 +105,7 @@
 - [MS, 미 정부기관에 오픈AI의 GPT-4 모델 첫 제공](https://www.aitimes.com/news/articleView.html?idxno=151595), 2023-06-10-Sat.
 - [오라클-코히어, MS-오픈AI 대항마 되나](https://www.aitimes.com/news/articleView.html?idxno=151643), 2023-06-13-Tue.
 - [딥마인드, 새로운 AI 정렬 알고리즘 발견...10여년 만의 진전](https://www.aitimes.com/news/articleView.html?idxno=151590), 2023-06-13-Tue.
+- [오픈AI, '챗GPT' 업그레이드 버전 출시](https://www.aitimes.com/news/articleView.html?idxno=151708), 2023-06-15-Thu.
 
 ## Articles unrelated to AI
 
