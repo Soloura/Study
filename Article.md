@@ -152,3 +152,4 @@
 - ["한국 스타트업에 투자ㆍ협력하고 싶다"...샘알트만 오픈AI CEO](https://www.aitimes.com/news/articleView.html?idxno=151610), 2023-06-09-Fri.
 - [애플의 야심, 통할까?](https://www.aitimes.com/news/articleView.html?idxno=151626), 2023-06-11-Sun.
 - [“헛것 본 줄, 귀신인가”…방음터널 위 서 있던 의문의 女 정체는](https://n.news.naver.com/article/020/0003503145), 2023-06-13-Tue.
+- [인공지능 규제 법안 유럽의회 통과](https://www.aitimes.com/news/articleView.html?idxno=151738), 2023-06-16-Fri.
