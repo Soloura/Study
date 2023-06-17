@@ -153,3 +153,4 @@
 - [애플의 야심, 통할까?](https://www.aitimes.com/news/articleView.html?idxno=151626), 2023-06-11-Sun.
 - [“헛것 본 줄, 귀신인가”…방음터널 위 서 있던 의문의 女 정체는](https://n.news.naver.com/article/020/0003503145), 2023-06-13-Tue.
 - [인공지능 규제 법안 유럽의회 통과](https://www.aitimes.com/news/articleView.html?idxno=151738), 2023-06-16-Fri.
+- ['금리보다 인공지능'…美 연준 금리 우려에도 주가 상승](https://www.aitimes.com/news/articleView.html?idxno=151773), 2023-06-17-Sat.
