@@ -155,3 +155,4 @@
 - [“헛것 본 줄, 귀신인가”…방음터널 위 서 있던 의문의 女 정체는](https://n.news.naver.com/article/020/0003503145), 2023-06-13-Tue.
 - [인공지능 규제 법안 유럽의회 통과](https://www.aitimes.com/news/articleView.html?idxno=151738), 2023-06-16-Fri.
 - ['금리보다 인공지능'…美 연준 금리 우려에도 주가 상승](https://www.aitimes.com/news/articleView.html?idxno=151773), 2023-06-17-Sat.
+- ["당첨 되면 5억 번다"…한강뷰 '로또 아파트' 오늘 사전청약](https://www.hankyung.com/realestate/article/2023061871506), 2023-06-19-Mon.
