@@ -156,3 +156,6 @@
 - [인공지능 규제 법안 유럽의회 통과](https://www.aitimes.com/news/articleView.html?idxno=151738), 2023-06-16-Fri.
 - ['금리보다 인공지능'…美 연준 금리 우려에도 주가 상승](https://www.aitimes.com/news/articleView.html?idxno=151773), 2023-06-17-Sat.
 - ["당첨 되면 5억 번다"…한강뷰 '로또 아파트' 오늘 사전청약](https://www.hankyung.com/realestate/article/2023061871506), 2023-06-19-Mon.
+- [‘부자’ 10명 중 7명 “불편해도 현금 선호”…이유는?](https://news.kbs.co.kr/news/view.do?ncd=4125297), 2023-06-20-Tue.
+- [카드vs현금 어떤 것이 더 이득일까? 나만 알고 싶은 해외여행 경비절약 치트키!](https://blog.hanabank.com/1164), 2023-06-20-Tue.
+- [현금영수증을 꼭 챙겨야 하는 이유](https://www.kakaobank.com/bank-story/34#:~:text=%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D%EC%9D%84%20%EB%B0%9C%EA%B8%89%EB%B0%9B%EC%95%84%EC%95%BC,%EA%B3%B5%EC%A0%9C%EC%9C%A8%2015%25)%EB%B3%B4%EB%8B%A4%20%EB%86%92%EC%95%84%EC%9A%94.), 2023-06-20-Tue.
