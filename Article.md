@@ -159,3 +159,5 @@
 - [‘부자’ 10명 중 7명 “불편해도 현금 선호”…이유는?](https://news.kbs.co.kr/news/view.do?ncd=4125297), 2023-06-20-Tue.
 - [카드vs현금 어떤 것이 더 이득일까? 나만 알고 싶은 해외여행 경비절약 치트키!](https://blog.hanabank.com/1164), 2023-06-20-Tue.
 - [현금영수증을 꼭 챙겨야 하는 이유](https://www.kakaobank.com/bank-story/34), 2023-06-20-Tue.
+- [AI 업계의 '록스타' 샘 알트만](https://www.aitimes.com/news/articleView.html?idxno=151792), 2023-06-22-Thu.
+- [오픈AI, AI 모델용 ‘앱 스토어’ 구축한다](https://www.aitimes.com/news/articleView.html?idxno=151879), 2023-06-22-Thu.
