@@ -107,6 +107,7 @@
 - [딥마인드, 새로운 AI 정렬 알고리즘 발견...10여년 만의 진전](https://www.aitimes.com/news/articleView.html?idxno=151590), 2023-06-13-Tue.
 - [오픈AI, '챗GPT' 업그레이드 버전 출시](https://www.aitimes.com/news/articleView.html?idxno=151708), 2023-06-15-Thu.
 - [메르세데스-벤츠, 운전 중 '챗GPT' 대화 기능 도입](https://www.aitimes.com/news/articleView.html?idxno=151788), 2023-06-18-Sun.
+- ['챗GPT 가짜 판례' 변호사에 650만원 벌금형](https://www.aitimes.com/news/articleView.html?idxno=151949), 2023-06-23-Fri.
 
 ## Articles unrelated to AI
 
