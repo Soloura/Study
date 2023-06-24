@@ -162,3 +162,4 @@
 - [현금영수증을 꼭 챙겨야 하는 이유](https://www.kakaobank.com/bank-story/34), 2023-06-20-Tue.
 - [AI 업계의 '록스타' 샘 알트만](https://www.aitimes.com/news/articleView.html?idxno=151792), 2023-06-22-Thu.
 - [오픈AI, AI 모델용 ‘앱 스토어’ 구축한다](https://www.aitimes.com/news/articleView.html?idxno=151879), 2023-06-22-Thu.
+- [양자 슈퍼컴퓨터 10년 내에 나온다](https://www.aitimes.com/news/articleView.html?idxno=151919), 2023-06-24-Sat.
