@@ -108,6 +108,8 @@
 - [오픈AI, '챗GPT' 업그레이드 버전 출시](https://www.aitimes.com/news/articleView.html?idxno=151708), 2023-06-15-Thu.
 - [메르세데스-벤츠, 운전 중 '챗GPT' 대화 기능 도입](https://www.aitimes.com/news/articleView.html?idxno=151788), 2023-06-18-Sun.
 - ['챗GPT 가짜 판례' 변호사에 650만원 벌금형](https://www.aitimes.com/news/articleView.html?idxno=151949), 2023-06-23-Fri.
+- [구글, 음성까지 처리하는 대형언어모델 ‘오디오팜’ 공개](https://www.aitimes.com/news/articleView.html?idxno=151992), 2023-06-27-Tue.
+- [프리시전 뉴로사이언스, ‘뇌 임플란트’ 첫 인체 임상 시험 성공](https://www.aitimes.com/news/articleView.html?idxno=152000), 2023-06-27-Tue.
 
 ## Articles unrelated to AI
 
