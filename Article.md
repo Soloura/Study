@@ -167,3 +167,4 @@
 - [양자 슈퍼컴퓨터 10년 내에 나온다](https://www.aitimes.com/news/articleView.html?idxno=151919), 2023-06-24-Sat.
 - ["LLM으로 돈 버세요" 메타의 완전 오픈소스 전략](https://www.aitimes.com/news/articleView.html?idxno=151968), 2023-06-25-Sun.
 - [이탈리아 베네치아 여행하려면 예약 필요해진다](https://www.3hoursahead.com/contents/1202), 2023-06-27-Tue.
+- ["머스크·저커버그, 주짓수 맹훈련 중"...세기의 대결 성사될까](https://n.news.naver.com/article/092/0002296863), 2023-06-28-Wed.
