@@ -110,6 +110,7 @@
 - ['챗GPT 가짜 판례' 변호사에 650만원 벌금형](https://www.aitimes.com/news/articleView.html?idxno=151949), 2023-06-23-Fri.
 - [구글, 음성까지 처리하는 대형언어모델 ‘오디오팜’ 공개](https://www.aitimes.com/news/articleView.html?idxno=151992), 2023-06-27-Tue.
 - [프리시전 뉴로사이언스, ‘뇌 임플란트’ 첫 인체 임상 시험 성공](https://www.aitimes.com/news/articleView.html?idxno=152000), 2023-06-27-Tue.
+- [구글 '제미니'호의 비밀](https://www.aitimes.com/news/articleView.html?idxno=152169), 2023-07-03-Mon.
 
 ## Articles unrelated to AI
 
