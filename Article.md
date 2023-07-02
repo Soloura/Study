@@ -169,3 +169,4 @@
 - [이탈리아 베네치아 여행하려면 예약 필요해진다](https://www.3hoursahead.com/contents/1202), 2023-06-27-Tue.
 - ["머스크·저커버그, 주짓수 맹훈련 중"...세기의 대결 성사될까](https://n.news.naver.com/article/092/0002296863), 2023-06-28-Wed.
 - ['AI&빅데이터쇼' 챗GPT 붐 타고 대성황](https://www.aitimes.com/news/articleView.html?idxno=152145), 2023-07-01-Sat.
+- [韓, AI 경쟁력 세계 6위… “알고리즘 기술·정부정책 높은 평가”](https://biz.chosun.com/it-science/ict/2023/06/30/BBMWFIHYLNH53KDH4JHSYJRG4Q/), 2023-07-02-Sun.
