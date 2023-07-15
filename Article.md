@@ -173,3 +173,4 @@
 - [韓, AI 경쟁력 세계 6위… “알고리즘 기술·정부정책 높은 평가”](https://biz.chosun.com/it-science/ict/2023/06/30/BBMWFIHYLNH53KDH4JHSYJRG4Q/), 2023-07-02-Sun.
 - [AI 붐에 따른 GPU 품귀로 '칩렛' 기술 각광](https://www.aitimes.com/news/articleView.html?idxno=152367), 2023-07-12-Wed
 - [오픈AI, 저작권 확보 위해 AP통신·셔터스톡 계약](https://www.aitimes.com/news/articleView.html?idxno=152424), 2023-07-14-Fri.
+- ['AI 신약 개발' 붐...커절리, 760억 투자 유치](https://www.aitimes.com/news/articleView.html?idxno=152433), 2023-07-15-Sat.
