@@ -175,3 +175,4 @@
 - [오픈AI, 저작권 확보 위해 AP통신·셔터스톡 계약](https://www.aitimes.com/news/articleView.html?idxno=152424), 2023-07-14-Fri.
 - ['AI 신약 개발' 붐...커절리, 760억 투자 유치](https://www.aitimes.com/news/articleView.html?idxno=152433), 2023-07-15-Sat.
 - [[체험기] "내가 쿨톤이라고?!"...AI 스타일리스트 '코콘'이 알려준 퍼스널 컬러의 진실](https://www.aitimes.com/news/articleView.html?idxno=152425), 2023-07-16-Sun.
+- [[기자의 눈]혼인신고 말리는 정부](https://news.nate.com/view/20230711n31766), 2023-07-19-Wed.
