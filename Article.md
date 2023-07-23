@@ -111,6 +111,7 @@
 - [구글, 음성까지 처리하는 대형언어모델 ‘오디오팜’ 공개](https://www.aitimes.com/news/articleView.html?idxno=151992), 2023-06-27-Tue.
 - [프리시전 뉴로사이언스, ‘뇌 임플란트’ 첫 인체 임상 시험 성공](https://www.aitimes.com/news/articleView.html?idxno=152000), 2023-06-27-Tue.
 - [구글 '제미니'호의 비밀](https://www.aitimes.com/news/articleView.html?idxno=152169), 2023-07-03-Mon.
+- [멍청해진 'GPT-4', 다른 모델 됐나?](https://www.aitimes.com/news/articleView.html?idxno=152568), 2023-07-23-Sun.
 
 ## Articles unrelated to AI
 
