@@ -177,3 +177,4 @@
 - ['AI 신약 개발' 붐...커절리, 760억 투자 유치](https://www.aitimes.com/news/articleView.html?idxno=152433), 2023-07-15-Sat.
 - [[체험기] "내가 쿨톤이라고?!"...AI 스타일리스트 '코콘'이 알려준 퍼스널 컬러의 진실](https://www.aitimes.com/news/articleView.html?idxno=152425), 2023-07-16-Sun.
 - [[기자의 눈]혼인신고 말리는 정부](https://news.nate.com/view/20230711n31766), 2023-07-19-Wed.
+- [세계 온라인 지도 공짜로 만든다...오버츄어, 데이터세트 오픈소스로 공개](https://www.aitimes.com/news/articleView.html?idxno=152655), 2023-07-30-Sun.
