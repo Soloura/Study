@@ -121,6 +121,8 @@
 - [Tesla to Recall 362,000 Cars With Its ‘Full Self Driving’ System](https://www.nytimes.com/2023/02/16/business/tesla-recall-full-self-driving.html), 2023-02-18-Sat.
 - [Why isn't Austin in top 10 'best places to live' anymore? U.S. News and World Report has thoughts](https://www.statesman.com/story/news/2022/05/18/best-places-live-2022-austin-tx-out-top-10-list/9822074002/), 2023-03-04-Sat.
 - [Best Places to Live in the U.S. in 2022-2023](https://realestate.usnews.com/places/rankings/best-places-to-live), 2023-03-04-Sat.
+- [12 bad habits that slow IT to a crawl](https://www.cio.com/article/230584/12-bad-habits-that-slow-it-to-a-crawl.html) & [KR](https://www.ciokorea.com/news/35378?page=0,1), 2023-08-11-Fri.
+- [13 ‘best practices’ IT should avoid at all costs](https://www.cio.com/article/230178/12-best-practices-it-should-avoid-at-all-costs.html) & [KR](https://www.ciokorea.com/news/34542), 2023-08-11-Fri.
 
 ### Korean
 
