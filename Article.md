@@ -112,6 +112,7 @@
 - [프리시전 뉴로사이언스, ‘뇌 임플란트’ 첫 인체 임상 시험 성공](https://www.aitimes.com/news/articleView.html?idxno=152000), 2023-06-27-Tue.
 - [구글 '제미니'호의 비밀](https://www.aitimes.com/news/articleView.html?idxno=152169), 2023-07-03-Mon.
 - [멍청해진 'GPT-4', 다른 모델 됐나?](https://www.aitimes.com/news/articleView.html?idxno=152568), 2023-07-23-Sun.
+- [MS, 오픈AI 대안으로 '오픈소스' 선택...데이터브릭스 서비스 추가](https://www.aitimes.com/news/articleView.html?idxno=152953), 2023-08-19-Sat.
 
 ## Articles unrelated to AI
 
