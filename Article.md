@@ -182,3 +182,4 @@
 - [[기자의 눈]혼인신고 말리는 정부](https://news.nate.com/view/20230711n31766), 2023-07-19-Wed.
 - [세계 온라인 지도 공짜로 만든다...오버츄어, 데이터세트 오픈소스로 공개](https://www.aitimes.com/news/articleView.html?idxno=152655), 2023-07-30-Sun.
 - [최수연 네이버 대표 "생성 AI라는 패러다임 극복할 준비 완료" ](https://www.aitimes.com/news/articleView.html?idxno=152997), 2023-08-21-Mon.
+- [SaaS 불모지 '공공·금융' 기술적 해법 있다](https://zdnet.co.kr/view/?no=20230821131140), 2023-08-21-Mon.
