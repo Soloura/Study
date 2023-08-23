@@ -113,6 +113,9 @@
 - [구글 '제미니'호의 비밀](https://www.aitimes.com/news/articleView.html?idxno=152169), 2023-07-03-Mon.
 - [멍청해진 'GPT-4', 다른 모델 됐나?](https://www.aitimes.com/news/articleView.html?idxno=152568), 2023-07-23-Sun.
 - [MS, 오픈AI 대안으로 '오픈소스' 선택...데이터브릭스 서비스 추가](https://www.aitimes.com/news/articleView.html?idxno=152953), 2023-08-19-Sat.
+- [인간 뇌파를 AI로 분석해 음악 재구성...처음으로 가사까지 재현](https://www.aitimes.com/news/articleView.html?idxno=152935), 2023-08-23-Wed.
+- [LLM 잇달아 출시...불붙은 국내 AI 업계](https://www.aitimes.com/news/articleView.html?idxno=152959), 2023-08-23-Wed.
+- [유튜브, 유니버셜뮤직과 생성 AI 작업 시작...'AI 인큐베이터’ 론칭](https://www.aitimes.com/news/articleView.html?idxno=153028), 2023-08-23-Wed.
 
 ## Articles unrelated to AI
 
@@ -183,3 +186,4 @@
 - [세계 온라인 지도 공짜로 만든다...오버츄어, 데이터세트 오픈소스로 공개](https://www.aitimes.com/news/articleView.html?idxno=152655), 2023-07-30-Sun.
 - [최수연 네이버 대표 "생성 AI라는 패러다임 극복할 준비 완료" ](https://www.aitimes.com/news/articleView.html?idxno=152997), 2023-08-21-Mon.
 - [SaaS 불모지 '공공·금융' 기술적 해법 있다](https://zdnet.co.kr/view/?no=20230821131140), 2023-08-21-Mon.
+- [알체라 "안면인식은 보이스 피싱 막는 대표 기술"](https://www.aitimes.com/news/articleView.html?idxno=153022), 2023-08-23-Wed.
