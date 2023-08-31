@@ -190,3 +190,7 @@
 - [구글, '항공편 검색' 기능 출시..."2달만 기다리면 최저가"](https://www.aitimes.com/news/articleView.html?idxno=153204), 2023-08-30-Wed.
 - [MS와 갈등? 뒤늦은 추격? 기업용 '챗GPT' 출시 타이밍 논란](https://www.aitimes.com/news/articleView.html?idxno=153196), 2023-08-30-Wed.
 - [구글, 'MS식 AI 전략' 채택..."생산성 도구 구독에 월 30달러"](https://www.aitimes.com/news/articleView.html?idxno=153256), 2023-08-31-Thu.
+- [매년 8000명 배출 이공계 박사 “갈 곳이 없다”](https://biz.heraldcorp.com/view.php?ud=20220609000481), 2023-08-31-Thu.
+- [이공계 박사 28% "외국행 희망"…해외서 학위 따도 65%가 "안 돌아갈 것"](https://www.sedaily.com/NewsView/268OOFUU3J), 2023-08-31-Thu.
+- [국내박사 작년 1만6천명 배출…공학계열 29%·직장병행이 과반](https://m.dongascience.com/news.php?idx=54878), 2023-08-31-Thu.
+- [한국, 인구 대비 과학기술 연구원수 세계 1위](https://www.joongang.co.kr/article/25185619#home), 2023-08-31-Thu.
