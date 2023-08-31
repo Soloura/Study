@@ -189,3 +189,4 @@
 - [알체라 "안면인식은 보이스 피싱 막는 대표 기술"](https://www.aitimes.com/news/articleView.html?idxno=153022), 2023-08-23-Wed.
 - [구글, '항공편 검색' 기능 출시..."2달만 기다리면 최저가"](https://www.aitimes.com/news/articleView.html?idxno=153204), 2023-08-30-Wed.
 - [MS와 갈등? 뒤늦은 추격? 기업용 '챗GPT' 출시 타이밍 논란](https://www.aitimes.com/news/articleView.html?idxno=153196), 2023-08-30-Wed.
+- [구글, 'MS식 AI 전략' 채택..."생산성 도구 구독에 월 30달러"](https://www.aitimes.com/news/articleView.html?idxno=153256), 2023-08-31-Thu.
