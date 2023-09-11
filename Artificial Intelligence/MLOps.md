@@ -27,9 +27,14 @@ To develop and operate complex systems like these, you can apply DevOps principl
 
 ### Continous Machine Learning | [Blog](https://levity.ai/blog/what-is-continuous-machine-learning)
 
+### MLOps vs. DevOps | [Blog KR](https://techscene.tistory.com/entry/MLOps-%EA%B6%81%EA%B7%B9-%EA%B0%80%EC%9D%B4%EB%93%9C-MLOps-%EB%B0%8F-DevOps%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%9D%B4%ED%95%B4)
+
 ---
 
 ### Reference
 - MLOps Databricks, https://www.databricks.com/glossary/mlops, 2022-10-04-Tue.
 - MLOps Google Cloud, https://cloud.google.com/architecture/mlops-continuous-delivery-and-automation-pipelines-in-machine-learning, 2022-10-11-Tue.
 - Continous Machine Learning Blog, https://levity.ai/blog/what-is-continuous-machine-learning, 2023-03-14-Tue.
+- MLOps Pipeline Kakao, https://tech.kakaopay.com/post/ifkakao2022-mlops-model-training-pipeline/, 2023-09-11-Mon.
+- MLOps vs. DevOps Blog KR, https://techscene.tistory.com/entry/MLOps-%EA%B6%81%EA%B7%B9-%EA%B0%80%EC%9D%B4%EB%93%9C-MLOps-%EB%B0%8F-DevOps%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%9D%B4%ED%95%B4, 2023-09-11-Mon.
+- MLOps Blog KR, https://seunghan96.github.io/mlops/mlops%EC%A0%95%EB%A6%AC/, 2023-09-11-Mon.
