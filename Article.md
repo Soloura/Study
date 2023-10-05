@@ -198,3 +198,4 @@
 - [올 상반기 국내 그래픽카드 시장, 지포스 RTX 40 시리즈 부진](https://zdnet.co.kr/view/?no=20230719145216), 2023-09-25-Mon.
 - [카드 실적의 함정, 할부는 실적 아니다? [알기쉬운 경제]](https://www.kukinews.com/newsView/kuk202212120121), 2023-10-03-Tue.
 - [[취재파일] 야채는 일본말, 채소는 우리말?](https://news.sbs.co.kr/news/endPage.do?news_id=N1000935823), 2023-10-05-Thu.
+- [과일(Fruit)과 채소(Vegetable)의 구분과 차이](http://blogs.chosun.com/sblee707/2022/11/03/%EA%B3%BC%EC%9D%BCfruit%EA%B3%BC-%EC%B1%84%EC%86%8Cvegetable%EC%9D%98-%EA%B5%AC%EB%B6%84%EA%B3%BC-%EC%B0%A8%EC%9D%B4/), 2023-10-05-Thu.
