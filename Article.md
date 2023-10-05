@@ -197,3 +197,4 @@
 - [한국, 인구 대비 과학기술 연구원수 세계 1위](https://www.joongang.co.kr/article/25185619#home), 2023-08-31-Thu.
 - [올 상반기 국내 그래픽카드 시장, 지포스 RTX 40 시리즈 부진](https://zdnet.co.kr/view/?no=20230719145216), 2023-09-25-Mon.
 - [카드 실적의 함정, 할부는 실적 아니다? [알기쉬운 경제]](https://www.kukinews.com/newsView/kuk202212120121), 2023-10-03-Tue.
+- [[취재파일] 야채는 일본말, 채소는 우리말?](https://news.sbs.co.kr/news/endPage.do?news_id=N1000935823), 2023-10-05-Thu.
