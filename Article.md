@@ -201,3 +201,4 @@
 - [과일(Fruit)과 채소(Vegetable)의 구분과 차이](http://blogs.chosun.com/sblee707/2022/11/03/%EA%B3%BC%EC%9D%BCfruit%EA%B3%BC-%EC%B1%84%EC%86%8Cvegetable%EC%9D%98-%EA%B5%AC%EB%B6%84%EA%B3%BC-%EC%B0%A8%EC%9D%B4/), 2023-10-05-Thu.
 - [Q. 내가 뀌는 방귀도 온실가스예요? 왜 소만 갖고 그러지…](https://www.hani.co.kr/arti/society/environment/1053346.html), 2023-10-05-Thu.
 - [[과학을읽다]방귀, 1인당 하루에 풍선 하나 채운다?](https://www.asiae.co.kr/article/2019021116374008175), 2023-10-05-Thu.
+- [[임귀열 영어] What should I call you? (호칭은 어떻게 부를까요)](https://www.hankookilbo.com/News/Read/201510051583754854), 2023-10-06-Fri.
