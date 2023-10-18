@@ -145,12 +145,17 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language indentification.
 
+## [Text Generation](https://huggingface.co/tasks/text-generation)
+
+Generating text is the task of producing new text. These models can, for example, fill in incomplete text of paraphrase.
+
 ---
 
 ## Lecture
 
 - [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
 - [딥러닝을 이용한 자연어 처리 (조경현 교수님)](https://www.edwith.org/deepnlp)
+- [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) [KR](https://wikidocs.net/book/8056)
 
 ---
 
@@ -191,3 +196,6 @@ Whisper is a general-purpose speech recognition model. It is trained on a large 
 - Natural Language Processing IBM, https://www.ibm.com/topics/natural-language-processing, 2023-03-21-Tue.
 - GRU Wiki, https://en.wikipedia.org/wiki/Gated_recurrent_unit, 2023-03-21-Tue.
 - GRU EMNLP 2014, https://aclanthology.org/D14-1179/, 2023-03-21-Tue.
+- Text Generation Hugging Face, https://huggingface.co/tasks/text-generation, 2023-10-18-Wed.
+- Hugging Face Course, https://huggingface.co/learn/nlp-course/chapter1/1, 2023-10-18-Wed.
+- Hugging Face Course KR, https://wikidocs.net/book/8056, 2023-10-18-Wed.
