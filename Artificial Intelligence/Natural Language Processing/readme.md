@@ -155,7 +155,7 @@ Generating text is the task of producing new text. These models can, for example
 
 - [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
 - [딥러닝을 이용한 자연어 처리 (조경현 교수님)](https://www.edwith.org/deepnlp)
-- [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) [KR](https://wikidocs.net/book/8056)
+- [Hugging Face Course](https://huggingface.co/learn/nlp-course/chapter1/1) | [KR](https://wikidocs.net/book/8056)
 
 ---
 
