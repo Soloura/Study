@@ -107,6 +107,14 @@ Transformers were introduced in 2017 by a team at Google Brain and are increasin
 
 ---
 
+### [Large Language Model (LLM)](https://en.wikipedia.org/wiki/Large_language_model)
+
+A large language model (LLM) is a type of language model notable for its ability to achieve general-purpose language understanding and generation. LLMs acquire these ability by using massive amounts of data to leran billions of parameters during training and consuming large computational resources during their training and operation. LLMs are artificial neural networks (mainly transformers) and are (pre-)trained using self-supervised leraning and semi-supervised learning.
+
+As autoregressive language models, they work by taking an input text and repeatedly predicting the next token or word. Up to 2020, fine tuning was the only way a model could be adapted to be able to accomplish specific tasks. Larger sized models, such as GPT-3, however, can be prompt-engineered to achieve similar results. They are thought to acquire embodied knowledge about syntax, semantics and ontology inherent in human language corpora, but also inaccuracies and biases present in the corpora.
+
+Notable examples include OpenAI's GPT models (e.g., GPT-3.5 and GPT-4, used in ChatGPT), Google's PaLM (used in Bard), and Meta's LLaMa, as well as BLOOM, Erine 3.0 Titan, and Anthropic's Claude 2.
+
 ### BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding | [arXiv 2019](https://arxiv.org/pdf/1810.04805.pdf) | [GitHub](https://github.com/google-research/bert) | [Article (KR)](https://www.aitimes.kr/news/articleView.html?idxno=13117) | [Wiki](https://en.wikipedia.org/wiki/BERT_(language_model))
 
 BERT is a family of masked-language models published in 2018 by researchers at Google. A 2020 literature survey concluded that "in a little over a year, BERT has become a ubiquitous baseline in NLP experiments counting over 150 research publications analyzing and improving the model."
@@ -139,13 +147,15 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 
 ---
 
-## Speech Recognition
+## :microphone: Speech Recognition
 
 ### Whisper - A model that can convert audio into text | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](https://cdn.openai.com/papers/whisper.pdf)
 
 Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language indentification.
 
-## [Text Generation](https://huggingface.co/tasks/text-generation)
+---
+
+## :pencil2: [Text Generation](https://huggingface.co/tasks/text-generation)
 
 Generating text is the task of producing new text. These models can, for example, fill in incomplete text of paraphrase.
 
@@ -199,3 +209,4 @@ Generating text is the task of producing new text. These models can, for example
 - Text Generation Hugging Face, https://huggingface.co/tasks/text-generation, 2023-10-18-Wed.
 - Hugging Face Course, https://huggingface.co/learn/nlp-course/chapter1/1, 2023-10-18-Wed.
 - Hugging Face Course KR, https://wikidocs.net/book/8056, 2023-10-18-Wed.
+- Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
