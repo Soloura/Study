@@ -12,7 +12,12 @@ Trajectory optimization algorithms, which formulate the path planning problem as
 
 Path planning, along with perception (or vision) and control systems, comprise the three main building blocks of autonomous navigation for any robot or vehicle. Path planning adds autonomy in systems such as self-driving cars, robot manipulators, unmanned ground vehicles (UGVs), and unmanned aerial vehicles (UAVs).
 
+# [Motion Planning](https://en.wikipedia.org/wiki/Motion_planning)
+
+Motion planning, also path planning (also known as the navigation problem or the piano mover's problem) is a computational problem to find a sequence of valid configurations that moves the object from the source to destination. The term is used in computational geometry, computer animation, robotics and computer games.
+
 ---
 
 ### Reference
 - What Is Path Planning, https://www.mathworks.com/discovery/path-planning.html, 2023-10-24-Tue.
+- Motion Planning Wiki, https://en.wikipedia.org/wiki/Motion_planning, 2023-10-24-Tue.
