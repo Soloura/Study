@@ -85,7 +85,7 @@ An attention is a technique that is meant to mimic cognitive attention. The effe
 
 Attention-like mechanisms were introduced in the 1990s under name like multiplicative modules, sigma pi units, and hyper-networks. Its flexibility comes from its role as "soft weights: that can change during runtime, in contrast to standard weights that must remain fixed at runtime. Uses of attention include memory in neural Turing machines, reasoning tasks in differentiable neural computers, language processing in transformers, and LSTMs, and multi-sensory data processing (sound, images, video, and text) in perceivers. Listed in the Variants section below are the many schemes to implement the soft-weight mechanisms.
 
-### Transformer - Attention is All you Need | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model))
+### Transformer - Attention is All you Need | [NIPS 2017](https://papers.nips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html) | [Wiki](https://en.wikipedia.org/wiki/Transformer_(machine_learning_model)) | [Nvidia (KR)](https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model/)
 
 A transformer is a deep learning model that adopts the mechanism of self-attention, differentially weighting the significance of each part of the input data. It is used primarily in the fields of natural language processing (NLP) and computer vision (CV).
 
@@ -210,3 +210,4 @@ Generating text is the task of producing new text. These models can, for example
 - Hugging Face Course, https://huggingface.co/learn/nlp-course/chapter1/1, 2023-10-18-Wed.
 - Hugging Face Course KR, https://wikidocs.net/book/8056, 2023-10-18-Wed.
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
+- Transformer Nvidia KR, https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model/, 2023-10-26-Thu.
