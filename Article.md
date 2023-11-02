@@ -204,3 +204,4 @@
 - [[임귀열 영어] What should I call you? (호칭은 어떻게 부를까요)](https://www.hankookilbo.com/News/Read/201510051583754854), 2023-10-06-Fri.
 - [“젊은이 앞에 서지 않기” 韓노인들이 무료 ‘지하철 나들이’ 즐기는 법](https://www.twig24.com/news/world/2023/09/25/20230925500042), 2023-10-11-Wed.
 - [개발자를 위한 리눅스 배포판 5선](https://zdnet.co.kr/view/?no=20220704153940), 2023-10-16-Mon.
+- [한국 넷플릭스도 "계정공유 5000원 더 내라"…면제 조건은?](https://www.joongang.co.kr/article/25204180#home), 2023-11-02-Thu.
