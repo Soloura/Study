@@ -206,3 +206,4 @@
 - [개발자를 위한 리눅스 배포판 5선](https://zdnet.co.kr/view/?no=20220704153940), 2023-10-16-Mon.
 - [한국 넷플릭스도 "계정공유 5000원 더 내라"…면제 조건은?](https://www.joongang.co.kr/article/25204180#home), 2023-11-02-Thu.
 - [강남 호텔 옥상서 '불'…소방 진화 중](https://www.asiae.co.kr/article/2023082413265960846), 2023-11-06-Mon.
+- [서울 강남 역삼동 호텔 철거공사 중 화재…인부 8명 대피](https://www.chosun.com/national/national_general/2023/08/24/RCJFINT3CZGQTJFTQ5JPX66L2Y/), 2023-11-06-Mon.
