@@ -19,6 +19,12 @@ IBM research suggest ML to evolve around the following segments in the future:
 - Few-shot ML: Deals with heavy offline training, then easy learning on similar tasks.
 - Developing ML: Continuous life-long learning on various tasks.
 
+[Boosting](https://m.blog.naver.com/laonple/220834569716)
+
+[Bagging](https://m.blog.naver.com/laonple/220838501228)
+
+[SVM](https://m.blog.naver.com/laonple/220845107089)
+
 ## Deep Learning | [IBM](https://www.ibm.com/topics/deep-learning)
 
 Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain-albeit far matching its ability-allowing it to learn from large amounts of data. While a neural network with a single layer can still make approximate predictions, additional hidden layers can help to optimize and refine for accuracy.
@@ -191,3 +197,6 @@ Hysteresis is the dependence of the state of a system on its history.
 - Video Generator invideo, https://invideo.io/, 2023-04-27-Thu.
 - upscale media, https://www.upscale.media/, 2023-04-27-Thu.
 - ContentIdeas, https://contentideas.io/, 2023-04-27-Thu.
+- Boosting Blog KR, https://m.blog.naver.com/laonple/220834569716, 2023-11-06-Mon.
+- Bagging Blog KR, https://m.blog.naver.com/laonple/220838501228, 2023-11-06-Mon.
+- SVM Blog KR, https://m.blog.naver.com/laonple/220845107089, 2023-11-06-Mon.
