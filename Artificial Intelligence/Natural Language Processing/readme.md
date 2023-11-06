@@ -211,3 +211,4 @@ Generating text is the task of producing new text. These models can, for example
 - Hugging Face Course KR, https://wikidocs.net/book/8056, 2023-10-18-Wed.
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
 - Transformer Nvidia KR, https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model/, 2023-10-26-Thu.
+- Attention KR, https://wikidocs.net/22893, 2023-11-06-Mon.
