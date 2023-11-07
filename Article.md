@@ -208,3 +208,4 @@
 - [강남 호텔 옥상서 '불'…소방 진화 중](https://www.asiae.co.kr/article/2023082413265960846), 2023-11-06-Mon.
 - [서울 강남 역삼동 호텔 철거공사 중 화재…인부 8명 대피](https://www.chosun.com/national/national_general/2023/08/24/RCJFINT3CZGQTJFTQ5JPX66L2Y/), 2023-11-06-Mon.
 - [[단독]현대차, 재택근무 폐지 방침… 재계 “생산성 향상” 대면근무 복귀](https://www.donga.com/news/Economy/article/all/20231105/122033483/1), 2023-11-07-Tue.
+- [동행복권 홈페이지 해킹 "개인정보 유출 가능성 확인"](https://zdnet.co.kr/view/?no=20231107085840), 2023-11-07-Tue.
