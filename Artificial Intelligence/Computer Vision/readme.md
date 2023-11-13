@@ -212,7 +212,7 @@ YOLO의 한계는 1. 각 grid cell이 하나의 class만을 예측할 수 있으
 
 다른 real time object detection에 비해 높은 mAP를 보여주며 fast YOLO의 경우 가장 빠른 속도이다. Fast R-CNN과 비교하면 훨씬 적은 false positive이다. (low background error) Fast R-CNN과 같이 동작하면 보완하는 역할을 할 수 있다.
 
-### SSD: Single Shot MultiBox Detector | [ECCV 2016](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) | [arXiv](https://arxiv.org/abs/1512.02325)
+### SSD: Single Shot MultiBox Detector | [ECCV 2016](https://link.springer.com/chapter/10.1007/978-3-319-46448-0_2) | [arXiv](https://arxiv.org/abs/1512.02325) | [Blog (KR)](https://herbwood.tistory.com/15)
 
 SSD는 2015년에 UNC의 Wei Liu가 ECCV16에서 발표한 object detection method로, single deep neural network를 이용한다.
 
@@ -251,6 +251,8 @@ Bayes Matting과 trimap, 확률 컬러 모델을 모두 갖는 방법이다.
 ### "GrabCut" - Interactive Foreground Extraction using Iterated Graph Cuts | [ACMTG, 2012](https://cvg.ethz.ch/teaching/cvl/2012/grabcut-siggraph04.pdf)
 
 Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard segmentation을 먼저 수행한 뒤, border matting 방법을 적용하여 foreground의 경계 부분에 투명도를 할당한 다음, 나머지 배경 부분은 완전히 투명하게 만드는 방식으로 segmentation을 진행한다.
+
+### U-Net | [Blog (KR)](https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4)
 
 ----------
 
@@ -412,3 +414,5 @@ IoU measures the overlap between 2 boundaries.
 - Deeper Depth Prediction with Fully Convolutional Residual Networks GitHub, https://github.com/irolaina/FCRN-DepthPrediction, 2023-01-19-Thu.
 - AdaBoost Blog KR, https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/, 2023-01-25-Wed.
 - MobileNetV2(모바일넷 v2), Inverted Residuals and Linear Bottlenecks, https://gaussian37.github.io/dl-concept-mobilenet_v2/, 2023-01-29-Sun.
+- SSD Blog KR, https://herbwood.tistory.com/15, 2023-11-13-Mon.
+- U-Net Blog KR, https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4, 2023-11-13-Mon.
