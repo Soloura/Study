@@ -214,3 +214,4 @@
 - [‘마지막’ 2023약대편입 개막.. 37개 약대 원서접수 7일부터 9일까지](https://www.veritas-a.com/news/articleView.html?idxno=434440), 2023-11-10-Fri.
 - [삼성전자 "타이젠 OS TV 진화중...내년 반려동물 원격 진료 시작"](https://zdnet.co.kr/view/?no=20231114154039), 2023-11-15-Wed.
 - [기업가치 3조 넘는다는 무신사... 기관은 왜 상장 전에 엑시트 추진하나](https://biz.chosun.com/stock/stock_general/2023/08/02/RAMWBS5EVNHBJO36DLILAXSUDA/), 2023-11-15-Wed.
+- [이마트의 미운오리 지마켓·스타벅스…실적 부진에 수백억 상각까지](https://news.einfomax.co.kr/news/articleView.html?idxno=4287937), 2023-11-15-Wed.
