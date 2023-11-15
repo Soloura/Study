@@ -212,3 +212,4 @@
 - [[단독]현대차, 재택근무 폐지 방침… 재계 “생산성 향상” 대면근무 복귀](https://www.donga.com/news/Economy/article/all/20231105/122033483/1), 2023-11-07-Tue.
 - [동행복권 홈페이지 해킹 "개인정보 유출 가능성 확인"](https://zdnet.co.kr/view/?no=20231107085840), 2023-11-07-Tue.
 - [‘마지막’ 2023약대편입 개막.. 37개 약대 원서접수 7일부터 9일까지](https://www.veritas-a.com/news/articleView.html?idxno=434440), 2023-11-10-Fri.
+- [삼성전자 "타이젠 OS TV 진화중...내년 반려동물 원격 진료 시작"](https://zdnet.co.kr/view/?no=20231114154039), 2023-11-15-Wed.
