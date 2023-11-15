@@ -118,6 +118,7 @@
 - [유튜브, 유니버셜뮤직과 생성 AI 작업 시작...'AI 인큐베이터’ 론칭](https://www.aitimes.com/news/articleView.html?idxno=153028), 2023-08-23-Wed.
 - [구글 딥마인드, 질병 유발 '유전자 변이 예측' AI 개발](https://www.aitimes.com/news/articleView.html?idxno=153813), 2023-09-23-Sat.
 - [오픈AI, 'AGI' 개발 첫 인정..."MS의 자금 지원 필요"](https://www.aitimes.com/news/articleView.html?idxno=155169), 2023-11-15-Wed.
+- [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-15-Wed.
 
 ## Articles unrelated to AI
 
