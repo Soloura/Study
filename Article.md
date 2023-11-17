@@ -119,6 +119,7 @@
 - [구글 딥마인드, 질병 유발 '유전자 변이 예측' AI 개발](https://www.aitimes.com/news/articleView.html?idxno=153813), 2023-09-23-Sat.
 - [오픈AI, 'AGI' 개발 첫 인정..."MS의 자금 지원 필요"](https://www.aitimes.com/news/articleView.html?idxno=155169), 2023-11-15-Wed.
 - [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-15-Wed.
+- [중국, LLM 238대로 세계 최다..."더 이상 개발은 국가적 낭비"](https://www.aitimes.com/news/articleView.html?idxno=155230), 2023-11-17-Fri.
 
 ## Articles unrelated to AI
 
