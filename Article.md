@@ -121,6 +121,8 @@
 - [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-15-Wed.
 - [중국, LLM 238대로 세계 최다..."더 이상 개발은 국가적 낭비"](https://www.aitimes.com/news/articleView.html?idxno=155230), 2023-11-17-Fri.
 - [의사 없이 AI가 진료하는 '무인 진료실' 등장](https://www.aitimes.com/news/articleView.html?idxno=155231), 2023-11-17-Fri.
+- [이루다, 챗GPT만큼 똑똑해졌을까...스캐터랩, sLLM ‘핑퐁-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=155242), 2023-11-17-Fri.
+- [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-17-Fri.
 
 ## Articles unrelated to AI
 
