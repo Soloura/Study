@@ -220,3 +220,5 @@
 - [기업가치 3조 넘는다는 무신사... 기관은 왜 상장 전에 엑시트 추진하나](https://biz.chosun.com/stock/stock_general/2023/08/02/RAMWBS5EVNHBJO36DLILAXSUDA/), 2023-11-15-Wed.
 - [이마트의 미운오리 지마켓·스타벅스…실적 부진에 수백억 상각까지](https://news.einfomax.co.kr/news/articleView.html?idxno=4287937), 2023-11-15-Wed.
 - [일상적으로 사용하는 물건들의 숨겨진 사용법과 기능들](https://www.kueez.com/ko/common-everyday-hidden-items-uses?ly=native_one), 2023-11-20-Mon.
+- [챗GPT의 오픈AI 이사회, 샘 알트먼 CEO 전격 해임!...CTO 미라 무라티, '임시 CEO' 체제로 전환!!](https://www.aitimes.kr/news/articleView.html?idxno=29426), 2023-11-20-Mon.
+- [샘 알트먼, 오픈AI 복귀 무산...인원 이탈 가속화될 듯](https://www.aitimes.com/news/articleView.html?idxno=155312), 2023-11-20-Mon.
