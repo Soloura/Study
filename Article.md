@@ -222,3 +222,5 @@
 - [일상적으로 사용하는 물건들의 숨겨진 사용법과 기능들](https://www.kueez.com/ko/common-everyday-hidden-items-uses?ly=native_one), 2023-11-20-Mon.
 - [챗GPT의 오픈AI 이사회, 샘 알트먼 CEO 전격 해임!...CTO 미라 무라티, '임시 CEO' 체제로 전환!!](https://www.aitimes.kr/news/articleView.html?idxno=29426), 2023-11-20-Mon.
 - [샘 알트먼, 오픈AI 복귀 무산...인원 이탈 가속화될 듯](https://www.aitimes.com/news/articleView.html?idxno=155312), 2023-11-20-Mon.
+- [[사설] 툭하면 전산망 먹통, ‘무조건 대기업 배제’ 재검토해야](https://www.chosun.com/opinion/editorial/2023/11/21/5DQNI5V5SBFKDHTD3K4CDQEDGI/), 2023-11-21-Tue.
+- [[사설] 글로벌 AI 인재의 0.5%만 한국에, 어떻게 AI 전쟁 이기겠나](https://www.chosun.com/opinion/editorial/2023/11/21/G6BGUIDDXRAHPOSBZ6WLXODFDU/), 2023-11-21-Tue.
