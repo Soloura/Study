@@ -226,3 +226,4 @@
 - [[사설] 툭하면 전산망 먹통, ‘무조건 대기업 배제’ 재검토해야](https://www.chosun.com/opinion/editorial/2023/11/21/5DQNI5V5SBFKDHTD3K4CDQEDGI/), 2023-11-21-Tue.
 - [[사설] 글로벌 AI 인재의 0.5%만 한국에, 어떻게 AI 전쟁 이기겠나](https://www.chosun.com/opinion/editorial/2023/11/21/G6BGUIDDXRAHPOSBZ6WLXODFDU/), 2023-11-21-Tue.
 - [알트먼, 일부 이사진과 몇주 전 충돌..."이사 몰아내려다 되려 축출"](https://www.aitimes.com/news/articleView.html?idxno=155358), 2023-11-22-Wed.
+- ['5일 반란'이 남긴 것은…"AI가 인류를 좋아하길 바라야 할 것" / SBS / 친절한 경제](https://youtu.be/ppGyA6qULP4?si=6ykqVwTkc_c9y1xZ), 2023-11-23-Thu.
