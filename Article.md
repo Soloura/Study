@@ -233,3 +233,4 @@
 - [샤워VS목욕, 피부건강에 좋은 것은?](http://www.research-paper.co.kr/news/articleView.html?idxno=47357), 2023-11-29-Wed.
 - [카카오, 中 화웨이 서버 도입...데이터센터 비중 10%대 달해](https://www.thepublic.kr/news/articleView.html?idxno=103113), 2023-11-29-Wed.
 - [욕설 논란에 카르텔 폭로까지…스텝 꼬인 김범수 쇄신안](https://www.asiae.co.kr/article/2023112822583083303), 2023-11-29-Wed.
+- [엑스포 개최는 남는 장사일까?](https://www.khan.co.kr/national/national-general/article/202307070700001?utm_source=urlCopy&utm_medium=social&utm_campaign=sharing), 2023-11-29-Wed.
