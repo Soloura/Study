@@ -232,3 +232,4 @@
 - [샤워 후 면봉으로 귀 파면 안 되는 이유](https://health.chosun.com/site/data/html_dir/2023/06/05/2023060502045.html), 2023-11-29-Wed.
 - [샤워VS목욕, 피부건강에 좋은 것은?](http://www.research-paper.co.kr/news/articleView.html?idxno=47357), 2023-11-29-Wed.
 - [카카오, 中 화웨이 서버 도입...데이터센터 비중 10%대 달해](https://www.thepublic.kr/news/articleView.html?idxno=103113), 2023-11-29-Wed.
+- [욕설 논란에 카르텔 폭로까지…스텝 꼬인 김범수 쇄신안](https://www.asiae.co.kr/article/2023112822583083303), 2023-11-29-Wed.
