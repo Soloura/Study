@@ -230,3 +230,4 @@
 - [인기 절정의 야구단 사바나 바나나스를 파헤쳐 본다](https://youtu.be/TcloJqntB4M?si=-Yezmjd9YCtEUpET), 2023-11-24-Fri.
 - [글로벌 AI 유전체학 시장, 2030년까지 연평균 50% 성장...1.5조에서 25조로 확대](https://www.aitimes.com/news/articleView.html?idxno=155447), 2023-11-27-Mon.
 - [샤워 후 면봉으로 귀 파면 안 되는 이유](https://health.chosun.com/site/data/html_dir/2023/06/05/2023060502045.html), 2023-11-29-Wed.
+- [샤워VS목욕, 피부건강에 좋은 것은?](http://www.research-paper.co.kr/news/articleView.html?idxno=47357), 2023-11-29-Wed.
