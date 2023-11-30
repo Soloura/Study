@@ -235,3 +235,4 @@
 - [욕설 논란에 카르텔 폭로까지…스텝 꼬인 김범수 쇄신안](https://www.asiae.co.kr/article/2023112822583083303), 2023-11-29-Wed.
 - [엑스포 개최는 남는 장사일까?](https://www.khan.co.kr/national/national-general/article/202307070700001?utm_source=urlCopy&utm_medium=social&utm_campaign=sharing), 2023-11-29-Wed.
 - [AGI 판단하는 'GAIA 벤치마크' 등장..."GPT-4가 30%로 1위"](https://www.aitimes.com/news/articleView.html?idxno=155502), 2023-11-29-Wed.
+- [운동하면 최대 10만 포인트! 손목닥터9988 선착순 모집](https://mediahub.seoul.go.kr/archives/2009605?utm_medium=email&utm_source=npcrm&utm_campaign=mediahub&utm_content=npcrm_content&utm_term=npcrm_mail), 2023-11-30-Thu.
