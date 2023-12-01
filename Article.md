@@ -236,3 +236,5 @@
 - [엑스포 개최는 남는 장사일까?](https://www.khan.co.kr/national/national-general/article/202307070700001?utm_source=urlCopy&utm_medium=social&utm_campaign=sharing), 2023-11-29-Wed.
 - [AGI 판단하는 'GAIA 벤치마크' 등장..."GPT-4가 30%로 1위"](https://www.aitimes.com/news/articleView.html?idxno=155502), 2023-11-29-Wed.
 - [운동하면 최대 10만 포인트! 손목닥터9988 선착순 모집](https://mediahub.seoul.go.kr/archives/2009605?utm_medium=email&utm_source=npcrm&utm_campaign=mediahub&utm_content=npcrm_content&utm_term=npcrm_mail), 2023-11-30-Thu.
+- ["정부, '온북 구축' 사업계획도 예산도 없어" 최기상 의원](https://www.fnnews.com/news/202209151648212602), 2023-12-01-Fri.
+- [디지털정부 핵심 과제 '온북', 내년 공통플랫폼 예산 '제로'…본격 확산 제동](https://www.etnews.com/20230922000043), 2023-12-01-Fri.
