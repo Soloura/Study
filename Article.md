@@ -126,6 +126,7 @@
 - [이루다, 챗GPT만큼 똑똑해졌을까...스캐터랩, sLLM ‘핑퐁-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=155242), 2023-11-17-Fri.
 - [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-17-Fri.
 - [구글, '제미나이' 시연 영상 조작 논란..."편집한 것 맞아"](https://www.aitimes.com/news/articleView.html?idxno=155764), 2023-12-11-Mon.
+- [일론 머스크의 xAI, '그록' 정식 출시..."꽤 웃기는 챗봇"](https://www.aitimes.com/news/articleView.html?idxno=155760), 2023-12-11-Mon.
 
 ## Articles unrelated to AI
 
