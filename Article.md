@@ -244,3 +244,4 @@
 - [디지털정부 핵심 과제 '온북', 내년 공통플랫폼 예산 '제로'…본격 확산 제동](https://www.etnews.com/20230922000043), 2023-12-01-Fri.
 - [오픈AI, 'GPT 스토어' 12월서 내년 초로 론칭 연기](https://www.aitimes.com/news/articleView.html?idxno=155628), 2023-12-04-Mon.
 - [[단독]넷플릭스·디즈니·티빙 이어 유튜브 프리미엄도 가격 인상…월 1만4900원](https://biz.chosun.com/it-science/ict/2023/12/08/FHUKJQNU55H33HTNZIHEXIL25A/), 2023-12-08-Fri.
+- [[글로벌-Biz 24] 'KFC치킨'이 일본서 성탄절 전통음식 된 이유는?](https://www.g-enews.com/article/Global-Biz/2019/12/2019122511012227749a1f309431_1), 2023-12-11-Mon.
