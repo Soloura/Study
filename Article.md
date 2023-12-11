@@ -28,6 +28,7 @@
 - [Microsoft Bing “Celebrity” mode allows users to chat with famous personalities](https://www.thehindu.com/sci-tech/technology/microsoft-bing-celebrity-mode-allows-users-to-chat-with-famous-personalities/article66586698.ece), 2023-05-18-Thu.
 - [Bing Chat has a secret ‘Celebrity’ mode to impersonate celebrities](https://www.bleepingcomputer.com/news/microsoft/bing-chat-has-a-secret-celebrity-mode-to-impersonate-celebrities/), 2023-05-18-Thu.
 - [Google DeepMind at NeurIPS 2023](https://deepmind.google/discover/blog/google-deepmind-at-neurips-2023/), 2023-12-11-Mon.
+- [Hands-on with Gemini: Interacting with multimodal AI](https://youtu.be/UIZAiXYceBI?si=V5oKWNkBdv_aocgi), 2023-12-11-Mon.
 
 ### Korean
 
@@ -124,6 +125,7 @@
 - [의사 없이 AI가 진료하는 '무인 진료실' 등장](https://www.aitimes.com/news/articleView.html?idxno=155231), 2023-11-17-Fri.
 - [이루다, 챗GPT만큼 똑똑해졌을까...스캐터랩, sLLM ‘핑퐁-1’ 공개](https://www.aitimes.com/news/articleView.html?idxno=155242), 2023-11-17-Fri.
 - [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-17-Fri.
+- [구글, '제미나이' 시연 영상 조작 논란..."편집한 것 맞아"](https://www.aitimes.com/news/articleView.html?idxno=155764), 2023-12-11-Mon.
 
 ## Articles unrelated to AI
 
