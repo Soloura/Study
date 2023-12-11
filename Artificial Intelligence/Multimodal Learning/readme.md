@@ -191,6 +191,10 @@ DrawBench: new comprehensive challenging benchmark
 
 Imagen: imagine, illustrate, inspire.
 
+### [Gemini](https://deepmind.google/technologies/gemini/#introduction)
+
+Gemini is built from the ground up for multimodality - reasoning seamlessly across text, images, video, audio, and code.
+
 ---
 
 ### Reference
@@ -208,3 +212,4 @@ Imagen: imagine, illustrate, inspire.
 - Imagen arXiv, https://arxiv.org/abs/2205.11487, 2022-09-30-Fri.
 - Multimodal Learning Overview Blog KR, https://seunghan96.github.io/mult/study-(multi)Multimodal-Learning%EC%86%8C%EA%B0%9C/, 2022-10-23-Sun.
 - Multimodal Learning Survey Blog KR, https://techy8855.tistory.com/20, 2022-10-24-Mon.
+- Gemini, https://deepmind.google/technologies/gemini/#introduction, 2023-12-11-Mon.
