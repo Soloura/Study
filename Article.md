@@ -249,3 +249,4 @@
 - [네덜란드인은 어떻게 2세기만에 ‘난쟁이’에서 ‘거인’으로 변신했나](https://www.khan.co.kr/economy/economy-general/article/201504091625041), 2023-12-12-Tue.
 - [배양한 인간 뇌세포로 '바이오 컴퓨팅' 구축 성공](https://naver.me/GB5jfENP), 2023-12-14-Thu.
 - [고양이는 실제로 정신병을 유발할까?..."상관관계 높아"](https://www.thedailypost.kr/news/articleView.html?idxno=102815), 2023-12-14-Thu.
+- [아이폰15 프로로 촬영한 ‘공간 동영상’ 직접 봤더니…](https://n.news.naver.com/article/092/0002315043), 2023-12-15-Fri.
