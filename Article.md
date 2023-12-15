@@ -250,3 +250,6 @@
 - [배양한 인간 뇌세포로 '바이오 컴퓨팅' 구축 성공](https://naver.me/GB5jfENP), 2023-12-14-Thu.
 - [고양이는 실제로 정신병을 유발할까?..."상관관계 높아"](https://www.thedailypost.kr/news/articleView.html?idxno=102815), 2023-12-14-Thu.
 - [아이폰15 프로로 촬영한 ‘공간 동영상’ 직접 봤더니…](https://n.news.naver.com/article/092/0002315043), 2023-12-15-Fri.
+- [오늘부터 비대면진료 시행…의약계 "의료체계 무너뜨릴 것"](https://n.news.naver.com/article/092/0002315055), 2023-12-15-Fri.
+- ["갤S24 탑재 ‘엑시노스2400’ GPU 성능, 애플 A17 프로 칩 능가"](https://n.news.naver.com/article/092/0002315072), 2023-12-15-Fri.
+- [코로나19 PCR 검사, 먹는치료제 처방 가능한 의료기관서만 무료](https://n.news.naver.com/article/092/0002315094), 2023-12-15-Fri.
