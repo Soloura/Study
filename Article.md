@@ -254,3 +254,7 @@
 - ["갤S24 탑재 ‘엑시노스2400’ GPU 성능, 애플 A17 프로 칩 능가"](https://n.news.naver.com/article/092/0002315072), 2023-12-15-Fri.
 - [코로나19 PCR 검사, 먹는치료제 처방 가능한 의료기관서만 무료](https://n.news.naver.com/article/092/0002315094), 2023-12-15-Fri.
 - [“차값 3683만원 넘으면 주차 금지”...임대아파트에 LH 공지문](https://n.news.naver.com/article/023/0003805067), 2023-12-15-Fri.
+- [1313년간 운영된 세계 최장수 호텔](https://www.chosun.com/site/data/html_dir/2017/06/11/2017061100358.html), 2023-12-17-Sun.
+- [미로 같은 성, 시간이 멎은 골목... 좀 더 일본다운 복고 감성 '몽글몽글'](https://m.hankookilbo.com/News/Read/A2023100310380003342), 2023-12-17-Sun.
+- [[도호쿠특별기획]야마가타현 긴잔온천](http://enewsjapan.com/news/view.php?no=513), 2023-12-17-Sun.
+- [‘센과 치히로 온천’…모두투어, 일본 ‘센다이’ 아시아나항공 전세기 출시](https://www.econovill.com/news/articleView.html?idxno=601732), 2023-12-17-Sun.
