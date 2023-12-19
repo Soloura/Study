@@ -258,3 +258,4 @@
 - [미로 같은 성, 시간이 멎은 골목... 좀 더 일본다운 복고 감성 '몽글몽글'](https://m.hankookilbo.com/News/Read/A2023100310380003342), 2023-12-17-Sun.
 - [[도호쿠특별기획]야마가타현 긴잔온천](http://enewsjapan.com/news/view.php?no=513), 2023-12-17-Sun.
 - [‘센과 치히로 온천’…모두투어, 일본 ‘센다이’ 아시아나항공 전세기 출시](https://www.econovill.com/news/articleView.html?idxno=601732), 2023-12-17-Sun.
+- [매월 첫째 주, 둘째 주 기준.. 도대체 뭐가 맞는 걸까요?](https://m.blog.naver.com/neo0khai/221742409362), 2023-12-19-Tue.
