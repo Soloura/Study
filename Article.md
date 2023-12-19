@@ -259,3 +259,4 @@
 - [[도호쿠특별기획]야마가타현 긴잔온천](http://enewsjapan.com/news/view.php?no=513), 2023-12-17-Sun.
 - [‘센과 치히로 온천’…모두투어, 일본 ‘센다이’ 아시아나항공 전세기 출시](https://www.econovill.com/news/articleView.html?idxno=601732), 2023-12-17-Sun.
 - [매월 첫째 주, 둘째 주 기준.. 도대체 뭐가 맞는 걸까요?](https://m.blog.naver.com/neo0khai/221742409362), 2023-12-19-Tue.
+- ['한 동네, 두 이름'…헷갈리는 행정동·법정동](https://www.yna.co.kr/view/AKR20180521134900061), 2023-12-19-Tue.
