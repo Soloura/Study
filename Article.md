@@ -139,6 +139,8 @@
 - [12 bad habits that slow IT to a crawl](https://www.cio.com/article/230584/12-bad-habits-that-slow-it-to-a-crawl.html) & [KR](https://www.ciokorea.com/news/35378?page=0,1), 2023-08-11-Fri.
 - [13 ‘best practices’ IT should avoid at all costs](https://www.cio.com/article/230178/12-best-practices-it-should-avoid-at-all-costs.html) & [KR](https://www.ciokorea.com/news/34542), 2023-08-11-Fri.
 - [구글, '초인공지능' 구분 기준 공개..."챗GPT는 레벨 1"](https://www.aitimes.com/news/articleView.html?idxno=155350), 2023-11-22-Wed.
+- [Air Force One The President’s office in the sky](https://www.whitehouse.gov/about-the-white-house/the-grounds/air-force-one/), 2023-12-22-Fri.
+- [Marine One](https://www.georgewbushlibrary.gov/bush-family/presidential-places/marine-one), 2023-12-22-Fri.
 
 ### Korean
 
@@ -261,3 +263,6 @@
 - [매월 첫째 주, 둘째 주 기준.. 도대체 뭐가 맞는 걸까요?](https://m.blog.naver.com/neo0khai/221742409362), 2023-12-19-Tue.
 - ['한 동네, 두 이름'…헷갈리는 행정동·법정동](https://www.yna.co.kr/view/AKR20180521134900061), 2023-12-19-Tue.
 - [“침대 가격이 5억원”… 현대百, ‘국내 최고가’ 스웨덴 왕실 침대 판매](https://www.donga.com/news/Culture/article/all/20211104/110073345/1), 2023-12-21-Thu.
+- [전세계 유명인 개인 전용 제트기 Top 10](https://airtravelinfo.kr/info_etc/1181565), 2023-12-22-Fri.
+- [가장 저렴한 최신 개인 제트기 10대](https://compareprivateplanes.com/ko/articles/the-10-cheapest-brand-new-private-jets), 2023-12-22-Fri.
+- [개인 제트기 역대급 호황…"올해 판매 사상 최고치 찍을듯"](https://www.yna.co.kr/view/AKR20230502143500009), 2023-12-22-Fri.
