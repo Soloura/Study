@@ -266,3 +266,4 @@
 - [전세계 유명인 개인 전용 제트기 Top 10](https://airtravelinfo.kr/info_etc/1181565), 2023-12-22-Fri.
 - [가장 저렴한 최신 개인 제트기 10대](https://compareprivateplanes.com/ko/articles/the-10-cheapest-brand-new-private-jets), 2023-12-22-Fri.
 - [개인 제트기 역대급 호황…"올해 판매 사상 최고치 찍을듯"](https://www.yna.co.kr/view/AKR20230502143500009), 2023-12-22-Fri.
+- [프리마로프트는 정말 패딩보다 따뜻할까](https://oncuration.com/%ED%94%84%EB%A6%AC%EB%A7%88%EB%A1%9C%ED%94%84%ED%8A%B8-%ED%8C%A8%EB%94%A9%EB%B3%B4%EB%8B%A4-%EB%94%B0%EB%9C%BB%ED%95%A0%EA%B9%8C/), 2023-12-27-Wed.
