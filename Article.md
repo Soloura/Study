@@ -270,3 +270,4 @@
 - [“안내라도 제대로 하던가”… 점심시간 문 닫은 우체국에 시민들 헛걸음](https://www.mk.co.kr/news/society/10701954), 2024-01-02-Tue.
 - ["소비자 기만"…공정위, 넥슨에 역대 최다 과징금 부과 / SBS](https://youtu.be/8cUtHmp4QjU?si=gMMiaXe9no-RULNT), 2024-01-04-Thu.
 - ['6월 21일' 절대 먹지마세요…카스타드 판매 멈추고 '회수' / SBS 8뉴스](https://youtu.be/zLTGVbn-BtM?si=hVdKLvnYsqKRartB), 2024-01-04-Thu.
+- [워크아웃(work out)](https://dic.mk.co.kr/cp/pop/today.php?dic_key=11192), 2024-01-05-Fri.
