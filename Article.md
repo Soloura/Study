@@ -269,3 +269,4 @@
 - [프리마로프트는 정말 패딩보다 따뜻할까](https://oncuration.com/%ED%94%84%EB%A6%AC%EB%A7%88%EB%A1%9C%ED%94%84%ED%8A%B8-%ED%8C%A8%EB%94%A9%EB%B3%B4%EB%8B%A4-%EB%94%B0%EB%9C%BB%ED%95%A0%EA%B9%8C/), 2023-12-27-Wed.
 - [“안내라도 제대로 하던가”… 점심시간 문 닫은 우체국에 시민들 헛걸음](https://www.mk.co.kr/news/society/10701954), 2024-01-02-Tue.
 - ["소비자 기만"…공정위, 넥슨에 역대 최다 과징금 부과 / SBS](https://youtu.be/8cUtHmp4QjU?si=gMMiaXe9no-RULNT), 2024-01-04-Thu.
+- ['6월 21일' 절대 먹지마세요…카스타드 판매 멈추고 '회수' / SBS 8뉴스](https://youtu.be/zLTGVbn-BtM?si=hVdKLvnYsqKRartB), 2024-01-04-Thu.
