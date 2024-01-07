@@ -271,3 +271,6 @@
 - ["소비자 기만"…공정위, 넥슨에 역대 최다 과징금 부과 / SBS](https://youtu.be/8cUtHmp4QjU?si=gMMiaXe9no-RULNT), 2024-01-04-Thu.
 - ['6월 21일' 절대 먹지마세요…카스타드 판매 멈추고 '회수' / SBS 8뉴스](https://youtu.be/zLTGVbn-BtM?si=hVdKLvnYsqKRartB), 2024-01-04-Thu.
 - [워크아웃(work out)](https://dic.mk.co.kr/cp/pop/today.php?dic_key=11192), 2024-01-05-Fri.
+- [장기여행은 ‘퇴사 후 이직 전’ 가야 제맛 [그래픽뉴스]](https://www.etoday.co.kr/news/view/2256518), 2024-01-07-Sun.
+- [12일 이상은 떠나야 ‘장기여행’...“이직 사이에 떠난다”](http://www.dhns.co.kr/news/articleView.html?idxno=309428), 2024-01-07-Sun.
+- [[더오래]은퇴 후 하고 싶은 일 1위 여행…실제는 TV시청](https://www.joongang.co.kr/article/25044382#home), 2024-01-07-Sun.
