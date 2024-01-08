@@ -274,3 +274,5 @@
 - [장기여행은 ‘퇴사 후 이직 전’ 가야 제맛 [그래픽뉴스]](https://www.etoday.co.kr/news/view/2256518), 2024-01-07-Sun.
 - [12일 이상은 떠나야 ‘장기여행’...“이직 사이에 떠난다”](http://www.dhns.co.kr/news/articleView.html?idxno=309428), 2024-01-07-Sun.
 - [[더오래]은퇴 후 하고 싶은 일 1위 여행…실제는 TV시청](https://www.joongang.co.kr/article/25044382#home), 2024-01-07-Sun.
+- [오퍼레터란_ 반드시 받아야 하는 이유](https://brunch.co.kr/@leegk243/89), 2024-01-08-Mon.
+- [Offer letter를 받으면 해야할 일 두가지](https://brunch.co.kr/@basic2sic/41), 2024-01-08-Mon.
