@@ -276,3 +276,4 @@
 - [[더오래]은퇴 후 하고 싶은 일 1위 여행…실제는 TV시청](https://www.joongang.co.kr/article/25044382#home), 2024-01-07-Sun.
 - [오퍼레터란_ 반드시 받아야 하는 이유](https://brunch.co.kr/@leegk243/89), 2024-01-08-Mon.
 - [Offer letter를 받으면 해야할 일 두가지](https://brunch.co.kr/@basic2sic/41), 2024-01-08-Mon.
+- [퇴직금 조회 방법 - 얼마나 모였나 30초만에 통합조회하기](https://news-bank.co.kr/73), 2024-01-09-Tue.
