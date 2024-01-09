@@ -277,3 +277,4 @@
 - [오퍼레터란_ 반드시 받아야 하는 이유](https://brunch.co.kr/@leegk243/89), 2024-01-08-Mon.
 - [Offer letter를 받으면 해야할 일 두가지](https://brunch.co.kr/@basic2sic/41), 2024-01-08-Mon.
 - [퇴직금 조회 방법 - 얼마나 모였나 30초만에 통합조회하기](https://news-bank.co.kr/73), 2024-01-09-Tue.
+- [퇴사할 때 반드시 챙겨야 하는 서류들](https://brunch.co.kr/@specterofficial/242), 2024-01-09-Tue.
