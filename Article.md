@@ -278,3 +278,5 @@
 - [Offer letter를 받으면 해야할 일 두가지](https://brunch.co.kr/@basic2sic/41), 2024-01-08-Mon.
 - [퇴직금 조회 방법 - 얼마나 모였나 30초만에 통합조회하기](https://news-bank.co.kr/73), 2024-01-09-Tue.
 - [퇴사할 때 반드시 챙겨야 하는 서류들](https://brunch.co.kr/@specterofficial/242), 2024-01-09-Tue.
+- ["단백질 생성 AI의 작동 메커니즘 발견"...블랙박스 해결 실마리 될까](https://www.aitimes.com/news/articleView.html?idxno=156260), 2024-01-10-Wed.
+- ['CES 2024' 개막...기조연설에서 반복된 AI·AI·AI](https://www.aitimes.com/news/articleView.html?idxno=156430), 2024-01-10-Wed.
