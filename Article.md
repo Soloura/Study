@@ -280,3 +280,4 @@
 - [퇴사할 때 반드시 챙겨야 하는 서류들](https://brunch.co.kr/@specterofficial/242), 2024-01-09-Tue.
 - ["단백질 생성 AI의 작동 메커니즘 발견"...블랙박스 해결 실마리 될까](https://www.aitimes.com/news/articleView.html?idxno=156260), 2024-01-10-Wed.
 - ['CES 2024' 개막...기조연설에서 반복된 AI·AI·AI](https://www.aitimes.com/news/articleView.html?idxno=156430), 2024-01-10-Wed.
+- [인천공항에 이런 서비스 생겼네…겨울 동남아 여행때 롱패딩 맡기고 떠나세요](https://www.mk.co.kr/news/business/10881240), 2024-01-18-Thu.
