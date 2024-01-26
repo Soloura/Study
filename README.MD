@@ -150,6 +150,10 @@ Depending on the program, it may be possible to study at the same time for a mas
 
 The JD is typically designed to prepare the individual for practicing law, and the programming of an LLM is designed to build upon the experience of the latter. The LLM is also known to be more supportive in the development of a law career in consulting or policy-driven initiatives.
 
+### Fellow
+
+A fellow is a concept whose exact meaning depends on context. In learned or professional societies, it refers to a privileged member who is specially elected in recognition of their work and achievements. Within the context of higher educational institutions, a fellow can be a member of a highly ranked group of teachers at a particular college or university or a member of the governing body in some universities; it can also be a specially selected postgraduate student who has been appointed to a post (called a fellowship) granting a stipend, research facilities and other privileges for a fixed period (usually one year or more) in order to undertake some advanced study or research, often in return for teaching services. In the context of research and development-intensive large companies or corporations, the title "fellow" is sometimes given to a small number of senior scientists and engineers. In the context of medical education in North America, a fellow is a physician who is undergoing a supervised, sub-specialty medical training (fellowship) after having completed a specialty training program (residency).
+
 ---
 
 ## Reference
@@ -165,3 +169,4 @@ The JD is typically designed to prepare the individual for practicing law, and t
 - Conference Series On Artificial General Intelligence, https://agi-conference.org/, 2023-03-02-Thu.
 - Degree Types BigPicture, https://bigfuture.collegeboard.org/plan-for-college/college-basics/college-classes/quick-guide-your-college-degree-options#:~:text=There%20are%20generally%20four%20categories,doctorate%20and%20a%20professional%20degree., 2023-03-16-Thu.
 - LLM vs. JD Pepperdine, https://law.pepperdine.edu/blog/posts/llm-versus-jd-degree.htm, 2023-03-16-Thu.
+- Fellow Wiki, https://en.wikipedia.org/wiki/Fellow, 2024-01-26-Fri.
