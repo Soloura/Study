@@ -168,6 +168,14 @@ Hysteresis is the dependence of the state of a system on its history.
 
 ---
 
+### [Prediction]
+
+Prediction refers to the output of an algorithm after it has been trained on a historical dataset and applied to new data when forecasting the likelihood of a particular outcome, such as whether or not a customer will churn in 30 days. The algorithm will generate probable values for an unknown variable for each record in the new data, allowing the model builder to identify what that value will most likely be.
+
+The word prediction can be misleading. In some cases, it really does mean that you are predicting a future outcome, such as when you're using machine learning to determine the next best action in a marketing campaign. Other times, though, the prediction has to do with, for example, whether or not a transaction that already occurred was fraudulent. In that case, the transaction already happened, but you're making an educated guess about whether or not it was legitimate, allowing you to take the appropriate action.
+
+---
+
 ### Reference
 - Artificial Intelligence IBM, https://www.ibm.com/cloud/learn/what-is-artificial-intelligence, 2022-02-12-Sat.
 - Machine Learning IBM, https://www.ibm.com/topics/machine-learning, 2023-03-14-Tue.
@@ -200,3 +208,4 @@ Hysteresis is the dependence of the state of a system on its history.
 - Boosting Blog KR, https://m.blog.naver.com/laonple/220834569716, 2023-11-06-Mon.
 - Bagging Blog KR, https://m.blog.naver.com/laonple/220838501228, 2023-11-06-Mon.
 - SVM Blog KR, https://m.blog.naver.com/laonple/220845107089, 2023-11-06-Mon.
+- Prediction, https://www.datarobot.com/wiki/prediction/, 2024-02-01-Thu.
