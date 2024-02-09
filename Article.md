@@ -127,6 +127,7 @@
 - [마침내 삼성전자...역시 오픈AI](https://www.aitimes.com/news/articleView.html?idxno=155109), 2023-11-17-Fri.
 - [구글, '제미나이' 시연 영상 조작 논란..."편집한 것 맞아"](https://www.aitimes.com/news/articleView.html?idxno=155764), 2023-12-11-Mon.
 - [일론 머스크의 xAI, '그록' 정식 출시..."꽤 웃기는 챗봇"](https://www.aitimes.com/news/articleView.html?idxno=155760), 2023-12-11-Mon.
+- [장병탁 서울대 AI 연구원장 "로보틱스-AI 결합이 새로운 리더십 될 것"](https://www.aitimes.com/news/articleView.html?idxno=157070), 2024-02-09-Fri.
 
 ## Articles unrelated to AI
 
