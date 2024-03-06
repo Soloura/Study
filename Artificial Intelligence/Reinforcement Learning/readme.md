@@ -91,6 +91,10 @@ Dueling DQN은 어드밴티지 함수와 가치 함수를 분리하여 계산하
 
 Periodically, two video clips of its behavior are given to a human, and the human decides which of the two clips is closest to fulfilling its goal - in this case, a backflip. The AI gradually builds a model of the goal of the task by finding the reward function that best explains the human's judgments. It then uses RL to learn how to achieve that goal. As its behavior improves, it continues to ask for human feedback on trajectory pairs where it's most uncertain about which is better, and further refines its understanding of the goal.
 
+### Reinforcement Learning from Human Feedback [Wiki](https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback)
+
+In machine learning, reinforcement learning from human feedback (RLHF), also called reinforcement learning from human preferences, is a technique to align an AI agent to human preferences. In classical reinforcement learning, such an agent learns a policy that maximizes a reward function that measures how well it performed its task. However, it is difficult to explicitly define such a reward function that approximates human preferences. Therefore, RLHF seeks to train a "reward model" directly from human feedback. This model can then function as a reward function to optimize an agent's policy through an optimization algorithm like Proximal Policy Optimization. The reward model is trained in advance to the policy being optimized to predict if a given output is good (high reward) or bad (low reward). RLHF can improve the robustness and exploration of RL agents, especially when the reward function is sparse or noisy.
+
 ## :robot: [AlphaGo](https://www.deepmind.com/research/highlighted-research/alphago)
 
 AlphaGo plays Go superior than professional human Go player.
@@ -121,3 +125,4 @@ AlphaCode programs a solution of programming problems.
 - AlphaZero: Shedding new light on hcess, shogi, and Go, https://www.deepmind.com/blog/alphazero-shedding-new-light-on-chess-shogi-and-go, 2023-02-02-Thu.
 - AlphaZero, https://www.science.org/doi/full/10.1126/science.aar6404, 2023-02-02-Thu.
 - Competitive programming with AlphaCode, https://www.deepmind.com/blog/competitive-programming-with-alphacode, 2023-02-02-Thu.
+- Reinforcement Learning from Human Feedback Wiki, https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback, 2024-03-06-Wed.
