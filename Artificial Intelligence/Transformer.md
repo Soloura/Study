@@ -4,6 +4,46 @@ A transformer is a deep learning architecture developed by Google and based on t
 
 This architecture is now used not only in natural language processing and computer vision, but also in audio and multi-modal processing. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs) and BERT (Bidirectional Encoder Representations from Transformers).
 
+## Incoder-Decoder
+
+### T5
+
+### BART
+
+### M2M-100
+
+### BigBird
+
+## Incoder
+
+### BERT
+
+### DistilBERT
+
+### RoBERTa
+
+### XLM
+
+### XLM-RoBERTa
+
+### ALBERT
+
+### ELECTRA
+
+### DeBERTa
+
+## Decoder
+
+### GPT
+
+### GPT-2
+
+### CTRL
+
+### GPT-3
+
+##3 GPT-Neo/GPT-J-6B
+
 ---
 
 ### Reference
