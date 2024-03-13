@@ -283,3 +283,4 @@
 - ['CES 2024' 개막...기조연설에서 반복된 AI·AI·AI](https://www.aitimes.com/news/articleView.html?idxno=156430), 2024-01-10-Wed.
 - [인천공항에 이런 서비스 생겼네…겨울 동남아 여행때 롱패딩 맡기고 떠나세요](https://www.mk.co.kr/news/business/10881240), 2024-01-18-Thu.
 - [보잉787 비행중 곤두박질 50명 부상... “사람들 날아다녔다”](https://www.chosun.com/international/international_general/2024/03/12/DNUGNJM2CJFJLNCMJWLVWKYSWI/), 2024-03-12-Tue.
+- [[조간브리핑] 'AI 인재' 블랙홀 빅테크…한국은 뺏길 인재도 없다](https://biz.sbs.co.kr/article/20000161090#:~:text=%E2%97%87%20AI%20%EC%9D%B8%EC%9E%AC%20%EB%B9%A8%EC%95%84%EB%93%A4%EC%9D%B4%EB%8A%94%20%EB%B9%85%ED%85%8C%ED%81%AC%E2%80%A6&text=%EC%A1%B0%EC%84%A0%EC%9D%BC%EB%B3%B4%20%EA%B8%B0%EC%82%AC%EC%9E%85%EB%8B%88%EB%8B%A4.,%EC%9D%B8%EB%A0%A5%EC%9D%84%20%EB%B9%BC%EA%B0%80%EA%B3%A0%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.), 2024-03-13-Wed.
