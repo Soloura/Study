@@ -254,6 +254,8 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 ### U-Net | [Blog (KR)](https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4)
 
+### [Segment Anything](https://segment-anything.com/) | [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf)
+
 ----------
 
 ## :fork_and_knife: Semantic Segmentation
@@ -368,6 +370,8 @@ IoU measures the overlap between 2 boundaries.
 
 `This content has moved to the 'AutoML' page.`
 
+### Visual Prompt Tuning | [ECCV 2022](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf)
+
 ---
 
 ### Reference
@@ -416,3 +420,6 @@ IoU measures the overlap between 2 boundaries.
 - MobileNetV2(모바일넷 v2), Inverted Residuals and Linear Bottlenecks, https://gaussian37.github.io/dl-concept-mobilenet_v2/, 2023-01-29-Sun.
 - SSD Blog KR, https://herbwood.tistory.com/15, 2023-11-13-Mon.
 - U-Net Blog KR, https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4, 2023-11-13-Mon.
+- Segment Anything, https://segment-anything.com/, 2024-04-03-Wed
+- Segment Anything, https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf, 2024-04-03-Wed.
+- Visual Prompt Tuning, https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf, 2024-04-03-Wed.
