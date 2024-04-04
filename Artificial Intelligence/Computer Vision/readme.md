@@ -124,6 +124,8 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ### Squeeze-and-Excitation Networks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
 
+### An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale | [ICLR 2021](https://openreview.net/pdf?id=YicbFdNTTy) | [Blog (KR)](https://kmhana.tistory.com/27) | [Blog (KR)](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale)
+
 ## :microscope: Object Detection
 
 ### AdaBoost (Adaptive Boosting) | [Blog #1 (KR)](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) [Blog #2 (KR)](https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/)
@@ -423,3 +425,6 @@ IoU measures the overlap between 2 boundaries.
 - Segment Anything, https://segment-anything.com/, 2024-04-03-Wed
 - Segment Anything, https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf, 2024-04-03-Wed.
 - Visual Prompt Tuning, https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf, 2024-04-03-Wed.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale ICLR 2021, https://openreview.net/pdf?id=YicbFdNTTy, 2024-04-04-Thu.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale Blog KR, https://kmhana.tistory.com/27, 2024-04-04-Thu.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale Blog KR, https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale, 2024-04-04-Thu.
