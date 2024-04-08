@@ -29,6 +29,32 @@ To develop and operate complex systems like these, you can apply DevOps principl
 
 ### MLOps vs. DevOps | [Blog KR](https://techscene.tistory.com/entry/MLOps-%EA%B6%81%EA%B7%B9-%EA%B0%80%EC%9D%B4%EB%93%9C-MLOps-%EB%B0%8F-DevOps%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%9D%B4%ED%95%B4)
 
+### [ClearML](https://clear.ml/) | [Docs](https://clear.ml/docs/latest/docs/)
+
+ClearML is an open source platform that automates and simplifies developing an managing machine learning solutions for thousands of data science teams all over the world. It is designed as an end-to-end MLOps and LLMOps suite allowing you to focus on developing your ML code and automation, wihle ClearML ensures your work is reproducible and scalable.
+
+[Image Reporting](https://clear.ml/docs/latest/docs/guides/reporting/image_reporting/): The example demonstrates reporting (uploading) images in several formats, including: NumPy arrays. uint8. uint8 RGB. PIL Image objects. Local files.
+
+* [image_reporting.py](https://github.com/allegroai/clearml/blob/master/examples/reporting/image_reporting.py)
+
+```Python
+image_open = Image.open(os.path.join('data_samples', 'picasso.jpg'))
+Logger.current_logger().report_image('image', 'image PIL', iteration=0, image=image_open)
+```
+
+[Matplotlib](https://clear.ml/docs/latest/docs/guides/frameworks/matplotlib/matplotlib_example/): The example demonstartes integrating ClearML into code that uses matplotlib to plot scatter diagrams, and show images. ClearML automatically logs the diagrams and images.
+
+* [matplotlib_example.py](https://github.com/allegroai/clearml/blob/master/examples/frameworks/matplotlib/matplotlib_example.py):
+
+```Python
+# Create image plot - with a name
+m = np.eye(256, 256, dtype=np.uint8)
+plt.imshow(m)
+plt.title('Image Title')
+# Plot will be reported automatically
+plt.show()
+```
+
 ---
 
 ### Reference
@@ -38,3 +64,9 @@ To develop and operate complex systems like these, you can apply DevOps principl
 - MLOps Pipeline Kakao, https://tech.kakaopay.com/post/ifkakao2022-mlops-model-training-pipeline/, 2023-09-11-Mon.
 - MLOps vs. DevOps Blog KR, https://techscene.tistory.com/entry/MLOps-%EA%B6%81%EA%B7%B9-%EA%B0%80%EC%9D%B4%EB%93%9C-MLOps-%EB%B0%8F-DevOps%EC%9D%98-%EA%B0%9C%EB%85%90%EA%B3%BC-%EC%B0%A8%EC%9D%B4%EC%A0%90-%EC%9D%B4%ED%95%B4, 2023-09-11-Mon.
 - MLOps Blog KR, https://seunghan96.github.io/mlops/mlops%EC%A0%95%EB%A6%AC/, 2023-09-11-Mon.
+- ClearML, https://clear.ml/, 2024-04-08-Mon.
+- ClearML Docs, https://clear.ml/docs/latest/docs/, 2024-04-08-Mon.
+- Image Reporting ClearML, https://clear.ml/docs/latest/docs/guides/reporting/image_reporting/, 2024-04-08-Mon.
+- image_reporting.py, https://github.com/allegroai/clearml/blob/master/examples/reporting/image_reporting.py, 2024-04-08-Mon.
+- Matploglib ClearML, https://clear.ml/docs/latest/docs/guides/frameworks/matplotlib/matplotlib_example/, 2024-04-08-Mon.
+- matplotlib_example.py, https://github.com/allegroai/clearml/blob/master/examples/frameworks/matplotlib/matplotlib_example.py, 2024-04-08-Mon.
