@@ -43,7 +43,7 @@ The current modus operandi in adapting pre-trained models involves updating all 
 
 ### :bookmark_tabs: [Segment Anything](https://segment-anything.com/) | [2023 ICCV](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) | [2023 arXiv](https://arxiv.org/abs/2304.02643)
 
-We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive - often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at segment-anything.com to foster research into foundation models for computer vision.
+The Segment Anything (SA) project introduces a new task, model, and dataset for image segmentation. Their efficient model, designed to be promptable, enabled the creation of the largest segmentation dataset to date, with over 1 billion masks on 11 million licensed and privacy-respecting images. SAM, the Segment Anything Model, and SA-1B dataset are released at segment-anything.com to encourage research into foundation models for computer vision, showing impressive zero-shot performance on various tasks.
 
 ---
 
