@@ -1,8 +1,10 @@
-# [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture)) | [NVIDIA](https://blogs.nvidia.com/blog/what-is-a-transformer-model/) | [AWS](https://aws.amazon.com/what-is/transformers-in-artificial-intelligence/)
+# [Transformer](https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture))
 
 A transformer is a deep learning architecture developed by Google and based on the multi-head attention mechanism, proposed in a 2017 paper "Attention Is All You Need". It has no recurrent units, and thus requires less training time than previous recurrent neural architectures, such as long short-term memory (LSTM), and its later variation has been prevalently adopted for training large language models (LLM) on large (language) datasets, such as the Wikipedia corpus and Common Crawl. Text is converted to numerical representations called tokens, and each token is converted into a vector via looking up from a word embedding table. At each layer, each token is then contextualized within the scope of the context window with other (unmasked) tokens via a parallel multi-head attention mechanism allowing the signal for key tokens to be amplified and less important tokens to be diminished. The transformer paper, published in 2017, is based on the softmax-based attention mechanism proposed by Bahdanau et. al. in 2014 for machine translation, and the Fast Weight Controller, similar to a transformer, proposed in 1992.
 
 This architecture is now used not only in natural language processing and computer vision, but also in audio and multi-modal processing. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs) and BERT (Bidirectional Encoder Representations from Transformers).
+
+[NVIDIA](https://blogs.nvidia.com/blog/what-is-a-transformer-model/) | [AWS](https://aws.amazon.com/what-is/transformers-in-artificial-intelligence/)
 
 ## :books: Natural Language Processing
 
@@ -29,15 +31,15 @@ This architecture is now used not only in natural language processing and comput
 
 ## :books: Computer Vision
 
-### An Image is Worth 16x16 Words Transformers for Image Recognition at Scale | [2021 ICLR](https://openreview.net/pdf?id=YicbFdNTTy) | [2021 arXiv](https://arxiv.org/abs/2010.11929)
+### :bookmark_tabs: An Image is Worth 16x16 Words Transformers for Image Recognition at Scale | [2021 ICLR](https://openreview.net/pdf?id=YicbFdNTTy) | [2021 arXiv](https://arxiv.org/abs/2010.11929)
 
 While the Transformers architecture has become the de-facto standard for natural lanuage processing tasks, its applications to computer vision ramain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.
 
 [Blog (KR)](https://kmhana.tistory.com/27) | [Blog (KR)](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale)
 
-### Visual Prompt Tuning | [2022 ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf)
+### :bookmark_tabs: Visual Prompt Tuning | [2022 ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf)
 
-### [Segment Anything](https://segment-anything.com/) | [2023 ICCV](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) | [2023 arXiv](https://arxiv.org/abs/2304.02643)
+### :bookmark_tabs: [Segment Anything](https://segment-anything.com/) | [2023 ICCV](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) | [2023 arXiv](https://arxiv.org/abs/2304.02643)
 
 We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive - often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at segment-anything.com to foster research into foundation models for computer vision.
 
