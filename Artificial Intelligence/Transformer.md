@@ -42,7 +42,7 @@ This architecture is now used not only in natural language processing and comput
 
 ### GPT-3
 
-##3 GPT-Neo/GPT-J-6B
+### GPT-Neo/GPT-J-6B
 
 ---
 
