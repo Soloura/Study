@@ -33,7 +33,9 @@ This architecture is now used not only in natural language processing and comput
 
 While the Transformers architecture has become the de-facto standard for natural lanuage processing tasks, its applications to computer vision ramain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image patches can perform very well on image classification tasks. When pre-trained on large amounts of data and transferred to multiple mid-sized or small image recognition benchmarks (ImageNet, CIFAR-100, VTAB, etc.), Vision Transformer (ViT) attains excellent results compared to state-of-the-art convolutional networks while requiring substantially fewer computational resources to train.
 
-[Blog (KR)](https://kmhana.tistory.com/27)
+[Blog (KR)](https://kmhana.tistory.com/27) | [Blog (KR)](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale)
+
+### Visual Prompt Tuning | [2022 ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf)
 
 ### [Segment Anything](https://segment-anything.com/) | [2023 ICCV](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) | [2023 arXiv](https://arxiv.org/abs/2304.02643)
 
@@ -48,10 +50,14 @@ We introduce the Segment Anything (SA) project: a new task, model, and dataset f
 - Transformer 2 KR Nvidia, https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model-2/, 2024-03-12-Tue.
 - Transformer Models Blog KR, https://velog.io/@jx7789/%EB%8B%A4%EC%96%91%ED%95%9C-%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8-%EB%AA%A8%EB%8D%B8%EB%93%A4-l3z5ap4p, 2024-03-12-Tue.
 - Transformer Wiki, https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture), 2024-03-12-Tue.
+- Segment Anything, https://segment-anything.com/, 2024-04-03-Wed
+- Segment Anything, https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf, 2024-04-03-Wed.
+- Visual Prompt Tuning, https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf, 2024-04-03-Wed.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale ICLR 2021, https://openreview.net/pdf?id=YicbFdNTTy, 2024-04-04-Thu.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale Blog KR, https://kmhana.tistory.com/27, 2024-04-04-Thu.
+- An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale Blog KR, https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale, 2024-04-04-Thu.
 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale 2021 ICLR, https://openreview.net/pdf?id=YicbFdNTTy, 2024-04-17-Wed.
 - An Image is Worth 16x16 Words Transformers for Image Recognition at Scale 2021 arXiv, https://arxiv.org/abs/2010.11929, 2024-04-17-Wed.
 - ViT Blog KR, https://kmhana.tistory.com/27, 2024-04-17-Wed.
-- Segment Anything, https://segment-anything.com/, 2024-04-17-Wed.
 - Segment Anything GitHub, https://github.com/facebookresearch/segment-anything, 2024-04-17-Wed.
-- Segment Anything 2023 ICCV, https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf, 2024-04-17-Wed.
 - Segment Anything 2023 arXiv, https://arxiv.org/abs/2304.02643, 2024-04-17-Wed.
