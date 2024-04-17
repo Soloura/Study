@@ -4,6 +4,8 @@ A transformer is a deep learning architecture developed by Google and based on t
 
 This architecture is now used not only in natural language processing and computer vision, but also in audio and multi-modal processing. It has also led to the development of pre-trained systems, such as generative pre-trained transformers (GPTs) and BERT (Bidirectional Encoder Representations from Transformers).
 
+## :books: Natural Language Processing
+
 ## Incoder-Decoder
 
 ### T5
@@ -44,9 +46,11 @@ This architecture is now used not only in natural language processing and comput
 
 ### GPT-Neo/GPT-J-6B
 
-## Vision Transformer
+## :books: Computer Vision
 
-### AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE | 2021 ICLR
+### An Image is Worth 16x16 Words Transformers for Image Recognition at Scale | 2021 ICLR
+
+While the Transformers architecture has become the de-facto standard for natural lanuage processing tasks, its applications to computer vision ramain limited. In vision, attention is either applied in conjunction with convolutional networks, or used to replace certain components of convolutional networks while keeping their overall structure in place. We show that this reliance on CNNs is not necessary and a pure transformer applied directly to sequences of image pat
 
 ---
 
