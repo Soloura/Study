@@ -35,6 +35,10 @@ While the Transformers architecture has become the de-facto standard for natural
 
 [Blog (KR)](https://kmhana.tistory.com/27)
 
+### [Segment Anything](https://segment-anything.com/) | [2023 ICCV](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf) | [2023 arXiv](https://arxiv.org/abs/2304.02643)
+
+We introduce the Segment Anything (SA) project: a new task, model, and dataset for image segmentation. Using our efficient model in a data collection loop, we built the largest segmentation dataset to date (by far), with over 1 billion masks on 11M licensed and privacy respecting images. The model is designed and trained to be promptable, so it can transfer zero-shot to new image distributions and tasks. We evaluate its capabilities on numerous tasks and find that its zero-shot performance is impressive - often competitive with or even superior to prior fully supervised results. We are releasing the Segment Anything Model (SAM) and corresponding dataset (SA-1B) of 1B masks and 11M images at segment-anything.com to foster research into foundation models for computer vision.
+
 ---
 
 ### Reference
@@ -44,5 +48,9 @@ While the Transformers architecture has become the de-facto standard for natural
 - Transformer 2 KR Nvidia, https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model-2/, 2024-03-12-Tue.
 - Transformer Models Blog KR, https://velog.io/@jx7789/%EB%8B%A4%EC%96%91%ED%95%9C-%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8-%EB%AA%A8%EB%8D%B8%EB%93%A4-l3z5ap4p, 2024-03-12-Tue.
 - Transformer Wiki, https://en.wikipedia.org/wiki/Transformer_(deep_learning_architecture), 2024-03-12-Tue.
-- An Image is Worth 16x16 Words Transformers for Image Recognition at Scale, https://openreview.net/pdf?id=YicbFdNTTy, 2024-04-17-Wed.
+- An Image is Worth 16x16 Words Transformers for Image Recognition at Scale 2021 ICLR, https://openreview.net/pdf?id=YicbFdNTTy, 2024-04-17-Wed.
 - ViT Blog KR, https://kmhana.tistory.com/27, 2024-04-17-Wed.
+- Segment Anything, https://segment-anything.com/, 2024-04-17-Wed.
+- Segment Anything GitHub, https://github.com/facebookresearch/segment-anything, 2024-04-17-Wed.
+- Segment Anything 2023 ICCV, https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf, 2024-04-17-Wed.
+- Segment Anything 2023 arXiv, https://arxiv.org/abs/2304.02643, 2024-04-17-Wed.
