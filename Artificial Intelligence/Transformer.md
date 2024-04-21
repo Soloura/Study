@@ -35,7 +35,11 @@ This architecture is now used not only in natural language processing and comput
 
 The Transformers architecture, widely used in natural language processing, has been less explored in computer vision. However, we demonstrate that a pure transformer applied directly to image patches can achieve excellent performance on image classification tasks without relying on convolutional neural networks (CNNs). Pre-trained on large datasets and transferred to various image recognition benchmarks, Vision Transformer (ViT) outperforms state-of-the-art CNNs while needing fewer computational resources for training.
 
-[Blog (KR)](https://kmhana.tistory.com/27) | [Blog (KR)](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale)
+[Blog (KR)](https://kmhana.tistory.com/27) | [Blog (KR)](https://hipgyung.tistory.com/entry/%EC%89%BD%EA%B2%8C-%EC%9D%B4%ED%95%B4%ED%95%98%EB%8A%94-ViTVision-Transformer-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-An-Image-is-Worth-16x16-Words-Transformers-for-Image-Recognition-at-Scale): 
+* Transformer는 100B parameters도 계산이 가능하고 성능이 좋아지지만 포화되지 않음
+* 이미지를 patch로 분할 후 sequence로 입력함
+* ImageNet(mid-size) 데이터셋으로 학습하는 경우 ResNet보다 낮은 성능이지만 JFT-300M으로 학습한 경우는 성능이 더 좋음
+* Inductive biases, locality, translation equivariance가 없음
 
 ### :bookmark_tabs: Visual Prompt Tuning | [2022 ECCV](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136930696.pdf)
 
