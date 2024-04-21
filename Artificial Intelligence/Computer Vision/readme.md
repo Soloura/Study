@@ -274,8 +274,9 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 Mask R-CNN은 2017년 Facebook의 Kaimimg He가 ICCV17에서 발표한 분할된 image를 masking하는 model이다. Faster R-CNN에 각 픽셀이 object class에 해당하는지 binary masking하는 분기 network를 추가했다. 정확한 픽셀 위치를 추출하기 위해 CNN을 통과하면서 Rol Pooling에서 rounding하며 발생하는 소숫점 오차를 RoIAlign(2D bilinear interpolation)로 대체해서 감소시켰다.
 
-### EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
+### EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks | 2019 ICML | [arXiv](https://arxiv.org/abs/1905.11946) | [GitHub](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet)
 
+[Blog (KR)](https://kmhana.tistory.com/26?category=839700)
 
 ### TecoGAN: Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation | [arXiv](https://arxiv.org/abs/1811.09393) | [GitHub](https://github.com/thunil/TecoGAN)
 
@@ -431,3 +432,4 @@ IoU measures the overlap between 2 boundaries.
 - Self-training with Noisy Student improves ImageNet classification, https://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.pdf, 2024-04-21-Sun.
 - Meta Pseudo Labels, https://openaccess.thecvf.com/content/CVPR2021/papers/Pham_Meta_Pseudo_Labels_CVPR_2021_paper.pdf, 2024-04-21-Sun.
 - Meta Pseudo Labels Blog KR, https://kmhana.tistory.com/33, 2024-04-21-Sun.
+- EfficientNet Blog KR, https://kmhana.tistory.com/26?category=839700, 2024-04-21-Sun.
