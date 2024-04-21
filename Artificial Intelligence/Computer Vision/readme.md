@@ -124,6 +124,16 @@ Keyword: Small, Large, MnasNet, NetAdapt, Hard-Swish, SE block
 
 ### Squeeze-and-Excitation Networks | [CVPR 2018](https://openaccess.thecvf.com/content_cvpr_2018/papers/Hu_Squeeze-and-Excitation_Networks_CVPR_2018_paper.pdf) | [arXiv](https://arxiv.org/pdf/1709.01507.pdf) | [Blog (KR)](https://jayhey.github.io/deep%20learning/2018/07/18/SENet/)
 
+A semi-supervised learning method. Like Pseudo Labels, Meta Pseudo Labels as a teacher network to generate pseudo labels on unlabeled data to teach a student network. However, unlike Pseudo Labels where the teacher is fixed, the teacher in Meta Pseudo Labels is constantly adapted by the feedback of the student's performance on the labeled dataset. As a result, the teacher generates better pseudo labels to teach the student.
+
+### Self-training with Noisy Student improves ImageNet classification | [2020 CVPR](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.pdf)
+
+First train an EfficientNet model on labeled ImageNet images and use it as a teacher to generate pseudo labels on 300M unlabeled images. Then traina larger EfficientNet as a student model on the combination of labeled and pseudo labeled images. Iterate this process by putting back the student as the teacher. During the generation of the pseudo labels, the teacher is not noised so that the pseudo labels are as accurate as possible. However, during the learning of the student, we inject noise such as dropout, stochasitc depth and data augmentation via RandAugment to the student so that the student generalizes better than the teacher.
+
+### Meta Pseudo Labels | [2021 CVPR](https://openaccess.thecvf.com/content/CVPR2021/papers/Pham_Meta_Pseudo_Labels_CVPR_2021_paper.pdf)
+
+[Blog (KR)](https://kmhana.tistory.com/33)
+
 ## :microscope: Object Detection
 
 ### AdaBoost (Adaptive Boosting) | [Blog #1 (KR)](https://bkshin.tistory.com/entry/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-14-AdaBoost) [Blog #2 (KR)](https://yngie-c.github.io/machine%20learning/2021/03/20/adaboost/)
@@ -418,3 +428,6 @@ IoU measures the overlap between 2 boundaries.
 - MobileNetV2(모바일넷 v2), Inverted Residuals and Linear Bottlenecks, https://gaussian37.github.io/dl-concept-mobilenet_v2/, 2023-01-29-Sun.
 - SSD Blog KR, https://herbwood.tistory.com/15, 2023-11-13-Mon.
 - U-Net Blog KR, https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4, 2023-11-13-Mon.
+- Self-training with Noisy Student improves ImageNet classification, https://openaccess.thecvf.com/content_CVPR_2020/papers/Xie_Self-Training_With_Noisy_Student_Improves_ImageNet_Classification_CVPR_2020_paper.pdf, 2024-04-21-Sun.
+- Meta Pseudo Labels, https://openaccess.thecvf.com/content/CVPR2021/papers/Pham_Meta_Pseudo_Labels_CVPR_2021_paper.pdf, 2024-04-21-Sun.
+- Meta Pseudo Labels Blog KR, https://kmhana.tistory.com/33, 2024-04-21-Sun.
