@@ -31,6 +31,8 @@ Deep learning is a subset of machine learning, which is essentially a neural net
 
 Deep learning is actually comprised of neural networks. "Deep" in deep learning refers to a neural network comprised of more than three layers-which would be inclusive of the inputs and the output-can be considered a deep learning algorithm.
 
+[KAN: Kolmogorov-Arnold Networks](https://arxiv.org/html/2404.19756v1)
+
 ### Workflow
 
 * Data Preparation & Preprocessing & Augmentation
@@ -217,3 +219,4 @@ The word prediction can be misleading. In some cases, it really does mean that y
 - Bagging Blog KR, https://m.blog.naver.com/laonple/220838501228, 2023-11-06-Mon.
 - SVM Blog KR, https://m.blog.naver.com/laonple/220845107089, 2023-11-06-Mon.
 - Prediction, https://www.datarobot.com/wiki/prediction/, 2024-02-01-Thu.
+- KAN: Kolmogorov-Arnold Networks, https://arxiv.org/html/2404.19756v1, 2024-06-01-Sat.
