@@ -130,6 +130,7 @@
 - [장병탁 서울대 AI 연구원장 "로보틱스-AI 결합이 새로운 리더십 될 것"](https://www.aitimes.com/news/articleView.html?idxno=157070), 2024-02-09-Fri.
 - ["애플, 스위스 비밀 연구소에서 'MM1' 모델 개발"](https://www.aitimes.com/news/articleView.html?idxno=159247), 2024-05-01-Wed.
 - [애플, 오픈AI와 계약 합의...'시리'에 '챗GPT' 탑재한다](https://www.aitimes.com/news/articleView.html?idxno=159574), 2024-05-12-Sun.
+- ["GPT-4o 4시간 만에 탈옥 성공...제미나이와 클로드3도 탈옥 쉬워"](https://www.aitimes.com/news/articleView.html?idxno=160249), 2024-06-03-Mon.
 
 ## Articles unrelated to AI
 
