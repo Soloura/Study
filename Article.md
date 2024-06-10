@@ -131,6 +131,7 @@
 - ["애플, 스위스 비밀 연구소에서 'MM1' 모델 개발"](https://www.aitimes.com/news/articleView.html?idxno=159247), 2024-05-01-Wed.
 - [애플, 오픈AI와 계약 합의...'시리'에 '챗GPT' 탑재한다](https://www.aitimes.com/news/articleView.html?idxno=159574), 2024-05-12-Sun.
 - ["GPT-4o 4시간 만에 탈옥 성공...제미나이와 클로드3도 탈옥 쉬워"](https://www.aitimes.com/news/articleView.html?idxno=160249), 2024-06-03-Mon.
+- [구글 "AGI 조건은 '개방성'...새롭고 학습가능한 생성으로 인간과 작용해야"](https://www.aitimes.com/news/articleView.html?idxno=160465), 2024-06-10-Mon.
 
 ## Articles unrelated to AI
 
