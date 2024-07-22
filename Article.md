@@ -132,6 +132,7 @@
 - [애플, 오픈AI와 계약 합의...'시리'에 '챗GPT' 탑재한다](https://www.aitimes.com/news/articleView.html?idxno=159574), 2024-05-12-Sun.
 - ["GPT-4o 4시간 만에 탈옥 성공...제미나이와 클로드3도 탈옥 쉬워"](https://www.aitimes.com/news/articleView.html?idxno=160249), 2024-06-03-Mon.
 - [구글 "AGI 조건은 '개방성'...새롭고 학습가능한 생성으로 인간과 작용해야"](https://www.aitimes.com/news/articleView.html?idxno=160465), 2024-06-10-Mon.
+- [[7월3주] 오픈AI가 'GPT-4o 미니'를 출시한 이유는..."애플 시리에도 탑재"](https://www.aitimes.com/news/articleView.html?idxno=161747), 2024-07-22-Mon.
 
 ## Articles unrelated to AI
 
@@ -288,3 +289,4 @@
 - [인천공항에 이런 서비스 생겼네…겨울 동남아 여행때 롱패딩 맡기고 떠나세요](https://www.mk.co.kr/news/business/10881240), 2024-01-18-Thu.
 - [보잉787 비행중 곤두박질 50명 부상... “사람들 날아다녔다”](https://www.chosun.com/international/international_general/2024/03/12/DNUGNJM2CJFJLNCMJWLVWKYSWI/), 2024-03-12-Tue.
 - [[조간브리핑] 'AI 인재' 블랙홀 빅테크…한국은 뺏길 인재도 없다](https://biz.sbs.co.kr/article/20000161090), 2024-03-13-Wed.
+- [김범수 카카오, 영장실질심사 4시간만에 종료](https://zdnet.co.kr/view/?no=20240722190326), 2024-07-22-Mon.
