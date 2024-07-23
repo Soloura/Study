@@ -133,6 +133,7 @@
 - ["GPT-4o 4시간 만에 탈옥 성공...제미나이와 클로드3도 탈옥 쉬워"](https://www.aitimes.com/news/articleView.html?idxno=160249), 2024-06-03-Mon.
 - [구글 "AGI 조건은 '개방성'...새롭고 학습가능한 생성으로 인간과 작용해야"](https://www.aitimes.com/news/articleView.html?idxno=160465), 2024-06-10-Mon.
 - [[7월3주] 오픈AI가 'GPT-4o 미니'를 출시한 이유는..."애플 시리에도 탑재"](https://www.aitimes.com/news/articleView.html?idxno=161747), 2024-07-22-Mon.
+- [[7월22일] 파리 올림픽서 AI는 '재미'와 '안전' 모두 잡아야](https://www.aitimes.com/news/articleView.html?idxno=161809), 2024-07-23-Tue.
 
 ## Articles unrelated to AI
 
