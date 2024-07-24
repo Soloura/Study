@@ -291,3 +291,4 @@
 - [보잉787 비행중 곤두박질 50명 부상... “사람들 날아다녔다”](https://www.chosun.com/international/international_general/2024/03/12/DNUGNJM2CJFJLNCMJWLVWKYSWI/), 2024-03-12-Tue.
 - [[조간브리핑] 'AI 인재' 블랙홀 빅테크…한국은 뺏길 인재도 없다](https://biz.sbs.co.kr/article/20000161090), 2024-03-13-Wed.
 - [김범수 카카오, 영장실질심사 4시간만에 종료](https://zdnet.co.kr/view/?no=20240722190326), 2024-07-22-Mon.
+- ['MS 사태' 후 韓 클라우드 업계 '불안'...이유는?](https://zdnet.co.kr/view/?no=20240724165832), 2024-07-24-Wed.
