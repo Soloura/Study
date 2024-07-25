@@ -292,3 +292,4 @@
 - [[조간브리핑] 'AI 인재' 블랙홀 빅테크…한국은 뺏길 인재도 없다](https://biz.sbs.co.kr/article/20000161090), 2024-03-13-Wed.
 - [김범수 카카오, 영장실질심사 4시간만에 종료](https://zdnet.co.kr/view/?no=20240722190326), 2024-07-22-Mon.
 - ['MS 사태' 후 韓 클라우드 업계 '불안'...이유는?](https://zdnet.co.kr/view/?no=20240724165832), 2024-07-24-Wed.
+- [올림픽 축구서 '드론 스캔들' 발생...출전 금지 징계](https://www.aitimes.com/news/articleView.html?idxno=161931), 2024-07-25-Thu.
