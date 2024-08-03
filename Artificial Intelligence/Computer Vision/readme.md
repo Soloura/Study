@@ -270,6 +270,8 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything)
 
+### [Segment Anything Model 2](https://ai.meta.com/sam2/)
+
 ----------
 
 ## :fork_and_knife: Semantic Segmentation
@@ -438,3 +440,4 @@ IoU measures the overlap between 2 boundaries.
 - Meta Pseudo Labels Blog KR, https://kmhana.tistory.com/33, 2024-04-21-Sun.
 - EfficientNet Blog KR, https://kmhana.tistory.com/26?category=839700, 2024-04-21-Sun.
 - A Comprehensive Survey on Segment Anything Model for Vision and Beyond, https://github.com/liliu-avril/Awesome-Segment-Anything, 2024-04-29-Mon.
+- Segment Anything Model 2, https://ai.meta.com/sam2/, 2024-08-03-Sat.
