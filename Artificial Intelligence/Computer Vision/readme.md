@@ -246,6 +246,10 @@ Auxiliary Classifier block을 이용하면 backpropagation 때 결과를 합치�
 
 ### YOLOv5 | [GitHub](https://github.com/ultralytics/yolov5) | [Docs](https://docs.ultralytics.com/)
 
+### YOLOv8 | [GitHub](https://github.com/ultralytics/ultralytics) | [Docs](https://docs.ultralytics.com/)
+
+YOLOv8 supports a full range of vision AI tasks, including detection, segmentation, pose estimation, tracking, and classification.
+
 ---
 
 ## :scissors: Segmentation
@@ -441,3 +445,5 @@ IoU measures the overlap between 2 boundaries.
 - EfficientNet Blog KR, https://kmhana.tistory.com/26?category=839700, 2024-04-21-Sun.
 - A Comprehensive Survey on Segment Anything Model for Vision and Beyond, https://github.com/liliu-avril/Awesome-Segment-Anything, 2024-04-29-Mon.
 - Segment Anything Model 2, https://ai.meta.com/sam2/, 2024-08-03-Sat.
+- YOLOv8 GitHub, https://github.com/ultralytics/ultralytics, 2024-08-04-Sun.
+- YOLOv8 Docs, https://docs.ultralytics.com/, 2024-08-04-Sun.
