@@ -274,7 +274,7 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything)
 
-### [Segment Anything Model 2](https://ai.meta.com/sam2/)
+### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2)
 
 ----------
 
@@ -447,3 +447,4 @@ IoU measures the overlap between 2 boundaries.
 - Segment Anything Model 2, https://ai.meta.com/sam2/, 2024-08-03-Sat.
 - YOLOv8 GitHub, https://github.com/ultralytics/ultralytics, 2024-08-04-Sun.
 - YOLOv8 Docs, https://docs.ultralytics.com/, 2024-08-04-Sun.
+- SAM2 GitHub, https://github.com/facebookresearch/segment-anything-2, 2024-08-05-Mon.
