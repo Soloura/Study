@@ -268,13 +268,15 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 ### U-Net | [Blog (KR)](https://velog.io/@lighthouse97/UNet%EC%9D%98-%EC%9D%B4%ED%95%B4)
 
-### [Segment Anything](https://segment-anything.com/) | [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf)
+### [Segment Anything](https://segment-anything.com/) | [GitHub](https://github.com/facebookresearch/segment-anything) | [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf)
 
 [[2023]A Comprehensive Survey on Segment Anything Model for Vision and Beyond (arXiv)](https://github.com/liliu-avril/Awesome-Segment-Anything)
 
 [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything)
 
 ### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2)
+
+Segment Anything Model 2 (SAM 2) is a foundation model towards solving promptable visual segmentation in images and videos. We extend SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video processing. We build a model-in-the-loop data engine, which improves model and data via user interaction, to collect SA-V dataset, the largest video segmentation dataset to date. SAM 2 trained on data provides strong performance across a wide range of tasks and visual domains.
 
 ----------
 
