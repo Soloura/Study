@@ -276,6 +276,20 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 * [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything): summarize the research progress of Segment Anything in various fields, including papers and projects, etc.
 * [SAM Blog KR](https://thecho7.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Segment-Anything-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8)
 
+* SA
+  * (1/3) Task: zero-shot, prompt/interactive segmentation
+  * (2/3) Model(SAM)
+    * (A/C) powerful image encoder: masked autoencoder (MAE) pre-trained ViT - `image > image encoder > image embedding (256x64x64)`
+    * (B/C) prompt encoder: `point/box/text > prompt encoder > output tokens + prompt tokens (Nx256)`
+      * (a/b) sparse prompt: points - positional encodings summed with learned embeddings, boxes - positional encodings summed with learned embeddings, text - clip output
+      * (b/b) dense prompt: mask - image embedding convolution
+    * (C/C) mask decoder: transformer decoder block - prompt self-attention, cross-attention - prompt-to-image, image-to-prompt
+    * Resolving mask ambiguity: 3 masks with focal loss(harder the more weights), dice loss(recall/GT) - linear combination
+  * (3/3) Data (SA-1B): 1B masks from 11M imgs
+    * (A/C) assisted manual: points by human
+    * (B/C) semi-automatic: specific object group
+    * (C/C) fully automatic: regular grid - points everything
+
 ### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2)
 
 Segment Anything Model 2 (SAM 2) is a foundation model towards solving promptable visual segmentation in images and videos. We extend SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video processing. We build a model-in-the-loop data engine, which improves model and data via user interaction, to collect SA-V dataset, the largest video segmentation dataset to date. SAM 2 trained on data provides strong performance across a wide range of tasks and visual domains.
