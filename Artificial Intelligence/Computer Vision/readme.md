@@ -270,9 +270,10 @@ Graph Cut을 반복적으로 적용하여 투명도가 적용되지 않은 hard 
 
 ### [Segment Anything](https://segment-anything.com/) | [GitHub](https://github.com/facebookresearch/segment-anything) | [ICCV 2023](https://openaccess.thecvf.com/content/ICCV2023/papers/Kirillov_Segment_Anything_ICCV_2023_paper.pdf)
 
-[[2023]A Comprehensive Survey on Segment Anything Model for Vision and Beyond (arXiv)](https://github.com/liliu-avril/Awesome-Segment-Anything)
+SAM is a promptable segmentation system with zero-shot generalization to unfamiliar objects and images, without the need for additional training.
 
-[Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything)
+* [[2023]A Comprehensive Survey on Segment Anything Model for Vision and Beyond (arXiv)](https://github.com/liliu-avril/Awesome-Segment-Anything)
+* [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything): summarize the research progress of Segment Anything in various fields, including papers and projects, etc.
 
 ### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2)
 
