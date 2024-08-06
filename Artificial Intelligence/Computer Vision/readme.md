@@ -274,6 +274,7 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 
 * [[2023]A Comprehensive Survey on Segment Anything Model for Vision and Beyond (arXiv)](https://github.com/liliu-avril/Awesome-Segment-Anything)
 * [Awesome Segment Anything](https://github.com/Hedlen/awesome-segment-anything): summarize the research progress of Segment Anything in various fields, including papers and projects, etc.
+* [SAM Blog KR](https://thecho7.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Segment-Anything-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8)
 
 ### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2)
 
@@ -451,3 +452,4 @@ IoU measures the overlap between 2 boundaries.
 - YOLOv8 GitHub, https://github.com/ultralytics/ultralytics, 2024-08-04-Sun.
 - YOLOv8 Docs, https://docs.ultralytics.com/, 2024-08-04-Sun.
 - SAM2 GitHub, https://github.com/facebookresearch/segment-anything-2, 2024-08-05-Mon.
+- SAM Blog KR, https://thecho7.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Segment-Anything-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8, 2024-08-06-Tue.
