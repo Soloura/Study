@@ -294,7 +294,7 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
     * (B/C) semi-automatic: specific object group
     * (C/C) fully automatic: regular grid - points everything
 
-### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2) | [HuggingFace](https://huggingface.co/papers/2408.00714)
+### [Segment Anything Model 2](https://ai.meta.com/sam2/) | [GitHub](https://github.com/facebookresearch/segment-anything-2) | [HuggingFace](https://huggingface.co/papers/2408.00714) | [arXiv](https://arxiv.org/pdf/2408.00714)
 
 Segment Anything Model 2 (SAM 2) is a foundation model towards solving promptable visual segmentation in images and videos. Extended SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video processing. A model-in-the-loop data engine, which improves model and data via user interaction, to collect SA-V dataset, the largest video segmentation dataset to date. SAM 2 trained on data provides strong performance across a wide range of tasks and visual domains.
 
@@ -472,3 +472,4 @@ IoU measures the overlap between 2 boundaries.
 - SAM2 GitHub, https://github.com/facebookresearch/segment-anything-2, 2024-08-05-Mon.
 - SAM Blog KR, https://thecho7.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Segment-Anything-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8, 2024-08-06-Tue.
 - YOLOv6 GitHub, https://github.com/meituan/YOLOv6, 2024-08-10-Sat.
+- SAM2 arXiv, https://arxiv.org/pdf/2408.00714, 2024-08-11-Sun.
