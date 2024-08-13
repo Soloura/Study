@@ -298,8 +298,7 @@ SAM is a promptable segmentation system with zero-shot generalization to unfamil
 
 Segment Anything Model 2 (SAM 2) is a foundation model towards solving promptable visual segmentation in images and videos. Extended SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video processing. A model-in-the-loop data engine, which improves model and data via user interaction, to collect SA-V dataset, the largest video segmentation dataset to date. SAM 2 trained on data provides strong performance across a wide range of tasks and visual domains.
 
-
-* Promptable Visual Segmentation (PVS) task, spatio-temporal mask (masklet)
+* Promptable Visual Segmentation (PVS) task, spatio-temporal mask (masklet), memory that stores information about the object and previous interactions, memory attention module module to attend to the previous memories of the target object
 
 ----------
 
