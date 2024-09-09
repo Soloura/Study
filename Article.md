@@ -296,3 +296,4 @@
 - [올림픽 축구서 '드론 스캔들' 발생...출전 금지 징계](https://www.aitimes.com/news/articleView.html?idxno=161931), 2024-07-25-Thu.
 - [보잉 우주선, 기체 결함에 나홀로 귀환... 우주인 구출은 스페이스X가 맡는다](https://n.news.naver.com/article/023/0003857330), 2024-09-07-Sat.
 - ["아들, 25학번 만들어줄게"… 자녀 위해 수능 본다는 학부모들, 왜?](https://www.chosun.com/national/national_general/2024/09/07/VHIPNWUXYJC63HNUY3DYO25CBY/), 2024-09-07-Sat.
+- ["알트먼과 허사비스, 빅테크에 영혼을 판 천재들"](https://www.aitimes.com/news/articleView.html?idxno=163225), 2024-09-09-Mon.
