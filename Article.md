@@ -149,6 +149,7 @@
 - [구글, '초인공지능' 구분 기준 공개..."챗GPT는 레벨 1"](https://www.aitimes.com/news/articleView.html?idxno=155350), 2023-11-22-Wed.
 - [Air Force One The President’s office in the sky](https://www.whitehouse.gov/about-the-white-house/the-grounds/air-force-one/), 2023-12-22-Fri.
 - [Marine One](https://www.georgewbushlibrary.gov/bush-family/presidential-places/marine-one), 2023-12-22-Fri.
+- [Desperate Koreans bidding for 'lotto' apartments to move up property ladder](https://www.koreatimes.co.kr/www/biz/2024/06/602_310702.html), 2024-09-18-Wed.
 
 ### Korean
 
