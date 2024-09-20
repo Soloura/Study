@@ -45,7 +45,7 @@ LightGBM은 XGBoost와 비슷한 Gradient Boosting Decision Tree (GBDT) 알고�
 * 학습 속도가 매우 빠름
 * Leaf-wise 트리 성장으로 정확도를 높임
 
-### CatBoost | [NIPS 2017](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/http://learningsys.org/nips17/assets/papers/paper_11.pdf)
+### CatBoost | [NIPS 2017](http://learningsys.org/nips17/assets/papers/paper_11.pdf)
 
 범주형 데이터 처리를 매주 효과적으로 하는 부스팅 알고리즘이다. 기존의 부스팅 알고리즘들이 범주형 데이터를 처리할 때 발생하는 편향 문제를 해결하기 위해 설계되었다. Target encoding을 자동으로 처리하고, Ordered boosting을 도입해 데이터 누수를 방지한다. 이를 통해 범주형 피처가 많은 데이터에서도 매우 우수한 성능을 발휘한다.
 
@@ -53,7 +53,7 @@ LightGBM은 XGBoost와 비슷한 Gradient Boosting Decision Tree (GBDT) 알고�
 * 데이터 누수를 방지하는 독자적인 boosting 방식
 * 기본 설정으로도 좋은 성능을 낼 수 있음
 
-### TabNet | [arXiv 2020](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/1908.07442)
+### TabNet | [arXiv 2020](https://arxiv.org/pdf/1908.07442)
 
 TabNet은 tabular 데이터를 처리하는 딥러닝 모델로, tabular 데이터의 특성을 반영한 sparse attention 메커니즘을 사용한다. 이 모델은 입력 피처 중 일부만 선택해 사용하는 피처 선택 (feature selection) 기능을 통해, 학습 효율성을 높이고 모델의 해석 가능성을 제공한다. TabNet은 전통적인 머신러닝 기법들, 특히 부스팅 기법과 비교했을 때도 경쟁력있는 성능을 보이며, 피처 중요도를 직접 확인할 수 있어 해석 가능성이 높다.
 
@@ -61,7 +61,7 @@ TabNet은 tabular 데이터를 처리하는 딥러닝 모델로, tabular 데이�
 * 학습 가능한 피처 중요도 제공
 * tabular 데이터에서 경쟁력 있는 성능
 
-### FT-Transformer | [arXiv 2023](chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://arxiv.org/pdf/2106.11959)
+### FT-Transformer | [arXiv 2023](https://arxiv.org/pdf/2106.11959)
 
 FT-Transformer는 Transformer 모델을 tabular 데이터에 적용한 방법론이다. 전통적인 트리 기반 모델과 딥러닝 모델의 차이를 좁히기 위해, 이 모델은 self-attention 메커니즘을 사용하여 피처 간의 복잡한 관계를 모델링한다. 이 방법은 tabular 데이터에서 딥러닝의 활용 가능성을 넓히고, 기존의 트리 기반 모델과 딥러닝 모델 간의 성능 격차를 줄이는 중요한 연구이다.
 
