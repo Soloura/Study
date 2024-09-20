@@ -25,4 +25,22 @@
 
 ### Self-Supervised Learning and Representation Learning
 
-* VIME (Variational Information Maximization Embedding): 데이터의 비지도 학습을 통해 학습 
+* VIME (Variational Information Maximization Embedding): 데이터의 비지도 학습을 통해 학습을 통해 학습 성능을 높임
+
+##
+
+### XGBoost
+
+XBoost는 Gradient Boosting Decision Tree (GBDT)의 확장으로, 대규모 데이터에 적합하게 설계된 확장 가능하고 효율적인 트리 기반 부스팅 기법이다. XGBoost을 통해 과적합을 방지하고, histogram-based learning, out-of-core computing 등 여러 최적화 기능을 지원하여 매우 큰 데이터셋에서도 빠르고 효과적으로 학습할 수 있다.
+
+* 병렬 처리가 가능해 속도가 빠르며, 메모리 사용도 최적화됨
+* 정규화를 통해 과적합 방지
+* 다양한 파라미터 튜닝으로 유연성이 높음
+
+### LightGBM
+
+LightGBM은 XGBoost와 비슷한 Gradient Boosting Decision Tree (GBDT) 알고리즘이지만, 대용량 데이터에 더 적합하도록 설계되었다. 특히 Leaf-wise 성장 방식을 사용하여 학습 속도를 개선하고, Gradient-based One-Side Sampling (GOSS) 및 Exclusive Feature Bundling (EFB) 기술로 성능을 크게 향상시킨다. LightGBM은 특히 피처의 수가 많거나 대용량 데이터셋에서 뛰어한 성능을 발휘한다.
+
+* 대규모 데이터에 적합 (효율적인 메모리 사용)
+* 학습 속도가 매우 빠름
+* Leaf-wise 트리 성장으로 정확도를 높임
