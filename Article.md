@@ -135,6 +135,7 @@
 - [[7월3주] 오픈AI가 'GPT-4o 미니'를 출시한 이유는..."애플 시리에도 탑재"](https://www.aitimes.com/news/articleView.html?idxno=161747), 2024-07-22-Mon.
 - [[7월22일] 파리 올림픽서 AI는 '재미'와 '안전' 모두 잡아야](https://www.aitimes.com/news/articleView.html?idxno=161809), 2024-07-23-Tue.
 - ['그록-2' 이미지 생성 논란 확산...머스크 "재미있는 일"](https://www.aitimes.com/news/articleView.html?idxno=162559), 2024-08-17-Sat.
+- [MS "보안 강화한 '리콜', 세계 최고 해커도 못 뚫을 것"](https://www.aitimes.com/news/articleView.html?idxno=163788), 2024-09-28-Sat.
 
 ## Articles unrelated to AI
 
