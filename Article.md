@@ -307,3 +307,4 @@
 - [35% 임금인상 합의한 보잉, 비주력·저실적 사업부 매각 추진](https://m.g-enews.com/article/Global-Biz/2024/10/2024102109251149129a1f309431_1), 2024-10-21-Mon.
 - [값도 싼데 공짜숙박까지…외국항공 이용객, 국내항공 앞질렀다](https://www.joongang.co.kr/article/25251876), 2024-10-21-Mon.
 - [롤스로이스·GE·보잉·에어버스 구조조정 몸살…난기류 탄 하늘길](https://www.kbiznews.co.kr/news/articleView.html?idxno=67733), 2024-10-21-Mon.
+- [20년 반도체맨이 말하는 삼성전자 위기론[딥다이브]](https://www.donga.com/news/Economy/article/all/20241018/130244183/1), 2024-10-21-Mon.
