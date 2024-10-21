@@ -303,3 +303,5 @@
 - ["아들, 25학번 만들어줄게"… 자녀 위해 수능 본다는 학부모들, 왜?](https://www.chosun.com/national/national_general/2024/09/07/VHIPNWUXYJC63HNUY3DYO25CBY/), 2024-09-07-Sat.
 - ["알트먼과 허사비스, 빅테크에 영혼을 판 천재들"](https://www.aitimes.com/news/articleView.html?idxno=163225), 2024-09-09-Mon.
 - [제미나이가 개발자에 인기없는 이유..."챗GPT보다 사용하기 어려워”](https://www.aitimes.com/news/articleView.html?idxno=163438), 2024-09-17-Tue.
+- [무엇이 보잉의 날개를 꺾었나[글로벌리포트]](https://www.fnnews.com/news/202410201920058045), 2024-10-21-Mon.
+- [35% 임금인상 합의한 보잉, 비주력·저실적 사업부 매각 추진](https://m.g-enews.com/article/Global-Biz/2024/10/2024102109251149129a1f309431_1), 2024-10-21-Mon.
