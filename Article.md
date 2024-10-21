@@ -305,3 +305,4 @@
 - [제미나이가 개발자에 인기없는 이유..."챗GPT보다 사용하기 어려워”](https://www.aitimes.com/news/articleView.html?idxno=163438), 2024-09-17-Tue.
 - [무엇이 보잉의 날개를 꺾었나[글로벌리포트]](https://www.fnnews.com/news/202410201920058045), 2024-10-21-Mon.
 - [35% 임금인상 합의한 보잉, 비주력·저실적 사업부 매각 추진](https://m.g-enews.com/article/Global-Biz/2024/10/2024102109251149129a1f309431_1), 2024-10-21-Mon.
+- [값도 싼데 공짜숙박까지…외국항공 이용객, 국내항공 앞질렀다](https://www.joongang.co.kr/article/25251876), 2024-10-21-Mon.
