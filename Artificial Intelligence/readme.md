@@ -220,3 +220,13 @@ The word prediction can be misleading. In some cases, it really does mean that y
 - SVM Blog KR, https://m.blog.naver.com/laonple/220845107089, 2023-11-06-Mon.
 - Prediction, https://www.datarobot.com/wiki/prediction/, 2024-02-01-Thu.
 - KAN: Kolmogorov-Arnold Networks, https://arxiv.org/html/2404.19756v1, 2024-06-01-Sat.
+- AI and AI Agent Blog KR, https://yunwoong.tistory.com/363, 2024-11-01-Fri.
+- RAG Blog KR, https://yunwoong.tistory.com/338, 2024-11-01-Fri.
+- GPT2 Blog KR, https://yunwoong.tistory.com/329, 2024-11-01-Fri.
+- Udio Blog KR, https://yunwoong.tistory.com/327, 2024-11-01-Fri.
+- Llama 3 Blog KR, https://yunwoong.tistory.com/326, 2024-11-01-Fri.
+- AI Companies Blog KR, https://yunwoong.tistory.com/324, 2024-11-01-Fri.
+- Grok 1.5 Blog KR, https://yunwoong.tistory.com/322, 2024-11-01-Fri.
+- Cloude 3 Blog KR, https://yunwoong.tistory.com/311, 2024-11-01-Fri.
+- Sora Blog KR, https://yunwoong.tistory.com/307, 2024-11-01-Fri.
+- JetBrains AI Blog KR, https://yunwoong.tistory.com/299, 2024-11-01-Fri.
