@@ -154,6 +154,8 @@
 - [Air Force One The President’s office in the sky](https://www.whitehouse.gov/about-the-white-house/the-grounds/air-force-one/), 2023-12-22-Fri.
 - [Marine One](https://www.georgewbushlibrary.gov/bush-family/presidential-places/marine-one), 2023-12-22-Fri.
 - [Desperate Koreans bidding for 'lotto' apartments to move up property ladder](https://www.koreatimes.co.kr/www/biz/2024/06/602_310702.html), 2024-09-18-Wed.
+- [Avia Solutions Group Orders up to 80 Boeing 737 MAX Jets to Gear Up Expansion](https://boeing.mediaroom.com/2024-11-12-Avia-Solutions-Group-Orders-up-to-80-Boeing-737-MAX-Jets-to-Gear-Up-Expansion), 2024-11-13-Wed.
+- [The colourful way South Korean workers cope with long hours](https://www.bbc.com/worklife/article/20190809-deskterior-the-ornately-decorated-desks-of-south-korea), 2024-11-15-Fri.
 
 ### Korean
 
@@ -310,4 +312,3 @@
 - [20년 반도체맨이 말하는 삼성전자 위기론[딥다이브]](https://www.donga.com/news/Economy/article/all/20241018/130244183/1), 2024-10-21-Mon.
 - [보잉 파업이 공급업체에 미치는 영향에 대해 주지사들이 해결 촉구](https://kr.investing.com/news/stock-market-news/article-93CH-1248807), 2024-11-10-Sun.
 - ["이미 게임 끝" KT 김영섭의 빠른 인정, 경쟁 대신 한국형 AI에 올인](https://m.news.nate.com/view/20241011n30304), 2024-11-10-Sun.
-- [Avia Solutions Group Orders up to 80 Boeing 737 MAX Jets to Gear Up Expansion](https://boeing.mediaroom.com/2024-11-12-Avia-Solutions-Group-Orders-up-to-80-Boeing-737-MAX-Jets-to-Gear-Up-Expansion), 2024-11-13-Wed.
