@@ -312,3 +312,4 @@
 - [20년 반도체맨이 말하는 삼성전자 위기론[딥다이브]](https://www.donga.com/news/Economy/article/all/20241018/130244183/1), 2024-10-21-Mon.
 - [보잉 파업이 공급업체에 미치는 영향에 대해 주지사들이 해결 촉구](https://kr.investing.com/news/stock-market-news/article-93CH-1248807), 2024-11-10-Sun.
 - ["이미 게임 끝" KT 김영섭의 빠른 인정, 경쟁 대신 한국형 AI에 올인](https://m.news.nate.com/view/20241011n30304), 2024-11-10-Sun.
+- ["삼성, 내년 3분기에 XR 안경 50만대 출시...메타 스마트 안경과 흡사"](https://www.aitimes.com/news/articleView.html?idxno=165393), 2024-11-14-Sat.
