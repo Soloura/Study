@@ -315,3 +315,4 @@
 - ["삼성, 내년 3분기에 XR 안경 50만대 출시...메타 스마트 안경과 흡사"](https://www.aitimes.com/news/articleView.html?idxno=165393), 2024-11-14-Sat.
 - ['강남키즈' 맛집 폐업 소식에 100명 줄섰다…'떡볶이 3대장' 어디? [여기있슈]](https://www.hankyung.com/article/2024010423147), 2024-11-17-Sun.
 - [코인 하나가 코스닥시장 거래대금을 이겼다... 머스크가 미는 도지코인, 9조 거래돼](https://biz.chosun.com/stock/stock_general/2024/11/12/W3BLK3RVJNBBDCAQYZA5UUEQ7I/), 2024-11-18-Mon.
+- ["AI 예수님 등장"…스위스 고해소서 디지털 신앙 실험 개시](https://zdnet.co.kr/view/?no=20241123111943), 2024-11-24-Sun.
