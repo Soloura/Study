@@ -316,3 +316,5 @@
 - ['강남키즈' 맛집 폐업 소식에 100명 줄섰다…'떡볶이 3대장' 어디? [여기있슈]](https://www.hankyung.com/article/2024010423147), 2024-11-17-Sun.
 - [코인 하나가 코스닥시장 거래대금을 이겼다... 머스크가 미는 도지코인, 9조 거래돼](https://biz.chosun.com/stock/stock_general/2024/11/12/W3BLK3RVJNBBDCAQYZA5UUEQ7I/), 2024-11-18-Mon.
 - ["AI 예수님 등장"…스위스 고해소서 디지털 신앙 실험 개시](https://zdnet.co.kr/view/?no=20241123111943), 2024-11-24-Sun.
+- [게임광 머스크 "xAI서 AI 기반 게임 스튜디오 만들 것"](https://www.aitimes.com/news/articleView.html?idxno=165798), 2024-11-29-Fri.
+- [희귀병 앓는 딸 약값 46억... 24일간 국토대장정 나선 위대한 아빠](https://n.news.naver.com/article/023/0003873407), 2024-11-29-Fri.
