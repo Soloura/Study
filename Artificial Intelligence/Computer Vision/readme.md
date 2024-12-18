@@ -423,6 +423,8 @@ Contributions:
 2. Cornea pose refinement and analysis.
 3. Radial prior for irises.
 
+### Camouflaged Object Detection | [CVPR 2020](https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html)
+
 ---
 
 ### Reference
@@ -484,3 +486,4 @@ Contributions:
 - YOLOv6 GitHub, https://github.com/meituan/YOLOv6, 2024-08-10-Sat.
 - SAM2 arXiv, https://arxiv.org/pdf/2408.00714, 2024-08-11-Sun.
 - Seeing the World through Your Eyes, https://openaccess.thecvf.com/content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html, 2024-12-18-Wed.
+- Camouflaged Object Detection, https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html, 2024-12-18-Wed.
