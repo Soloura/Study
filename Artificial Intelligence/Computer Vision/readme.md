@@ -416,6 +416,13 @@ IoU measures the overlap between 2 boundaries.
 
 `This content has moved to the 'AutoML' page.`
 
+### Seeing the World through Your Eyes | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html)
+
+Contributions:
+1. Radiance field recovery from eyes.
+2. Cornea pose refinement and analysis.
+3. Radial prior for irises.
+
 ---
 
 ### Reference
@@ -476,3 +483,4 @@ IoU measures the overlap between 2 boundaries.
 - SAM Blog KR, https://thecho7.tistory.com/entry/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Segment-Anything-%EC%84%A4%EB%AA%85-%EC%BD%94%EB%93%9C-%ED%8F%AC%ED%95%A8, 2024-08-06-Tue.
 - YOLOv6 GitHub, https://github.com/meituan/YOLOv6, 2024-08-10-Sat.
 - SAM2 arXiv, https://arxiv.org/pdf/2408.00714, 2024-08-11-Sun.
+- Seeing the World through Your Eyes, https://openaccess.thecvf.com/content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html, 2024-12-18-Wed.
