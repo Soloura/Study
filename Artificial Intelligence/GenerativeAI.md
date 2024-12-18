@@ -6,9 +6,17 @@ Improvements in transformer-based deep neural networks enabled an AI boom of gen
 
 Generative AI has uses across a wide range of industries, including software development, healthcare, finance, entertainment, customer service, sales and marketing, art, writing, fashion, and product design. However, concerns have been raised about the potential misuse of generative AI such as cybercrime, the user of fake news or deepfakes to deceive or manipulate people, and the mass replacement of human jobs.
 
+### CityDreamer: Compositional Generative Model of Unbounded 3D Cities | [CVPR 2024](https://openaccess.thecvf.com/content/CVPR2024/html/Xie_CityDreamer_Compositional_Generative_Model_of_Unbounded_3D_Cities_CVPR_2024_paper.html)
+
+Contribution:
+1. CityDreamer, a compositional generative model designed specifically for unbounded 3D cities, which distentagles instance-oriented and stuff-oriented neural fields for buildings and backgrounds.
+2. CityGen Datasets, including OSM and GoogleEarth, with realistic city layouts and appearances, respectively. GoogleEarth includes images with multi-view consistency and building instance segmentation.
+3. CityDreamer showcases its superior capability in generating large-scale and diverse 3D cities. Additionally, it enables localized editing within the generated cities.
+
 ---
 
 ### Reference
 - Generative Artificial Intelligence Wiki, https://en.wikipedia.org/wiki/Generative_artificial_intelligence, 2024-02-26-Mon.
 - Generative AI Google, https://ai.google/discover/generativeai/, 2024-02-26-Mon.
 - Generative Models OpenAI, https://openai.com/research/generative-models, 2024-02-26-Mon.
+- CityDreamer Compositional Generative Model of Unbounded 3D Cities, https://openaccess.thecvf.com/content/CVPR2024/html/Xie_CityDreamer_Compositional_Generative_Model_of_Unbounded_3D_Cities_CVPR_2024_paper.html, 2024-12-18-Wed.
