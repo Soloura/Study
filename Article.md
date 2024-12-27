@@ -139,6 +139,7 @@
 - ['그록-2' 이미지 생성 논란 확산...머스크 "재미있는 일"](https://www.aitimes.com/news/articleView.html?idxno=162559), 2024-08-17-Sat.
 - [MS "보안 강화한 '리콜', 세계 최고 해커도 못 뚫을 것"](https://www.aitimes.com/news/articleView.html?idxno=163788), 2024-09-28-Sat.
 - [[10월3주] AGI의 핵심으로 떠오른 '월드 모델'이란](https://www.aitimes.com/news/articleView.html?idxno=164362), 2024-10-19-Sat.
+- [[2024결산] (2) "파운데이션 모델 0"...네이버와 카카오, 뒤늦은 AI 추격 선언](https://www.aitimes.com/news/articleView.html?idxno=166570), 2024-12-27-Fri.
 
 ## Articles unrelated to AI
 
