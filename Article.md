@@ -320,3 +320,4 @@
 - [게임광 머스크 "xAI서 AI 기반 게임 스튜디오 만들 것"](https://www.aitimes.com/news/articleView.html?idxno=165798), 2024-11-29-Fri.
 - [희귀병 앓는 딸 약값 46억... 24일간 국토대장정 나선 위대한 아빠](https://n.news.naver.com/article/023/0003873407), 2024-11-29-Fri.
 - [송도서 배달로봇-차량 첫 접촉사고…누구 책임?](https://zdnet.co.kr/view/?no=20241218170652), 2024-12-18-Wed.
+- [[단독]유튜브 가족요금제 '난항'…韓저작권료에 정부도 고심](https://news.mt.co.kr/mtview.php?no=2024022218521028955), 2024-12-28-Sat.
