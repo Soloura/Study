@@ -161,6 +161,10 @@ Generating text is the task of producing new text. These models can, for example
 
 ---
 
+[Generative AI in Search: Let Google do the searching for you](https://blog.google/products/search/generative-ai-google-search-may-2024/)
+
+---
+
 ## Lecture
 
 - [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
@@ -212,3 +216,5 @@ Generating text is the task of producing new text. These models can, for example
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
 - Transformer Nvidia KR, https://blogs.nvidia.co.kr/2022/04/01/what-is-a-transformer-model/, 2023-10-26-Thu.
 - Attention KR, https://wikidocs.net/22893, 2023-11-06-Mon.
+- Generative AI Google Search, https://blog.google/products/search/generative-ai-google-search-may-2024/, 2025-01-08-Wed.
+
