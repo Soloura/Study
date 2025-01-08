@@ -31,6 +31,7 @@
 - [Hands-on with Gemini: Interacting with multimodal AI](https://youtu.be/UIZAiXYceBI?si=V5oKWNkBdv_aocgi), 2023-12-11-Mon.
 - [구글, 코렙(Colab)에서 딥페이크 생성 AI 금지](https://www.aitimes.com/news/articleView.html?idxno=144954), 2024-10-15-Tue.
 - ["AI로 2843곳에 취업 지원"...미국서 AI 자동 구직 프로그램 인기](https://www.aitimes.com/news/articleView.html?idxno=164155), 2024-10-15-Tue.
+- [2024 ai timeline](https://huggingface.co/spaces/reach-vb/2024-ai-timeline), 2025-01-08-Wed.
 
 ### Korean
 
