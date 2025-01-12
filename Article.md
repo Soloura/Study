@@ -323,3 +323,4 @@
 - [송도서 배달로봇-차량 첫 접촉사고…누구 책임?](https://zdnet.co.kr/view/?no=20241218170652), 2024-12-18-Wed.
 - [[단독]유튜브 가족요금제 '난항'…韓저작권료에 정부도 고심](https://news.mt.co.kr/mtview.php?no=2024022218521028955), 2024-12-28-Sat.
 - [활주로 절반 넘겨 착륙했는데… 美부통령 펜스 목숨 구한 이 기술](https://n.news.naver.com/article/023/0003879545?cds=news_media_pc), 2024-12-31-Tue.
+- [HDD 가격 폭등, AI 훈련 데이터 급증으로 인해 지속 예상](https://www.g-enews.com/article/Global-Biz/2024/04/202404290810568943fbbec65dfb_1), 2025-01-12-Sun.
