@@ -147,14 +147,6 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 
 ---
 
-## :microphone: Speech Recognition
-
-### Whisper - A model that can convert audio into text | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](https://cdn.openai.com/papers/whisper.pdf)
-
-Whisper is a general-purpose speech recognition model. It is trained on a large dataset of diverse audio and is also a multi-task model that can perform multilingual speech recognition as well as speech translation and language indentification.
-
----
-
 ## :pencil2: [Text Generation](https://huggingface.co/tasks/text-generation)
 
 Generating text is the task of producing new text. These models can, for example, fill in incomplete text of paraphrase.
@@ -197,9 +189,6 @@ Generating text is the task of producing new text. These models can, for example
 - OpenAI ChatGPT Try, https://chat.openai.com/auth/login, 2022-12-09-Fri.
 - OpenAI InstructGPT, https://openai.com/blog/instruction-following/, 2022-12-09-Fri.
 - OpenAI InstructGPT arXiv, https://arxiv.org/abs/2203.02155, 2022-12-09-Fri.
-- Whisper, https://openai.com/blog/whisper/, 2022-12-10-Sat.
-- Whisper GitHub, https://github.com/openai/whisper, 2022-12-10-Sat.
-- Whisper Paper, chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://cdn.openai.com/papers/whisper.pdf, 2022-12-10-Sat.
 - Recurrent Nerual Network CS230, https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks, 2023-03-01-Wed.
 - GPT-4 OpenAI, https://openai.com/product/gpt-4, 2023-03-16-Thu.
 - Attention Wiki, https://en.wikipedia.org/wiki/Attention_(machine_learning), 2023-03-21-Tue.
