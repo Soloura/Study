@@ -329,3 +329,5 @@
 - [델, XPS 안녕.. 델·프로·맥스 3종으로 브랜드 통합 [CES 2025]](https://www.msn.com/ko-kr/news/other/%EB%8D%B8-xps-%EC%95%88%EB%85%95-%EB%8D%B8-%ED%94%84%EB%A1%9C-%EB%A7%A5%EC%8A%A4-3%EC%A2%85%EC%9C%BC%EB%A1%9C-%EB%B8%8C%EB%9E%9C%EB%93%9C-%ED%86%B5%ED%95%A9-ces-2025/ar-AA1x4F1d?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1), 2025-01-12-Sun.
 - [[티맥스A&C 사태] "사회도, 정부도 외면"…피눈물 흘리는 직원들, 해고돼도 '방치'](https://zdnet.co.kr/view/?no=20250113165033), 2025-01-13-Mon.
 - [아이들 카시트 너무 일찍 졸업하면 위험](https://www.seoul.co.kr/news/economy/car/2017/09/20/20170920022005), 2025-01-14-Tue.
+- [
+음악하는 공돌이, AI를 만나다... 수퍼톤 최희두·허훈 이사 인터뷰](https://www.aitimes.com/news/articleView.html?idxno=137417), 2025-01-30-Mon.
