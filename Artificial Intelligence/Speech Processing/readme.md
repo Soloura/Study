@@ -1,6 +1,18 @@
-# Speech Processing
+# Speech Processing :microphone: 
 
-## :microphone: Speech Recognition
+## Speech Recognition
+
+## Speech Synthesis | Voice Cloning | Speaker Adaptation | Speaker Encoding
+
+## Speech Emotion Recognition
+
+## Speaker Recognition
+
+## Speech Segmentation
+
+## Speech Enhancement
+
+## Speech Translation
 
 ### Whisper - A model that can convert audio into text | [OpenAI](https://openai.com/blog/whisper/) | [GitHub](https://github.com/openai/whisper) | [Paper](https://cdn.openai.com/papers/whisper.pdf)
 
