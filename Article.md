@@ -143,6 +143,7 @@
 - [[10월3주] AGI의 핵심으로 떠오른 '월드 모델'이란](https://www.aitimes.com/news/articleView.html?idxno=164362), 2024-10-19-Sat.
 - [[2024결산] (2) "파운데이션 모델 0"...네이버와 카카오, 뒤늦은 AI 추격 선언](https://www.aitimes.com/news/articleView.html?idxno=166570), 2024-12-27-Fri.
 - [오픈AI, '챗GPT'로 자동 소총 만들던 개발자 차단](https://www.aitimes.com/news/articleView.html?idxno=167097), 2025-01-16-Thu.
+- ["딥러닝 한계 넘어서는 AGI 개발 착수...열쇠는 프로그램 합성"](https://www.aitimes.com/news/articleView.html?idxno=167215), 2025-01-20-Mon.
 
 ## Articles unrelated to AI
 
