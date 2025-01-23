@@ -59,7 +59,7 @@ Q(s, a)* = r + gamma * (max(Q(s', a')) ... [Eq. 1]
 
 Loss = sum(Q_target - Q_current)^2 ... [Eq. 2]
 
-## :robot: Deep Q Network (DQN) | *Human-level control through deep reinforcement learning* | [Nature](https://www.nature.com/articles/nature14236)
+### Deep Q Network (DQN) | *Human-level control through deep reinforcement learning* | [Nature](https://www.nature.com/articles/nature14236)
 
 Q 네트워크를 DQN으로 만들기 위해서는 다음과 같은 개선이 필요하다.
 
