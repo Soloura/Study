@@ -33,6 +33,7 @@
 - ["AI로 2843곳에 취업 지원"...미국서 AI 자동 구직 프로그램 인기](https://www.aitimes.com/news/articleView.html?idxno=164155), 2024-10-15-Tue.
 - [2024 ai timeline](https://huggingface.co/spaces/reach-vb/2024-ai-timeline), 2025-01-08-Wed.
 - [AI Will Be As Good As A Mid-Level Engineer In 2025: Mark Zuckerberg](https://officechai.com/stories/ai-will-be-as-good-as-a-mid-level-engineer-in-2025-mark-zuckerberg/), 2025-01-12-Sun.
+- [3 startups using AI to help learners and educators](https://blog.google/outreach-initiatives/entrepreneurs/startups-using-ai-to-help-learners-and-educators/), 2025-01-24-Fri.
 
 ### Korean
 
