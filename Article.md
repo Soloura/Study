@@ -146,6 +146,8 @@
 - [오픈AI, '챗GPT'로 자동 소총 만들던 개발자 차단](https://www.aitimes.com/news/articleView.html?idxno=167097), 2025-01-16-Thu.
 - ["딥러닝 한계 넘어서는 AGI 개발 착수...열쇠는 프로그램 합성"](https://www.aitimes.com/news/articleView.html?idxno=167215), 2025-01-20-Mon.
 - ["국내 AI 산업, 정부는 헛발질·기업은 연구개발 소홀해"](https://www.aitimes.com/news/articleView.html?idxno=167339), 2025-01-22-Wed.
+- [미국에 '딥시크 경계령' 발효..."중국이 AI에서 따라잡아"](https://www.aitimes.com/news/articleView.html?idxno=167505), 2025-01-26-Sun.
+- [메타, '스타게이트' 맞서 올해 데이터센터에 93조 투자...GPU 130만개 추가](https://www.aitimes.com/news/articleView.html?idxno=167506), 2025-01-26-Sun.
 
 ## Articles unrelated to AI
 
@@ -334,3 +336,5 @@
 - [아이들 카시트 너무 일찍 졸업하면 위험](https://www.seoul.co.kr/news/economy/car/2017/09/20/20170920022005), 2025-01-14-Tue.
 - [
 음악하는 공돌이, AI를 만나다... 수퍼톤 최희두·허훈 이사 인터뷰](https://www.aitimes.com/news/articleView.html?idxno=137417), 2025-01-30-Mon.
+- [오픈AI, 다음 달 국내서 비공개 개발자 행사 개최...AI 스타트업 와들도 참석](https://www.aitimes.com/news/articleView.html?idxno=167500), 2025-01-26-Sun.
+- [오스카상 후보 '브루탈리스트’, AI 사용으로 논란](https://www.aitimes.com/news/articleView.html?idxno=167392), 2025-01-26-Sun.
