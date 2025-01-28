@@ -35,6 +35,7 @@
 - [AI Will Be As Good As A Mid-Level Engineer In 2025: Mark Zuckerberg](https://officechai.com/stories/ai-will-be-as-good-as-a-mid-level-engineer-in-2025-mark-zuckerberg/), 2025-01-12-Sun.
 - [3 startups using AI to help learners and educators](https://blog.google/outreach-initiatives/entrepreneurs/startups-using-ai-to-help-learners-and-educators/), 2025-01-24-Fri.
 - [Open-source DeepSeek-R1 uses pure reinforcement learning to match OpenAI o1 — at 95% less cost](https://venturebeat.com/ai/open-source-deepseek-r1-uses-pure-reinforcement-learning-to-match-openai-o1-at-95-less-cost/), 2025-01-26-Sun.
+- [Announcing The Stargate Project](https://openai.com/index/announcing-the-stargate-project/), 2025-01-28-Tue.
 
 ### Korean
 
