@@ -339,3 +339,7 @@
 음악하는 공돌이, AI를 만나다... 수퍼톤 최희두·허훈 이사 인터뷰](https://www.aitimes.com/news/articleView.html?idxno=137417), 2025-01-30-Mon.
 - [오픈AI, 다음 달 국내서 비공개 개발자 행사 개최...AI 스타트업 와들도 참석](https://www.aitimes.com/news/articleView.html?idxno=167500), 2025-01-26-Sun.
 - [오스카상 후보 '브루탈리스트’, AI 사용으로 논란](https://www.aitimes.com/news/articleView.html?idxno=167392), 2025-01-26-Sun.
+- [유튜브 프리미엄 가족요금제의 한국 차별, 방통위가 나서야 한다](https://news.nate.com/view/20240130n25048), 2025-01-28-Tue.
+- [“널리 알려진 ‘CEO 성공 신화’, 태반은 엉터리”](https://news.samsung.com/kr/%eb%84%90%eb%a6%ac-%ec%95%8c%eb%a0%a4%ec%a7%84-ceo-%ec%84%b1%ea%b3%b5-%ec%8b%a0%ed%99%94-%ed%83%9c%eb%b0%98%ec%9d%80-%ec%97%89%ed%84%b0%eb%a6%ac), 2025-01-28-Tue.
+- [직급파괴 이후의 직급체계 개편 성공하려면](https://www.hankyung.com/article/202308149032i), 2025-01-28-Tue.
+- [‘소통’ 위해 직급 줄이는 기업 확산…수평적 조직 문화 VS 승진 동기 부여 약화 및 연봉 인상↓꼼수](https://www.metroseoul.co.kr/article/20230313500523), 2025-01-28-Tue.
