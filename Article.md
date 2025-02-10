@@ -150,6 +150,7 @@
 - ["국내 AI 산업, 정부는 헛발질·기업은 연구개발 소홀해"](https://www.aitimes.com/news/articleView.html?idxno=167339), 2025-01-22-Wed.
 - [미국에 '딥시크 경계령' 발효..."중국이 AI에서 따라잡아"](https://www.aitimes.com/news/articleView.html?idxno=167505), 2025-01-26-Sun.
 - [메타, '스타게이트' 맞서 올해 데이터센터에 93조 투자...GPU 130만개 추가](https://www.aitimes.com/news/articleView.html?idxno=167506), 2025-01-26-Sun.
+- [허깅페이스, 로봇에 말로 지시하는 파운데이션 모델 최초로 오픈 소스 출시](https://www.aitimes.com/news/articleView.html?idxno=167808), 2025-02-10-Mon.
 
 ## Articles unrelated to AI
 
