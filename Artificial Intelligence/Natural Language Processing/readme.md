@@ -159,6 +159,15 @@ Generating text is the task of producing new text. These models can, for example
 
 ---
 
+## Application
+
+* Machine Translation
+* Question Answering, Information Retreival, and RAG
+* Chatbots & Dialogue Systems
+* Automatic Speech Recognition and Text-to-Speech
+
+---
+
 ## Lecture
 
 - [CS224N: Natural Language Processing with Deep Learning](https://web.stanford.edu/class/cs224n/)
