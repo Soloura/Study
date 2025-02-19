@@ -151,6 +151,9 @@
 - [미국에 '딥시크 경계령' 발효..."중국이 AI에서 따라잡아"](https://www.aitimes.com/news/articleView.html?idxno=167505), 2025-01-26-Sun.
 - [메타, '스타게이트' 맞서 올해 데이터센터에 93조 투자...GPU 130만개 추가](https://www.aitimes.com/news/articleView.html?idxno=167506), 2025-01-26-Sun.
 - [허깅페이스, 로봇에 말로 지시하는 파운데이션 모델 최초로 오픈 소스 출시](https://www.aitimes.com/news/articleView.html?idxno=167808), 2025-02-10-Mon.
+- [LG AI연구원, 데이터셋 저작권 문제 파악하는 에이전트 '넥서스' 출시](https://www.aitimes.com/news/articleView.html?idxno=168092), 2025-02-19-Wed.
+- [표정으로 개·고양이 고통 식별하는 AI 기술 상용화 접근](https://www.aitimes.com/news/articleView.html?idxno=168065), 2025-02-19-Wed.
+- [딥시크, LLM '추론 성능 향상법' 오픈 소스 공개..."코드 대신 자연어로 추론 훈련"](https://www.aitimes.com/news/articleView.html?idxno=168039), 2025-02-19-Wed.
 
 ## Articles unrelated to AI
 
@@ -347,3 +350,4 @@
 - [‘소통’ 위해 직급 줄이는 기업 확산…수평적 조직 문화 VS 승진 동기 부여 약화 및 연봉 인상↓꼼수](https://www.metroseoul.co.kr/article/20230313500523), 2025-01-28-Tue.
 - [갤럭시S25 울트라, 아이폰16 프로 맥스와 성능 비교했더니](https://zdnet.co.kr/view/?no=20250201073322), 2025-02-01-Sat.
 - [삼성전자, HBM 공급량 2배 확대...'AI 반도체'에 사활](https://zdnet.co.kr/view/?no=20250131133737), 2025-02-01-Sat.
+- [H100' GPU로 만든 가방 등장...가격은 9400만원](https://www.aitimes.com/news/articleView.html?idxno=168043), 2025-02-19-Wed.
