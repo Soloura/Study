@@ -155,6 +155,7 @@
 - [표정으로 개·고양이 고통 식별하는 AI 기술 상용화 접근](https://www.aitimes.com/news/articleView.html?idxno=168065), 2025-02-19-Wed.
 - [딥시크, LLM '추론 성능 향상법' 오픈 소스 공개..."코드 대신 자연어로 추론 훈련"](https://www.aitimes.com/news/articleView.html?idxno=168039), 2025-02-19-Wed.
 - [AI의 모든 것, 축제로 만나요! '서울 AI 페스타' 개최](https://mediahub.seoul.go.kr/archives/2013529), 2025-02-26-Wed.
+- [오픈AI, 가장 큰 AI 모델 'GPT-4.5' 공개...비추론 모델 한계 보여줘](https://www.aitimes.com/news/articleView.html?idxno=168378), 2025-03-01-Sat.
 
 ## Articles unrelated to AI
 
