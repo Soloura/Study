@@ -147,6 +147,16 @@ Linguistic models deal with statements as they are used to express meanings. Whi
 
 ---
 
+### [Large Concept Models: Language Modeling in a Sentence Representation Space](https://ai.meta.com/research/publications/large-concept-models-language-modeling-in-a-sentence-representation-space/) | [arXiv](https://arxiv.org/abs/2412.08821)
+
+This paper introduces a novel architectur called the Large Concept Model (LCM), which operates at a higher-level semantic representation, termed "concepts", rather than the traditional token-level processing used by LLMs. Concepts are language- and modality-agnostic and represent broader ideas or actions.
+
+As a proof of feasibility, the study assumes that concepts correspond to sentences and leverages the SONAR sentence embedding space, which supports 200 languages across text and speech. The LCM is trained for autoregressive sentence prediction in this embedding space using methods like MSE regression, diffusion-based generation, and quantized SONAR models.
+
+Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, and later scaled to 7B parameters with 7.7T tokens. The model was tested on summarization and summary expansion tasks, showing strong zero-shot generalization across multiple languages, outperforming existing LLMs of the same size. The training code is freely available.
+
+---
+
 ## :pencil2: [Text Generation](https://huggingface.co/tasks/text-generation)
 
 Generating text is the task of producing new text. These models can, for example, fill in incomplete text of paraphrase.
@@ -218,3 +228,6 @@ Generating text is the task of producing new text. These models can, for example
 - Attention KR, https://wikidocs.net/22893, 2023-11-06-Mon.
 - Generative AI Google Search, https://blog.google/products/search/generative-ai-google-search-may-2024/, 2025-01-08-Wed.
 - Introduction to Information Retrieval, https://nlp.stanford.edu/IR-book/information-retrieval-book.html, 2025-01-17-Fri.
+- LCM Blog KR, https://discuss.pytorch.kr/t/lcm-large-concept-models-meta-ai/5744, 2025-03-17-Mon.
+- Large Concept Models Meta, https://ai.meta.com/research/publications/large-concept-models-language-modeling-in-a-sentence-representation-space/, 2025-03-17-Mon.
+- Large Concept Models arXiv, https://arxiv.org/abs/2412.08821, 2025-03-17-Mon.
