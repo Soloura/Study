@@ -354,3 +354,4 @@
 - [갤럭시S25 울트라, 아이폰16 프로 맥스와 성능 비교했더니](https://zdnet.co.kr/view/?no=20250201073322), 2025-02-01-Sat.
 - [삼성전자, HBM 공급량 2배 확대...'AI 반도체'에 사활](https://zdnet.co.kr/view/?no=20250131133737), 2025-02-01-Sat.
 - [H100' GPU로 만든 가방 등장...가격은 9400만원](https://www.aitimes.com/news/articleView.html?idxno=168043), 2025-02-19-Wed.
+- [[단독] 샘 올트먼 오픈AI CEO가 이재용 회동서 찾은 허석, 삼성전자에 없었다](https://www.bloter.net/news/articleView.html?idxno=632072), 2025-03-25-Tue.
