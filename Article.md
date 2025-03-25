@@ -355,3 +355,7 @@
 - [삼성전자, HBM 공급량 2배 확대...'AI 반도체'에 사활](https://zdnet.co.kr/view/?no=20250131133737), 2025-02-01-Sat.
 - [H100' GPU로 만든 가방 등장...가격은 9400만원](https://www.aitimes.com/news/articleView.html?idxno=168043), 2025-02-19-Wed.
 - [[단독] 샘 올트먼 오픈AI CEO가 이재용 회동서 찾은 허석, 삼성전자에 없었다](https://www.bloter.net/news/articleView.html?idxno=632072), 2025-03-25-Tue.
+- [구글, 타사에 도움 되는 AI 논문 발표 금지](https://www.aitimes.com/news/articleView.html?idxno=150905), 2023-05-08-Mon.
+- ["AI 경쟁서 이기려면 회사 출근, 주 60시간 일해야"](https://www.chosun.com/economy/tech_it/2025/03/25/PPMNIOC5E5DMRHURUEX2NCZ4BY/), 2025-03-25-Tue.
+- [구글, 챗GPT 후 AI 논문 공개 제한](https://zdnet.co.kr/view/?no=20230505111302), 2023-05-05-Sat.
+- [‘Godfather of AI’ Geoffrey Hinton quits Google and warns over dangers of misinformation](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning), 2025-03-25-Tue.
