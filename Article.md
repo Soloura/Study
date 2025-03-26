@@ -343,8 +343,7 @@
 - [델, XPS 안녕.. 델·프로·맥스 3종으로 브랜드 통합 [CES 2025]](https://www.msn.com/ko-kr/news/other/%EB%8D%B8-xps-%EC%95%88%EB%85%95-%EB%8D%B8-%ED%94%84%EB%A1%9C-%EB%A7%A5%EC%8A%A4-3%EC%A2%85%EC%9C%BC%EB%A1%9C-%EB%B8%8C%EB%9E%9C%EB%93%9C-%ED%86%B5%ED%95%A9-ces-2025/ar-AA1x4F1d?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1), 2025-01-12-Sun.
 - [[티맥스A&C 사태] "사회도, 정부도 외면"…피눈물 흘리는 직원들, 해고돼도 '방치'](https://zdnet.co.kr/view/?no=20250113165033), 2025-01-13-Mon.
 - [아이들 카시트 너무 일찍 졸업하면 위험](https://www.seoul.co.kr/news/economy/car/2017/09/20/20170920022005), 2025-01-14-Tue.
-- [
-음악하는 공돌이, AI를 만나다... 수퍼톤 최희두·허훈 이사 인터뷰](https://www.aitimes.com/news/articleView.html?idxno=137417), 2025-01-30-Mon.
+- [음악하는 공돌이, AI를 만나다... 수퍼톤 최희두·허훈 이사 인터뷰](https://www.aitimes.com/news/articleView.html?idxno=137417), 2025-01-30-Mon.
 - [오픈AI, 다음 달 국내서 비공개 개발자 행사 개최...AI 스타트업 와들도 참석](https://www.aitimes.com/news/articleView.html?idxno=167500), 2025-01-26-Sun.
 - [오스카상 후보 '브루탈리스트’, AI 사용으로 논란](https://www.aitimes.com/news/articleView.html?idxno=167392), 2025-01-26-Sun.
 - [유튜브 프리미엄 가족요금제의 한국 차별, 방통위가 나서야 한다](https://news.nate.com/view/20240130n25048), 2025-01-28-Tue.
@@ -359,3 +358,4 @@
 - ["AI 경쟁서 이기려면 회사 출근, 주 60시간 일해야"](https://www.chosun.com/economy/tech_it/2025/03/25/PPMNIOC5E5DMRHURUEX2NCZ4BY/), 2025-03-25-Tue.
 - [구글, 챗GPT 후 AI 논문 공개 제한](https://zdnet.co.kr/view/?no=20230505111302), 2023-05-05-Sat.
 - [‘Godfather of AI’ Geoffrey Hinton quits Google and warns over dangers of misinformation](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning), 2025-03-25-Tue.
+- [우리 아이 잘 크고 있나? 영유아 무료 발달검사 신청](https://mediahub.seoul.go.kr/archives/2013855?utm_medium=email&utm_source=npcrm&utm_campaign=mediahub&utm_content=npcrm_content&utm_term=npcrm_mail), 2025-03-26-Wed.
