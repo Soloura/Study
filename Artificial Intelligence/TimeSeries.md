@@ -69,7 +69,7 @@ challenging, and extensive research is being conducted to improve accuracy.
 |ILI|7|966|-|Weekly|-|
 ...
 
-* 2.4 Evaluation Metrics
+* 2.4. Evaluation Metrics
   * Metrics for Deterministic Models
     * Mean Absolute Error (MAE): measures the average of the absolute differences between predicted and actual values.
     * Mean Squared Error (MSE): calculates the average of the squared differences between predicted and actual values.
@@ -83,6 +83,45 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Coefficient of Determination (R**, R^2): indicates how well the model explains the variabiity of the data.
     * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
     * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
+   
+* 3. Historical TSF Models
+  * 3.1. Conventional Methods (Before Deep Learning)
+    * 3.1.1. Statistical Models
+    * 3.1.2. Machine Learning Models
+  * 3.2. Traditional Deep Learning Models
+    * 3.2.1. MLPs: The Emergence and Constraints of Early Artificial Neural Networks
+    * 3.2.2. RNNs: The first neural network capable of processing sequential data and modeling temporal dependencies
+    * 3.2.3. CNNs: Extracting key patterns in time series data beyond just images
+    * 3.2.4. GNNs: Structurally modeling relationships between variables
+  * 3.3 The Prominence of Transformer-based Models
+    * 3.3.1. Transformer Variants
+    * 3.3.2. Limitation of Transformer-based Models
+  * 3.4 Uprising of Non-Transformer-based Models
+
+* 4. New Exploration of TSF Models
+  * 4.1. Overcoming Limitations of Transformer
+    * 4.1.1. Patching Technique
+    * 4.1.2. Cross-Dimension
+    * 4.1.3. Exogenous Variable
+    * 4.1.4. Additional Approaches
+  * 4.2. Growth of Traditional Deep Learning Models
+    * 4.2.1. MLP-Based Models
+    * 4.2.2. CNN-Based Models
+    * 4.2.3. RNN-Based Models
+    * 4.2.4. GNN-Based Models
+    * 4.2.5. Hybrid Models
+    * 4.2.6. Model-Agnostic Frameworks
+  * 4.3. Emergence of Foundation Models
+    * 4.3.1. Sequence Modeling with LLMs
+    * 4.3.2. Pre-training
+  * 4.4. Advance of Diffusion Models
+    * 4.4.1. Effective Conditional Embedding
+    * 4.4.2. Time Series Feature Extraction
+    * 4.4.3. Additional Approaches
+  * 4.5. Debut of the Mamba
+    * 4.5.1. History of the SSM(State Space Model)
+    * 4.5.2. Introduction of the Mamba
+    * 4.5.3. Applications of the Mamba
 
 ## Time Series Data
 
