@@ -6,6 +6,69 @@
 
 ### [A Comprehensive Survey of Time Series Forecasting: Architectural Diversity and Open Challenges](https://arxiv.org/abs/2411.05793)
 
+* Fig.3: Evolution of Time Series Forecasting Models
+  * Conventional Methods: Statistical, ML
+  * Traditional DL Models: MLP, RNN, CNN, GNN
+  * Transformers
+  * Advanced Transformers: Patching, Cross-dimension, Exogenous, Additional Approaches
+  * Advanced Traditional DL Models: MLP, CNN, RNN, GNN, Hybrid, Model-agnostic
+  * Diffusion Models: Effective Conditional Embedding, Feature Extraction
+  * Foundation Models: Sequential Modeling with LLMs, Pre-training
+  * Mamba Models: Embedding & Multi-Scale, Sequetial Dependency, Channel Correlation, Efficient Modeling
+
+* Table 1: Summary of Survey Papers on TSF
+|ARTICLE|FEATURES|BROAD|FORECASTING|RECENT|REF|
+|-|-|-|-|-|-|
+|Time-series forecasting with deep learning: a survey|-|O|O|X|-|
+|Forecast Methods for Time Series Data: A Survey|-|O|O|X|-|
+|Deep Learning for Time Series Forecasting: Tutorial and Literature Survey|-|O|O|X|-|
+|A Review on Deep Sequential Models for Forecasting Time Series Data|-|O|O|X|-|
+|Transformers in Time Series: A Survey|-|X|O|X|-|
+|Long Sequence Time-Series Forecasting with Deep Learning: A Survey|-|O|X|X|-|
+|Machine Learning Advances for Time Series Forecasting|-|O|X|X|-|
+|Diffusion Models for Time-Series Applications: A Survey|-|X|O|X|-|
+|The Rise of Diffusion Models in Time-Series Forecasting|-|X|O|O|-|
+|Foundation Models for Time Series Analysis: A Tutorial and Survey|-|X|O|O|-|
+|Large Language Models for Time Series: A Survey|-|X|O|O|-|
+|A Survey of Time Series Foundation Models|-|X|O|O|-|
+|Mamba-360: Survey of State Space Models|-|X|O|O|-|
+|THIS PAPER|-|O|O|O|-|
+
+* Univariate Time Series Forecasting (UTSF): making predictions using only one variable. easy to understand, collection and management easier, limited information - external factors or interactions btw different variables.
+* Multivariate Time Series Forecasting (MTSF): making predictions using multiple variables simultaneously. capture complex relationships, higher accuracy - models complex, require more data, chanllenging to handle, rick of overfitting.
+* Short-Term Time Series Forecasting (STSF): Short-term time series forecasting focuses on predicitons for the near future, making it suitable for tasks that require quick responses. simple, easy to train and implement, limits its applicability
+* Long-Term Time Series Forecasting (LTSF): Long-term time series forecasting deals with predictions for the distant future, with forecast horizons increasingly extending to several months, years, or beyond. It is valuable for long-term strategy planning, investment decisions, and policymaking, addressing many real-world problems. By identifying long-term trends and cycles, organizations can prepare accordingly, highlighting its significance. However, predicting the distant future is
+challenging, and extensive research is being conducted to improve accuracy.
+
+* Properties of Time Series Data
+  * Tempora Order
+  * Autocorrelation
+  * Trend
+  * Seasonality
+  * Outliers or noise
+  * Irregularity
+  * Cycles
+  * Non-stationarity
+
+* Properties of Multivariate Time Series Data
+  * Interdependency: In time series data collected simultaneously across multiple channels, these variables can be correlated. Understanding the interactions between variables is important as it can help comprehend complex patterns in time series data
+  * Exogenous Variables: External factors or variables influence time series data. Although not included in the data itself, these variables can provide latent information, and considering them during modeling can lead to significant performance improvements
+  * Contextual Information: Specific events, such as policy changes or natural disasters, occurring at the time of observation can affect time series data and create complex patterns
+ 
+* Time Series Forecasting Datasets
+
+|DATASET|CHANNEL|LENGTH|DESC|FREQ|SRC|
+|:------|------:|-----:|:---|---:|---|
+|ETTm1, ETTm2|7|69680|-|15 mins|-|
+|ETTh1, ETTh2|7|17420|-|Hourly|-|
+|Electricity|321|26304|-|Hourly|-|
+|Traffic|862|17544|-|Hourly, Weekly|-|
+|Weather|21|52696|-|10 mins|-|
+|Exchange|8|7588|-|Daily|-|
+|ILI|7|966|-|Weekly|-|
+...
+
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
