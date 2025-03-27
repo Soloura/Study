@@ -17,6 +17,7 @@
   * Mamba Models: Embedding & Multi-Scale, Sequetial Dependency, Channel Correlation, Efficient Modeling
 
 * Table 1: Summary of Survey Papers on TSF
+
 |ARTICLE|FEATURES|BROAD|FORECASTING|RECENT|REF|
 |:------|:-------|:---:|:---------:|:----:|:-:|
 |Time-series forecasting with deep learning: a survey|-|O|O|X|-|
