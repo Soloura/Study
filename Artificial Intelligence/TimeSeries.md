@@ -18,7 +18,7 @@
 
 * Table 1: Summary of Survey Papers on TSF
 |ARTICLE|FEATURES|BROAD|FORECASTING|RECENT|REF|
-|-|-|-|-|-|-|
+|:------|:-------|:---:|:---------:|:----:|:-:|
 |Time-series forecasting with deep learning: a survey|-|O|O|X|-|
 |Forecast Methods for Time Series Data: A Survey|-|O|O|X|-|
 |Deep Learning for Time Series Forecasting: Tutorial and Literature Survey|-|O|O|X|-|
