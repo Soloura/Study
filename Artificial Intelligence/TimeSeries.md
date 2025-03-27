@@ -71,18 +71,18 @@ challenging, and extensive research is being conducted to improve accuracy.
 
 * 2.4 Evaluation Metrics
   * Metrics for Deterministic Models
-    * Mean Absolute Error (MAE)
-    * Mean Squared Error (MSE)
-    * Root Mean Squared Error (RMSE)
+    * Mean Absolute Error (MAE): measures the average of the absolute differences between predicted and actual values.
+    * Mean Squared Error (MSE): calculates the average of the squared differences between predicted and actual values.
+    * Root Mean Squared Error (RMSE): the square root of the mean squared error, which is more sensitive to large errors.
   * Relative Error Metrics
-    * Mean Absolute Percentage Error (MAPE)
-    * Symmetric Mean Absolute Percentage Error (sMAPE)
+    * Mean Absolute Percentage Error (MAPE): evaluates the relative error by calculating the average of the absolute percentage differences between predicted and actual values.
+    * Symmetric Mean Absolute Percentage Error (sMAPE): a modified version of MAPE that addresses its asymmetry by taking the average of the absolute percentage differences in a symmetric way.
   * Metrics for Probabilistic Models
-    * Continuous Ranked Probability Score (CRPS)
+    * Continuous Ranked Probability Score (CRPS): measures the difference between the predicted probability distribution and the actual distribution, providing a comprehensive evaluation of probabilistic forecasts.
   * Other Metrics
-    * Coefficient of Determination (R**, R^2)
-    * Mean Forecast Error (MFE)
-    * Cumulative Forecast Error (CFE)
+    * Coefficient of Determination (R**, R^2): indicates how well the model explains the variabiity of the data.
+    * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
+    * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
 
 ## Time Series Data
 
