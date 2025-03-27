@@ -99,29 +99,141 @@ challenging, and extensive research is being conducted to improve accuracy.
   * 3.4 Uprising of Non-Transformer-based Models
 
 * 4. New Exploration of TSF Models
-  * 4.1. Overcoming Limitations of Transformer
-    * 4.1.1. Patching Technique
+  * 4.1. Overcoming Limitations of Transformer > Table 5
+    * 4.1.1. Patching Technique: dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens.
+      *  PatchTST
+      *  MTST
+      *  PETformer
     * 4.1.2. Cross-Dimension
+      * Crossformer
+      * DSformer
+      * CARD
+      * iTransformer
+      * VCformer
+      * GridTST
+      * UniTST
+      * DeformTime
     * 4.1.3. Exogenous Variable
+      * TimeXer
+      * TGTSF
     * 4.1.4. Additional Approaches
-  * 4.2. Growth of Traditional Deep Learning Models
+      * Generalization: model generalization, avoid overfitting, and achieve consistent performance across diverse datasets.
+        * SAMformer
+        * Minusformer
+      * Multi-scale: extracts more information from time series data across various scales, offering distinct advantages.
+        * Scaleformer
+        * Pathformer
+      * Decoder-only: as LLaMA3, simpler and involves less complex computations, resulting in faster training and inference. Avoid the temporal information loss often associated with the self-attention mechanism in encoders.
+        * CATS
+      * Feature Enhancement
+        * Fredformer
+        * Basisformer
+  * 4.2. Growth of Traditional Deep Learning Models > Table 7
     * 4.2.1. MLP-Based Models
+      * Koopa
+      * TSMixer
+      * FreTS
+      * TSP
+      * FITS
+      * U-Mixer
+      * TTMs
+      * TimeMixer
+      * CATS
+      * HDMixer
+      * SOFTS
+      * SparseTSF
+      * TEFN
+      * PDMLP
+      * AMD
     * 4.2.2. CNN-Based Models
+      * TimesNet
+      * PatchMixer
+      * ModernTCN
+      * ConvTimeNet
+      * ACNet
+      * FTMixer
     * 4.2.3. RNN-Based Models
+      * PA-RNN
+      * WITRAN
+      * SutraNets
+      * CrossWaveNet
+      * DAN
+      * RWKV-TS
+      * CONTIME
     * 4.2.4. GNN-Based Models
+      * MSGNet
+      * TMP-Nets
+      * HD-TTS
+      * ForecastGrapher
     * 4.2.5. Hybrid Models
+      * WaveForM
+      * TSLANet
+      * DERITS
+      * BiTGraph
     * 4.2.6. Model-Agnostic Frameworks
+      * RobustTSF
+      * PDLS
+      * Leddam
+      * InfoTime
+      * CCM
+      * HCAN
+      * TDT Loss
   * 4.3. Emergence of Foundation Models
-    * 4.3.1. Sequence Modeling with LLMs
-    * 4.3.2. Pre-training
-  * 4.4. Advance of Diffusion Models
+    * 4.3.1. Sequence Modeling with LLMs > Table 8
+      * GPT4TS
+      * PromptCast
+      * LLMTime
+      * Time-LLM
+    * 4.3.2. Pre-training > Table 8
+      * Lag-LLaMA
+      * TimesFM
+      * CHRONOS
+      * Uni2TS
+  * 4.4. Advance of Diffusion Models > Table 9
     * 4.4.1. Effective Conditional Embedding
+      * TimeGrad
+      * CSDI
+      * SSSD
+      * TimeDiff
+      * TMDM
     * 4.4.2. Time Series Feature Extraction
+      * Decomposition
+        * Diffusion-TS
+      * Frequency Domain
+      * Multi-Scale
+        * MG-TSD
+        * mr-Diff
     * 4.4.3. Additional Approaches
+      * Score-Based Generative Modeling through Stochastic Differential Equations (SDEs)
+        * SDEs
+        * DDPM
+        * ScoreGrad
+        * D3M
+      * Latent Diffusion Model
+        * Latent Diffusion Model
+        * LDT
+      * Guidance
+        * Diffusion-TS
+        * LDT
+        * TSDiff
   * 4.5. Debut of the Mamba
-    * 4.5.1. History of the SSM(State Space Model)
+    * 4.5.1. History of the SSM(State Space Model): RNNs lost their dominance by Transformers due to the limitations in information encapsulation of a context (single vector) in RNN-based encoder-decoder models and the slow training speed. The parallelism of the attention mechanism and its ability to focus on all individial pieces of information overcame the limitations of RNNs and demonstrated superior performance. Computation complexity, limits the window length, increased memory requirements for processing long sequences. 
     * 4.5.2. Introduction of the Mamba
-    * 4.5.3. Applications of the Mamba
+    * 4.5.3. Applications of the Mamba > Table 10
+      * Embedding and Multi-Scale Learning
+        * TimeMachine
+      * Channel Correlation Learning
+        * S-Mamba
+        * SiMBA
+        * MambaTS
+        * C-Mamba
+      * Sequence Information and Dependency Learning
+        * Mambaformer
+        * Bi-Mamba+
+        * DTMamba
+      * Theoretical Frameworks and Efficient Modeling
+        * Time-SSM
+        * Chimera
 
 ## Time Series Data
 
