@@ -69,6 +69,20 @@ challenging, and extensive research is being conducted to improve accuracy.
 |ILI|7|966|-|Weekly|-|
 ...
 
+* 2.4 Evaluation Metrics
+  * Metrics for Deterministic Models
+    * Mean Absolute Error (MAE)
+    * Mean Squared Error (MSE)
+    * Root Mean Squared Error (RMSE)
+  * Relative Error Metrics
+    * Mean Absolute Percentage Error (MAPE)
+    * Symmetric Mean Absolute Percentage Error (sMAPE)
+  * Metrics for Probabilistic Models
+    * Continuous Ranked Probability Score (CRPS)
+  * Other Metrics
+    * Coefficient of Determination (R**, R^2)
+    * Mean Forecast Error (MFE)
+    * Cumulative Forecast Error (CFE)
 
 ## Time Series Data
 
