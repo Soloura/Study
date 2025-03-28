@@ -16,7 +16,7 @@
   * Foundation Models: Sequential Modeling with LLMs, Pre-training
   * Mamba Models: Embedding & Multi-Scale, Sequetial Dependency, Channel Correlation, Efficient Modeling
 
-* Table 1: Summary of Survey Papers on TSF
+* Summary of Survey Papers on TSF > Table 1: Summary of Survey Papers on Time Series Forecasting
 
 |ARTICLE|FEATURES|BROAD|FORECASTING|RECENT|REF|
 |:------|:-------|:---:|:---------:|:----:|:-:|
@@ -41,7 +41,7 @@
 * Long-Term Time Series Forecasting (LTSF): Long-term time series forecasting deals with predictions for the distant future, with forecast horizons increasingly extending to several months, years, or beyond. It is valuable for long-term strategy planning, investment decisions, and policymaking, addressing many real-world problems. By identifying long-term trends and cycles, organizations can prepare accordingly, highlighting its significance. However, predicting the distant future is
 challenging, and extensive research is being conducted to improve accuracy.
 
-* Properties of Time Series Data
+* Properties of Time Series Data > Fig. 5: Properties of Time Series Data
   * Tempora Order
   * Autocorrelation
   * Trend
@@ -51,12 +51,12 @@ challenging, and extensive research is being conducted to improve accuracy.
   * Cycles
   * Non-stationarity
 
-* Properties of Multivariate Time Series Data
+* Properties of Multivariate Time Series Data > Fig. 6: Properties of Multivariate Time Series Data
   * Interdependency: In time series data collected simultaneously across multiple channels, these variables can be correlated. Understanding the interactions between variables is important as it can help comprehend complex patterns in time series data
   * Exogenous Variables: External factors or variables influence time series data. Although not included in the data itself, these variables can provide latent information, and considering them during modeling can lead to significant performance improvements
   * Contextual Information: Specific events, such as policy changes or natural disasters, occurring at the time of observation can affect time series data and create complex patterns
  
-* Time Series Forecasting Datasets
+* Time Series Forecasting Datasets > Table 2: Datasets Frequently Used in Time Series Forecasting Models
 
 |DATASET|CHANNEL|LENGTH|DESC|FREQ|SRC|
 |:------|------:|-----:|:---|---:|---|
@@ -69,7 +69,7 @@ challenging, and extensive research is being conducted to improve accuracy.
 |ILI|7|966|-|Weekly|-|
 ...
 
-* 2.4. Evaluation Metrics
+* 2.4. Evaluation Metrics > Table 4: Evaluation Metrics for Time Series Forecasting
   * Metrics for Deterministic Models
     * Mean Absolute Error (MAE): measures the average of the absolute differences between predicted and actual values.
     * Mean Squared Error (MSE): calculates the average of the squared differences between predicted and actual values.
@@ -84,7 +84,7 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
     * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
    
-* 3. Historical TSF Models
+* 3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
   * 3.1. Conventional Methods (Before Deep Learning)
     * 3.1.1. Statistical Models
     * 3.1.2. Machine Learning Models
@@ -99,7 +99,7 @@ challenging, and extensive research is being conducted to improve accuracy.
   * 3.4 Uprising of Non-Transformer-based Models
 
 * 4. New Exploration of TSF Models
-  * 4.1. Overcoming Limitations of Transformer > Table 5
+  * 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
     * 4.1.1. Patching Technique: dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens.
       *  PatchTST
       *  MTST
@@ -128,7 +128,7 @@ challenging, and extensive research is being conducted to improve accuracy.
       * Feature Enhancement
         * Fredformer
         * Basisformer
-  * 4.2. Growth of Traditional Deep Learning Models > Table 7
+  * 4.2. Growth of Traditional Deep Learning Models > Table 6: Comparison of Other Deep Learnig Models with Transformers in Terms of Criteria & Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
     * 4.2.1. MLP-Based Models
       * Koopa
       * TSMixer
@@ -178,18 +178,18 @@ challenging, and extensive research is being conducted to improve accuracy.
       * CCM
       * HCAN
       * TDT Loss
-  * 4.3. Emergence of Foundation Models
-    * 4.3.1. Sequence Modeling with LLMs > Table 8
+  * 4.3. Emergence of Foundation Models > Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
+    * 4.3.1. Sequence Modeling with LLMs
       * GPT4TS
       * PromptCast
       * LLMTime
       * Time-LLM
-    * 4.3.2. Pre-training > Table 8
+    * 4.3.2. Pre-training
       * Lag-LLaMA
       * TimesFM
       * CHRONOS
       * Uni2TS
-  * 4.4. Advance of Diffusion Models > Table 9
+  * 4.4. Advance of Diffusion Models > Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
     * 4.4.1. Effective Conditional Embedding
       * TimeGrad
       * CSDI
@@ -219,7 +219,7 @@ challenging, and extensive research is being conducted to improve accuracy.
   * 4.5. Debut of the Mamba
     * 4.5.1. History of the SSM(State Space Model): RNNs lost their dominance by Transformers due to the limitations in information encapsulation of a context (single vector) in RNN-based encoder-decoder models and the slow training speed. The parallelism of the attention mechanism and its ability to focus on all individial pieces of information overcame the limitations of RNNs and demonstrated superior performance. Computation complexity, limits the window length, increased memory requirements for processing long sequences. 
     * 4.5.2. Introduction of the Mamba
-    * 4.5.3. Applications of the Mamba > Table 10
+    * 4.5.3. Applications of the Mamba > Table 10: Taxonomy and Methodologies of Mamba Models for Time Series Forecasting
       * Embedding and Multi-Scale Learning
         * TimeMachine
       * Channel Correlation Learning
