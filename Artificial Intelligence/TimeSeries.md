@@ -117,7 +117,7 @@ challenging, and extensive research is being conducted to improve accuracy.
 
 4. New Exploration of TSF Models
 
-* 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
+* 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting - LTSF-Linear > traditional transformer-based models. Transformers still demonstrate superior performance in handling long-term dependencies in sequential data compared to other models.
   * 4.1.1. Patching Technique: dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens.
     *  PatchTST
     *  MTST
