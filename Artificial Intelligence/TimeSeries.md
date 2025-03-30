@@ -340,6 +340,8 @@ challenging, and extensive research is being conducted to improve accuracy.
 |:--------:|:---------------|:------------:|:--------------:|--:|
 |TSDiff|Observation Self-guidance|DDPM|Guidance|2023|
 
+#### Table 10: Taxonomy and Methodologies of Mamba Models for Time Series Forecasting
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
