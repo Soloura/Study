@@ -254,7 +254,7 @@ challenging, and extensive research is being conducted to improve accuracy.
 
 Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
 
-|MAIN IMPROVEMENT|MODEL NAME|MAIN METHODOLOGY|CHANNEL CORRELATION|ENC/DEC|PUB|
+|Main Improvement|Model Name|Main Methodology|Channel Correlation|Enc/Dec|Pub|
 |:--------------:|:--------:|:---------------|:-----------------:|:-----:|--:|
 |Patching Technique|PatchTST|Patching, Channel Independence|CI|Enc|2023|
 |Patching Technique|MTST|Multiple Patch-based Tokenizations|CI|Enc|2024|
@@ -292,6 +292,81 @@ Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of 
 |Hardware Requirements|High due to their complex structure and computationally intensive self-attention mechanisms|Lower due to their simpler structure and fewer computational demands|Lower computational and memory requirements|Low but inefficient on parallel hardware|Generally low but depends on graph size|
 |Memory Usage|Higher memory usage due to full sequence attention|Lower memory usage due to their simple structure and fewer parameters|Lower memory usage due to localized operations|Low but can increase with sequence length|Generally low but depends on graph size|
 |Parallel Processing|Highly parallelizable but requires synchronization due to attention mechanisms|Highly parallelizble due to independent computations|Highly parallelizable due to independent convolution operations|Difficult due to sequence dependencies|Difficult due to graph structure dependencies|
+
+Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
+
+7.1 MLP-Base
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|Koopa|Koopa Block with Koopman Predictor(KP)|CD|2023|
+|TSMixer|MLP Mixer layer architecture, Gated attention (GA) block, Online hierarchical patch reconciliation head|CI/CD|2023|
+|FreTS|Frequency-domain MLPs|CD|2023|
+|TSP|PrecMLP block with precurrent mechanism|CD|2024|
+|FITS|Complex Frequency Linear Interpolation, Lower Pass Filter(LPF)|CI|2024|
+|U-Mixer|Unet Encoder-decoder with MLPs, Stationarity Correlation|CD|2024|
+|TTMs|Multi-Resolution Pre-training via TTM Backbone (TSMixer blocks), Exogenous mixer|CD|2024|
+|TimeMixer|Past-Decomposable-Mixing (PDM) block, Future-Multipredictor-Mixing (FMM) block|CD|2024|
+|CATS|Auxiliary Time Series (ATS) Constructor|CD|2024|
+|HDMixer|Length-Extendable Patcher, Patch Entropy Loss, Hierarchical Dependency Explorer|CD|2024|
+|SOFTS|Star Aggregate-Redistribute Module|CD|2024|
+|SparseTSF|Cross-Period Sparse Forecasting|CI|2024|
+|TEFN|Basic Probability Assignment (BPA) Module|CD|2024|
+|PDMLP|Multi-Scale Patch Embedding & Feature Decomposition, Intra-, Inter-Variable MLP|CD|2024|
+|AMD|Multi-Scale Decomposable Mixing(MDM) Block, Dual Dependency Interaction (DDI) Block, Adaptive Multi-predictor Synthesis (AMS) Block|CD|2024|
+
+7.2 CNN-Base
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|TimesNet|Transform 1D-variations into 2D-variation, Timesblock|CD|2023|
+|PatchMixer|Patch Embedding, PatchMixer layer with Patch-mixing Design|CI|2023|
+|ModernTCN|ModernTCN block with DWConv & ConvFFN|CD|2024|
+|ConvTimeNet|Deformable Patch Embedding, Fully Convolutional Blocks|CD|2024|
+|ACNet|Temporal Feature Extraction Module, Nonlinear Feature Adaptive Extraction Module|CD|2024|
+|FTMixer|Frequency Channel Convolution, Windowing Frequency Convolution|CD|2024|
+
+7.3 RNN-Base
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|PA-RNN|Mixture Gaussian Prior, Prior Annealing Algorithm|CI|2023|
+|WITRAN|Horizontal Vertical Gated Seletive Unit, Recurrent Acceleration Network|CI|2023|
+|SutraNets|Sub-series autoregressive networks|CI|2023|
+|CrossWaveNet|Deep cross-decomposition, Dual-channel network|CD|2024|
+|DAN|RepGen & RepMerg with Polar Representation Learning, Distance-weighted Multi-loss Mechanism, Kruskal-Wallis Sampling|CI|2024|
+|RWKV-TS|RWKV Blocks with Multi-head WKV Operator|CD|2024|
+|CONTIME|Bi-directional Continuous GRU with Neural ODE|CI|2024|
+
+7.4 GNN/GCN-Base
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|MSGNet|SacleGraph block with Scale Identification, Multi-scale Adaptive Graph Convolution, Multi-head Attention and Scale Aggregation|CD|2024|
+|TMP-Nets|Temporal MultiPersistence (TMP) Vectorization|CD|2024|
+|HD-TTS|Temporal processing module with Temporal message passing, Spatial processing module with Spatial message passing|CD|2024|
+|ForecastGrapher|Group Feature Convolution GNN (GFC-GNN)|CD|2024|
+
+7.5 Hybird-Base
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|WaveForM: CNN+GCN|Discrete Wavelet Transform (DWT) Module, Graph-Enhanced Prediction Module|CD|2023|
+|BiTGraph: CNN+GCN|Multi-Scale Instance PartialTCN (MSIPT) Module, Biased GCN Module|CD|2024|
+|TSLANet: TF+CNN|Adaptive Spectral Block, Interactive Convolutional Block|CI|2024|
+|DERITS: CNN+MLP|Frequency Derivative Transformation (FDT), Order-adpative Fourier Convolution Network (OFCN)|CD|2024|
+
+7.6 Model-agnostic
+
+|Model Name|Main Methodology|Channel Correlatoin|Pub|
+|:--------:|:---------------|:-----------------:|--:|
+|RobustTSF|RobustTSF Algorithm|-|2024|
+|PDLS|Loss Shaping Constraints, Empirical Dual Resilient and Constrained Learning|-|20244|
+|Leddam|Learnable Decomposition Module, Dual Attention Module|CD|2024|
+|InfoTime|Cross-Variable Decorrelation Aware Feature Modeling (CDAM), Temporal Aware Modeling (TAM)|CD|2024|
+|CCM|Channel Clustering & Cluster Loss, Cluster-aware Feed Forwared|CD|2024|
+|HCAN|Uncertainty-Aware Classifier (UAC), Hierarchical Consistency Loss (HCL), Hierarchy-Aware Attention (HAA)|-|2024|
+|TDT Loss|Temporal Dependencies among Targets(TDT) Loss|-|2024|
 
 ## Time Series Data
 
