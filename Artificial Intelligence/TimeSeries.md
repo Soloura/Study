@@ -342,6 +342,36 @@ challenging, and extensive research is being conducted to improve accuracy.
 
 #### Table 10: Taxonomy and Methodologies of Mamba Models for Time Series Forecasting
 
+10.1 Embedding and Multi-Scale Learning - Main Improvement
+
+|Model Name|Main Methodology|Channel Correlation|Base|Pub|
+|:--------:|:---------------|:-----------------:|:--:|--:|
+|TimeMachine|Integrated Quadruple Mambas|CD|Mamba|2024|
+
+10.2 Channel Correlation Learning - Main Improvement
+
+|Model Name|Main Methodology|Channel Correlation|Base|Pub|
+|:--------:|:---------------|:-----------------:|:--:|--:|
+|S-Mamba|Channel Mixing: Mamba VC Encoding Layer|CD|Mamba, MLP|2024|
+|SiMBA|Channel Mixing: Einstein FFT (EinFFT), Sequence Modeling: Mamba|CD|Mamba|2024|
+|MambaTS|Temporal Mamba Block (TMB)|CD|Mamba|2024|
+|C-Mamba|Channel Mixup, C-Mamba Block (PatchMamba + Channel Attention)|CD|Mamba|2024|
+
+10.3 Sequence Information and Dependency Learning - Main Improvement
+
+|Model Name|Main Methodology|Channel Correlation|Base|Pub|
+|:--------:|:---------------|:-----------------:|:--:|--:|
+|Mambaformer|Mambaformer (Attention + Mamba) Layer|CI|Mamba, Transformer|2024|
+|Bi-Mamba+|Series-Relation-Aware (SRA) Decider, Mamba+ Block, Bidirectional Mamba+ Encoder|CI/CD|Mamba|2024|
+|DTMamba|Dual Twin Mamba Blocks|CI|Mamba|2024|
+
+10.4 Theoretical Frameworks and Efficient Modeling - Main Improvement
+
+|Model Name|Main Methodology|Channel Correlation|Base|Pub|
+|:--------:|:---------------|:-----------------:|:--:|--:|
+|Time-SSM|Dynamic Spectral Operator with Hippo-LegP|CD|Mamba|2024|
+|Chimera|2-Dimensional State Space Model|CD|Mamba|2024|
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
