@@ -291,7 +291,7 @@ Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of 
 |Application|Suitable for complex time series problems or NLP-related tasks|Versatile for various general forecasting problems|Well-suitable for applications requiring spatial and temporal locality, effective for a wide range of time series problems|Effective for sequential data and time series forecasting, but struggles with long-term dependencies without modifications|Suitable for complex graph structures in tasks like social networks, recommendations systems, and time series graphs|
 |Hardware Requirements|High due to their complex structure and computationally intensive self-attention mechanisms|Lower due to their simpler structure and fewer computational demands|Lower computational and memory requirements|Low but inefficient on parallel hardware|Generally low but depends on graph size|
 |Memory Usage|Higher memory usage due to full sequence attention|Lower memory usage due to their simple structure and fewer parameters|Lower memory usage due to localized operations|Low but can increase with sequence length|Generally low but depends on graph size|
-|Parallel Processing|Highly parallelizable but requires synchronization due to attention mechanisms|Highly parallelizable due to independent convolution operations|Difficult due to sequence dependencies|Difficult due to graph structure dependencies|
+|Parallel Processing|Highly parallelizable but requires synchronization due to attention mechanisms|Highly parallelizble due to independent computations|Highly parallelizable due to independent convolution operations|Difficult due to sequence dependencies|Difficult due to graph structure dependencies|
 
 ## Time Series Data
 
