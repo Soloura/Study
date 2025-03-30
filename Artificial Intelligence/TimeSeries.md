@@ -372,6 +372,25 @@ challenging, and extensive research is being conducted to improve accuracy.
 |Time-SSM|Dynamic Spectral Operator with Hippo-LegP|CD|Mamba|2024|
 |Chimera|2-Dimensional State Space Model|CD|Mamba|2024|
 
+#### 5 TSF Latest Open Challenges & Handling Methods
+
+* 5.1 Channel Dependency Comprehension > Fig. 15: Comparison of CI and CD Strategies in Channel  Correlations
+  * Spread of Channel Independent Strategy
+  * Importance of Learning Channel Correlations
+  * What Makes CI Look Better?
+  * Recent Approaches > Fig. 16: Recent Approaches to Channel Strategies
+ 
+Channel Correlation (채널 상관관계): 다변량 시계열 데이터에서 여러 변수(채널) 간의 관계를 나타냅니다. 다련량 시계열 데이터는 여러 개의 변수가 동시에 관측되는 데이터를 의미하며, 이러한 병수들은 서로 독립적일 수 있고, 서로 영향을 미치며 상관관계를 가질 수도 있습니다. 예를 들어, 기상 데이터에서 온도와 전력 소비 간에는 강한 상관관계가 있을 수 있습니다. 
+
+Channel Independence (CI, 채널 독립성): 다변량 시계열 데이터에서 각 변수(채널)기 서로 독립적이라고 가정하는 전략입니다. 즉, 변수들 간의 상관관계를 무시하고 각 채널을 개별적으로 모델링합니다. 특징으로는, 1. 단순성: CI 전략은 모델을 단순화하여 계산 효율성을 높입니다. 각 채널을 독립적으로 처리하기 때문에, 변수 간의 복잡한 상관관계를 모델링할 필요가 없습니다. 2. 강건성: 변수 간의 상관관계가 불규칙하거나 노이즈가 많은 경우, CI 전략은 이러한 문제를 피할 수 있어 더 강건한 모델을 제공할 수 있습니다. 3. 적용성: CI 전략은 번수 간의 상관관계가 크지 않거나, 상관관계가 모델의 예측 성능에 큰 영향을 미치지 않는 경우에 적합합니다. 한계로는 변수 간의 중요한 상관관계를 무시할 수 있으며, 이는 예측 성능을 저하시킬 수 있습니다.
+
+Channel Dependency (CD, 채널 종속성): 다변량 시계열 데이터에서 변수들 간의 상관관계를 명시적으로 모델링하는 전략입니다. 즉, 변수들 간의 상호작용과 관계를 고려하여 모델을 설계합니다. 특징으로는, 1. 복잡성: CD 전략은 변수 간의 상관관계를 모델링하기 때문에, 모델의 복잡성이 증가합니다. 이는 더 높은 계산 비용과 더 복잡한 모델 구조를 필요로 합니다. 2. 성능 향상: 변수 간의 인과 관계가 명확한 경우, CD 전략은 더 정확한 예측을 제공할 수 있습니다. 3. 적용성: 변수 간의 상관관계가 크고, 이러한 관계가 모델의 예측 성능에 중요한 영향을 미치는 경우에 적합합니다. 한계로는 모델의 복잡성이 증가하여 과적합의 위험이 있으며, 데이터가 충분하지 않을 경우 성능이 저하될 수 있습니다.
+
+요약:
+* CR: 변수 간의 관계를 나타내며, 예측 모델의 성능에 중요한 영향을 미칩니다.
+* CI: 변수 간의 상관관계를 무시하고 각 채널을 독립적으로 모델링하는 전략입니다.
+* CD: 변수 간의 상관관계를 명시적으로 모델링하여 예측 성능을 향상시키는 전략입니다.
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
