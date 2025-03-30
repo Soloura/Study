@@ -84,7 +84,6 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
     * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
 
-
 3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
 
 * 3.1. Conventional Methods (Before Deep Learning)
@@ -252,6 +251,31 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Theoretical Frameworks and Efficient Modeling
       * Time-SSM
       * Chimera
+
+Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
+
+|MAIN IMPROVEMENT|MODEL NAME|MAIN METHODOLOGY|CHANNEL CORRELATION|ENC/DEC|PUB|
+|:--------------:|:--------:|:---------------|:-----------------:|:-----:|--:|
+|Patching Technique|PatchTST|Patching, Channel Independence|CI|Enc|2023|
+|Patching Technique|MTST|Multiple Patch-based Tokenizations|CI|Enc|2024|
+|Patching Technique|PETformer|Placeholder-enhanced Technique|CI|Enc|2022|
+|Cross-Dimension|Crossformer|Dual Attention: Cross-time & Cross-dimension|CD|Enc & Dec|2023|
+|Cross-Dimension|DSformer|Dual Sampling & Dual Attention|CD|Enc|2023|
+|Cross-Dimension|CARD|Dual Attention, Token Blend Module for multi-scale|CD|Enc|2024|
+|Cross-Dimension|iTransformer|Attention on Inverted Dimension|CD|Enc|2024
+|Cross-Dimension|VCformer|Variable Correlation Attention Considering Time Lag, Koopman Temporal Detector for Non-stationarity|CD|Enc|2024|
+|Cross-Dimension|GridTST|Dual Attention with original Transformer|CD|Enc|2024|
+|Cross-Dimension|UniTST|Unified Attention by Flattening|CD|Enc|2024|
+|Cross-Dimension|DeformTime|Deformable Attention Blocks|CD|Enc|2024|
+|Exogenous Variable|TimeXer|Integration of Endogenous and Exogenous Information|CD|Enc|2024|
+|Exogenous Variable|TGTSF|Exogenous Variable with Description, News|CD|Enc & Dec|2024|
+|Generalization|SAMformer|SAM(sharpness-aware minimization|CD|Enc|2024|
+|Generaliation|Minusformer|Dual-stream and subtraction mechanism|CD|Enc|2024|
+|Multi-scale|Scaleformer|Multi-scale framework|Any|Enc & Dec|2023|
+|Multi-scale|Pathformer|Adaptive Multi-scale Blocks|CD|Enc &Dec|2024|
+|Decoder-only|CATS|Cross-Attention-ONly Transformer|CI|Dec|2024|
+|Feature Enchancement|Fredformer|Frequency Debias|CD|Enc|2024|
+|Feature Enchancement|BasisForemr|Automatic Learning of a Self-adjusting Basis|CD|Dec|2023|
 
 ## Time Series Data
 
