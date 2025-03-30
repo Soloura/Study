@@ -300,6 +300,46 @@ Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecas
 |CHRONOS|Learning the language of time series, Utilize tokenizer to capture the intrinsic language of time series|2024|
 |UniTS|Explicit consideration of multivariate TSF, Provide variate IDs to directly consider multiple variables|2024|
 
+Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
+
+9.1 Effective Conditional Embedding - Main Improvement
+
+|Model Name|Main Methodology|Diffusion Type|Conditional Type|Pub|
+|:--------:|:---------------|:------------:|:--------------:|--:|
+|TimeGrad|Autoregressive DDPM using RNN & Dilated Convolution|DDPM|Explicit|2021|
+|CSDI|2D Attention for Temporal & Feature Dependency, Self-supervised Training for Imputation|DDPM|Explicit|2021|
+|SSSD|Combination of S4 model|DDPM|Explicit|2023|
+|TimeDiff|Future Mixup, Autoregressive Initialization|DDPM|Explicit|2023|
+|TMDM|Integration of Diffusion and Transformer-based Models|DDPM|Explicit|2024|
+
+9.2 Time-series Feature Extraction - Main Improvement
+
+|Model Name|Main Methodology|Diffusion Type|Conditional Type|Pub|
+|:--------:|:---------------|:------------:|:--------------:|--:|
+|Diffusion-TS|Decomposition techniques, Instance-aware Guidance Strategy|DDPM|Guidance|2024|
+|Diffusion in Frequency|Diffusing in the Frequency Domain|SDE|Explicit|2024|
+|MG-TSD|Multi-granularity Data Generator, Temporal Process Module, Guided Diffusion Process Module|DDPM|Explicit|2024|
+|mr-Diff|Integration of Decomposition and Multiple Temporal Resolutions|DDPM|Explicit|2024|
+
+9.3 SDE - Main Improvement
+
+|Model Name|Main Methodology|Diffusion Type|Conditional Type|Pub|
+|:--------:|:---------------|:------------:|:--------------:|--:|
+|ScoreGrad|Continuous Energy-based Generative Model|SDE|Explicit|2021|
+|D^3 M|Decomposable Denoising Diffusion Model based on Explicit Solutions|SDE|Explicit|2024|
+
+9.4 Latent Diffusion Model - Main Improvement
+
+|Model Name|Main Methodology|Diffusion Type|Conditional Type|Pub|
+|:--------:|:---------------|:------------:|:--------------:|--:|
+|LDT|Symmetric Time Series Compression, Latent Diffusion Transformer|DDPM|Guidance|2024|
+
+9.5 Guidance - Main Improvement
+
+|Model Name|Main Methodology|Diffusion Type|Conditional Type|Pub|
+|:--------:|:---------------|:------------:|:--------------:|--:|
+|TSDiff|Observation Self-guidance|DDPM|Guidance|2023|
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
