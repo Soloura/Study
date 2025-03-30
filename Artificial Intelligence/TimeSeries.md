@@ -280,6 +280,26 @@ Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures f
 |HCAN|Uncertainty-Aware Classifier (UAC), Hierarchical Consistency Loss (HCL), Hierarchy-Aware Attention (HAA)|-|2024|
 |TDT Loss|Temporal Dependencies among Targets(TDT) Loss|-|2024|
 
+Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
+
+8.1 Sequential modeling with LLM Approach
+
+|Model Name|Main Improvement & Methodology|Pub|
+|:--------:|:-----------------------------|--:|
+|GPT4TS|Demonstractie the effectiveness of LLM for time series modeling, Fine-tune the layer normalization and positional embedding parameters|2023|
+|PromptCast|Enable text-level domain-specific knowledge for TSF, Cast TSF problem into question and answering format|2023|
+|LLMTime|Zero-shot TSF with pre-trained LLMs, Covert time series input into a string of digits|2023|
+|Time-LLM|Align time series modality into text modality, Convert time series input into a string of digits|2024|
+
+8.2 Pre-training Approach
+
+|Model Name|Main Improvement & Methodology|Pub|
+|:--------:|:-----------------------------|--:|
+|Lag-Llama|First pre-training based time series foundation model, Pre-train a decoder-only model with autoregressive loss|2024|
+|TimesFM|Pre-trained with hundreds of billions time steps, Autoregressive decoding with arbitrary forecasting length|2024|
+|CHRONOS|Learning the language of time series, Utilize tokenizer to capture the intrinsic language of time series|2024|
+|UniTS|Explicit consideration of multivariate TSF, Provide variate IDs to directly consider multiple variables|2024|
+
 ## Time Series Data
 
 Time seies data is a sequence of data points collected or recorded at specific time intervals, where the order of data points is crucial. Examples include stock prices, weather data, sensor readings, and economic indicators. The key characteristic of time series data is the temporal dependency, meaning that past data points can influence future ones. Time series analysis involves understanding trends, seasonality, and patterns to forecast future values or detect anomalies.
