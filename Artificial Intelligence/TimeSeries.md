@@ -83,157 +83,175 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Coefficient of Determination (R**, R^2): indicates how well the model explains the variabiity of the data.
     * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
     * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
-   
-* 3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
-  * 3.1. Conventional Methods (Before Deep Learning)
-    * 3.1.1. Statistical Models
-    * 3.1.2. Machine Learning Models
-  * 3.2. Traditional Deep Learning Models
-    * 3.2.1. MLPs: The Emergence and Constraints of Early Artificial Neural Networks
-    * 3.2.2. RNNs: The first neural network capable of processing sequential data and modeling temporal dependencies
-    * 3.2.3. CNNs: Extracting key patterns in time series data beyond just images
-    * 3.2.4. GNNs: Structurally modeling relationships between variables
-  * 3.3 The Prominence of Transformer-based Models
-    * 3.3.1. Transformer Variants
-    * 3.3.2. Limitation of Transformer-based Models
-  * 3.4 Uprising of Non-Transformer-based Models
 
-* 4. New Exploration of TSF Models
-  * 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
-    * 4.1.1. Patching Technique: dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens.
-      *  PatchTST
-      *  MTST
-      *  PETformer
-    * 4.1.2. Cross-Dimension
-      * Crossformer
-      * DSformer
-      * CARD
-      * iTransformer
-      * VCformer
-      * GridTST
-      * UniTST
-      * DeformTime
-    * 4.1.3. Exogenous Variable
-      * TimeXer
-      * TGTSF
-    * 4.1.4. Additional Approaches
-      * Generalization: model generalization, avoid overfitting, and achieve consistent performance across diverse datasets.
-        * SAMformer
-        * Minusformer
-      * Multi-scale: extracts more information from time series data across various scales, offering distinct advantages.
-        * Scaleformer
-        * Pathformer
-      * Decoder-only: as LLaMA3, simpler and involves less complex computations, resulting in faster training and inference. Avoid the temporal information loss often associated with the self-attention mechanism in encoders.
-        * CATS
-      * Feature Enhancement
-        * Fredformer
-        * Basisformer
-  * 4.2. Growth of Traditional Deep Learning Models > Table 6: Comparison of Other Deep Learnig Models with Transformers in Terms of Criteria & Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
-    * 4.2.1. MLP-Based Models
-      * Koopa
-      * TSMixer
-      * FreTS
-      * TSP
-      * FITS
-      * U-Mixer
-      * TTMs
-      * TimeMixer
+
+3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
+
+* 3.1. Conventional Methods (Before Deep Learning)
+  * 3.1.1. Statistical Models
+    * Autoregressive Integrated Moving Average (ARIMA): AR uses a linear combination of past values to predict the current value. MA employs a linear combination of past error terms to predict the current value. I removes non-stationarity by differencing the data to achieve stationarity. SARIMA: incorporate seasonal differencing.
+  * 3.1.2. Machine Learning Models
+    * Decision Trees, Classification and Regression Tree (CART), Support Vector Machine (SVM), Support Vector Regression (SVR), Gradient Boosting Machines (GBM), XGBOost.
+* 3.2. Traditional Deep Learning Models
+  * 3.2.1. MLPs: The Emergence and Constraints of Early Artificial Neural Networks
+    * Multi-layer Perceptron (MLP).
+  * 3.2.2. RNNs: The first neural network capable of processing sequential data and modeling temporal dependencies
+    * Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM), Gated Recurrent Unit (GRU), Dilated RNN, DA-RNN, MQ-RNN.
+  * 3.2.3. CNNs: Extracting key patterns in time series data beyond just images (Convolutional Neural Networks)
+    * Neocognitron, LeNet, WaveNet, Temporal Convolutional Networks (TCNs), DeepAR, DCRNN, TPA-LSTM.
+  * 3.2.4. GNNs: Structurally modeling relationships between variables
+    * Graph Neural Networks (GNNs), Graph Convolutional Networks (GCNs), Spatial Temporal Graph Convolutional Networks (ST-GCN), Graph Attention Networks (GATs), Dynamic Graph Neural Networks (DyGNNs), Temporal Graph Networks (TGNs), Logsparse Transformer.
+* 3.3 The Prominence of Transformer-based Models
+  * 3.3.1. Transformer Variants
+    * LogTrans, Reformer, Informer, Autoformer, Pyraformer, Fedformer, Non-stationary Transformer.
+  * 3.3.2. Limitation of Transformer-based Models
+    * Efficiency Chanllenges - quadratic scaling in computational and memory complexity with window length have not fully resolved the issues than MLP-based or convolutional models with O(L) complexity.
+    * Finite Context Window - unlike models RNNs or State Space Models (SSMs), fundamental limitation in modeling data beyond a finite window.
+    * Ineffectiveness of Expanding Input Window Length - minimal or no performance improvement observed when increasing the input window length. Transformer-based models tend to overfit noise rather than extract long-term temporal information when provided with longer sequences.
+* 3.4 Uprising of Non-Transformer-based Models
+  * Limitations when dealing with long-term time series data.
+    * The point-wise operations of the self-attention mechanism have quadratic time complexity.
+    * Storing the relationship information for all input token pairs requires substantial memory usage, applying Transformers in environments with limited GPU memory becomes challenging.
+    * Length of the look-back window exceeds the structural capacity, learning long-term dependencies becomes challenging.
+    * Due to the high complexity of the model, large-scale and high-quality datasets are required. In the absence of sufficient data, can occur leading to a drop in model performance - sensitive.
+
+4. New Exploration of TSF Models
+
+* 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
+  * 4.1.1. Patching Technique: dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens.
+    *  PatchTST
+    *  MTST
+    *  PETformer
+  * 4.1.2. Cross-Dimension
+    * Crossformer
+    * DSformer
+    * CARD
+    * iTransformer
+    * VCformer
+    * GridTST
+    * UniTST
+    * DeformTime
+  * 4.1.3. Exogenous Variable
+    * TimeXer
+    * TGTSF
+  * 4.1.4. Additional Approaches
+    * Generalization: model generalization, avoid overfitting, and achieve consistent performance across diverse datasets.
+      * SAMformer
+      * Minusformer
+    * Multi-scale: extracts more information from time series data across various scales, offering distinct advantages.
+      * Scaleformer
+      * Pathformer
+    * Decoder-only: as LLaMA3, simpler and involves less complex computations, resulting in faster training and inference. Avoid the temporal information loss often associated with the self-attention mechanism in encoders.
       * CATS
-      * HDMixer
-      * SOFTS
-      * SparseTSF
-      * TEFN
-      * PDMLP
-      * AMD
-    * 4.2.2. CNN-Based Models
-      * TimesNet
-      * PatchMixer
-      * ModernTCN
-      * ConvTimeNet
-      * ACNet
-      * FTMixer
-    * 4.2.3. RNN-Based Models
-      * PA-RNN
-      * WITRAN
-      * SutraNets
-      * CrossWaveNet
-      * DAN
-      * RWKV-TS
-      * CONTIME
-    * 4.2.4. GNN-Based Models
-      * MSGNet
-      * TMP-Nets
-      * HD-TTS
-      * ForecastGrapher
-    * 4.2.5. Hybrid Models
-      * WaveForM
-      * TSLANet
-      * DERITS
-      * BiTGraph
-    * 4.2.6. Model-Agnostic Frameworks
-      * RobustTSF
-      * PDLS
-      * Leddam
-      * InfoTime
-      * CCM
-      * HCAN
-      * TDT Loss
-  * 4.3. Emergence of Foundation Models > Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
-    * 4.3.1. Sequence Modeling with LLMs
-      * GPT4TS
-      * PromptCast
-      * LLMTime
-      * Time-LLM
-    * 4.3.2. Pre-training
-      * Lag-LLaMA
-      * TimesFM
-      * CHRONOS
-      * Uni2TS
-  * 4.4. Advance of Diffusion Models > Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
-    * 4.4.1. Effective Conditional Embedding
-      * TimeGrad
-      * CSDI
-      * SSSD
-      * TimeDiff
-      * TMDM
-    * 4.4.2. Time Series Feature Extraction
-      * Decomposition
-        * Diffusion-TS
-      * Frequency Domain
-      * Multi-Scale
-        * MG-TSD
-        * mr-Diff
-    * 4.4.3. Additional Approaches
-      * Score-Based Generative Modeling through Stochastic Differential Equations (SDEs)
-        * SDEs
-        * DDPM
-        * ScoreGrad
-        * D3M
+    * Feature Enhancement
+      * Fredformer
+      * Basisformer
+* 4.2. Growth of Traditional Deep Learning Models > Table 6: Comparison of Other Deep Learnig Models with Transformers in Terms of Criteria & Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
+  * 4.2.1. MLP-Based Models
+    * Koopa
+    * TSMixer
+    * FreTS
+    * TSP
+    * FITS
+    * U-Mixer
+    * TTMs
+    * TimeMixer
+    * CATS
+    * HDMixer
+    * SOFTS
+    * SparseTSF
+    * TEFN
+    * PDMLP
+    * AMD
+  * 4.2.2. CNN-Based Models
+    * TimesNet
+    * PatchMixer
+    * ModernTCN
+    * ConvTimeNet
+    * ACNet
+    * FTMixer
+  * 4.2.3. RNN-Based Models
+    * PA-RNN
+    * WITRAN
+    * SutraNets
+    * CrossWaveNet
+    * DAN
+    * RWKV-TS
+    * CONTIME
+  * 4.2.4. GNN-Based Models
+    * MSGNet
+    * TMP-Nets
+    * HD-TTS
+    * ForecastGrapher
+  * 4.2.5. Hybrid Models
+    * WaveForM
+    * TSLANet
+    * DERITS
+    * BiTGraph
+  * 4.2.6. Model-Agnostic Frameworks
+    * RobustTSF
+    * PDLS
+    * Leddam
+    * InfoTime
+    * CCM
+    * HCAN
+    * TDT Loss
+* 4.3. Emergence of Foundation Models > Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
+  * 4.3.1. Sequence Modeling with LLMs
+    * GPT4TS
+    * PromptCast
+    * LLMTime
+    * Time-LLM
+  * 4.3.2. Pre-training
+    * Lag-LLaMA
+    * TimesFM
+    * CHRONOS
+    * Uni2TS
+* 4.4. Advance of Diffusion Models > Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
+  * 4.4.1. Effective Conditional Embedding
+    * TimeGrad
+    * CSDI
+    * SSSD
+    * TimeDiff
+    * TMDM
+  * 4.4.2. Time Series Feature Extraction
+    * Decomposition
+      * Diffusion-TS
+    * Frequency Domain
+    * Multi-Scale
+      * MG-TSD
+      * mr-Diff
+  * 4.4.3. Additional Approaches
+    * Score-Based Generative Modeling through Stochastic Differential Equations (SDEs)
+      * SDEs
+      * DDPM
+      * ScoreGrad
+      * D3M
+    * Latent Diffusion Model
       * Latent Diffusion Model
-        * Latent Diffusion Model
-        * LDT
-      * Guidance
-        * Diffusion-TS
-        * LDT
-        * TSDiff
-  * 4.5. Debut of the Mamba
-    * 4.5.1. History of the SSM(State Space Model): RNNs lost their dominance by Transformers due to the limitations in information encapsulation of a context (single vector) in RNN-based encoder-decoder models and the slow training speed. The parallelism of the attention mechanism and its ability to focus on all individial pieces of information overcame the limitations of RNNs and demonstrated superior performance. Computation complexity, limits the window length, increased memory requirements for processing long sequences. 
-    * 4.5.2. Introduction of the Mamba
-    * 4.5.3. Applications of the Mamba > Table 10: Taxonomy and Methodologies of Mamba Models for Time Series Forecasting
-      * Embedding and Multi-Scale Learning
-        * TimeMachine
-      * Channel Correlation Learning
-        * S-Mamba
-        * SiMBA
-        * MambaTS
-        * C-Mamba
-      * Sequence Information and Dependency Learning
-        * Mambaformer
-        * Bi-Mamba+
-        * DTMamba
-      * Theoretical Frameworks and Efficient Modeling
-        * Time-SSM
-        * Chimera
+      * LDT
+    * Guidance
+      * Diffusion-TS
+      * LDT
+      * TSDiff
+* 4.5. Debut of the Mamba
+  * 4.5.1. History of the SSM(State Space Model): RNNs lost their dominance by Transformers due to the limitations in information encapsulation of a context (single vector) in RNN-based encoder-decoder models and the slow training speed. The parallelism of the attention mechanism and its ability to focus on all individial pieces of information overcame the limitations of RNNs and demonstrated superior performance. Computation complexity, limits the window length, increased memory requirements for processing long sequences. 
+  * 4.5.2. Introduction of the Mamba
+  * 4.5.3. Applications of the Mamba > Table 10: Taxonomy and Methodologies of Mamba Models for Time Series Forecasting
+    * Embedding and Multi-Scale Learning
+      * TimeMachine
+    * Channel Correlation Learning
+      * S-Mamba
+      * SiMBA
+      * MambaTS
+      * C-Mamba
+    * Sequence Information and Dependency Learning
+      * Mambaformer
+      * Bi-Mamba+
+      * DTMamba
+    * Theoretical Frameworks and Efficient Modeling
+      * Time-SSM
+      * Chimera
 
 ## Time Series Data
 
