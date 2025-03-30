@@ -272,10 +272,26 @@ Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Foreca
 |Generalization|SAMformer|SAM(sharpness-aware minimization|CD|Enc|2024|
 |Generaliation|Minusformer|Dual-stream and subtraction mechanism|CD|Enc|2024|
 |Multi-scale|Scaleformer|Multi-scale framework|Any|Enc & Dec|2023|
-|Multi-scale|Pathformer|Adaptive Multi-scale Blocks|CD|Enc &Dec|2024|
+|Multi-scale|Pathformer|Adaptive Multi-scale Blocks|CD|Enc & Dec|2024|
 |Decoder-only|CATS|Cross-Attention-ONly Transformer|CI|Dec|2024|
 |Feature Enchancement|Fredformer|Frequency Debias|CD|Enc|2024|
 |Feature Enchancement|BasisForemr|Automatic Learning of a Self-adjusting Basis|CD|Dec|2023|
+
+Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of Criteria
+
+|Criteria|Transformer-based models|MLP-based models|CNN-based models|RNN-based models|GNN/GCN-based models|
+|:------:|:----------------------:|:--------------:|:--------------:|:--------------:|:------------------:|
+|Structure|Complex self-attention mechanism|Simple layer, relatively easy to implement and interpret|Utilized convolutional layers, effectively captureing specific local patterns|Specialized in sequential data processing, effectively handling temporal dependencies but may struggle with long sequences|Learns relationships between nodes using graph structures, effectively capturing complex relationships|
+|Data Requirements|Requires large datasets|Can train on smaller datasets|Can train on smaller datasets|Can train on smaller datasets, suitable for quick training with limited data|Can achieve high performance with relatively small datasets|
+|Training Time|Relatively slow due to global attention mechanisms|Relatively fast|Generally faster due to localized computations|Trains effectively on smaller datasets but can be slow for long sequences|Varies depending on graph complexity|
+|Model Size|Comparatively larger and more parameter-intensive|Comparatively small, efficient use of resources|Typically smaller and more parameter-efficient, making it resource-efficient and scalable|Comparatively small|Depends on graph size and complexity, achieveing high performance with fewer parameters in specific problems|
+|Interpretability|Difficult to interpret|Relatively high interpretability|More interpretable through visualizations of filters and feature maps|Moderately interpretable, easier to understand and explain model behavior|Moderately interpretable depending on graph structure and model complexity|
+|Performance|Suitable for learning long-term dependencies|Suitable for short-term predictions with sufficient performance in many cases|Excels at capturing local temporal dependencies, superior for problems with strong local patterns|Suitable for short-term and sequential dependencies, providing sufficient performance in specific time series problems|Excels at learning complex dependencies between nodes, offering high performance in learning specific relationship patterns|
+|Flexibility|Requires complex adjustments|Easily adjustable for specific problems|Easily customizable with various types of convolutions|Extensible with various RNN architectures|Can handle various graph structures and formats, adaptable to different data types and structures|
+|Application|Suitable for complex time series problems or NLP-related tasks|Versatile for various general forecasting problems|Well-suitable for applications requiring spatial and temporal locality, effective for a wide range of time series problems|Effective for sequential data and time series forecasting, but struggles with long-term dependencies without modifications|Suitable for complex graph structures in tasks like social networks, recommendations systems, and time series graphs|
+|Hardware Requirements|High due to their complex structure and computationally intensive self-attention mechanisms|Lower due to their simpler structure and fewer computational demands|Lower computational and memory requirements|Low but inefficient on parallel hardware|Generally low but depends on graph size|
+|Memory Usage|Higher memory usage due to full sequence attention|Lower memory usage due to their simple structure and fewer parameters|Lower memory usage due to localized operations|Low but can increase with sequence length|Generally low but depends on graph size|
+|Parallel Processing|Highly parallelizable but requires synchronization due to attention mechanisms|Highly parallelizable due to independent convolution operations|Difficult due to sequence dependencies|Difficult due to graph structure dependencies|
 
 ## Time Series Data
 
