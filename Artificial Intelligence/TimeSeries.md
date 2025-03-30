@@ -395,6 +395,22 @@ Mamba Models: 최근에 등장한 새로운 딥러닝 아키텍처로, 상태 �
   * Importance of Learning Channel Correlations
   * What Makes CI Look Better?
   * Recent Approaches > Fig. 16: Recent Approaches to Channel Strategies
+* 5.2 Alleviation of Distribution Shift: DAIN, RevIN, NST, Dish-TS, SAN > Table 11: Normalizaion-Denormalization-based Approaches to Alleviate Distribution Shifts in Time Series Forecasting
+* 5.3 Enhancing Causality
+  * Why Casusal Analysis is Essential for Accurate Time Series Forecasting
+  * Research on TSF with Causality: Kuroshio Volume Transport (KVT), GCN with ConvLSTM, Granger causality test with Bi-LSTM, Causal-GNN using SIRD Attention-Based Dynamic GNN, Caformer.
+* 5.4 Time Series Feature Extraction
+  * Understanding the characteristics of data
+  * Explainability of data
+  * Enhancing Model Performance
+  * 5.4.1 Decomposition
+    * Moving Average Kernel: Autoformer, CrossWaveNet, FEDformer, LTSF-Linear, PDMLP, Leddam, Diffusion-TS.
+    * Downsampling: SparseTSF, SutraNets.
+  * 5.4.2 Multi-scale: MTST, PDMLP, FTMixer, TimeMixer, AMD, HD-TTS, Scaleformer, Pathformer, MG-TSD, mr-Diff
+  * 5.4.3. Domain transformation
+    * Periodicity Extraction: Autoformer, TimesNet, MSGNet
+    * Training in the Frequency Domain: FreTS, FEDformer, Fredformer, FITS, DERITS, SiMBA, WaveForM, FTMixer
+  * 5.4.4 Aiddtional approach: CATS, SOFTS
  
 Channel Correlation (채널 상관관계): 다변량 시계열 데이터에서 여러 변수(채널) 간의 관계를 나타냅니다. 다련량 시계열 데이터는 여러 개의 변수가 동시에 관측되는 데이터를 의미하며, 이러한 병수들은 서로 독립적일 수 있고, 서로 영향을 미치며 상관관계를 가질 수도 있습니다. 예를 들어, 기상 데이터에서 온도와 전력 소비 간에는 강한 상관관계가 있을 수 있습니다. 
 
