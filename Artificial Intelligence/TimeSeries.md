@@ -69,7 +69,7 @@ challenging, and extensive research is being conducted to improve accuracy.
 |ILI|7|966|-|Weekly|-|
 ...
 
-* 2.4. Evaluation Metrics > Table 4: Evaluation Metrics for Time Series Forecasting
+#### 2.4. Evaluation Metrics > Table 4: Evaluation Metrics for Time Series Forecasting
   * Metrics for Deterministic Models
     * Mean Absolute Error (MAE): measures the average of the absolute differences between predicted and actual values.
     * Mean Squared Error (MSE): calculates the average of the squared differences between predicted and actual values.
@@ -84,7 +84,7 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Mean Forecast Error (MFE): represents the bias in predictions by calculating the average of the forecast errors.
     * Cumulative Forecast Error (CFE): the sum of all forecast errors over the forecast horizon, which can indicate the trend of prediction errors over time.
 
-3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
+#### 3. Historical TSF Models > Fig. 8: Remarkable Historical TSF Models
 
 * 3.1. Conventional Methods (Before Deep Learning)
   * 3.1.1. Statistical Models
@@ -114,7 +114,7 @@ challenging, and extensive research is being conducted to improve accuracy.
     * Length of the look-back window exceeds the structural capacity, learning long-term dependencies becomes challenging.
     * Due to the high complexity of the model, large-scale and high-quality datasets are required. In the absence of sufficient data, can occur leading to a drop in model performance - sensitive.
 
-4. New Exploration of TSF Models
+#### 4. New Exploration of TSF Models
 
 * 4.1. Overcoming Limitations of Transformer > Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting - LTSF-Linear > traditional transformer-based models. Transformers still demonstrate superior performance in handling long-term dependencies in sequential data compared to other models.
   * 4.1.1. Patching Technique; dividing input sequences into multiple patches - preserves the information within each patches, thereby enhancing locality (instead of individual points), processes fewer tokens: PatchTST, MTST, PETformer.
@@ -164,7 +164,7 @@ challenging, and extensive research is being conducted to improve accuracy.
       * Time-SSM
       * Chimera
 
-Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
+#### Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Forecasting
 
 |Main Improvement|Model Name|Main Methodology|Channel Correlation|Enc/Dec|Pub|
 |:--------------:|:--------:|:---------------|:-----------------:|:-----:|--:|
@@ -189,7 +189,7 @@ Table 5: Taxonomy and Methodologies of Transformer Models for Time Series Foreca
 |Feature Enchancement|Fredformer|Frequency Debias|CD|Enc|2024|
 |Feature Enchancement|BasisForemr|Automatic Learning of a Self-adjusting Basis|CD|Dec|2023|
 
-Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of Criteria
+#### Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of Criteria
 
 |Criteria|Transformer-based models|MLP-based models|CNN-based models|RNN-based models|GNN/GCN-based models|
 |:------:|:----------------------:|:--------------:|:--------------:|:--------------:|:------------------:|
@@ -205,7 +205,7 @@ Table 6: Comparison of Other Deep Learning Models with Transformers in Terms of 
 |Memory Usage|Higher memory usage due to full sequence attention|Lower memory usage due to their simple structure and fewer parameters|Lower memory usage due to localized operations|Low but can increase with sequence length|Generally low but depends on graph size|
 |Parallel Processing|Highly parallelizable but requires synchronization due to attention mechanisms|Highly parallelizble due to independent computations|Highly parallelizable due to independent convolution operations|Difficult due to sequence dependencies|Difficult due to graph structure dependencies|
 
-Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
+#### Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures for Time Series Forecasting
 
 7.1 MLP-Base
 
@@ -280,7 +280,7 @@ Table 7: Taxonomy and Methodologies of Traditional Deep Learning Architectures f
 |HCAN|Uncertainty-Aware Classifier (UAC), Hierarchical Consistency Loss (HCL), Hierarchy-Aware Attention (HAA)|-|2024|
 |TDT Loss|Temporal Dependencies among Targets(TDT) Loss|-|2024|
 
-Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
+#### Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecasting
 
 8.1 Sequential modeling with LLM Approach
 
@@ -300,7 +300,7 @@ Table 8: Taxonomy and Methodologies of Foundation Models for Time Series Forecas
 |CHRONOS|Learning the language of time series, Utilize tokenizer to capture the intrinsic language of time series|2024|
 |UniTS|Explicit consideration of multivariate TSF, Provide variate IDs to directly consider multiple variables|2024|
 
-Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
+#### Table 9: Taxonomy and Methodologies of Diffusion Models for Time Series Forecasting
 
 9.1 Effective Conditional Embedding - Main Improvement
 
