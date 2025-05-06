@@ -398,6 +398,8 @@ Framework
 
 ### [[2024] Visual Localization and Mapping Workshop (CVPR)](https://vilma-workshop.github.io/)
 
+### Map-free vs. Map-based, Prior Map-assisted, Pre-mapped, Structure-based, Model-based
+
 ---
 
 - Precision
