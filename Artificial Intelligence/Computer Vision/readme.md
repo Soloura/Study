@@ -378,6 +378,28 @@ Framework
 
 ---
 
+## Visual Localization | [Awesome Visual Localization GitHub](https://github.com/siyandong/awesome-visual-localization)
+
+### [GSLoc: Visual Localization with 3D Gaussian Splatting](https://arxiv.org/abs/2410.06165)
+
+### [PNeRFLoc: Visual Localization with Point-based Neural Radiance Fields](https://arxiv.org/abs/2312.10649)
+
+### [VILAM: Infrastructure-assisted 3D Visual Localization and Mappint for Autonomous Driving](https://www.usenix.org/conference/nsdi24/presentation/cui)
+
+### [Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds](https://bmvc2024.org/proceedings/267/)
+
+### [Event-based Simultaneous Localization and Mapping: A Comprehensive Survey](https://arxiv.org/abs/2304.09793)
+
+### [360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with Cross-device Queries](https://openaccess.thecvf.com/content/CVPR2024/html/Huang_360Loc_A_Dataset_and_Benchmark_for_Omnidirectional_Visual_Localization_with_CVPR_2024_paper.html)
+
+### [Map-free Visual Relocalization: Metric Pose Relative to a Single Image](https://nianticlabs.github.io/map-free-workshop/2024/)
+
+### [Enhancing Visual Localization with Only Imperfect 3D models: A New Perspective through Neural Rendering Iterations](https://www.sciencedirect.com/science/article/pii/S1569843224003418)
+
+### [[2024] Visual Localization and Mapping Workshop (CVPR)](https://vilma-workshop.github.io/)
+
+---
+
 - Precision
 Precision measures how accurate is your predictions. The percentage of your predictions are correct
 *Precision = TP / (TP + FP)*
@@ -487,3 +509,13 @@ Contributions:
 - SAM2 arXiv, https://arxiv.org/pdf/2408.00714, 2024-08-11-Sun.
 - Seeing the World through Your Eyes, https://openaccess.thecvf.com/content/CVPR2024/html/Alzayer_Seeing_the_World_through_Your_Eyes_CVPR_2024_paper.html, 2024-12-18-Wed.
 - Camouflaged Object Detection, https://openaccess.thecvf.com/content_CVPR_2020/html/Fan_Camouflaged_Object_Detection_CVPR_2020_paper.html, 2024-12-18-Wed.
+- Awesome Visual Localization GitHub, https://github.com/siyandong/awesome-visual-localization, 2025-05-06-Tue.
+- GSLoc: Visual Localization with 3D Gaussian Splatting, https://arxiv.org/abs/2410.06165, 2025-05-06-Tue.
+- PNeRFLoc: Visual Localization with Point-based Neural Radiance Fields, https://arxiv.org/abs/2312.10649, 2025-05-06-Tue.
+- VILAM: Infrastructure-assisted 3D Visual Localization and Mappint for Autonomous Driving, https://www.usenix.org/conference/nsdi24/presentation/cui, 2025-05-06-Tue.
+- Depth-Guided Privacy-Preserving Visual Localization Using 3D Sphere Clouds, https://bmvc2024.org/proceedings/267/, 2025-05-06-Tue.
+- Event-based Simultaneous Localization and Mapping: A Comprehensive Survey, https://arxiv.org/abs/2304.09793, 2025-05-06-Tue.
+- 360Loc: A Dataset and Benchmark for Omnidirectional Visual Localization with Cross-device Queries, https://openaccess.thecvf.com/content/CVPR2024/html/Huang_360Loc_A_Dataset_and_Benchmark_for_Omnidirectional_Visual_Localization_with_CVPR_2024_paper.html, 2025-05-06-Tue.
+- Map-free Visual Relocalization: Metric Pose Relative to a Single Image, https://nianticlabs.github.io/map-free-workshop/2024/, 2025-05-06-Tue.
+- Enhancing Visual Localization with Only Imperfect 3D models: A New Perspective through Neural Rendering Iterations, https://www.sciencedirect.com/science/article/pii/S1569843224003418, 2025-05-06-Tue.
+- [2024] Visual Localization and Mapping Workshop (CVPR), https://vilma-workshop.github.io/, 2025-05-06-Tue.
