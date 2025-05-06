@@ -396,9 +396,19 @@ Framework
 
 ### [Enhancing Visual Localization with Only Imperfect 3D models: A New Perspective through Neural Rendering Iterations](https://www.sciencedirect.com/science/article/pii/S1569843224003418)
 
+### Map-free vs. Map-based, Prior Map-assisted, Pre-mapped, Structure-based, Model-based
+
+### [[2021] Deep Learning Enabled Localization for UAV Autolanding (CJA)](https://www.sciencedirect.com/science/article/pii/S1000936120305641)
+
+### [[2023] Certified Vision-based State Estimation for Autonomous Landing Systems using Reachability Analysis (arXiv)](https://arxiv.org/abs/2309.05167)
+
 ### [[2024] Visual Localization and Mapping Workshop (CVPR)](https://vilma-workshop.github.io/)
 
-### Map-free vs. Map-based, Prior Map-assisted, Pre-mapped, Structure-based, Model-based
+### [[2024] YOLO-RWY: A Novel Runway Detection Model for Vision-Based Autonomous Landing of Fixed-Wing Unmanned Aerial Vehicles (Drones)](https://www.mdpi.com/2504-446X/8/10/571)
+
+### [[2025] Vision-Based Landing Guidance through Tracking and Orientation Estimation (WACV)](https://openaccess.thecvf.com/content/WACV2025/html/Ferreira_Vision-Based_Landing_Guidance_through_Tracking_and_Orientation_Estimation_WACV_2025_paper.html)
+
+### [[2025] Monocular Visual Estimation for Autonomous Aircraft Landing Guidance in Unknown Structured Scenes (CJA)](https://www.sciencedirect.com/science/article/pii/S1000936125000858)
 
 ---
 
@@ -521,3 +531,8 @@ Contributions:
 - Map-free Visual Relocalization: Metric Pose Relative to a Single Image, https://nianticlabs.github.io/map-free-workshop/2024/, 2025-05-06-Tue.
 - Enhancing Visual Localization with Only Imperfect 3D models: A New Perspective through Neural Rendering Iterations, https://www.sciencedirect.com/science/article/pii/S1569843224003418, 2025-05-06-Tue.
 - [2024] Visual Localization and Mapping Workshop (CVPR), https://vilma-workshop.github.io/, 2025-05-06-Tue.
+- [2021] Deep Learning Enabled Localization for UAV Autolanding (CJA)](https://www.sciencedirect.com/science/article/pii/S1000936120305641, 2025-05-06-Tue.
+- [2023] Certified Vision-based State Estimation for Autonomous Landing Systems using Reachability Analysis (arXiv), https://arxiv.org/abs/2309.05167, 2025-05-06-Tue.
+- [2024] YOLO-RWY: A Novel Runway Detection Model for Vision-Based Autonomous Landing of Fixed-Wing Unmanned Aerial Vehicles (Drones), https://www.mdpi.com/2504-446X/8/10/571, 2025-05-06-Tue.
+- [2025] Vision-Based Landing Guidance through Tracking and Orientation Estimation (WACV), https://openaccess.thecvf.com/content/WACV2025/html/Ferreira_Vision-Based_Landing_Guidance_through_Tracking_and_Orientation_Estimation_WACV_2025_paper.html, 2025-05-06-Tue.
+- [2025] Monocular Visual Estimation for Autonomous Aircraft Landing Guidance in Unknown Structured Scenes (CJA), https://www.sciencedirect.com/science/article/pii/S1000936125000858, 2025-05-06-Tue.
