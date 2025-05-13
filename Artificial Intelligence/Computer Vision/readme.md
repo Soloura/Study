@@ -410,6 +410,27 @@ Framework
 
 ### [[2025] Monocular Visual Estimation for Autonomous Aircraft Landing Guidance in Unknown Structured Scenes (CJA)](https://www.sciencedirect.com/science/article/pii/S1000936125000858)
 
+Real-Time Target Detection and Tracking:
+* Object Detection: YOLOv8, EfficientNet
+* Object Tracking: Deep SORT, FairMOT
+* Video Recognition: Action Transformer, SlowFast
+* Dataset: UAV123, VisDrone2020
+
+Synthetic Aperture Radar Image Detection:
+* Feature Extraction: Swin Transformer, ConvNeXt
+* Denoising: GAN, Non-Local Means
+* Sensor Fusion: Multi-Modal Fusion Networks
+
+Autonomous Threat Detection:
+* Anomaly Detection: VAE, One-Class SVM
+* Sementation: Mask R-CNN, DeepLabV3+
+* Defense: Adversarial Training Techniques
+
+Path Optimization and Collision Avoidance
+* Reinforcement Learning: PPO (Proximal Policy Optimization), SAC (Soft Actor-Critic)
+* Collision Avoidance: RetinaNet, SSD
+* Multi-Agent: Graph Neural Networks, Multi-Agent Reinforcement Learning
+
 ---
 
 - Precision
