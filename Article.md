@@ -157,6 +157,7 @@
 - [AI의 모든 것, 축제로 만나요! '서울 AI 페스타' 개최](https://mediahub.seoul.go.kr/archives/2013529), 2025-02-26-Wed.
 - [오픈AI, 가장 큰 AI 모델 'GPT-4.5' 공개...비추론 모델 한계 보여줘](https://www.aitimes.com/news/articleView.html?idxno=168378), 2025-03-01-Sat.
 - [대세는 '바이브 코딩'..."1년 내 AI가 인간 대신 모든 코딩 맡을 것"](https://www.aitimes.com/news/articleView.html?idxno=168811), 2025-03-17-Mon.
+- [애플의 '추론 모델 한계' 논문 논란..."AI 뒤처진 애플의 꼼수"](https://www.aitimes.com/news/articleView.html?idxno=171194), 2025-06-15-Sun.
 
 ## Articles unrelated to AI
 
