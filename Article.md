@@ -158,6 +158,9 @@
 - [오픈AI, 가장 큰 AI 모델 'GPT-4.5' 공개...비추론 모델 한계 보여줘](https://www.aitimes.com/news/articleView.html?idxno=168378), 2025-03-01-Sat.
 - [대세는 '바이브 코딩'..."1년 내 AI가 인간 대신 모든 코딩 맡을 것"](https://www.aitimes.com/news/articleView.html?idxno=168811), 2025-03-17-Mon.
 - [애플의 '추론 모델 한계' 논문 논란..."AI 뒤처진 애플의 꼼수"](https://www.aitimes.com/news/articleView.html?idxno=171194), 2025-06-15-Sun.
+- ["챗GPT가 46년 된 아타리 체스 게임기에 패배"](https://www.aitimes.com/news/articleView.html?idxno=171167), 2025-06-15-Sun.
+- ["AI, 모를 땐 모른다고 말하도록 가르쳐야"…환각 줄이는 학습법 등장](https://www.aitimes.com/news/articleView.html?idxno=171115), 2025-06-15-Sun.
+- [[6월12일] '메타 AGI 팀' 이끌 스케일 AI CEO는 "알트먼 같은 인물"](https://www.aitimes.com/news/articleView.html?idxno=171246), 2025-06-15-Sun.
 
 ## Articles unrelated to AI
 
