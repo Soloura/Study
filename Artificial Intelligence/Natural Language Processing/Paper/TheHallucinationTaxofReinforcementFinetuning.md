@@ -15,14 +15,14 @@ USC, 2025
 
 -> 모델은 모르면 "모른다"고 말할 수 있는가?
 
-## 2. 핵심 기여 요약
+## 2. Contribution
 
 - Hallucination Tax: RFT가 거절 능력을 억제하여 과도한 환각을 유발함
 - SUM (Synthetic Unanswerable Math): 인위적 비답변 수학 문제 데이터셋 제안
 - 10% SUM 데이터만으로도 거절 능력 복원 가능
 - 정답률 손실은 거의 없음
 
-## 3. e.g., RFT 전후 비교
+## 3. e.g.,
 
 ### Unanswerable 문제 예시
 
@@ -40,7 +40,7 @@ USC, 2025
 <img width="451" alt="Screenshot 2025-07-03 at 16 43 38" src="https://github.com/user-attachments/assets/f3816049-a5b3-448c-b6b8-8e1d1ec54f5b" />
 </details>
 
-## 4. SUM 데이터셋 설계와 기준
+## 4. SUM Dataset
 
 5가지 Unanswerable 유형
 
@@ -57,7 +57,7 @@ USC, 2025
 <img width="929" alt="Screenshot 2025-07-03 at 16 46 26" src="https://github.com/user-attachments/assets/51a6243c-0c7e-4673-87ac-77037b89c00a" />
 </details>
 
-## 5. 실험 설정
+## 5. 실험 환경
 
 - 모델: Qwen2.5 (1.5B / 7B), LLaMA3.1 (8B)
 - 학습: PPO 기반 RFT
@@ -65,7 +65,7 @@ USC, 2025
   - DeepScaleR (정답 가능한 수학 문제)
   - SUM (비정답 문제, 혼합 비율: 0%, 1%, 10%, 30%, 50%)
 
-## 6. 주요 실험 결과
+## 6. 실험 결과
 
 - 기존 거절률을 RFT가 감소시킴
 - 거절률 0.01 수준 -> 대부분 문제에 억지로 답함
@@ -86,6 +86,7 @@ USC, 2025
 -->
 
 ### SUM 10%만 적용해도
+
 - 거절률 대폭 증가 (예: Qwen2.5-7B: 0.01 -> 0.73)
 - 그럼에도 정확도는 약간 감소 또는 유지 (-0.10 ~ +0.02)
 
@@ -104,7 +105,7 @@ USC, 2025
 <img width="921" alt="Screenshot 2025-07-03 at 16 49 05" src="https://github.com/user-attachments/assets/edd4cb35-3f7b-4645-9846-649ab8103f77" />
 </details>
 
-## 9. 정리 및 한계
+## 9. Discussion
 
 Epistemic Uncertainty 무시 문제
 - RFT 보상 함수는 거절을 보상하지 않음
@@ -114,7 +115,7 @@ Epistemic Uncertainty 무시 문제
 - Reasoning 성능 <-> Trustworthiness 균형 조절
 - 향후: Curriculum Learning, Adaptive Reward 등도 탐색 필요
 
-## 10. 결론
+## 10. Conclusion
 
 - RFT는 성능을 높이지만 자신감 있는 헛소리(hallucination)를 유도할 수 있다.
 - SUM 데이터는 LLM이 "모르면 모른다고 말하게" 만든다.
