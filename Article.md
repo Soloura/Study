@@ -161,6 +161,7 @@
 - ["챗GPT가 46년 된 아타리 체스 게임기에 패배"](https://www.aitimes.com/news/articleView.html?idxno=171167), 2025-06-15-Sun.
 - ["AI, 모를 땐 모른다고 말하도록 가르쳐야"…환각 줄이는 학습법 등장](https://www.aitimes.com/news/articleView.html?idxno=171115), 2025-06-15-Sun.
 - [[6월12일] '메타 AGI 팀' 이끌 스케일 AI CEO는 "알트먼 같은 인물"](https://www.aitimes.com/news/articleView.html?idxno=171246), 2025-06-15-Sun.
+- [[7월4일] 대기업의 모델 출시에도 '분위기'가 살지 않는 이유](https://www.aitimes.com/news/articleView.html?idxno=200361), 2025-07-07-Mon.
 
 ## Articles unrelated to AI
 
