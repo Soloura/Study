@@ -364,3 +364,4 @@
 - [구글, 챗GPT 후 AI 논문 공개 제한](https://zdnet.co.kr/view/?no=20230505111302), 2023-05-05-Sat.
 - [‘Godfather of AI’ Geoffrey Hinton quits Google and warns over dangers of misinformation](https://www.theguardian.com/technology/2023/may/02/geoffrey-hinton-godfather-of-ai-quits-google-warns-dangers-of-machine-learning), 2025-03-25-Tue.
 - [우리 아이 잘 크고 있나? 영유아 무료 발달검사 신청](https://mediahub.seoul.go.kr/archives/2013855?utm_medium=email&utm_source=npcrm&utm_campaign=mediahub&utm_content=npcrm_content&utm_term=npcrm_mail), 2025-03-26-Wed.
+- ["턱없이 부족한 보상에..." 서울대 교수 4년간 56명 '해외 이탈'](https://www.chosun.com/national/national_general/2025/07/06/ZGZ33O2NAFCMLAYXCVR6TYSMDU/), 2025-07-07-Mon.
