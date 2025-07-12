@@ -162,6 +162,7 @@
 - ["AI, 모를 땐 모른다고 말하도록 가르쳐야"…환각 줄이는 학습법 등장](https://www.aitimes.com/news/articleView.html?idxno=171115), 2025-06-15-Sun.
 - [[6월12일] '메타 AGI 팀' 이끌 스케일 AI CEO는 "알트먼 같은 인물"](https://www.aitimes.com/news/articleView.html?idxno=171246), 2025-06-15-Sun.
 - [[7월4일] 대기업의 모델 출시에도 '분위기'가 살지 않는 이유](https://www.aitimes.com/news/articleView.html?idxno=200361), 2025-07-07-Mon.
+- ["프롬프트 대신 컨텍스트 엔지니어링"...미세조정 대안으로 부상](https://www.aitimes.com/news/articleView.html?idxno=200409), 2025-07-12-Sat.
 
 ## Articles unrelated to AI
 
