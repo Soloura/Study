@@ -163,6 +163,7 @@
 - [[6월12일] '메타 AGI 팀' 이끌 스케일 AI CEO는 "알트먼 같은 인물"](https://www.aitimes.com/news/articleView.html?idxno=171246), 2025-06-15-Sun.
 - [[7월4일] 대기업의 모델 출시에도 '분위기'가 살지 않는 이유](https://www.aitimes.com/news/articleView.html?idxno=200361), 2025-07-07-Mon.
 - ["프롬프트 대신 컨텍스트 엔지니어링"...미세조정 대안으로 부상](https://www.aitimes.com/news/articleView.html?idxno=200409), 2025-07-12-Sat.
+- [[7월11일] "돈으로는 살 수 없어...'포스트 머니' 핵심 AI 개발자 수백명 달해"](https://www.aitimes.com/news/articleView.html?idxno=200548), 2025-07-14-Mon.
 
 ## Articles unrelated to AI
 
