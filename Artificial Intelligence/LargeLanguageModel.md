@@ -48,6 +48,24 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ---
 
+## Local LLM
+
+### [Meta Llama Models](https://www.llama.com/docs/model-cards-and-prompt-formats/)
+
+* [Llama 4](https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/): Optimized for multimodal understanding, multilingual tasks, coding, tool-calling, and powering agentic systems. The models have a knowledge cutoff of August 2024. Input: Text + up to 5 iamges. Output: Text-only. Arabic, English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish, Tagalog, Thai, and Vietnames. Image understanding is English-only. Active parameters: 17B.
+  * Llama 4 Scout: Number of Experts: 16. Total parameters across active and inactive experts: 109B. Can run on a single GPU: Yes. Maximum Context Length: 10M tokens.
+  * Llama 4 Maverick: Number of Experts 128. Total parameters across active and inactive experts: 400B. Can run on a single GPU: No. Maxium Context Length: 1M tokens.
+
+### [Mistral Modles](https://mistral.ai/models)
+
+* [Mistral Small 4](https://mistral.ai/news/mistral-small-4): Apache 2.0 license. Mixture of Experts (MoE): 128 experts, with 4 active per token, enabling efficient scaling and specialization. 119B total parameters, with 6B active parameters per token (8B including embedding and output layers). 256k context window, supporting long-form interactions and document analysis. Configurable reasoning effort: Toggle between fast, low-latency responses and deep, reasoning-intensive outputs. Native multimodality: Accepts both text and image inputs, unlocking use cases from document parsing to visual analysis. Minimum infrastructure: 4x NVIDIA HGX H100, 2x NVIDIA HGX H200, or 1x NVIDIA DGX B200. Recommended setup: 4x NVIDIA HGX H100, 4x NVIDIA HGX H200, or 2x NVIDIA DGX B200 for optimal performance.
+
+### [Google Gemma](https://deepmind.google/models/gemma/)
+
+* [Gemma 3](https://ai.google.dev/gemma/docs/core): Provided with open weights and permit responsible commercial use, allowing you to tune and deploy them in your own projects and applications. Image and text input: Multimodal capabilities let you input images and textto understand and analyze visual data. 128K token context: Significantly large input context for analyzing more data and solving more complex problems. Function calling: Build natural language interfaces for working with programming interfaces. Wide language support: Work in your language or expand your AI application's language capabilities with support for over 140 languages. Developer friendly model sizes: Choose a model size (270M, 1B, 4B, 12B, 27B) and precision level that works best for your task and compute resources.
+
+---
+
 ### Reference
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
 - GPT-3 Article KR, https://www.aitimes.kr/news/articleView.html?idxno=17370, 2020-09-29-Tue.
@@ -66,3 +84,11 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - LCM Blog KR, https://discuss.pytorch.kr/t/lcm-large-concept-models-meta-ai/5744, 2025-03-17-Mon.
 - Large Concept Models Meta, https://ai.meta.com/research/publications/large-concept-models-language-modeling-in-a-sentence-representation-space/, 2025-03-17-Mon.
 - Large Concept Models arXiv, https://arxiv.org/abs/2412.08821, 2025-03-17-Mon.
+- Qwen Models, https://qwen.ai/research, 2026-03-28-Sat.
+- Mistral AI Models, https://mistral.ai/models, 2026-03-28-Sat.
+- Meta Llama Models, https://www.llama.com/docs/model-cards-and-prompt-formats/, 2026-03-28-Sat.
+- Llama 4, https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/, 2026-03-28-Sat.
+- Mistral 4 Small, https://mistral.ai/news/mistral-small-4, 2026-03-28-Sat.
+- Google DeepMind Models, https://deepmind.google/models, 2026-03-28-Sat.
+- Google Gemma Models, https://deepmind.google/models/gemma/, 2026-03-28-Sat.
+- Google Gemma 3 Model Overview, https://ai.google.dev/gemma/docs/core, 2026-03-28-Sat.
