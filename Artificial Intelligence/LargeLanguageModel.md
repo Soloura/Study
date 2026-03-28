@@ -64,6 +64,14 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 * [Gemma 3](https://ai.google.dev/gemma/docs/core): Provided with open weights and permit responsible commercial use, allowing you to tune and deploy them in your own projects and applications. Image and text input: Multimodal capabilities let you input images and textto understand and analyze visual data. 128K token context: Significantly large input context for analyzing more data and solving more complex problems. Function calling: Build natural language interfaces for working with programming interfaces. Wide language support: Work in your language or expand your AI application's language capabilities with support for over 140 languages. Developer friendly model sizes: Choose a model size (270M, 1B, 4B, 12B, 27B) and precision level that works best for your task and compute resources.
 
+### [Alibaba Qwen Models](https://qwen.ai/research)
+
+* [Qwen3.5-Max-Preview](https://qwen.ai/blog?id=qwen3.5-max-preview)
+
+### [DeepSeek](https://www.deepseek.com/en/)
+
+* [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1)
+
 ---
 
 ### Reference
@@ -92,3 +100,7 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Google DeepMind Models, https://deepmind.google/models, 2026-03-28-Sat.
 - Google Gemma Models, https://deepmind.google/models/gemma/, 2026-03-28-Sat.
 - Google Gemma 3 Model Overview, https://ai.google.dev/gemma/docs/core, 2026-03-28-Sat.
+- Alibaba Qwen Models, https://qwen.ai/research, 2026-03-28-Sat.
+- Alibaba Qwen3.5-Max-Preview, https://qwen.ai/blog?id=qwen3.5-max-preview, 2026-03-28-Sat.
+- DeepSeek, https://www.deepseek.com/en/, 2026-03-28-Sat.
+- DeepSeek R1, https://github.com/deepseek-ai/DeepSeek-R1, 2026-03-28-Sat.
