@@ -1,4 +1,4 @@
-# Agentic AI
+# DEV
 
 Agentic AI is an advanced form of artificial intelligence focused on autonomous decision-making and action. Unlike traditional AI, which primarily responds to commands or analyzes data, agentic AI can set goals, plan, and execute tasks with minimal human intervention. This emerging technology has the potential to revolutionize various industries by automating complex processes and optimizing workflows.
 
@@ -30,6 +30,16 @@ While the terms "agentic AI" and "AI agents" are often used together, there is a
 
 While an AI agent might focus on a specific task, agentic AI employs multiple agents to handle complex workflows. Agentic AI acts as an overarching system that coordinates and manages these agents to achieve broader objectives.
 
+### SETUP
+* Cursor + Ollama
+* Claude Code
+* Visual Studio Code + Continue + Ollama
+* Codex
+
+### Agent Teams vs. Subagents
+
+### Multi Agent System (MAS)
+
 ---
 
 ### Reference
@@ -37,3 +47,5 @@ While an AI agent might focus on a specific task, agentic AI employs multiple ag
 - Agentic AI Google Cloud, https://cloud.google.com/discover/what-is-agentic-ai, 2026-03-12-Thu.
 - Agentic AI Samsung SDS (KR), https://www.samsungsds.com/kr/insights/agentic-ai-the-autonomous-era-of-artificial-intelligence.html, 2026-03-12-Thu.
 - Agentic AI LG CNS (KR), https://www.lgcns.com/kr/service/ai/agentic-ai, 2026-03-12-Thu.
+- Claude Code Agent Teams vs Subagent, https://goddaehee.tistory.com/517, 2026-04-14-Tue.
+- MAS, https://cloud.google.com/discover/what-is-a-multi-agent-system?hl=ko, 2026-04-14-Tue.
