@@ -40,6 +40,8 @@ While an AI agent might focus on a specific task, agentic AI employs multiple ag
 
 ### Multi Agent System (MAS)
 
+### Amazon Q Memory Bank
+
 ---
 
 ### Reference
@@ -49,3 +51,4 @@ While an AI agent might focus on a specific task, agentic AI employs multiple ag
 - Agentic AI LG CNS (KR), https://www.lgcns.com/kr/service/ai/agentic-ai, 2026-03-12-Thu.
 - Claude Code Agent Teams vs Subagent, https://goddaehee.tistory.com/517, 2026-04-14-Tue.
 - MAS, https://cloud.google.com/discover/what-is-a-multi-agent-system?hl=ko, 2026-04-14-Tue.
+- Amazon Q Memory Bank, https://docs.aws.amazon.com/ko_kr/amazonq/latest/qdeveloper-ug/context-memory-bank.html, 2026-04-15-Wed.
