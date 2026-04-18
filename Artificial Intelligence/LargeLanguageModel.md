@@ -90,6 +90,7 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ### [DeepSeek](https://www.deepseek.com/en/)
 
+* [DeepSeek V3](https://github.com/deepseek-ai/DeepSeek-V3)
 * [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1)
 
 ---
@@ -119,7 +120,9 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
   * Qwen3.6-Plus (2026-04-02)
   * Qwne3.6-35B-A3B (2026-04-15)
 * DeekSeek
-  * DeekSeek-R1
+  * DeepSeek V3 (2024-12-26)
+  * DeekSeek R1 (2025-01-20)
+  * DeepSeek V3.1 (2025-08-21)
 
 ---
 
@@ -178,3 +181,4 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Codex, https://openai.com/index/introducing-codex/, 2026-04-18-Sat.
 - GPT-4o mini, https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/, 2026-04-18-Sat.
 - Whisper, https://openai.com/index/whisper/, 2026-04-18-Sat.
+- DeepSeek V3, https://github.com/deepseek-ai/DeepSeek-V3, 2026-04-19-Sun.
