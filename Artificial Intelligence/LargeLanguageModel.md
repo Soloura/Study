@@ -52,6 +52,8 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ### OpenAI
 
+* [GPT-2 1.5B](https://openai.com/index/gpt-2-1-5b-release/)
+* [GPT-4o mini](https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/)
 * [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)
 * [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex/)
 
@@ -93,6 +95,9 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 ---
 
 * OpenAI
+  * GPT-2 1,5B (2019-11-05)
+  * GPT-4o mini (2024-07-18)
+  * GPT-5 (2025-08-07)
   * GPT-5.4 (2025-03-05)
   * GPT-5.3-Codex (2026-02-05)
 * Google DeepMind
@@ -168,3 +173,8 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Qwen3.5, https://qwen.ai/blog?id=qwen3.5, 2026-04-18-Sat.
 - Mistral 3, https://mistral.ai/news/mistral-3, 2026-04-18-Sat.
 - Mistral OCR 3, https://mistral.ai/news/mistral-ocr-3, 2026-04-18-Sat.
+- GPT-2 1.5B, https://openai.com/index/gpt-2-1-5b-release/, 2026-04-18-Sat.
+- GPT-5, https://openai.com/index/introducing-gpt-5/, 2026-04-18-Sat.
+- Codex, https://openai.com/index/introducing-codex/, 2026-04-18-Sat.
+- GPT-4o mini, https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/, 2026-04-18-Sat.
+- Whisper, https://openai.com/index/whisper/, 2026-04-18-Sat.
