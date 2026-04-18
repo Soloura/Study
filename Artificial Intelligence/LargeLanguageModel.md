@@ -48,7 +48,7 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ---
 
-## Local LLM
+## Model
 
 ### [Meta Llama Models](https://www.llama.com/docs/model-cards-and-prompt-formats/)
 
@@ -71,6 +71,10 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 ### [DeepSeek](https://www.deepseek.com/en/)
 
 * [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1)
+
+### Anthropic
+
+* [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
 
 ---
 
@@ -104,3 +108,4 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Alibaba Qwen3.5-Max-Preview, https://qwen.ai/blog?id=qwen3.5-max-preview, 2026-03-28-Sat.
 - DeepSeek, https://www.deepseek.com/en/, 2026-03-28-Sat.
 - DeepSeek R1, https://github.com/deepseek-ai/DeepSeek-R1, 2026-03-28-Sat.
+- Claude Opus 4.7, https://www.anthropic.com/news/claude-opus-4-7, 2026-04-18-Sat.
