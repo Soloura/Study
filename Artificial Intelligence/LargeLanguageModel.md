@@ -50,31 +50,71 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ## Model
 
-### [Meta Llama Models](https://www.llama.com/docs/model-cards-and-prompt-formats/)
+### OpenAI
+
+* [GPT-5.4](https://openai.com/index/introducing-gpt-5-4/)
+* [GPT-5.3-Codex](https://openai.com/index/introducing-gpt-5-3-codex/)
+
+### Google [Gemma](https://deepmind.google/models/gemma/)
+
+* [Gemma 3](https://ai.google.dev/gemma/docs/core): Provided with open weights and permit responsible commercial use, allowing you to tune and deploy them in your own projects and applications. Image and text input: Multimodal capabilities let you input images and textto understand and analyze visual data. 128K token context: Significantly large input context for analyzing more data and solving more complex problems. Function calling: Build natural language interfaces for working with programming interfaces. Wide language support: Work in your language or expand your AI application's language capabilities with support for over 140 languages. Developer friendly model sizes: Choose a model size (270M, 1B, 4B, 12B, 27B) and precision level that works best for your task and compute resources.
+* [Gemma 4](https://deepmind.google/models/gemma/gemma-4/): Gemma 4 model family spans three distinct architectures tailored for specific hardware requirements: Small Sizes: 2B and 4B effective parameter models built for ultra-mobile, edge, and browser deployment (e.g., Pixel, Chrome). Dense: A powerful 31B parameter dense model that bridges the gap between server-grade performance and local execution. Mixture-of-Experts: A highly efficient 26B MoE model designed for high-throughput, advanced reasoning.
+
+### Anthropic Claude [Haiku](https://www.anthropic.com/claude/haiku) [Sonnet](https://www.anthropic.com/claude/sonnet) [Opus](https://www.anthropic.com/claude/opus)
+
+* [Claude Haiku 4.5](https://www.anthropic.com/news/claude-haiku-4-5)
+* [Claude Sonnet 4.6](https://www.anthropic.com/news/claude-sonnet-4-6)
+* [Claude Opus 4.6](https://www.anthropic.com/news/claude-opus-4-6)
+* [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+
+### Meta [Llama Models](https://www.llama.com/docs/model-cards-and-prompt-formats/)
 
 * [Llama 4](https://www.llama.com/docs/model-cards-and-prompt-formats/llama4/): Optimized for multimodal understanding, multilingual tasks, coding, tool-calling, and powering agentic systems. The models have a knowledge cutoff of August 2024. Input: Text + up to 5 iamges. Output: Text-only. Arabic, English, French, German, Hindi, Indonesian, Italian, Portuguese, Spanish, Tagalog, Thai, and Vietnames. Image understanding is English-only. Active parameters: 17B.
   * Llama 4 Scout: Number of Experts: 16. Total parameters across active and inactive experts: 109B. Can run on a single GPU: Yes. Maximum Context Length: 10M tokens.
   * Llama 4 Maverick: Number of Experts 128. Total parameters across active and inactive experts: 400B. Can run on a single GPU: No. Maxium Context Length: 1M tokens.
 
-### [Mistral Modles](https://mistral.ai/models)
+### Mistral [Modles](https://mistral.ai/models)
 
+* [Mistral 3](https://mistral.ai/news/mistral-3)
+* [Mistral OCR 3](https://mistral.ai/news/mistral-ocr-3)
 * [Mistral Small 4](https://mistral.ai/news/mistral-small-4): Apache 2.0 license. Mixture of Experts (MoE): 128 experts, with 4 active per token, enabling efficient scaling and specialization. 119B total parameters, with 6B active parameters per token (8B including embedding and output layers). 256k context window, supporting long-form interactions and document analysis. Configurable reasoning effort: Toggle between fast, low-latency responses and deep, reasoning-intensive outputs. Native multimodality: Accepts both text and image inputs, unlocking use cases from document parsing to visual analysis. Minimum infrastructure: 4x NVIDIA HGX H100, 2x NVIDIA HGX H200, or 1x NVIDIA DGX B200. Recommended setup: 4x NVIDIA HGX H100, 4x NVIDIA HGX H200, or 2x NVIDIA DGX B200 for optimal performance.
 
-### [Google Gemma](https://deepmind.google/models/gemma/)
+### Alibaba [Qwen Models](https://qwen.ai/research)
 
-* [Gemma 3](https://ai.google.dev/gemma/docs/core): Provided with open weights and permit responsible commercial use, allowing you to tune and deploy them in your own projects and applications. Image and text input: Multimodal capabilities let you input images and textto understand and analyze visual data. 128K token context: Significantly large input context for analyzing more data and solving more complex problems. Function calling: Build natural language interfaces for working with programming interfaces. Wide language support: Work in your language or expand your AI application's language capabilities with support for over 140 languages. Developer friendly model sizes: Choose a model size (270M, 1B, 4B, 12B, 27B) and precision level that works best for your task and compute resources.
-
-### [Alibaba Qwen Models](https://qwen.ai/research)
-
+* [Qwen3.5](https://qwen.ai/blog?id=qwen3.5)
 * [Qwen3.5-Max-Preview](https://qwen.ai/blog?id=qwen3.5-max-preview)
+* [Qwen3.6](https://github.com/QwenLM/Qwen3.6): the large language model series developed by Qwen team, Alibaba Group.
+* [Qwen3.6-35B-A3B](https://qwen.ai/blog?id=qwen3.6-35b-a3b): a fully open-source MoE model (35B total / 3B active), featuring: exceptional agentic coding capability competitive with much larger models strong multimodal perception and reasoning ability
 
 ### [DeepSeek](https://www.deepseek.com/en/)
 
 * [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1)
 
-### Anthropic
+---
 
-* [Claude Opus 4.7](https://www.anthropic.com/news/claude-opus-4-7)
+* OpenAI
+  * GPT-5.4 (2025-03-05)
+  * GPT-5.3-Codex (2026-02-05)
+* Google DeepMind
+  * Gemma 3 270M (2025-08-14)
+  * Gemma 4 (2026-04-02)
+* Anthropic
+  * Claude Haiku 4.5 (2025-10-15)
+  * Claude Opus 4.6 (2026-02-05)
+  * Claude Sonnet 4.6 (2026-02-17)
+  * Cluade Opus 4.7 (2026-04-16)
+* Meta
+  * Llama 4
+* Mistral AI
+  * Mistral 3 (2025-12-02)
+  * Mistral OCR 3 (2025-12-17)
+  * Mistral Small 4 (2026-03-16)
+* Alibaba Cloud
+  * Qwen3.5 (2026-02-16)
+  * Qwen3.6-Plus (2026-04-02)
+  * Qwne3.6-35B-A3B (2026-04-15)
+* DeekSeek
+  * DeekSeek-R1
 
 ---
 
@@ -109,3 +149,22 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - DeepSeek, https://www.deepseek.com/en/, 2026-03-28-Sat.
 - DeepSeek R1, https://github.com/deepseek-ai/DeepSeek-R1, 2026-03-28-Sat.
 - Claude Opus 4.7, https://www.anthropic.com/news/claude-opus-4-7, 2026-04-18-Sat.
+- Gemma 4, https://deepmind.google/models/gemma/gemma-4/, 2026-04-18-Sat.
+- Gemma 4, https://ai.google.dev/gemma/docs/core, 2026-04-18-Sat.
+- Qwen3.6, https://github.com/QwenLM/Qwen3.6, 2026-04-18-Sat.
+- Gemma, https://ai.google.dev/gemma/docs, 2026-04-18-Sat.
+- Qwen3.6-Plus, https://qwen.ai/blog?id=qwen3.6, 2026-04-18-Sat.
+- Qwen3.6-35B-A3B, https://qwen.ai/blog?id=qwen3.6-35b-a3b, 2026-04-18-Sat.
+- Cluade Opus, https://www.anthropic.com/claude/opus, 2026-04-18-Sat.
+- Claude Opus 4.6, https://www.anthropic.com/news/claude-opus-4-6, 2026-04-18-Sat.
+- Claude Haiku, https://www.anthropic.com/claude/haiku, 2026-04-18-Sat.
+- Claude Haiku 4.5, https://www.anthropic.com/news/claude-haiku-4-5, 2026-04-18-Sat.
+- Claude Sonnet, https://www.anthropic.com/claude/sonnet, 2026-04-18-Sat.
+- Claude Sonnet 4.6, https://www.anthropic.com/news/claude-sonnet-4-6, 2026-04-18-Sat.
+- Gemma 3, https://deepmind.google/models/gemma/gemma-3/, 2026-04-18-Sat.
+- Gemma 3 270M, https://developers.googleblog.com/en/introducing-gemma-3-270m/, 2026-04-18-Sat.
+- GTP-5.4, https://openai.com/index/introducing-gpt-5-4/, 2026-04-18-Sat.
+- GPT-5.3-Codex, https://openai.com/index/introducing-gpt-5-3-codex/, 2026-04-18-Sat.
+- Qwen3.5, https://qwen.ai/blog?id=qwen3.5, 2026-04-18-Sat.
+- Mistral 3, https://mistral.ai/news/mistral-3, 2026-04-18-Sat.
+- Mistral OCR 3, https://mistral.ai/news/mistral-ocr-3, 2026-04-18-Sat.
