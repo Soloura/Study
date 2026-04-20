@@ -133,11 +133,13 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ---
 
-### IDE
+### Coding Agent & Agentic Coding
 
 * [Cursor](https://cursor.com/agents): Cursor is an AI editor and coding agent. Use it to understand your codebase, plan and build features, fix bugs, review changes, and work with the tools you already use.
+* [Amazon Q Developer](https://aws.amazon.com/q/): Amazon Q Developer is the most capable generative AI-powered assistant for building, operating, and transforming software, with advanced capabilities for managing data and AI/ML.
 * [Kiro](https://kiro.dev/): Kiro is an agentic IDE that helps you do your best work with features such as specs, steering, and hooks.
-
+* [Codex](https://openai.com/ko-KR/codex/): A coding agent that helps you build and ship with AI—powered by ChatGPT.
+* [Claude Code](https://claude.com/product/claude-code): Claude Code is an agentic coding tool that reads your codebase, edits files, runs commands, and integrates with your development tools. Available in your terminal, IDE, desktop app, and browser.
 
 ---
 
@@ -204,3 +206,7 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Kiro Docs, https://kiro.dev/docs/, 2026-04-21-Tue.
 - Cursor, https://cursor.com/agents, 2026-04-21-Tue.
 - Cursor Docs, https://cursor.com/docs, 2026-04-21-Tue.
+- Amazon Q, https://aws.amazon.com/q/, 2026-04-21-Tue.
+- Claude Code, https://claude.com/product/claude-code, 2026-04-21-Tue.
+- Claude Code, https://code.claude.com/docs/en/overview, 2026-04-21-Tue.
+- Codex, https://openai.com/ko-KR/codex/, 2026-04-21-Tue.
