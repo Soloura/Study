@@ -133,6 +133,14 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ---
 
+### IDE
+
+* [Cursor](https://cursor.com/agents): Cursor is an AI editor and coding agent. Use it to understand your codebase, plan and build features, fix bugs, review changes, and work with the tools you already use.
+* [Kiro](https://kiro.dev/): Kiro is an agentic IDE that helps you do your best work with features such as specs, steering, and hooks.
+
+
+---
+
 ### Reference
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
 - GPT-3 Article KR, https://www.aitimes.kr/news/articleView.html?idxno=17370, 2020-09-29-Tue.
@@ -192,3 +200,7 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Superpowers, https://github.com/obra/superpowers, 2026-04-20-Mon.
 - Superpowers, https://claude.com/plugins/superpowers, 2026-04-20-Mon.
 - Microsoft Docs, https://claude.com/plugins/microsoft-docs, 2026-04-20-Mon.
+- Kiro, https://kiro.dev/, 2026-04-21-Tue.
+- Kiro Docs, https://kiro.dev/docs/, 2026-04-21-Tue.
+- Cursor, https://cursor.com/agents, 2026-04-21-Tue.
+- Cursor Docs, https://cursor.com/docs, 2026-04-21-Tue.
