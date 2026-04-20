@@ -123,6 +123,13 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
   * DeepSeek V3 (2024-12-26)
   * DeekSeek R1 (2025-01-20)
   * DeepSeek V3.1 (2025-08-21)
+ 
+---
+
+### Skill & Plugin
+
+* [Superpowers](https://github.com/obra/superpowers): Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
+* [Microsoft Docs](https://claude.com/plugins/microsoft-docs)
 
 ---
 
@@ -182,3 +189,6 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - GPT-4o mini, https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence/, 2026-04-18-Sat.
 - Whisper, https://openai.com/index/whisper/, 2026-04-18-Sat.
 - DeepSeek V3, https://github.com/deepseek-ai/DeepSeek-V3, 2026-04-19-Sun.
+- Superpowers, https://github.com/obra/superpowers, 2026-04-20-Mon.
+- Superpowers, https://claude.com/plugins/superpowers, 2026-04-20-Mon.
+- Microsoft Docs, https://claude.com/plugins/microsoft-docs, 2026-04-20-Mon.
