@@ -143,6 +143,23 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ---
 
+### Pricing
+
+GPT
+* Free KRW0/month Intelligence for everyday tasks
+* Go KRW13,000/month Keep chatting with expanded access
+* Plus KRW29,000/month Do more with advanced intelligence
+* Pro KRW159,000/month Maimize your productivity
+
+Claude
+* Free USD0 Free for everyone
+* Pro USD17 per month with annual subscription discount USD200 billed up front
+* Pro USD20 if billed monthly
+* Max 5x USD100 Per month
+* Max 20x USD200 Per month
+
+---
+
 ### Reference
 - Large Language Model Wiki, https://en.wikipedia.org/wiki/Large_language_model, 2023-10-23-Mon.
 - GPT-3 Article KR, https://www.aitimes.kr/news/articleView.html?idxno=17370, 2020-09-29-Tue.
@@ -210,3 +227,5 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 - Claude Code, https://claude.com/product/claude-code, 2026-04-21-Tue.
 - Claude Code, https://code.claude.com/docs/en/overview, 2026-04-21-Tue.
 - Codex, https://openai.com/ko-KR/codex/, 2026-04-21-Tue.
+- Claude Pricing, https://claude.com/pricing, 2026-04-24-Fri.
+- ChatGPT Pricing, https://chatgpt.com/pricing/, 2026-04-24-Fri.
