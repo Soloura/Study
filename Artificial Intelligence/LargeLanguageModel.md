@@ -145,6 +145,9 @@ Experiments were conducted with 1.6B parameter models trained on 1.3T tokens, an
 
 ### Pricing
 
+SUNO
+* Pro KRW12,000/15,000 USD8/10
+
 GPT
 * Free KRW0/month Intelligence for everyday tasks
 * Go KRW13,000/month Keep chatting with expanded access
