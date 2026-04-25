@@ -232,3 +232,7 @@ Claude
 - Codex, https://openai.com/ko-KR/codex/, 2026-04-21-Tue.
 - Claude Pricing, https://claude.com/pricing, 2026-04-24-Fri.
 - ChatGPT Pricing, https://chatgpt.com/pricing/, 2026-04-24-Fri.
+- Azure Architecture, https://learn.microsoft.com/en-us/azure/architecture/, 2026-04-25-Sat.
+- Azure AI Agent Orchestration Patterns, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns, 2026-04-25-Sat.
+- Azure GenAIOps, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/genaiops-for-mlops, 2026-04-25-Sat.
+- Azure AI Architecture Design, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/, 2026-04-25-Sat.
