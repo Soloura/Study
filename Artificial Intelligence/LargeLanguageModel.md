@@ -236,3 +236,4 @@ Claude
 - Azure AI Agent Orchestration Patterns, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/ai-agent-design-patterns, 2026-04-25-Sat.
 - Azure GenAIOps, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/genaiops-for-mlops, 2026-04-25-Sat.
 - Azure AI Architecture Design, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/, 2026-04-25-Sat.
+- Claude Code Agent Teams Subagent Blog KR, https://goddaehee.tistory.com/517, 2026-05-09-Sat.
