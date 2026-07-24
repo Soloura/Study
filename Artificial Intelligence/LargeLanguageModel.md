@@ -149,17 +149,27 @@ SUNO
 * Pro KRW12,000/15,000 USD8/10
 
 GPT
-* Free KRW0/month Intelligence for everyday tasks
-* Go KRW13,000/month Keep chatting with expanded access
-* Plus KRW29,000/month Do more with advanced intelligence
-* Pro KRW159,000/month Maimize your productivity
+* Free:  KRW       0 / month ; Intelligence for everyday tasks
+* Go  :  KRW  13,000 / month ; Keep chatting with expanded access
+* Plus:  KRW  29,000 / month ; Do more with advanced intelligence
+* Pro :  KRW 159,000 / month ; Maimize your productivity
+
+Google AI
+* Plus : KRW   7,500 / month
+* Pro  : KRW  29,000 / month
+* Ultra: KRW 119,000 / month
 
 Claude
-* Free USD0 Free for everyone
-* Pro USD17 per month with annual subscription discount USD200 billed up front
-* Pro USD20 if billed monthly
-* Max 5x USD100 Per month
-* Max 20x USD200 Per month
+* Free   :  USD   0 / month ; Free for everyone
+* ~~Pro    :  USD  17 / month ; with annual subscription discount USD200 billed up front~~
+* Pro    :  USD  19 / month ;(17% off - year)
+* Pro    :  USD  22 / month ;
+* ~~Pro    :  USD  20 / month ; if billed monthly~~
+* ~~Max 5x :  USD 100 / month~~
+* ~~Max 20x:  USD 200 / month~~
+* Max    :  USD 110 / month
+
+---
 
 # [AI 로컬 구동 및 학습 인프라 핵심 아키텍처 요약]
 
@@ -340,7 +350,11 @@ Claude
 - Azure GenAIOps, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/guide/genaiops-for-mlops, 2026-04-25-Sat.
 - Azure AI Architecture Design, https://learn.microsoft.com/en-us/azure/architecture/ai-ml/, 2026-04-25-Sat.
 - Claude Code Agent Teams Subagent Blog KR, https://goddaehee.tistory.com/517, 2026-05-09-Sat.
-Gemma 4 로컬 구동 가이드 및 LM Studio 모델 저장소 (2025-12-10) [1]
+- ChatGPT Pricing, https://chatgpt.com/#pricing, 2026-07-24-Fri.
+- Gemini Pricing, https://one.google.com/ai, 2026-07-24-Fri.
+- Claude Pricing, https://claude.ai/upgrade, 2026-07-24-Fri.
+
+Gemma 4 로컬 구동 가이드 및 LM Studio 모델 저장소 (2025-12-10)
 vLLM 고성능 로컬 서빙 엔진 공식 깃허브 아키텍처 (2026-03-15)
 TGI (Text Generation Inference) 분산 대규모 서빙 문서 (2026-02-20)
 DeepSeek V3 기술 백서 - 671B MoE 구조 및 학습 리소스 명세 (2024-12-26)
